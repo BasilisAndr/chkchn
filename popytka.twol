@@ -68,7 +68,7 @@ Rules
 %{ы%}:ы <=> Cns Cns %>: _ Cns ;
                 Cns %>: _ Cns Cns ;
                 Сns %>: _ Cns .#. ;
-          Vow Cns %>: : _ п ;       ! dumb line
+     Vow Cns %>: %{G%}: _ ;
 
 "No epenthesis"
 %{ы%}:0 <=> _ ;
@@ -76,7 +76,7 @@ Rules
             Cns Cns %>: _ Cns ;
                 Cns %>: _ Cns Cns ;
                 Сns %>: _ Cns .#. ;
-          Vow Cns %>: : _ п ;
+     Vow Cns %>: %{G%}: _ ;
 
 "Vowel deletion"                    ! because syllable structure
 V:0 <=> Va (%>:) _ (%>:) Vb ;
@@ -107,3 +107,6 @@ V:0 <=> Va (%>:) _ (%>:) Vb ;
 %{G%}:й <=> Vow %>: _ ;
         except
                 %>: _ т ;
+
+"{и} after non-coronals"
+%{и%}:0 <=> [ :Cns - :Coronal ] %>: %{ы%}: т _ ;
