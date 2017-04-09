@@ -1,0 +1,109 @@
+Alphabet
+
+ А Б В Г Д Е Ё Ж З И Й К Ӄ Л Ԓ М Н Ӈ О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
+ а б в г д е ё ж з и й к ӄ л ԓ м н ӈ о п р с т у ф х ц ч ш щ ъ ы ь э ю я ʼ
+
+! %{t%}:т %{t%}:0 ! those commented are yet to discover
+! %{т%}:т %{т%}:0
+! %{E%}:э %{t%}:а
+! %{N%}:ӈ %{N%}:г
+! %{и%}:и %{и%}:0
+
+! %{к%}:к %{к%}:г
+!  %{e%}:э %{e%}:г
+ %{ы%}:ы %{ы%}:0
+ %{G%}:й %{G%}:э %{G%}:г
+ %{+%}:0 %{+%}:ы
+! %{ъ%}:ъ %{ъ%}:0
+
+ %{·%}:0         ! Stem-final vowel deletion
+ %{°%}:0         ! Stem-final vowel reduction
+ %{⁺ⱽᴴ%}:0       ! Dominant vowel harmony
+
+ %→:0            ! Incorporation boundary
+ %>:0            ! Morpheme boundary
+  ;
+
+Sets
+
+Vow   = А Е Ё И О У Ы Э Ю Я
+        а е ё и о у ы э ю я ;
+
+Yot = Е е Ё ё Ю ю Я я ;
+
+Cns   = Б В Г Д Ж З Й К Ӄ Л Ԓ М Н Ӈ П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь ʼ
+        б в г д ж з й к ӄ л ԓ м н ӈ п р с т ф х ц ч ш щ ъ ь ;
+
+Dominant = А О Я Ё
+           а о я ё ;
+
+Coronal = Т Н Й Ч Р                 ! there was л before but this is from the grammar
+          т н й ч р ;
+
+Glottal = ʼ Ъ Ь ъ ь ;
+
+! this is not actually a set that i'm going to use, just descriptive
+Archiphonemes = Æ ! this is the э that is recessive and may be turned to а
+                T ! latin; this is the morph boundary mark to work w/vow-fin stems
+                G ! first in all & abl
+                ;
+
+
+Rules
+
+ "Vowel harmony"
+ Vx:Vy <=> [ Dominant | ⁺ⱽᴴ ] :* _ ;
+                                 _ :* [ Dominant | ⁺ⱽᴴ ] ;
+        where
+            Vx in (у ю и Æ)
+            Vy in (о ё э а) matched ;
+
+"Vowel harmony for Æ (recessive)"
+%{Æ%}:э <=>  _ ;
+      except
+        [ Dominant | ⁺ⱽᴴ ] :* _ ;
+                              _ :* [ Dominant | ⁺ⱽᴴ ] ;
+
+"Epenthesis"
+%{ы%}:ы <=> Cns Cns %>: _ Cns ;
+                Cns %>: _ Cns Cns ;
+                Сns %>: _ Cns .#. ;
+          Vow Cns %>: : _ п ;       ! dumb line
+
+"No epenthesis"
+%{ы%}:0 <=> _ ;
+        except
+            Cns Cns %>: _ Cns ;
+                Cns %>: _ Cns Cns ;
+                Сns %>: _ Cns .#. ;
+          Vow Cns %>: : _ п ;
+
+"Vowel deletion"                    ! because syllable structure
+V:0 <=> Va (%>:) _ (%>:) Vb ;
+             .#. _ (%>:) Va Vb ;
+                 _ %>: Va ;
+        where
+            V in Vow ;
+            Va in Vow ;
+            Vb in Vow ;
+
+"t insertion after vowel-final stems"
+%{T%}:t <=> Vow %>: _ ;
+
+"No t insertion"
+%{T%}:0 <=> Cons %>: _ ;
+
+"All/Abl allomorph г-"
+%{G%}:г <=> Vow Cons %>: _ ;
+                     %>: _ т ;
+        except
+                Cons %>: _ т ;
+
+"All/Abl allomorph э-"
+%{G%}:э <=> Cons Cons %>: _ ;
+                 Cons %>: _ т ;
+
+"All/Abl allomorph й-"
+%{G%}:й <=> Vow %>: _ ;
+        except
+                %>: _ т ;
