@@ -103,10 +103,10 @@ V:0 <=> Va (%>:) _ (%>:) Vb ;
 %{G%}:э <=> Cons Cons %>: _ ;
                  Cons %>: _ т ;
 
-"All/Abl allomorph й-"
+"Abl allomorph й-"
 %{G%}:й <=> Vow %>: _ ;
         except
-                %>: _ т ;
+                %>: _ т ;               ! this line turns off all
 
 "{и} after non-coronals"
 %{и%}:0 <=> [ :Cns - :Coronal ] %>: %{ы%}: т _ ;
