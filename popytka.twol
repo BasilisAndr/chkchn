@@ -3,17 +3,17 @@ Alphabet
  А Б В Г Д Е Ё Ж З И Й К Ӄ Л Ԓ М Н Ӈ О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
  а б в г д е ё ж з и й к ӄ л ԓ м н ӈ о п р с т у ф х ц ч ш щ ъ ы ь э ю я ʼ
 
-! %{t%}:т %{t%}:0 ! those commented are yet to discover
+! %{t%}:т %{t%}:0
 ! %{т%}:т %{т%}:0
 ! %{E%}:э %{t%}:а
 ! %{N%}:ӈ %{N%}:г
-! %{и%}:и %{и%}:0
+ %{и%}:и %{и%}:0
 
 ! %{к%}:к %{к%}:г
-!  %{e%}:э %{e%}:г
+! %{e%}:э %{e%}:г
  %{ы%}:ы %{ы%}:0
  %{G%}:й %{G%}:э %{G%}:г
- %{+%}:0 %{+%}:ы
+
 ! %{ъ%}:ъ %{ъ%}:0
 
  %{·%}:0         ! Stem-final vowel deletion
@@ -43,26 +43,25 @@ Coronal = Т Н Й Ч Р                 ! there was л before but this is from 
 Glottal = ʼ Ъ Ь ъ ь ;
 
 ! this is not actually a set that i'm going to use, just descriptive
-Archiphonemes = Æ ! this is the э that is recessive and may be turned to а
-                T ! latin; this is the morph boundary mark to work w/vow-fin stems
-                G ! first in all & abl
-                ;
-
+! Archiphonemes = Æ ! this is the э that is recessive and may be turned to а
+!                T ! latin; this is the morph boundary mark to work w/vow-fin stems
+!                G ! first in all & abl
+!                ;
 
 Rules
 
  "Vowel harmony"
- Vx:Vy <=> [ Dominant | ⁺ⱽᴴ ] :* _ ;
-                                 _ :* [ Dominant | ⁺ⱽᴴ ] ;
+ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* Cns _ ;
+                                          _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
         where
-            Vx in (у ю и Æ)
-            Vy in (о ё э а) matched ;
+            Vx in ( у ю и Æ )
+            Vy in ( о ё э а ) matched ;
 
 "Vowel harmony for Æ (recessive)"
 %{Æ%}:э <=>  _ ;
       except
-        [ Dominant | ⁺ⱽᴴ ] :* _ ;
-                              _ :* [ Dominant | ⁺ⱽᴴ ] ;
+        [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
+                                   _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
 
 "Epenthesis"
 %{ы%}:ы <=> Cns Cns %>: _ Cns ;
@@ -79,13 +78,10 @@ Rules
      Vow Cns %>: %{G%}: _ ;
 
 "Vowel deletion"                    ! because syllable structure
-V:0 <=> Va (%>:) _ (%>:) Vb ;
-             .#. _ (%>:) Va Vb ;
-                 _ %>: Va ;
-        where
-            V in Vow ;
-            Va in Vow ;
-            Vb in Vow ;
+V:0 <=> Vow ( %>: ) _ ( %>: ) Vow ;
+               .#. _ ( %>: ) Vow Vow ;
+                   _ %>: Vow ;
+
 
 "t insertion after vowel-final stems"
 %{T%}:t <=> Vow %>: _ ;
@@ -110,3 +106,13 @@ V:0 <=> Va (%>:) _ (%>:) Vb ;
 
 "{и} after non-coronals"
 %{и%}:0 <=> [ :Cns - :Coronal ] %>: %{ы%}: т _ ;
+
+! .#. {⁺ⱽᴴ}: О:О >: _ >: А:А .#.
+! There is a <=-rule conflict between
+! "Vowel harmony SUBCASE: Vx=ю Vy=ё" and
+! "Vowel deletion SUBCASE: V=ю Va=О Vb=А".
+!  Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
+!                                       _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+! V:0 <=> Va ( %>: ) _ ( %>: ) Vb ;
+!                .#. _ ( %>: ) Va Vb ;
+!                    _ %>: Va ;
