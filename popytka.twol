@@ -91,17 +91,17 @@ V:0 <=> Va (%>:) _ (%>:) Vb ;
 %{T%}:t <=> Vow %>: _ ;
 
 "No t insertion"
-%{T%}:0 <=> Cons %>: _ ;
+%{T%}:0 <=> Cns %>: _ ;
 
 "All/Abl allomorph г-"
-%{G%}:г <=> Vow Cons %>: _ ;
-                     %>: _ т ;
+%{G%}:г <=> Vow Cns %>: _ ;
+                    %>: _ т ;
         except
-                Cons %>: _ т ;
+                Cns %>: _ т ;
 
 "All/Abl allomorph э-"
-%{G%}:э <=> Cons Cons %>: _ ;
-                 Cons %>: _ т ;
+%{G%}:э <=> Cns Cns %>: _ ;
+                Cns %>: _ т ;
 
 "Abl allomorph й-"
 %{G%}:й <=> Vow %>: _ ;
