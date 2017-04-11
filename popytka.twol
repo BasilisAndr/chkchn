@@ -3,16 +3,17 @@ Alphabet
  А Б В Г Д Е Ё Ж З И Й К Ӄ Л Ԓ М Н Ӈ О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
  а б в г д е ё ж з и й к ӄ л ԓ м н ӈ о п р с т у ф х ц ч ш щ ъ ы ь э ю я ʼ
 
-! %{t%}:т %{t%}:0
+ %{T%}:т %{T%}:0
 ! %{т%}:т %{т%}:0
 ! %{E%}:э %{t%}:а
 ! %{N%}:ӈ %{N%}:г
- %{и%}:и %{и%}:0
+ %{и%}:и %{и%}:э %{и%}:0
 
 ! %{к%}:к %{к%}:г
 ! %{e%}:э %{e%}:г
  %{ы%}:ы %{ы%}:0
  %{G%}:й %{G%}:э %{G%}:г
+
 
 ! %{ъ%}:ъ %{ъ%}:0
 
@@ -50,69 +51,70 @@ Glottal = ʼ Ъ Ь ъ ь ;
 
 Rules
 
+
  "Vowel harmony"
- Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* Cns _ ;
-                                          _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+! а й в а л >:0 у:о
+Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
+                                    _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+        except
+            .#. _ %>: :Vow ;
+            Cns _ %>: :Vow ;
         where
             Vx in ( у ю и Æ )
             Vy in ( о ё э а ) matched ;
 
+
 "Vowel harmony for Æ (recessive)"
-%{Æ%}:э <=>  _ ;
+! Æ:э ю:ю п ы ч ь >:0 у:у
+Æ:э <=>  _ ;
       except
         [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
                                    _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+                               .#. _ %>: :Vow ;
+                               Cns _ %>: :Vow ;
+
+
+"Vowel deletion"                    ! because syllable structure
+! Æ:0 >:0 а г н о т в а н в >:0 {ы}:ы к Æ:а
+V:0 <=> .#. _ %>: :Vow ;
+        Cns _ %>: :Vow ;
+        where
+            V in ( а Æ ) ;
+
 
 "Epenthesis"
+! а й в а >:0 {ы}:0 к
 %{ы%}:ы <=> Cns Cns %>: _ Cns ;
                 Cns %>: _ Cns Cns ;
                 Сns %>: _ Cns .#. ;
      Vow Cns %>: %{G%}: _ ;
 
-"No epenthesis"
-%{ы%}:0 <=> _ ;
-        except
-            Cns Cns %>: _ Cns ;
-                Cns %>: _ Cns Cns ;
-                Сns %>: _ Cns .#. ;
-     Vow Cns %>: %{G%}: _ ;
-
-"Vowel deletion"                    ! because syllable structure
-V:0 <=> Vow ( %>: ) _ ( %>: ) Vow ;
-               .#. _ ( %>: ) Vow Vow ;
-                   _ %>: Vow ;
-
 
 "t insertion after vowel-final stems"
-%{T%}:t <=> Vow %>: _ ;
+! г Æ:0 >:0 а й в а >:0 {T}:т Æ:а
+! г Æ:0 >:0 а г т а ч г >:0 {T}:0 Æ:а
+%{T%}:т <=> Vow %>: _ ;
 
-"No t insertion"
-%{T%}:0 <=> Cns %>: _ ;
+
 
 "All/Abl allomorph г-"
+! а й в а >:0 {G}:г т ы {⁺ⱽᴴ}:0
 %{G%}:г <=> Vow Cns %>: _ ;
                     %>: _ т ;
         except
                 Cns %>: _ т ;
 
+
 "All/Abl allomorph э-"
 %{G%}:э <=> Cns Cns %>: _ ;
                 Cns %>: _ т ;
+
 
 "Abl allomorph й-"
 %{G%}:й <=> Vow %>: _ ;
         except
                 %>: _ т ;               ! this line turns off Allative
 
+
 "{и} after non-coronals"
 %{и%}:0 <=> [ :Cns - :Coronal ] %>: %{ы%}: т _ ;
-
-! .#. {⁺ⱽᴴ}: О:О >: _ >: А:А .#.
-! There is a <=-rule conflict between
-! "Vowel harmony SUBCASE: Vx=ю Vy=ё" and
-! "Vowel deletion SUBCASE: V=ю Va=О Vb=А".
-!  Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
-!                                       _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
-! V:0 <=> Va ( %>: ) _ ( %>: ) Vb ;
-!                .#. _ ( %>: ) Va Vb ;
-!                    _ %>: Va ;
