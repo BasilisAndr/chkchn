@@ -60,13 +60,13 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
             .#. _ %>: :Vow ;
             Cns _ %>: :Vow ;
         where
-            Vx in ( у ю и Æ )
+            Vx in ( у ю и %{Æ%} )
             Vy in ( о ё э а ) matched ;
 
 
 "Vowel harmony for Æ (recessive)"
 ! Æ:э ю:ю п ы ч ь >:0 у:у
-Æ:э <=>  _ ;
+%{Æ%}:э <=>  _ ;
       except
         [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
                                    _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
@@ -79,7 +79,7 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
 V:0 <=> .#. _ %>: :Vow ;
         Cns _ %>: :Vow ;
         where
-            V in ( а Æ ) ;
+            V in ( а %{Æ%} ) ;
 
 
 "Epenthesis"
