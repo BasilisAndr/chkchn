@@ -38,6 +38,10 @@ Multichar_Symbols
 
 %>                        ! Morpheme boundary
 
+! flag diacritics
+@P.PREF.com@ @R.PREF.com@
+@P.PREF.assoc@ @R.PREF.assoc@
+@P.PREF.prv@ @R.PREF.prv@
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -46,11 +50,17 @@ Multichar_Symbols
 LEXICON Root
 
 !Temp ;
-Nouns ;
+Case-prefixes ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON CASES-OBL                            !!
+LEXICON Case-prefixes
+
+г%{Æ%}@P.PREF.com@ Nouns ;
+га@P.PREF.assoc@ Nouns ;
+%{Æ%}@P.PREF.prv@ Nouns ;
+
+LEXICON CASES-OBL                             !!
 
 %<pl%>%<abs%>:%>%{ы%}т%{и%} # ;
 %<erg%>:%>%{T%}%{Æ%} # ;
@@ -63,28 +73,34 @@ LEXICON CASES-OBL                            !!
 %<per%>:%>%{ы%}йэквэ%{⁺ⱽᴴ%} # ;
 %<sub%>:%>%{ы%}йиӈкы # ;
 
-! flag diacritics
-%<com%>         г%{Æ%}%> %>%{T%}%{Æ%}
-%<assoc%>       га%> %>%{ы%}ма%{⁺ⱽᴴ%}
-%<prv%>         %{Æ%}%> %>%{ы%}к%{Æ%}
+! circumfixes
+@R.PREF.com@%>%{T%}%{Æ%} # ;
+@R.PREF.assoc@%>%{ы%}ма%{⁺ⱽᴴ%} # ;
+@R.PREF.prv@%>%{ы%}к%{Æ%} # ;
 
-LEXICON SING
-%<sing%>:%>%{л%}гы%{н%}%{⁺ⱽᴴ%} # ;
+! LEXICON SING
+! %<sing%>:%>%{л%}гы%{н%}%{⁺ⱽᴴ%} # ;
 
 
-LEXICON N-I                                  ! bare stem
+LEXICON N-I                                   ! bare stem
 %<n%>%<sg%>%<abs%>: # ;
 %<n%>: CASES-OBL ;
 
-LEXICON N-III                                ! n-absolutive
-%<n%>%<sg%>%<abs%>:>%{ы%}н # ;
+LEXICON N-III                                 ! n-absolutive
+%<n%>%<sg%>%<abs%>:%>%{ы%}н # ;
 %<n%>: CASES-OBL ;
 
-LEXICON N-V                                  ! irregular; в-oblique
+LEXICON N-V                                   ! irregular; в-oblique
 %<n%>%<sg%>%<abs%>: # ;
 %<n%>:в CASES-OBL ;
 
+LEXICON N-Va                                  ! irregular; в-oblique; ы-abs
+%<n%>%<sg%>%<abs%>:ы # ;
+%<n%>:в CASES-OBL ;
 
+LEXICON N-SING
+%<n%>%<sing%>%<abs%>:%>лгын%{⁺ⱽᴴ%} # ;
+%<n%>: CASES-OBL ;
 
 
 
@@ -92,6 +108,30 @@ LEXICON N-V                                  ! irregular; в-oblique
 ! multichar
 ! @P.PREF.meN@ @R.PREF.meN@
 ! LEXICON Prefixes
-! %< [ 0 .x. m e "ˆN" ] "@P.PREF.meN@" %> Stems ;
+! < [ 0 .x. m e "ˆN" ] "@P.PREF.meN@" > Stems ;
 ! LEXICON meN-kan
-! %< [ "+meN-kan" .x. k a n ] "@R.PREF.meN@" %> # ;
+! < [ "+meN-kan" .x. k a n ] "@R.PREF.meN@" > # ;
+
+
+
+LEXICON Nouns
+аатгыр:аатгыр N-I ;                           !
+август:август N-I ;                           !
+авынральын:авынральын N-III ;                 !
+авээн:авээн N-V ;                             !
+агнотван:агнотван N-Va ;                      !
+агротъым:агротъым N-I ;                       !
+агтатван:агтатван N-V ;                       !
+агтатгырг:агтатгырг N-III ;                   !
+агтачг:агтачг N-III ;                         !
+агъёляткэгырг:агъёляткэгырг N-III ;           !
+айва:айва N-I ;                               !!!! аё abs!!
+аёпгырг:аёпгырг N-III ;                       !
+%{Æ%}юпычь:%{Æ%}юпычь N-SING ;                !
+айвал:айвал N-I ;                             !
+айвалқыл:айвалқыл N-I ;                       !
+айваналь:айваналь N-I ;                       !
+айватъым:айватъым N-I ;                       !
+айвач:айвач N-I ;                             !
+айвачыңқач:айвачыңқач N-I ;                   !
+айвэрэт:айвэрэт N-I ;                         !

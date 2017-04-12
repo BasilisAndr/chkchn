@@ -1,1 +1,1 @@
-all: popytka.twol ; hfst-twolc popytka.twol -o popytka.hfst
+all: popytka.twol try.fst ; hfst-twolc popytka.twol -o popytka.hfst ; hfst-lexc try.lexc -o try.fst
