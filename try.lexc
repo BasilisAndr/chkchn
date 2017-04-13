@@ -42,6 +42,7 @@ Multichar_Symbols
 @P.PREF.com@ @R.PREF.com@
 @P.PREF.assoc@ @R.PREF.assoc@
 @P.PREF.prv@ @R.PREF.prv@
+@D.PREF@
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -63,16 +64,16 @@ LEXICON Case-prefixes
 
 LEXICON CASES-OBL                             !!
 
-%<pl%>%<abs%>:%>%{ы%}т%{и%} # ;
-%<erg%>:%>%{T%}%{Æ%} # ;
-%<ess%>:%>у # ;
-%<loc%>:%>%{ы%}к # ;
-%<all%>:%>%{G%}ты%{⁺ⱽᴴ%} # ;
-%<abl%>:%>%{G%}%{ы%}п%{ы%}%{⁺ⱽᴴ%} # ;
-%<ori%>:%>%{ы%}гйит # ;
-%<ine%>:%>%{ы%}чыку # ;
-%<per%>:%>%{ы%}йэквэ%{⁺ⱽᴴ%} # ;
-%<sub%>:%>%{ы%}йиӈкы # ;
+@D.PREF@%<pl%>%<abs%>:@D.PREF@%>%{ы%}т%{и%} # ;
+@D.PREF@%<erg%>:@D.PREF@%>%{T%}%{Æ%} # ;
+@D.PREF@%<ess%>:@D.PREF@%>у # ;
+@D.PREF@%<loc%>:@D.PREF@%>%{ы%}к # ;
+@D.PREF@%<all%>:@D.PREF@%>%{G%}ты%{⁺ⱽᴴ%} # ;
+@D.PREF@%<abl%>:@D.PREF@%>%{G%}%{ы%}п%{ы%}%{⁺ⱽᴴ%} # ;
+@D.PREF@%<ori%>:@D.PREF@%>%{ы%}гйит # ;
+@D.PREF@%<ine%>:@D.PREF@%>%{ы%}чыку # ;
+@D.PREF@%<per%>:@D.PREF@%>%{ы%}йэквэ%{⁺ⱽᴴ%} # ;
+@D.PREF@%<sub%>:@D.PREF@%>%{ы%}йиӈкы # ;
 
 ! circumfixes
 @R.PREF.com@%<com%>:@R.PREF.com@%>%{T%}%{Æ%} # ;
@@ -128,7 +129,7 @@ LEXICON Nouns
 агъёляткэгырг:агъёляткэгырг N-III ;           !
 айва:айва N-I ;                               !!!! аё abs!!
 аёпгырг:аёпгырг N-III ;                       !
-%{Æ%}юпычь:%{Æ%}юпычь N-SING ;                !
+эюпычь:%{Æ%}юпычь N-SING ;                !
 айвал:айвал N-I ;                             !
 айвалқыл:айвалқыл N-I ;                       !
 айваналь:айваналь N-I ;                       !
