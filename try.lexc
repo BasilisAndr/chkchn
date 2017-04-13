@@ -56,9 +56,10 @@ Case-prefixes ;
 
 LEXICON Case-prefixes
 
-г%{Æ%}@P.PREF.com@ Nouns ;
-га@P.PREF.assoc@ Nouns ;
-%{Æ%}@P.PREF.prv@ Nouns ;
+< "<com>":г%{Æ%}%> "@P.PREF.com@" > Nouns ;
+< "<assoc>":га%> "@P.PREF.assoc@" > Nouns ;
+< "<prv>":%{Æ%}%> "@P.PREF.prv@" > Nouns ;
+  Nouns ;
 
 LEXICON CASES-OBL                             !!
 
@@ -67,16 +68,16 @@ LEXICON CASES-OBL                             !!
 %<ess%>:%>у # ;
 %<loc%>:%>%{ы%}к # ;
 %<all%>:%>%{G%}ты%{⁺ⱽᴴ%} # ;
-%<abl%>:%>%{J%}%{ы%}п%{ы%}%{⁺ⱽᴴ%} # ;
+%<abl%>:%>%{G%}%{ы%}п%{ы%}%{⁺ⱽᴴ%} # ;
 %<ori%>:%>%{ы%}гйит # ;
 %<ine%>:%>%{ы%}чыку # ;
 %<per%>:%>%{ы%}йэквэ%{⁺ⱽᴴ%} # ;
 %<sub%>:%>%{ы%}йиӈкы # ;
 
 ! circumfixes
-@R.PREF.com@%>%{T%}%{Æ%} # ;
-@R.PREF.assoc@%>%{ы%}ма%{⁺ⱽᴴ%} # ;
-@R.PREF.prv@%>%{ы%}к%{Æ%} # ;
+< "@R.PREF.com@" %<com%>:%>%{T%}%{Æ%} > # ;
+< "@R.PREF.assoc@" %<assoc%>:%>%{ы%}ма%{⁺ⱽᴴ%} > # ;
+< "@R.PREF.prv@" %<prv%>:%>%{ы%}к%{Æ%} > # ;
 
 ! LEXICON SING
 ! %<sing%>:%>%{л%}гы%{н%}%{⁺ⱽᴴ%} # ;
