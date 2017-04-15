@@ -14,7 +14,6 @@ Alphabet
  %{ы%}:ы %{ы%}:0
  %{G%}:й %{G%}:э %{G%}:г
 
-
 ! %{ъ%}:ъ %{ъ%}:0
 
  %{·%}:0         ! Stem-final vowel deletion
@@ -23,6 +22,7 @@ Alphabet
 
  %→:0            ! Incorporation boundary
  %>:0            ! Morpheme boundary
+ %{☭%}:0         ! Trigger for loan word phonology
   ;
 
 Sets
@@ -59,6 +59,8 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
         except
             .#. _ %>: :Vow ;
             Cns _ %>: :Vow ;
+            %{☭%}: :* _ ;
+            _ :* %{☭%}: ;
         where
             Vx in ( у ю и %{Æ%} )
             Vy in ( о ё э а ) matched ;
@@ -84,37 +86,37 @@ V:0 <=> .#. _ %>: :Vow ;
 
 "Epenthesis"
 ! а й в а >:0 {ы}:0 к
-%{ы%}:ы <=> Cns Cns %>: _ Cns ;
-                Cns %>: _ Cns Cns ;
-                Сns %>: _ Cns .#. ;
-     Vow Cns %>: %{G%}: _ ;
+%{ы%}:ы <=> Cns Cns ( %{☭%}: ) %>: _ Cns ;
+                Cns ( %{☭%}: ) %>: _ Cns Cns ;
+                Сns ( %{☭%}: ) %>: _ Cns .#. ;
+     Vow Cns ( %{☭%}: ) %>: %{G%}: _ ;
 
 
 "t insertion after vowel-final stems"
 ! г Æ:0 >:0 а й в а >:0 {T}:т Æ:а
 ! г Æ:0 >:0 а г т а ч г >:0 {T}:0 Æ:а
-%{T%}:т <=> Vow %>: _ ;
+%{T%}:т <=> Vow ( %{☭%}: ) %>: _ ;
 
 
 
 "All/Abl allomorph г-"
 ! а й в а >:0 {G}:г т ы {⁺ⱽᴴ}:0
-%{G%}:г <=> Vow Cns %>: _ ;
-                    %>: _ т ;
+%{G%}:г <=> Vow Cns ( %{☭%}: ) %>: _ ;
+                    ( %{☭%}: ) %>: _ т ;
         except
-                Cns %>: _ т ;
+                Cns ( %{☭%}: ) %>: _ т ;
 
 
 "All/Abl allomorph э-"
-%{G%}:э <=> Cns Cns %>: _ ;
-                Cns %>: _ т ;
+%{G%}:э <=> Cns Cns ( %{☭%}: ) %>: _ ;
+                Cns ( %{☭%}: ) %>: _ т ;
 
 
 "Abl allomorph й-"
-%{G%}:й <=> Vow %>: _ ;
+%{G%}:й <=> Vow ( %{☭%}: ) %>: _ ;
         except
-                %>: _ т ;               ! this line turns off Allative
+                ( %{☭%}: ) %>: _ т ;               ! this line turns off Allative
 
 
 "{и} after non-coronals"
-%{и%}:0 <=> [ :Cns - :Coronal ] %>: %{ы%}: т _ ;
+%{и%}:0 <=> [ :Cns - :Coronal ] ( %{☭%}: ) %>: %{ы%}: т _ ;
