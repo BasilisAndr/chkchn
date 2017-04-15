@@ -100,6 +100,10 @@ LEXICON N-Va                                  ! irregular; в-oblique; ы-abs
 %<n%>%<sg%>%<abs%>:ы # ;
 %<n%>:в CASES-OBL ;
 
+LEXICON N-Vb                                  ! irregular; crazy-abs
+айва%<n%>%<sg%>%<abs%>:аё # ;
+%<n%>: CASES-OBL ;
+
 LEXICON N-SING
 %<n%>%<sing%>%<abs%>:%>лгын%{⁺ⱽᴴ%} # ;
 %<n%>: CASES-OBL ;
@@ -118,7 +122,7 @@ LEXICON N-SING
 
 LEXICON Nouns
 аатгыр:аатгыр N-I ;                           !
-август:август%{☭%} N-I ;                           !
+август:август%{☭%} N-I ;                      !
 авынральын:авынральын N-III ;                 !
 авээн:авээн N-V ;                             !
 агнотван:агнотван N-Va ;                      !
@@ -127,7 +131,7 @@ LEXICON Nouns
 агтатгырг:агтатгырг N-III ;                   !
 агтачг:агтачг N-III ;                         !
 агъёляткэгырг:агъёляткэгырг N-III ;           !
-айва:айва N-I ;                               !!!! аё abs!!
+айва:айва N-Vb ;                              !!!! аё abs!!
 аёпгырг:аёпгырг N-III ;                       !
 эюпычь:%{Æ%}юпычь N-SING ;                    !
 айвал:айвал N-I ;                             !
