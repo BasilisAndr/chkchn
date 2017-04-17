@@ -39,10 +39,10 @@ Multichar_Symbols
 %>                        ! Morpheme boundary
 
 ! flag diacritics
-@P.PREF.com@ @R.PREF.com@
-@P.PREF.assoc@ @R.PREF.assoc@
-@P.PREF.prv@ @R.PREF.prv@
-@D.PREF@
+
+
+
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -58,27 +58,27 @@ Nouns ;
 
 LEXICON Case-prefixes
 
-@P.PREF.com@:@P.PREF.com@г%{Æ%}%> Nouns ;
-@P.PREF.assoc@:@P.PREF.assoc@га%> Nouns ;
-@P.PREF.prv@:@P.PREF.prv@%{Æ%}%> Nouns ;
+:г%{Æ%}%> Nouns ;
+:га%> Nouns ;
+:%{Æ%}%> Nouns ;
 
 LEXICON CASES-OBL                             !!
 
-@D.PREF@%<pl%>%<abs%>:@D.PREF@%>%{ы%}т%{и%} # ;
-@D.PREF@%<erg%>:@D.PREF@%>%{T%}%{Æ%} # ;
-@D.PREF@%<ess%>:@D.PREF@%>у # ;
-@D.PREF@%<loc%>:@D.PREF@%>%{ы%}к # ;
-@D.PREF@%<all%>:@D.PREF@%>%{G%}ты%{⁺ⱽᴴ%} # ;
-@D.PREF@%<abl%>:@D.PREF@%>%{G%}%{ы%}п%{ы%}%{⁺ⱽᴴ%} # ;
-@D.PREF@%<ori%>:@D.PREF@%>%{ы%}гйит # ;
-@D.PREF@%<ine%>:@D.PREF@%>%{ы%}чыку # ;
-@D.PREF@%<per%>:@D.PREF@%>%{ы%}йэквэ%{⁺ⱽᴴ%} # ;
-@D.PREF@%<sub%>:@D.PREF@%>%{ы%}йиӈкы # ;
+%<pl%>%<abs%>:%>%{ы%}т%{и%} # ;
+%<erg%>:%>%{T%}%{Æ%} # ;
+%<ess%>:%>у # ;
+%<loc%>:%>%{ы%}к # ;
+%<all%>:%>%{G%}ты%{⁺ⱽᴴ%} # ;
+%<abl%>:%>%{G%}%{ы%}п%{ы%}%{⁺ⱽᴴ%} # ;
+%<ori%>:%>%{ы%}гйит # ;
+%<ine%>:%>%{ы%}чыку # ;
+%<per%>:%>%{ы%}йэквэ%{⁺ⱽᴴ%} # ;
+%<sub%>:%>%{ы%}йиӈкы # ;
 
 ! circumfixes
-@R.PREF.com@%<com%>:@R.PREF.com@%>%{T%}%{Æ%} # ;
-@R.PREF.assoc@%<assoc%>:@R.PREF.assoc@%>%{ы%}ма%{⁺ⱽᴴ%} # ;
-@R.PREF.prv@%<prv%>:@R.PREF.prv@%>%{ы%}к%{Æ%} # ;
+"[+TÆ]"%<com%>:%>%{T%}%{Æ%} # ;
+"[+ыма]"%<assoc%>:%>%{ы%}ма%{⁺ⱽᴴ%} # ;
+"[+ыкÆ]"%<prv%>:%>%{ы%}к%{Æ%} # ;
 
 ! LEXICON SING
 ! %<sing%>:%>%{л%}гы%{н%}%{⁺ⱽᴴ%} # ;
@@ -112,11 +112,11 @@ LEXICON N-SING
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! multichar
-! @P.PREF.meN@ @R.PREF.meN@
+!
 ! LEXICON Prefixes
-! < [ 0 .x. m e "ˆN" ] "@P.PREF.meN@" > Stems ;
+! < [ 0 .x. m e "ˆN" ] "" > Stems ;
 ! LEXICON meN-kan
-! < [ "+meN-kan" .x. k a n ] "@R.PREF.meN@" > # ;
+! < [ "+meN-kan" .x. k a n ] "" > # ;
 
 
 
