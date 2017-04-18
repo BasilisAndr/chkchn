@@ -38,9 +38,13 @@ Multichar_Symbols
 
 %>                        ! Morpheme boundary
 
-! flag diacritics
-
-
+! not flags
+"[+гÆ]"
+"[+га]"
+"[+Æ]"
+"[+TÆ]"
+"[+ыма]"
+"[+ыкÆ]"
 
 
 
@@ -58,9 +62,9 @@ Nouns ;
 
 LEXICON Case-prefixes
 
-:г%{Æ%}%> Nouns ;
-:га%> Nouns ;
-:%{Æ%}%> Nouns ;
+"[+гÆ]":г%{Æ%}%> Nouns ;
+"[+га]":га%> Nouns ;
+"[+Æ]":%{Æ%}%> Nouns ;
 
 LEXICON CASES-OBL                             !!
 
