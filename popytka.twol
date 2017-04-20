@@ -55,12 +55,11 @@ Rules
  "Vowel harmony"
 ! а й в а л >:0 у:о
 Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
-                                    _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+                                     _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
         except
             .#. _ %>: :Vow ;
             Cns _ %>: :Vow ;
-            %{☭%}: :* _ ;
-            _ :* %{☭%}: ;
+                _ :* \ %>: %{☭%}: ;
         where
             Vx in ( у ю и %{Æ%} )
             Vy in ( о ё э а ) matched ;
