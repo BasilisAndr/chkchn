@@ -25,7 +25,7 @@ Multichar_Symbols
 %<assoc%>                 ! Associative
 %<prv%>                   ! Privative
 
-%{Æ%}                     ! э or а
+! %{Æ%}                     ! э or а
 %{T%}                     ! latin; erg & com т ot 0
 %{G%}                     ! all & abl; г/й/э
 %{ы%}                     ! Epenthetic schwa: ы or 0
@@ -39,12 +39,12 @@ Multichar_Symbols
 %>                        ! Morpheme boundary
 
 ! not flags
-"[+гÆ]"
-"[+га]"
-"[+Æ]"
-"[+TÆ]"
-"[+ыма]"
-"[+ыкÆ]"
+%[%+гÆ%]
+%[%+га%]
+%[%+Æ%]
+%[%+TÆ%]
+%[%+ыма%]
+%[%+ыкÆ%]
 
 
 
@@ -62,9 +62,9 @@ Nouns ;
 
 LEXICON Case-prefixes
 
-"[+гÆ]":г%{Æ%}%> Nouns ;
-"[+га]":га%> Nouns ;
-"[+Æ]":%{Æ%}%> Nouns ;
+%[%+гÆ%]:г%{Æ%}%> Nouns ;
+%[%+га%]:га%> Nouns ;
+%[%+Æ%]:%{Æ%}%> Nouns ;
 
 LEXICON CASES-OBL                             !!
 
@@ -80,9 +80,9 @@ LEXICON CASES-OBL                             !!
 %<sub%>:%>%{ы%}йиӈкы # ;
 
 ! circumfixes
-"[+TÆ]"%<com%>:%>%{T%}%{Æ%} # ;
-"[+ыма]"%<assoc%>:%>%{ы%}ма%{⁺ⱽᴴ%} # ;
-"[+ыкÆ]"%<prv%>:%>%{ы%}к%{Æ%} # ;
+%[%+TÆ%]%<com%>:%>%{T%}%{Æ%} # ;
+%[%+ыма%]%<assoc%>:%>%{ы%}ма%{⁺ⱽᴴ%} # ;
+%[%+ыкÆ%]%<prv%>:%>%{ы%}к%{Æ%} # ;
 
 ! LEXICON SING
 ! %<sing%>:%>%{л%}гы%{н%}%{⁺ⱽᴴ%} # ;
