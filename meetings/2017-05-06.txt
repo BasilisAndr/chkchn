@@ -1,0 +1,199 @@
+! Present
+
+FMT, VA, MD, MP
+
+! Meeting agenda
+
+* Draft the final work plan, including weekly targets
+
+! Project objectives
+
+* Write a finite-state morphological analyser for Chukchi that implements the verb system, including incorporation
+* Get high (>90%) coverage over a medium sized text (~25-30,000 tokens incl. punctuation).
+
+! Tasks 
+
+[To be added to]
+
+* Collect all available corpora in text format
+* Implement nominal inflectional morphotactics
+* Convert/categorise lexicon
+* Add all non-inflecting words
+* Implement nominal derivational morphotactics
+* Implement morphophonology
+* Make sure that N (<=10) sentences are fully covered per week.
+* Implement the regular intransitive paradigm
+* Implement copula stuff
+* Implement the regular transitive paradigm
+* Implement incorporation
+** Basic version: (transitive verb prefixes) * noun lexicon * transitive verb suffixes, flags/constraints to allow only the "stem" to be incorporated
+** Select known restrictions on incorporation and implement them
+* Implement verbal derivation
+* Define evaluation "deliverables" and weekly milestones
+* Write a paper
+
+! Questions
+
+1) For the singulative, do we want to go with the lexicon/dictionary, or do we want to go with the stem ?
+** FMT: If singulative is a limited-productivity, or non-productive derivation, go with the derived form in the lexicon.
+** MD: There are minimal pairs, plain abs. + singul. abs.
+
+2) Is the lexicon size likely to be big enough to cover all the forms in e.g. the folktale text ?
+** FMT: Yes, it has basically all the stems in the paper dictionary.
+
+3) Is it possible for Vasya to get all of the available machine readable corpora 
+** MP: Will send the texts
+
+4) We should choose one (20-30k word) text for using for the evaluation/annotation.
+** Let's use the one we've been using
+
+5) Is it possible to go simply with the noun classes in Michael's grammar ?
+
+6) Github repo.
+
+
+! Work plan
+
+
+!! Community bonding
+Week 0  (4th May -- 7th May) Noun stuffs
+
+Week 1  (8th May -- 14th May) Noun stuffs
+
+* Collect all available corpora in text format
+
+Week 2  (15th May -- 21st May) Noun stuffs
+
+* Convert/categorise lexicon
+* Add all non-inflecting words
+
+Week 3  (22nd May -- 28th May) Noun stuffs
+
+* Implement nominal inflectional morphotactics
+
+!!! Official start
+
+Week 4  (29th May -- 4th June) 
+
+* Implement morphophonology
+
+[Bachelors thesis, 10-15 hours]
+
+Week 5  (5th June -- 11th June)
+
+* Implement the regular intransitive paradigm
+
+[Bachelors thesis, 10-15 hours]
+
+Week 6  (12th June -- 18th June)
+
+* Implement the regular intransitive paradigm
+* Implement copula stuff
+
+Week 7  (19th June -- 25th June)
+!!! Phase 1 evaluation
+
+Deliverable: Full noun morphotactics + lexicon + intransitive paradigms (no incorp).
+
+Week 8  (26th June -- 2nd July)
+
+* Implement verbal derivation
+* Implement the regular transitive paradigm
+
+Week 9  (3rd July -- 9th July)
+
+* Implement the regular transitive paradigm
+
+Week 10 (10th July -- 16th July)
+
+[Conference, 15-20 hours]
+
+* Implement the regular transitive paradigm
+
+Week 11 (17th July -- 23rd July)
+!!! Phase 2 evaluation
+
+Deliverable: Transitive paradigms + verbal derivation
+
+* Implement incorporation
+
+Week 12 (24th July -- 30th July)
+
+* Implement incorporation
+
+Week 13 (1st August -- 6th August)
+
+* Implement incorporation
+
+Week 14 (7th August -- 13th August)
+
+* Implement incorporation
+
+Week 15 (14th August -- 20th August)
+
+* Implement incorporation
+
+Week 16 (21th August -- 27th August)
+!!! Final evaluation
+
+Final deliverable: Full analyser.
+
+* Evaluation 
+* Write paper
+
+Week 17 (28th August -- 3rd September)
+
+* Write paper
+
+Week 18 (4th September -- 6th September)
+
+* Write paper
+
+! Notes
+
+1. http://wiki.apertium.org/wiki/User:Bandrandr/proposal
+
+
+Lexicon size (in number of lexemes): 
+
+V         2236
+N         2719
+A         626
+ADV    592
+Vbase 67
+PRON 48
+INTJ    32
+PTCP  2
+
+
+
+Lexicon examples:
+
+аёпычьылгын (pl. эюпычьыт) колючка
+
+* FMT: Does this have an absolutive that is not singulative?
+пипикылгын пипикылгыт "mouse" -- "Singulative" is part of the stem. You can tell because of the i vowel. 
+Otherwise it would have to be pepekylgyn
+
+Tools
+
+Here's my tool for converting between Cyrillic orthography and phonemic transcription:
+
+https://github.com/evoling/chukchi-tools
+
+This can also function as an approximate spell-checker, since typos are unlikely to be valid Chukchi.
+
+Github usernames
+
+ftyers
+evoling
+
+
+
+https://github.com/BasilisAndr/chkchn
+
+
+https://ling.hse.ru/en/
+
+
+
