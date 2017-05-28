@@ -45,11 +45,14 @@ Glottal = ʼ Ъ Ь ъ ь ;
 
 ! this is not actually a set that i'm going to use, just descriptive
 ! Archiphonemes = Æ ! this is the э that is recessive and may be turned to а
-!                T ! latin; erg & com т of 0
+!                T ! latin; erg & com т or 0
 !                G ! first in all & abl
 !                ;
 
 Rules
+
+
+! can ӈ be word-final?
 
 
  "Vowel harmony"
