@@ -45,7 +45,7 @@ Glottal = ʼ Ъ Ь ъ ь ;
 
 ! this is not actually a set that i'm going to use, just descriptive
 ! Archiphonemes = Æ ! this is the э that is recessive and may be turned to а
-!                T ! latin; erg & com т ot 0
+!                T ! latin; erg & com т of 0
 !                G ! first in all & abl
 !                ;
 
@@ -61,8 +61,8 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
             Cns _ %>: :Vow ;
                 _ :* \ %>: %{☭%}: ;
         where
-            Vx in ( у ю и %{Æ%} )
-            Vy in ( о ё э а ) matched ;
+            Vx in ( у ю и %{Æ%} ы )
+            Vy in ( о ё э   а   я ) matched ;
 
 
 "Vowel harmony for Æ (recessive)"
@@ -83,11 +83,11 @@ V:0 <=> .#. _ %>: :Vow ;
             V in ( а %{Æ%} ) ;
 
 
-"Epenthesis"
+"Epenthesis"                        ! check if works for word-final
 ! а й в а >:0 {ы}:0 к
 %{ы%}:ы <=> Cns Cns ( %{☭%}: ) %>: _ Cns ;
                 Cns ( %{☭%}: ) %>: _ Cns Cns ;
-                Сns ( %{☭%}: ) %>: _ Cns .#. ;
+            Cns ( %{☭%}: ) ( %>: ) _ Cns .#. ;
      Vow Cns ( %{☭%}: ) %>: %{G%}: _ ;
 
 

@@ -92,17 +92,19 @@ LEXICON N-III                                 ! n-absolutive
 @D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@%>%{ы%}н # ;
 %<n%>: CASES-OBL ;
 
-LEXICON N-V                                   ! irregular; в-oblique
+LEXICON N-V                                   ! irregular; crazy-abs
+@D.PREF@айва%<n%>%<sg%>%<abs%>:@D.PREF@аё # ;
+%<n%>: CASES-OBL ;
+
+LEXICON N-Vb                                  ! irregular; в-oblique
 @D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@ # ;
 %<n%>:в CASES-OBL ;
 
-LEXICON N-Va                                  ! irregular; в-oblique; ы-abs
+LEXICON N-Vby                                 ! irregular; в-oblique; ы-abs
 @D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@ы # ;
 %<n%>:в CASES-OBL ;
 
-LEXICON N-Vb                                  ! irregular; crazy-abs
-@D.PREF@айва%<n%>%<sg%>%<abs%>:@D.PREF@аё # ;
-%<n%>: CASES-OBL ;
+
 
 LEXICON N-SING
 @D.PREF@%<n%>%<sing%>%<abs%>:@D.PREF@%>лгын%{⁺ⱽᴴ%} # ;
@@ -124,14 +126,14 @@ LEXICON Nouns
 аатгыр:аатгыр N-I ;                           !
 август:август%{☭%} N-I ;                      !
 авынральын:авынральын N-III ;                 !
-авээн:авээн N-V ;                             !
-агнотван:агнотван N-Va ;                      !
+авээн:авээн N-Vb ;                            !
+агнотван:агнотван N-Vby ;                     !
 агротъым:агротъым N-I ;                       !
-агтатван:агтатван N-V ;                       !
+агтатван:агтатван N-Vb ;                      !
 агтатгырг:агтатгырг N-III ;                   !
 агтачг:агтачг N-III ;                         !
 агъёляткэгырг:агъёляткэгырг N-III ;           !
-айва:айва N-Vb ;                              !
+айва:айва N-V ;                               !
 аёпгырг:аёпгырг N-III ;                       !
 эюпычь:%{Æ%}юпычь N-SING ;                    !
 айвал:айвал N-I ;                             !
