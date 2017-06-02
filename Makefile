@@ -1,8 +1,16 @@
-all: popytka.twol try.lexc ;
-	hfst-twolc popytka.twol -o popytka.hfst ;
-	hfst-lexc try.lexc -o try.lexc.hfst ;
-	hfst-compose-intersect -1 try.lexc.hfst -2 popytka.hfst -o together.hfst
-twolc: popytka.twol ; hfst-twolc popytka.twol -o popytka.hfst
-lexc: try.lexc ; hfst-lexc try.lexc -o try.lexc.hfst
-final: try.lexc.hfst popytka.hfst ;
-	hfst-compose-intersect -1 try.lexc.hfst -2 popytka.hfst -o together.hfst
+# all: ckt.lexc ckt.twol ;
+# 	hfst-lexc ckt.lexc -o ckt.lexc.hfst ;
+# 	hfst-twolc ckt.twol -o ckt.twol.hfst ;
+# 	hfst-compose-intersect -1 ckt.lexc.hfst -2 ckt.twol.hfst -o ckt.hfst
+all: ckt.rules.lexc ckt.twol ;
+	cat ckt.rules.lexc > ckt.lexc
+	for i in `ls lexicons/` ; do \
+	cat $(join "lexicons/", $$i) >> ckt.lexc ; \
+	done
+	hfst-lexc ckt.lexc -o ckt.lexc.hfst ;
+	hfst-twolc ckt.twol -o ckt.twol.hfst ;
+	hfst-compose-intersect -1 ckt.lexc.hfst -2 ckt.twol.hfst -o ckt.hfst
+twolc: ckt.twol ; hfst-twolc ckt.twol -o ckt.twol.hfst
+lexc: ckt.lexc ; hfst-lexc ckt.lexc -o ckt.lexc.hfst
+final: ckt.lexc.hfst ckt.twol.hfst ;
+	hfst-compose-intersect -1 ckt.lexc.hfst -2 ckt.twol.hfst -o ckt.hfst

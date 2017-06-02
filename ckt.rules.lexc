@@ -1,0 +1,231 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Multichar_Symbols
+%<n%>                     ! Noun
+
+%<sing%>                  ! Singulative
+
+%<pl%>                    ! Plural
+%<sg%>                    ! Singular
+
+%<anim%>                  ! Animates
+
+%<def%>                   ! Definite
+
+%<abl%>                   ! Ablative
+%<abs%>                   ! Absolutive
+%<ori%>                   ! Orientative
+%<erg%>                   ! Ergative
+%<all%>                   ! Allative
+%<ess%>                   ! Essive [Equative]
+%<loc%>                   ! Locative
+
+%<ine%>                   ! Inessive
+%<subst%>                 ! Substantive
+%<per%>                   ! Perlative
+%<com%>                   ! Comitative
+%<assoc%>                 ! Associative
+%<prv%>                   ! Privative
+
+%{Æ%}                     ! э or а
+%{T%}                     ! latin; erg & com т ot 0
+%{G%}                     ! all & abl; г/й/э
+%{ы%}                     ! Epenthetic schwa: ы or 0
+%{и%}                     ! For plural: и or 0
+
+%{⁺ⱽᴴ%}                   ! Trigger for dominant harmony
+%{·%}                     ! Trigger for stem-final vowel deletion
+%{°%}                     ! Trigger for stem-final vowel reduction
+%{☭%}                     ! Trigger for loan word phonology
+
+%>                        ! Morpheme boundary
+
+! flag diacritics
+@P.PREF.com@ @R.PREF.com@
+@P.PREF.assoc@ @R.PREF.assoc@
+@P.PREF.prv@ @R.PREF.prv@
+@D.PREF@
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!                       M O R P H O T A C T I C S                         !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Root
+
+!Temp ;
+Case-prefixes ;
+Nouns ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Case-prefixes
+
+@P.PREF.com@:@P.PREF.com@г%{Æ%}%> Nouns ;
+@P.PREF.assoc@:@P.PREF.assoc@га%> Nouns ;
+@P.PREF.prv@:@P.PREF.prv@%{Æ%}%> Nouns ;
+
+
+LEXICON CASES-ANIM
+
+@D.PREF@%<pl%>%<abs%>%<anim%>:@D.PREF@%>%{ы%}нти # ;
+@D.PREF@%<sg%>%<erg%>%<anim%>%<def%>:@D.PREF@%>%{ы%}нэ # ;
+@D.PREF@%<pl%>%<erg%>%<anim%>%<def%>:@D.PREF@%>%{ы%}рык # ;
+@D.PREF@%<all%>%<anim%>%<def%>:@D.PREF@%>%{ы%}на # ;
+@D.PREF@%<ess%>%<anim%>:@D.PREF@%>%{ы%}н # ;
+
+
+
+LEXICON CASES-OBL                             !!
+
+@D.PREF@%<pl%>%<abs%>:@D.PREF@%>%{ы%}т%{и%} # ;
+@D.PREF@%<erg%>:@D.PREF@%>%{T%}%{Æ%} # ;
+@D.PREF@%<ess%>:@D.PREF@%>у # ;
+@D.PREF@%<loc%>:@D.PREF@%>%{ы%}к # ;
+@D.PREF@%<all%>:@D.PREF@%>%{G%}ты%{⁺ⱽᴴ%} # ;
+@D.PREF@%<abl%>:@D.PREF@%>%{G%}%{ы%}п%{ы%}%{⁺ⱽᴴ%} # ;
+@D.PREF@%<ori%>:@D.PREF@%>%{ы%}гйит # ;
+@D.PREF@%<ine%>:@D.PREF@%>%{ы%}чыку # ;
+@D.PREF@%<per%>:@D.PREF@%>%{ы%}йэквэ%{⁺ⱽᴴ%} # ;
+@D.PREF@%<sub%>:@D.PREF@%>%{ы%}йиӈкы # ;
+
+! circumfixes
+@R.PREF.com@%<com%>:@R.PREF.com@%>%{T%}%{Æ%} # ;
+@R.PREF.assoc@%<assoc%>:@R.PREF.assoc@%>%{ы%}ма%{⁺ⱽᴴ%} # ;
+@R.PREF.prv@%<prv%>:@R.PREF.prv@%>%{ы%}к%{Æ%} # ;
+
+
+! LEXICON SING
+! %<sing%>:%>%{л%}гы%{н%}%{⁺ⱽᴴ%} # ;
+
+
+LEXICON N-Ia-AATGYR                                   ! bare stem
+
+@D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@ # ;
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+
+
+LEXICON N-Ia-JYNYR-ABS                                ! bare stem with n/ng alteration
+
+@D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@ # ;
+
+
+LEXICON N-Ib-ANGKY                                   ! stem-final vowel reduction
+
+@D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@%{°%} # ;
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+
+
+LEXICON N-Ic-AJKOL                                   ! stem-final vowel deletion
+
+@D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@%{·%} # ;
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+
+
+LEXICON N-Ic-EJNETKUNEN-ABS                          ! vowel deletion with n/ng alteration
+
+@D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@%{·%} # ;
+
+
+LEXICON N-IIa-VIIL-ABS                               ! full reduplication
+
+@D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@ # ;
+
+
+LEXICON N-IIb-VAJP-ABS                               ! partial reduplication
+
+@D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@ # ;
+
+
+LEXICON N-III-AVYNRAL                                   ! n absolutive
+
+@D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@%{ы%}н # ;
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+
+
+LEXICON N-IV-ARAPA                                   ! ngy absolutive
+
+@D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@%{ы%}ӈы # ;
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+
+
+LEXICON N-IV-QORA-ABS                                ! qora-qaa
+
+@D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@%{ы%}ӈы # ;
+
+
+LEXICON N-Vv-AVEEN                                   ! irregular; в-oblique
+
+@D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@ # ;
+%<n%>:в CASES-OBL ;
+%<n%>:в CASES-ANIM ;
+
+
+LEXICON N-Vvy-AGNOTVAN                               ! irregular; в-oblique; ы-abs
+
+@D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@ы # ;
+%<n%>:в CASES-OBL ;
+%<n%>:в CASES-ANIM ;
+
+
+LEXICON N-SING-AJOPYCH                               ! lg singulative
+
+@D.PREF@%<n%>%<sing%>%<abs%>:@D.PREF@%>%{ы%}лгын%{⁺ⱽᴴ%} # ;
+%<n%>: CASES-OBL ;
+
+
+LEXICON N-SING-EPEEPEG                               ! lyng singulative
+
+@D.PREF@%<n%>%<sing%>%<abs%>:@D.PREF@%>%{ы%}лыӈын%{⁺ⱽᴴ%} # ;
+%<n%>: CASES-OBL ;
+
+
+LEXICON N-VANGQASQOR-ABS
+
+@D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@ # ;
+
+
+LEXICON N-OBL
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+
+
+
+
+! LEXICON N-III                                 ! n-absolutive
+! @D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@%>%{ы%}н # ;
+! %<n%>: CASES-OBL ;
+
+! LEXICON N-V                                   ! irregular; crazy-abs
+! @D.PREF@айва%<n%>%<sg%>%<abs%>:@D.PREF@аё # ;
+! %<n%>: CASES-OBL ;
+
+! LEXICON N-Vb                                  ! irregular; в-oblique
+! @D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@ # ;
+! %<n%>:в CASES-OBL ;
+
+! LEXICON N-Vby                                 ! irregular; в-oblique; ы-abs
+! @D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@ы # ;
+! %<n%>:в CASES-OBL ;
+
+
+
+! LEXICON N-SING
+! @D.PREF@%<n%>%<sing%>%<abs%>:@D.PREF@%>лгын%{⁺ⱽᴴ%} # ;
+! %<n%>: CASES-OBL ;
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! multichar
+! @P.PREF.meN@ @R.PREF.meN@
+! LEXICON Prefixes
+! < [ 0 .x. m e "ˆN" ] "@P.PREF.meN@" > Stems ;
+! LEXICON meN-kan
+! < [ "+meN-kan" .x. k a n ] "@R.PREF.meN@" > # ;

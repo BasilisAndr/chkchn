@@ -63,6 +63,8 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
             .#. _ %>: :Vow ;
             Cns _ %>: :Vow ;
                 _ :* \ %>: %{☭%}: ;
+                _ %{°%}:0 ;
+                _ %{·%}:0 ;
         where
             Vx in ( у ю и %{Æ%} ы )
             Vy in ( о ё э   а   я ) matched ;
@@ -76,6 +78,8 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
                                    _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
                                .#. _ %>: :Vow ;
                                Cns _ %>: :Vow ;
+                                   _ %{°%}:0 ;
+                                   _ %{·%}:0 ;
 
 
 "Vowel deletion"                    ! because syllable structure
