@@ -27,7 +27,7 @@ Alphabet
 
 Sets
 
-Vow   = А Е Ё И О У Ы Э Ю Я
+Vow   = А Е Ё И О У Ы Э Ю Я %{Æ%}
         а е ё и о у ы э ю я ;
 
 Yot = Е е Ё ё Ю ю Я я ;
@@ -122,3 +122,14 @@ V:0 <=> .#. _ %>: :Vow ;
 
 "{и} after non-coronals"
 %{и%}:0 <=> [ :Cns - :Coronal ] ( %{☭%}: ) %>: %{ы%}: т _ ;
+
+
+"Stem-final vowel deletion"
+V:0 <=>  _ %{·%}:0 # ;
+        where
+            V in Vow ;
+
+"Stem-final vowel reduction"
+V:0 <=>  _ %{°%}:0 # ;
+        where
+            V in Vow ;
