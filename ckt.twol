@@ -1,0 +1,124 @@
+Alphabet
+
+ А Б В Г Д Е Ё Ж З И Й К Ӄ Л Ԓ М Н Ӈ О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
+ а б в г д е ё ж з и й к ӄ л ԓ м н ӈ о п р с т у ф х ц ч ш щ ъ ы ь э ю я ʼ
+
+ %{T%}:т %{T%}:0
+! %{т%}:т %{т%}:0
+! %{E%}:э %{t%}:а
+! %{N%}:ӈ %{N%}:г
+ %{и%}:и %{и%}:э %{и%}:0
+
+! %{к%}:к %{к%}:г
+! %{e%}:э %{e%}:г
+ %{ы%}:ы %{ы%}:0
+ %{G%}:й %{G%}:э %{G%}:г
+
+! %{ъ%}:ъ %{ъ%}:0
+
+ %{·%}:0         ! Stem-final vowel deletion
+ %{°%}:0         ! Stem-final vowel reduction
+ %{⁺ⱽᴴ%}:0       ! Dominant vowel harmony
+
+ %→:0            ! Incorporation boundary
+ %>:0            ! Morpheme boundary
+ %{☭%}:0         ! Trigger for loan word phonology
+  ;
+
+Sets
+
+Vow   = А Е Ё И О У Ы Э Ю Я
+        а е ё и о у ы э ю я ;
+
+Yot = Е е Ё ё Ю ю Я я ;
+
+Cns   = Б В Г Д Ж З Й К Ӄ Л Ԓ М Н Ӈ П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь ʼ
+        б в г д ж з й к ӄ л ԓ м н ӈ п р с т ф х ц ч ш щ ъ ь ;
+
+Dominant = А О Я Ё
+           а о я ё ;
+
+Coronal = Т Н Й Ч Р                 ! there was л before but this is from the grammar
+          т н й ч р ;
+
+Glottal = ʼ Ъ Ь ъ ь ;
+
+! this is not actually a set that i'm going to use, just descriptive
+! Archiphonemes = Æ ! this is the э that is recessive and may be turned to а
+!                T ! latin; erg & com т or 0
+!                G ! first in all & abl
+!                ;
+
+Rules
+
+
+! can ӈ be word-final?
+
+
+ "Vowel harmony"
+! а й в а л >:0 у:о
+Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
+                                     _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+        except
+            .#. _ %>: :Vow ;
+            Cns _ %>: :Vow ;
+                _ :* \ %>: %{☭%}: ;
+        where
+            Vx in ( у ю и %{Æ%} ы )
+            Vy in ( о ё э   а   я ) matched ;
+
+
+"Vowel harmony for Æ (recessive)"
+! Æ:э ю:ю п ы ч ь >:0 у:у
+%{Æ%}:э <=>  _ ;
+      except
+        [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
+                                   _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+                               .#. _ %>: :Vow ;
+                               Cns _ %>: :Vow ;
+
+
+"Vowel deletion"                    ! because syllable structure
+! Æ:0 >:0 а г н о т в а н в >:0 {ы}:ы к Æ:а
+V:0 <=> .#. _ %>: :Vow ;
+        Cns _ %>: :Vow ;
+        where
+            V in ( а %{Æ%} ) ;
+
+
+"Epenthesis"                        ! check if works for word-final
+! а й в а >:0 {ы}:0 к
+%{ы%}:ы <=> Cns Cns ( %{☭%}: ) %>: _ Cns ;
+                Cns ( %{☭%}: ) %>: _ Cns Cns ;
+            Cns ( %{☭%}: ) ( %>: ) _ Cns .#. ;
+     Vow Cns ( %{☭%}: ) %>: %{G%}: _ ;
+
+
+"t insertion after vowel-final stems"
+! г Æ:0 >:0 а й в а >:0 {T}:т Æ:а
+! г Æ:0 >:0 а г т а ч г >:0 {T}:0 Æ:а
+%{T%}:т <=> Vow ( %{☭%}: ) %>: _ ;
+
+
+
+"All/Abl allomorph г-"
+! а й в а >:0 {G}:г т ы {⁺ⱽᴴ}:0
+%{G%}:г <=> Vow Cns ( %{☭%}: ) %>: _ ;
+                    ( %{☭%}: ) %>: _ т ;
+        except
+                Cns ( %{☭%}: ) %>: _ т ;
+
+
+"All/Abl allomorph э-"
+%{G%}:э <=> Cns Cns ( %{☭%}: ) %>: _ ;
+                Cns ( %{☭%}: ) %>: _ т ;
+
+
+"Abl allomorph й-"
+%{G%}:й <=> Vow ( %{☭%}: ) %>: _ ;
+        except
+                ( %{☭%}: ) %>: _ т ;               ! this line turns off Allative
+
+
+"{и} after non-coronals"
+%{и%}:0 <=> [ :Cns - :Coronal ] ( %{☭%}: ) %>: %{ы%}: т _ ;
