@@ -107,6 +107,16 @@ LEXICON N-Ia-AATGYR                                   ! bare stem
 %<n%>: CASES-ANIM ;
 
 
+LEXICON N-Ia-JYNYR-ABS                                ! bare stem with n/ng alteration
+
+@D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@ # ;
+
+
+LEXICON N-Ia-JYNYR-OBL                                ! bare stem with n/ng alteration
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+
+
 LEXICON N-Ib-ANGKY                                   ! stem-final vowel reduction
 
 @D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@%{°%} # ;
@@ -114,9 +124,20 @@ LEXICON N-Ib-ANGKY                                   ! stem-final vowel reductio
 %<n%>: CASES-ANIM ;
 
 
-LEXICON N-Ib-ANGKY                                   ! stem-final vowel deletion
+LEXICON N-Ic-AJKOL                                   ! stem-final vowel deletion
 
 @D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@%{·%} # ;
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+
+
+LEXICON N-Ic-EJNETKUNEN-ABS                          ! vowel deletion with n/ng alteration
+
+@D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@%{·%} # ;
+
+
+LEXICON N-Ic-EJNETKUNEN-OBL
+
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
 
