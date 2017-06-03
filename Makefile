@@ -9,8 +9,9 @@ all: ckt.rules.lexc ckt.twol ;
 	done
 	hfst-lexc ckt.lexc -o ckt.lexc.hfst ;
 	hfst-twolc ckt.twol -o ckt.twol.hfst ;
-	hfst-compose-intersect -1 ckt.lexc.hfst -2 ckt.twol.hfst -o ckt.hfst
-	hfst-fst2fst --format=optimized-lookup-weighted -i ckt.hfst -o ckt.hfstol
+	hfst-compose-intersect -1 ckt.lexc.hfst -2 ckt.twol.hfst -o ckt.gen.hfst
+	hfst-invert ckt.gen.hfst -o ckt.mor.hfst 
+	hfst-fst2fst --format=optimized-lookup-weighted -i ckt.mor.hfst -o ckt.mor.hfstol
 twolc: ckt.twol ; hfst-twolc ckt.twol -o ckt.twol.hfst
 lexc: ckt.lexc ; hfst-lexc ckt.lexc -o ckt.lexc.hfst
 final: ckt.lexc.hfst ckt.twol.hfst ;
