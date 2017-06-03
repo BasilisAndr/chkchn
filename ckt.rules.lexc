@@ -10,7 +10,7 @@ Multichar_Symbols
 %<pl%>                    ! Plural
 %<sg%>                    ! Singular
 
-%<anim%>                  ! Animates
+%<aa%>                  ! Animates
 
 %<def%>                   ! Definite
 
@@ -61,7 +61,8 @@ Adverbs ;
 Interjections ;
 Participles ;
 Conjunctions ;
-Particles ;
+Miscellaneous ;
+Punctuation ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -74,11 +75,11 @@ LEXICON Case-prefixes
 
 LEXICON CASES-ANIM
 
-@D.PREF@%<pl%>%<abs%>%<anim%>:@D.PREF@%>%{ы%}нти # ;
-@D.PREF@%<sg%>%<erg%>%<anim%>%<def%>:@D.PREF@%>%{ы%}нэ # ;
-@D.PREF@%<pl%>%<erg%>%<anim%>%<def%>:@D.PREF@%>%{ы%}рык # ;
-@D.PREF@%<all%>%<anim%>%<def%>:@D.PREF@%>%{ы%}на # ;
-@D.PREF@%<ess%>%<anim%>:@D.PREF@%>%{ы%}н # ;
+@D.PREF@%<pl%>%<abs%>%<aa%>:@D.PREF@%>%{ы%}нти # ;
+@D.PREF@%<sg%>%<erg%>%<aa%>%<def%>:@D.PREF@%>%{ы%}нэ # ;
+@D.PREF@%<pl%>%<erg%>%<aa%>%<def%>:@D.PREF@%>%{ы%}рык # ;
+@D.PREF@%<all%>%<aa%>%<def%>:@D.PREF@%>%{ы%}на # ;
+@D.PREF@%<ess%>%<aa%>:@D.PREF@%>%{ы%}н # ;
 
 
 
@@ -223,3 +224,33 @@ LEXICON PART
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Punctuation 
+
+%.%<sent%>:%. # ;
+%.%.%<sent%>:%.%. # ;
+%.%.%.%<sent%>:%.%.%. # ;
+…%<sent%>:… # ; 
+%;%<sent%>:%; # ;
+%:%<sent%>:%: # ;
+%!%<sent%>:%! # ;
+%-%-%<guio%>:%-%- # ;
+%-%<guio%>:%- # ;
+%−%<guio%>:%− # ; 
+%—%<guio%>:%— # ;
+%–%<guio%>:%– # ;
+,%<cm%>:, # ;
+%?%<sent%>:%? # ;
+%'%<apos%>:%' # ;
+%"%<quot%>:%" # ;
+%«%<lquot%>:%« # ;
+%»%<rquot%>:%» # ;
+%”%<rquot%>:%” # ;
+%“%<lquot%>:%“ # ;
+%(%<lpar%>:%( # ;
+%]%<rpar%>:%] # ;
+%[%<lpar%>:%[ # ;
+%)%<rpar%>:%) # ;
+%\%<sent%>:%\ # ;
+%/%<sent%>:%/ # ;
+
