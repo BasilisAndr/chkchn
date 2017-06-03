@@ -10,6 +10,7 @@ all: ckt.rules.lexc ckt.twol ;
 	hfst-lexc ckt.lexc -o ckt.lexc.hfst ;
 	hfst-twolc ckt.twol -o ckt.twol.hfst ;
 	hfst-compose-intersect -1 ckt.lexc.hfst -2 ckt.twol.hfst -o ckt.hfst
+	hfst-fst2fst --format=optimized-lookup-weighted -i ckt.hfst -o ckt.hfstol
 twolc: ckt.twol ; hfst-twolc ckt.twol -o ckt.twol.hfst
 lexc: ckt.lexc ; hfst-lexc ckt.lexc -o ckt.lexc.hfst
 final: ckt.lexc.hfst ckt.twol.hfst ;

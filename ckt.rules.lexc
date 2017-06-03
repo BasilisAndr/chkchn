@@ -57,6 +57,11 @@ LEXICON Root
 !Temp ;
 Case-prefixes ;
 Nouns ;
+Adverbs ;
+Interjections ;
+Participles ;
+Conjunctions ;
+Particles ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -198,34 +203,23 @@ LEXICON N-OBL
 
 
 
-! LEXICON N-III                                 ! n-absolutive
-! @D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@%>%{ы%}н # ;
-! %<n%>: CASES-OBL ;
+LEXICON ADV
+%<adv%>: # ;
 
-! LEXICON N-V                                   ! irregular; crazy-abs
-! @D.PREF@айва%<n%>%<sg%>%<abs%>:@D.PREF@аё # ;
-! %<n%>: CASES-OBL ;
+LEXICON INTJ
+%<ij%>: # ;
 
-! LEXICON N-Vb                                  ! irregular; в-oblique
-! @D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@ # ;
-! %<n%>:в CASES-OBL ;
+LEXICON PTCP
+%<ptcp%>: # ;
 
-! LEXICON N-Vby                                 ! irregular; в-oblique; ы-abs
-! @D.PREF@%<n%>%<sg%>%<abs%>:@D.PREF@ы # ;
-! %<n%>:в CASES-OBL ;
+LEXICON CONJ          ! ?
+%<cnjcoo%>: # ;
 
-
-
-! LEXICON N-SING
-! @D.PREF@%<n%>%<sing%>%<abs%>:@D.PREF@%>лгын%{⁺ⱽᴴ%} # ;
-! %<n%>: CASES-OBL ;
+LEXICON PART
+%<part%>: # ;
 
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! multichar
-! @P.PREF.meN@ @R.PREF.meN@
-! LEXICON Prefixes
-! < [ 0 .x. m e "ˆN" ] "@P.PREF.meN@" > Stems ;
-! LEXICON meN-kan
-! < [ "+meN-kan" .x. k a n ] "@R.PREF.meN@" > # ;
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!                          L E X I C O N                                  !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
