@@ -14,5 +14,5 @@
 test.sh is a hfst-pair-test for twolc<br />
 alltest.sh is a hfst-lookup for the lexc+twolc hfst<br />
 
-### Lexicon coverage
-Nominals = 0.77
+### Coverage
+47.3
