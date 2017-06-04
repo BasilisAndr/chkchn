@@ -66,8 +66,8 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
                 _ %{°%}:0 ;
                 _ %{·%}:0 ;
         where
-            Vx in ( у ю и %{Æ%} ы )
-            Vy in ( о ё э   а   я ) matched ;
+            Vx in ( у ю и %{Æ%} )
+            Vy in ( о ё э   а   ) matched ;
 
 
 "Vowel harmony for Æ (recessive)"
