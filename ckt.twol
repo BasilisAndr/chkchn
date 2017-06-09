@@ -43,6 +43,18 @@ Coronal = Т Н Й Ч Р                 ! there was л before but this is from 
 
 Glottal = ʼ Ъ Ь ъ ь ;
 
+Nasal = М Н Ӈ
+        м н ӈ ;
+
+Anterior = П Т С Ч М Н В
+           п т с ч м н в ;
+
+Alveolar = Т Н Р С Ч Ԓ Л
+           т н р с ч ԓ л ;
+
+Bilabial = П М В
+           п м в ;
+
 ! this is not actually a set that i'm going to use, just descriptive
 ! Archiphonemes = Æ ! this is the э that is recessive and may be turned to а
 !                T ! latin; erg & com т or 0
@@ -137,3 +149,17 @@ V:0 <=>  _ %{·%}:0 # ;
 V:0 <=>  _ %{°%}:0 # ;
         where
             V in Vow ;
+
+"N allomorph г"
+%{N%}:г <=> _ [ :Nasal & :Anterior ] ;
+      except
+            :г _ ;
+
+"N allomorph н"
+%{N%}:н <=> :г _ ;
+               _ [ :Alveolar - :Nasal | :й ] ;
+
+"N allomorph м"
+%{N%}:м <=> _ [ :Bilabial - :Nasal ];
+      except
+            :г _ ;
