@@ -9,7 +9,7 @@
 #CMD="cat corpa/en.crp.txt"
 CMD="cat ../corpora/ckt.crp.txt"
 
-F=/tmp/corpus-stat-res.txt
+F=../corpora/corpus-stat-res.txt
 
 # Calculate the number of tokenised words in the corpus:
 # for some reason putting the newline in directly doesn't work, so two seds
@@ -48,4 +48,3 @@ cat $F | grep '\*' | sort -f | uniq -c | sort -gr | head -10
 
 # Update hitparade
 cat $F | cut -f2 -d'^' | cut -f1 -d'/' | sort -f | uniq -c | sort -gr  > ../corpora/ckt.hitparade.txt
-
