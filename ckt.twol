@@ -6,8 +6,9 @@ Alphabet
  %{T%}:т %{T%}:0
 ! %{т%}:т %{т%}:0
 ! %{E%}:э %{t%}:а
-! %{N%}:ӈ %{N%}:г
+ %{N%}:ӈ %{N%}:г %{N%}:н %{N%}:м
  %{и%}:и %{и%}:э %{и%}:0
+ ! %{R%}:т  %{R%}:р
 
 ! %{к%}:к %{к%}:г
 ! %{e%}:э %{e%}:г
@@ -54,6 +55,9 @@ Alveolar = Т Н Р С Ч Ԓ Л
 
 Bilabial = П М В
            п м в ;
+
+Back = К Ӄ Ӈ Г
+       к ӄ ӈ г ;
 
 ! this is not actually a set that i'm going to use, just descriptive
 ! Archiphonemes = Æ ! this is the э that is recessive and may be turned to а
@@ -163,3 +167,42 @@ V:0 <=>  _ %{°%}:0 # ;
 %{N%}:м <=> _ [ :Bilabial - :Nasal ];
       except
             :г _ ;
+
+"п assimilation"
+п:м <=> _ :Nasal ;
+      except
+            _ [ : - >: ]* %{☭%}: ;
+
+"т assimilation"
+т:н <=> _ :Nasal ;
+      except
+            _ [ : - >: ]* %{☭%}: ;
+
+"R allophone t"             ! as archiphoneme or not?
+р:т <=> _ :Coronal ;
+      except
+            _ [ : - >: ]* %{☭%}: ;
+
+"k allophone q"
+к:ӄ <=> _ ӄ ;
+      except
+            _ [ : - >: ]* %{☭%}: ;
+
+! this dsnt work :(
+! "к allophone г"
+! к:г <=> _ [ :Cns - :Back ] ;
+!       except
+!             _ [ : - >: ]* %{☭%}: ;
+
+"й allophone г"
+й:г <=> _ :Coronal ;
+      except
+            _ [ : - >: ]* %{☭%}: ;
+
+! "Non-coronal cluster transformation"
+
+"гм -> ӈӈ first"
+г:ӈ <=> _ м: ;
+
+"гм -> ӈӈ second"
+м:ӈ <=> г: _ ;
