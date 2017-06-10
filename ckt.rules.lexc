@@ -4,6 +4,7 @@
 
 Multichar_Symbols
 %<n%>                     ! Noun
+%<prn%>                   ! Pronoun
 
 %<sing%>                  ! Singulative
 
@@ -63,6 +64,7 @@ Participles ;
 Conjunctions ;
 Miscellaneous ;
 Punctuation ;
+Pronouns ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -225,18 +227,18 @@ LEXICON PART
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON Punctuation 
+LEXICON Punctuation
 
 %.%<sent%>:%. # ;
 %.%.%<sent%>:%.%. # ;
 %.%.%.%<sent%>:%.%.%. # ;
-…%<sent%>:… # ; 
+…%<sent%>:… # ;
 %;%<sent%>:%; # ;
 %:%<sent%>:%: # ;
 %!%<sent%>:%! # ;
 %-%-%<guio%>:%-%- # ;
 %-%<guio%>:%- # ;
-%−%<guio%>:%− # ; 
+%−%<guio%>:%− # ;
 %—%<guio%>:%— # ;
 %–%<guio%>:%– # ;
 ,%<cm%>:, # ;
@@ -253,4 +255,3 @@ LEXICON Punctuation
 %)%<rpar%>:%) # ;
 %\%<sent%>:%\ # ;
 %/%<sent%>:%/ # ;
-

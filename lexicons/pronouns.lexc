@@ -1,0 +1,32 @@
+LEXICON Pronouns
+
+гымо:гымо PRN-PERS-SG-ABS ;
+! гымо:гым      ! 1sg
+гыто:гыто PRN-PERS-SG-ABS ;
+! гыто:гыт      ! 2sg
+ытԓён:ытԓён PRN-PERS-SG-ABS ; ! 3 sg
+! ытԓён:ын PRN-PERS-OBL ! 3sg
+! мури:мури PRN-ABS      ! 1pl
+! мури:мур(г)
+! тури:тур(г)   ! 2pl
+! ыччи:ычч      ! 3pl females
+! ытри:ырг      ! 3pl males
+
+меӈин:меӈин PRN-ABS ;     ! кто
+! меӈин:мик    ! кто
+рьенут:рьенут PRN-ABS ;     ! что
+! рьенут:реӄ   ! что
+ӄут:ӄоԓ PRN-ABS ;   ! один/другой
+! ӄут:ӄут CASES-OBL ;   ! один/другой
+
+
+LEXICON PRN-PERS-SG-ABS
+@D.PREF@%<prn%>%<abs%>:@D.PREF@ # ;
+
+
+LEXICON PRN-ABS
+@D.PREF@%<prn%>%<sg%>%<abs%>:@D.PREF@ # ;
+
+
+! obl-ep-case
+! 3sg.erg = ынан
