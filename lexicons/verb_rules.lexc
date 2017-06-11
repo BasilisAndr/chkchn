@@ -20,6 +20,11 @@ LEXICON V-TENSE-PREFIXES
 : Verbs ;
 
 
+LEXICON V-THEMATIC
+:%>гь%{э%} V ;
+: V ;
+
+
 LEXICON V
 %<v%>%<iv%>: V-IV ;
 ! %<v%>%<tv%>: V-TV ;
@@ -70,4 +75,4 @@ LEXICON V-IV-NEUT-INTN
 @R.SUBJ.s_3@%<s_sg3%>:@R.SUBJ.s_3@%>%{ы%}н # ;
 @R.SUBJ.s_pl1@%<s_pl1%>:@R.SUBJ.s_pl1@%>%{ы%}мык # ;
 @R.SUBJ.s_2@%<s_pl2%>:@R.SUBJ.s_2@%>%{ы%}тык # ;
-@R.SUBJ.s_3@%<s_pl3%>:@R.SUBJ.s_3@%>%{ы%}нет # ;
+@R.SUBJ.s_3@%<s_pl3%>:@R.SUBJ.s_3@%>%{ы%}нэт # ;
