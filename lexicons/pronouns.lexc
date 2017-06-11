@@ -21,11 +21,11 @@ LEXICON Pronouns
 
 
 LEXICON PRN-PERS-SG-ABS
-@D.PREF@%<prn%>%<abs%>:@D.PREF@ # ;
+@D.CASE@%<prn%>%<abs%>:@D.CASE@ # ;
 
 
 LEXICON PRN-ABS
-@D.PREF@%<prn%>%<sg%>%<abs%>:@D.PREF@ # ;
+@D.CASE@%<prn%>%<sg%>%<abs%>:@D.CASE@ # ;
 
 
 ! obl-ep-case
