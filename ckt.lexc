@@ -3463,7 +3463,7 @@ LEXICON V-IV-NEUT-AOR
 LEXICON V-IV-NEUT-FUT
 @R.SUBJ.s_sg1@%<s_sg1%>:@R.SUBJ.s_sg1@%>%{ы%}к # ;
 @R.SUBJ.s_pl1@%<s_pl1%>:@R.SUBJ.s_pl1@%>%{ы%}мык # ;
-%<s_sg2%>@D.SUBJ@:@D.SUBJ@ # ;
+@D.SUBJ@%<s_sg2%>:@D.SUBJ@ # ;
 @D.SUBJ@%<s_pl2%>:@D.SUBJ@%>%{ы%}нтык # ;
 @D.SUBJ@%<s_sg3%>:@D.SUBJ@ # ;
 @D.SUBJ@%<s_pl3%>:@D.SUBJ@%>%{ы%}ӈыт # ;
