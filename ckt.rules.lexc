@@ -72,6 +72,10 @@ Multichar_Symbols
 @D.CASE@
 @P.SUBJ.s_sg1@ @R.SUBJ.s_sg1@
 @P.SUBJ.s_pl1@ @R.SUBJ.s_pl1@
+@P.SUBJ.s_sg1_mood@ @R.SUBJ.s_sg1_mood@
+@P.SUBJ.s_pl1_mood@ @R.SUBJ.s_pl1_mood@
+@P.SUBJ.s_2@ @R.SUBJ.s_2@
+@P.SUBJ.s_3@ @R.SUBJ.s_3@
 @D.SUBJ@
 @P.TENSE.fut@ @R.TENSE.fut@
 @D.TENSE@

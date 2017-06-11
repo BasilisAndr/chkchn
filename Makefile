@@ -10,9 +10,14 @@ all: ckt.rules.lexc ckt.twol ;
 	hfst-lexc ckt.lexc -o ckt.lexc.hfst ;
 	hfst-twolc ckt.twol -o ckt.twol.hfst ;
 	hfst-compose-intersect -1 ckt.lexc.hfst -2 ckt.twol.hfst -o ckt.gen.hfst
-	hfst-invert ckt.gen.hfst -o ckt.mor.hfst 
+	hfst-invert ckt.gen.hfst -o ckt.mor.hfst
 	hfst-fst2fst --format=optimized-lookup-weighted -i ckt.mor.hfst -o ckt.mor.hfstol
 twolc: ckt.twol ; hfst-twolc ckt.twol -o ckt.twol.hfst
-lexc: ckt.lexc ; hfst-lexc ckt.lexc -o ckt.lexc.hfst
+lexc: ckt.rules.lexc ;
+	cat ckt.rules.lexc > ckt.lexc
+	for i in `ls lexicons/` ; do \
+	cat $(join "lexicons/", $$i) >> ckt.lexc ; \
+	done
+	hfst-lexc ckt.lexc -o ckt.lexc.hfst
 final: ckt.lexc.hfst ckt.twol.hfst ;
 	hfst-compose-intersect -1 ckt.lexc.hfst -2 ckt.twol.hfst -o ckt.hfst

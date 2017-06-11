@@ -9,7 +9,6 @@ Alphabet
  %{N%}:ӈ %{N%}:г %{N%}:н %{N%}:м
  %{и%}:и %{и%}:э %{и%}:0
  ! %{R%}:т  %{R%}:р
- %{э%}:0 %{э%}:э
 
 ! %{к%}:к %{к%}:г
 ! %{e%}:э %{e%}:г
@@ -104,7 +103,7 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
 V:0 <=> .#. _ %>: :Vow ;
         Cns _ %>: :Vow ;
         where
-            V in ( а %{Æ%} ) ;
+            V in Vow ;
 
 
 "Epenthesis"                        ! check if works for word-final
@@ -207,7 +206,3 @@ V:0 <=>  _ %{°%}:0 # ;
 
 "гм -> ӈӈ second"
 м:ӈ <=> г: _ ;
-
-
-"э in verbal thematic suffix"
-%{э%}:0 <=> _ %>: :Vow ;
