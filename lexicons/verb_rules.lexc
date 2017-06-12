@@ -26,8 +26,13 @@ LEXICON V-THEMATIC
 
 
 LEXICON V
+%<v%>%<inf%>: V-INF ;
 %<v%>%<iv%>: V-IV ;
 ! %<v%>%<tv%>: V-TV ;
+
+
+LEXICON V-INF
+@D.TENSE@@D.SUBJ@:@D.TENSE@@D.SUBJ@ык # ;
 
 
 !!!!!! Aspect & stative
