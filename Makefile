@@ -7,7 +7,7 @@ all: ckt.rules.lexc ckt.twol ;
 	for i in `ls lexicons/` ; do \
 	cat $(join "lexicons/", $$i) >> ckt.lexc ; \
 	done
-	hfst-lexc ckt.lexc -o ckt.lexc.hfst ;
+	hfst-lexc --Werror ckt.lexc -o ckt.lexc.hfst ;
 	hfst-twolc ckt.twol -o ckt.twol.hfst ;
 	hfst-compose-intersect -1 ckt.lexc.hfst -2 ckt.twol.hfst -o ckt.gen.hfst
 	hfst-invert ckt.gen.hfst -o ckt.mor.hfst
