@@ -78,7 +78,10 @@ Multichar_Symbols
 @P.SUBJ.s_3@ @R.SUBJ.s_3@
 @D.SUBJ@
 @P.TENSE.fut@ @R.TENSE.fut@
+@P.TENSE.cond@ @R.TENSE.cond@
 @D.TENSE@
+@U.ASPECT.neut@
+@U.ASPECT.prog@
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
