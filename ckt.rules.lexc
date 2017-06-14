@@ -13,11 +13,19 @@ Multichar_Symbols
 %<iv%>                    ! Intransitive
 %<tv%>                    ! Transitive
 
+%<stat%>                  ! Stative forms
+
 %<neut%>                  ! Neutral aspect
 %<prog%>                  ! Progressive aspect
 
 %<aor%>                   ! Non-future
 %<fut%>                   ! Future
+%<intn%>                  ! Intentional
+%<cond%>                  ! Conditional
+
+%<inf%>                   ! Infinitive
+%<perf%>                  ! Perfect
+%<hab%>                   ! Habitual
 
 %<s_sg1%>                 ! Subject, 1st person singular
 %<s_sg2%>                 ! Subject, 2nd person singular
@@ -80,8 +88,9 @@ Multichar_Symbols
 @P.TENSE.fut@ @R.TENSE.fut@
 @P.TENSE.cond@ @R.TENSE.cond@
 @D.TENSE@
-@U.ASPECT.neut@
-@U.ASPECT.prog@
+
+
+
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

@@ -14,6 +14,7 @@ Alphabet
 ! %{e%}:э %{e%}:г
  %{ы%}:ы %{ы%}:0
  %{G%}:й %{G%}:э %{G%}:г
+ %{I%}:и %{I%}:й
 
 ! %{ъ%}:ъ %{ъ%}:0
 
@@ -112,6 +113,8 @@ V:0 <=> .#. _ %>: :Vow ;
                 Cns ( %{☭%}: ) %>: _ Cns Cns ;
             Cns ( %{☭%}: ) ( %>: ) _ Cns .#. ;
      Vow Cns ( %{☭%}: ) %>: %{G%}: _ ;
+                  [ : - :Vow ] Cns _ %>: Cns ;
+                               Cns _ %>: Cns Cns ;
 
 
 "t insertion after vowel-final stems"
@@ -202,7 +205,10 @@ V:0 <=>  _ %{°%}:0 # ;
 ! "Non-coronal cluster transformation"
 
 "гм -> ӈӈ first"
-г:ӈ <=> _ м: ;
+г:ӈ <=> _ ( %{☭%}: ) ( %>: ) м: ;
 
 "гм -> ӈӈ second"
-м:ӈ <=> г: _ ;
+м:ӈ <=> г: ( %{☭%}: ) ( %>: ) _ ;
+
+"I to й in stative"
+%{I%}:й <=> Cns ( %{☭%}: ) %>: _ ;
