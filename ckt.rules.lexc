@@ -27,6 +27,10 @@ Multichar_Symbols
 %<perf%>                  ! Perfect
 %<hab%>                   ! Habitual
 
+%<gna_sim%>               ! Simultaneous converb
+%<gna_ant%>               ! Anterior temporal converb (temporal sequence)
+%<gna_res%>               ! Anterior temporal converb (consequence)
+
 %<s_sg1%>                 ! Subject, 1st person singular
 %<s_sg2%>                 ! Subject, 2nd person singular
 %<s_sg3%>                 ! Subject, 3rd person singular
@@ -78,12 +82,12 @@ Multichar_Symbols
 @P.CASE.assoc@ @R.CASE.assoc@
 @P.CASE.prv@ @R.CASE.prv@
 @D.CASE@
-@P.SUBJ.s_sg1@ @R.SUBJ.s_sg1@
-@P.SUBJ.s_pl1@ @R.SUBJ.s_pl1@
-@P.SUBJ.s_sg1_mood@ @R.SUBJ.s_sg1_mood@
-@P.SUBJ.s_pl1_mood@ @R.SUBJ.s_pl1_mood@
-@P.SUBJ.s_2@ @R.SUBJ.s_2@
-@P.SUBJ.s_3@ @R.SUBJ.s_3@
+@P.SUBJ.t@ @R.SUBJ.t@
+@P.SUBJ.myt@ @R.SUBJ.myt@
+@P.SUBJ.m@ @R.SUBJ.m@
+@P.SUBJ.myn@ @R.SUBJ.myn@
+@P.SUBJ.q@ @R.SUBJ.q@
+@P.SUBJ.n@ @R.SUBJ.n@
 @D.SUBJ@
 @P.TENSE.fut@ @R.TENSE.fut@
 @P.TENSE.cond@ @R.TENSE.cond@

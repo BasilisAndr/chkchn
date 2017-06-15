@@ -143,8 +143,9 @@ V:0 <=> .#. _ %>: :Vow ;
                 ( %{☭%}: ) %>: _ т ;               ! this line turns off Allative
 
 
-"{и} after non-coronals"
+"{и} in suffixes incl. after non-coronals "
 %{и%}:0 <=> [ :Cns - :Coronal ] ( %{☭%}: ) %>: %{ы%}: т _ ;
+                                               :Vow %>: _ ;
 
 
 "Stem-final vowel deletion"

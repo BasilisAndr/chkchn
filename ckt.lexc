@@ -27,6 +27,10 @@ Multichar_Symbols
 %<perf%>                  ! Perfect
 %<hab%>                   ! Habitual
 
+%<gna_sim%>               ! Simultaneous converb
+%<gna_ant%>               ! Anterior temporal converb (temporal sequence)
+%<gna_res%>               ! Anterior temporal converb (consequence)
+
 %<s_sg1%>                 ! Subject, 1st person singular
 %<s_sg2%>                 ! Subject, 2nd person singular
 %<s_sg3%>                 ! Subject, 3rd person singular
@@ -78,12 +82,12 @@ Multichar_Symbols
 @P.CASE.assoc@ @R.CASE.assoc@
 @P.CASE.prv@ @R.CASE.prv@
 @D.CASE@
-@P.SUBJ.s_sg1@ @R.SUBJ.s_sg1@
-@P.SUBJ.s_pl1@ @R.SUBJ.s_pl1@
-@P.SUBJ.s_sg1_mood@ @R.SUBJ.s_sg1_mood@
-@P.SUBJ.s_pl1_mood@ @R.SUBJ.s_pl1_mood@
-@P.SUBJ.s_2@ @R.SUBJ.s_2@
-@P.SUBJ.s_3@ @R.SUBJ.s_3@
+@P.SUBJ.t@ @R.SUBJ.t@
+@P.SUBJ.myt@ @R.SUBJ.myt@
+@P.SUBJ.m@ @R.SUBJ.m@
+@P.SUBJ.myn@ @R.SUBJ.myn@
+@P.SUBJ.q@ @R.SUBJ.q@
+@P.SUBJ.n@ @R.SUBJ.n@
 @D.SUBJ@
 @P.TENSE.fut@ @R.TENSE.fut@
 @P.TENSE.cond@ @R.TENSE.cond@
@@ -3415,12 +3419,12 @@ LEXICON PRN-ABS
 !!!!!! Subject/agent verbal prefixes
 
 LEXICON Verb-prefixes
-@P.SUBJ.s_sg1@:@P.SUBJ.s_sg1@т%{ы%}%> V-TENSE-PREFIXES ;
-@P.SUBJ.s_pl1@:@P.SUBJ.s_pl1@мыт%{ы%}%> V-TENSE-PREFIXES ;
-@P.SUBJ.s_sg1_mood@:@P.SUBJ.s_sg1_mood@м%{ы%}%> V-TENSE-PREFIXES ;
-@P.SUBJ.s_pl1_mood@:@P.SUBJ.s_pl1_mood@мын%{ы%}%> V-TENSE-PREFIXES ;
-@P.SUBJ.s_2@:@P.SUBJ.s_2@ӄ%{ы%}%> V-TENSE-PREFIXES ;
-@P.SUBJ.s_3@:@P.SUBJ.s_3@н%{ы%}%> V-TENSE-PREFIXES ;
+@P.SUBJ.t@:@P.SUBJ.t@т%{ы%}%> V-TENSE-PREFIXES ;
+@P.SUBJ.myt@:@P.SUBJ.myt@мыт%{ы%}%> V-TENSE-PREFIXES ;
+@P.SUBJ.m@:@P.SUBJ.m@м%{ы%}%> V-TENSE-PREFIXES ;
+@P.SUBJ.myn@:@P.SUBJ.myn@мын%{ы%}%> V-TENSE-PREFIXES ;
+@P.SUBJ.q@:@P.SUBJ.q@ӄ%{ы%}%> V-TENSE-PREFIXES ;
+@P.SUBJ.n@:@P.SUBJ.n@н%{ы%}%> V-TENSE-PREFIXES ;
 
 
 !!!!!! Tense prefixes (fut)
@@ -3442,7 +3446,7 @@ LEXICON V
 
 LEXICON V-IV
 : V-IV-ACTIVE ;
-@D.TENSE@@D.SUBJ@%<stat%>:@D.TENSE@@D.SUBJ@%<stat%> V-IV-STATIVE ;
+@D.TENSE@@D.SUBJ@%<stat%>:@D.TENSE@@D.SUBJ@ V-IV-STATIVE ;
 @D.TENSE@@D.SUBJ@:@D.TENSE@@D.SUBJ@ V-IV-NONFIN ;
 
 LEXICON V-IV-ACTIVE
@@ -3454,7 +3458,11 @@ LEXICON V-IV-STATIVE
 %<hab%>: V-IV-HABITUAL ;
 
 LEXICON V-IV-NONFIN
-%<inf%>:%{ы%}к # ;
+%<inf%>:%>%{ы%}к # ;
+%<gna_sim%>:%>%{ы%}ма # ;
+%<gna_ant%>:%>%{ы%}к # ;
+%<gna_res%>:%>%{и%}нэӈу # ;
+
 
 ! LEXICON V-TV
 
@@ -3500,89 +3508,89 @@ LEXICON V-IV-PROG
 !!!!!! Subject suffixes
 
 LEXICON V-IV-NEUT-AOR
-@R.SUBJ.s_sg1@%<s_sg1%>:@R.SUBJ.s_sg1@%>%{ы%}к # ;
-@R.SUBJ.s_pl1@%<s_pl1%>:@R.SUBJ.s_pl1@%>%{ы%}мык # ;
+@R.SUBJ.t@%<s_sg1%>:@R.SUBJ.t@%>%{ы%}к # ;
+@R.SUBJ.myt@%<s_pl1%>:@R.SUBJ.myt@%>%{ы%}мык # ;
 @D.SUBJ@%<s_sg2%>:@D.SUBJ@%>и # ;
 @D.SUBJ@%<s_pl2%>:@D.SUBJ@%>%{ы%}тык # ;
 @D.SUBJ@%<s_sg3%>:@D.SUBJ@%>и # ;
 @D.SUBJ@%<s_pl3%>:@D.SUBJ@%>%{ы%}т # ;
 ! +thematic suff
-@R.SUBJ.s_sg1@%<s_sg1%>:@R.SUBJ.s_sg1@%>%{ы%}гъэк # ;
+@R.SUBJ.t@%<s_sg1%>:@R.SUBJ.t@%>%{ы%}гъэк # ;
 @D.SUBJ@%<s_sg2%>:@D.SUBJ@%>%{ы%}гъи # ;
 @D.SUBJ@%<s_sg3%>:@D.SUBJ@%>%{ы%}гъи # ;
 @D.SUBJ@%<s_pl3%>:@D.SUBJ@%>%{ы%}гъэт # ;
 
 
 LEXICON V-IV-NEUT-FUT
-@R.SUBJ.s_sg1@%<s_sg1%>:@R.SUBJ.s_sg1@%>%{ы%}к # ;
-@R.SUBJ.s_pl1@%<s_pl1%>:@R.SUBJ.s_pl1@%>%{ы%}мык # ;
+@R.SUBJ.t@%<s_sg1%>:@R.SUBJ.t@%>%{ы%}к # ;
+@R.SUBJ.myt@%<s_pl1%>:@R.SUBJ.myt@%>%{ы%}мык # ;
 @D.SUBJ@%<s_sg2%>:@D.SUBJ@ # ;
 @D.SUBJ@%<s_pl2%>:@D.SUBJ@%>%{ы%}нтык # ;
 @D.SUBJ@%<s_sg3%>:@D.SUBJ@ # ;
 @D.SUBJ@%<s_pl3%>:@D.SUBJ@%>%{ы%}ӈыт # ;
 ! +thematic suff
-@R.SUBJ.s_sg1@%<s_sg1%>:@R.SUBJ.s_sg1@%>%{ы%}гъэ # ;
-@R.SUBJ.s_pl1@%<s_pl1%>:@R.SUBJ.s_pl1@%>%{ы%}гъэ # ;
+@R.SUBJ.t@%<s_sg1%>:@R.SUBJ.t@%>%{ы%}гъэ # ;
+@R.SUBJ.myt@%<s_pl1%>:@R.SUBJ.myt@%>%{ы%}гъэ # ;
 @D.SUBJ@%<s_sg2%>:@D.SUBJ@%>%{ы%}гъэ # ;
 @D.SUBJ@%<s_sg3%>:@D.SUBJ@%>%{ы%}гъэ # ;
 
 
 LEXICON V-IV-NEUT-INTN
-@R.SUBJ.s_sg1_mood@%<s_sg1%>:@R.SUBJ.s_sg1_mood@%>%{ы%}к # ;
-@R.SUBJ.s_pl1_mood@%<s_pl1%>:@R.SUBJ.s_pl1_mood@%>%{ы%}мык # ;
-@R.SUBJ.s_2@%<s_sg2%>:@R.SUBJ.s_2@%>%{ы%}ги # ;
-@R.SUBJ.s_2@%<s_pl2%>:@R.SUBJ.s_2@%>%{ы%}тык # ;
-@R.SUBJ.s_3@%<s_sg3%>:@R.SUBJ.s_3@%>%{ы%}н # ;
-@R.SUBJ.s_3@%<s_pl3%>:@R.SUBJ.s_3@%>%{ы%}нэт # ;
+@R.SUBJ.m@%<s_sg1%>:@R.SUBJ.m@%>%{ы%}к # ;
+@R.SUBJ.myn@%<s_pl1%>:@R.SUBJ.myn@%>%{ы%}мык # ;
+@R.SUBJ.q@%<s_sg2%>:@R.SUBJ.q@%>%{ы%}ги # ;
+@R.SUBJ.q@%<s_pl2%>:@R.SUBJ.q@%>%{ы%}тык # ;
+@R.SUBJ.n@%<s_sg3%>:@R.SUBJ.n@%>%{ы%}н # ;
+@R.SUBJ.n@%<s_pl3%>:@R.SUBJ.n@%>%{ы%}нэт # ;
 ! +thematic suff
-@R.SUBJ.s_sg1_mood@%<s_sg1%>:@R.SUBJ.s_sg1_mood@%>%{ы%}гъэк # ;
-@R.SUBJ.s_3@%<s_sg3%>:@R.SUBJ.s_3@%>%{ы%}гъэн # ;
+@R.SUBJ.m@%<s_sg1%>:@R.SUBJ.m@%>%{ы%}гъэк # ;
+@R.SUBJ.n@%<s_sg3%>:@R.SUBJ.n@%>%{ы%}гъэн # ;
 
 LEXICON V-IV-NEUT-COND
-@R.SUBJ.s_sg1_mood@%<s_sg1%>:@R.SUBJ.s_sg1_mood@%>%{ы%}к # ;
-@R.SUBJ.s_pl1_mood@%<s_pl1%>:@R.SUBJ.s_pl1_mood@%>%{ы%}мык # ;
-@R.SUBJ.s_3@%<s_sg2%>:@R.SUBJ.s_3@%>%{ы%}ги # ;
-@R.SUBJ.s_3@%<s_pl2%>:@R.SUBJ.s_3@%>%{ы%}тык # ;
-@R.SUBJ.s_3@%<s_sg3%>:@R.SUBJ.s_3@%>%{ы%}н # ;
-@R.SUBJ.s_3@%<s_pl3%>:@R.SUBJ.s_3@%>%{ы%}нэт # ;
+@R.SUBJ.m@%<s_sg1%>:@R.SUBJ.m@%>%{ы%}к # ;
+@R.SUBJ.myn@%<s_pl1%>:@R.SUBJ.myn@%>%{ы%}мык # ;
+@R.SUBJ.n@%<s_sg2%>:@R.SUBJ.n@%>%{ы%}ги # ;
+@R.SUBJ.n@%<s_pl2%>:@R.SUBJ.n@%>%{ы%}тык # ;
+@R.SUBJ.n@%<s_sg3%>:@R.SUBJ.n@%>%{ы%}н # ;
+@R.SUBJ.n@%<s_pl3%>:@R.SUBJ.n@%>%{ы%}нэт # ;
 ! +thematic suff
-@R.SUBJ.s_sg1_mood@%<s_sg1%>:@R.SUBJ.s_sg1_mood@%>%{ы%}гъэк # ;
-@R.SUBJ.s_3@%<s_sg3%>:@R.SUBJ.s_3@%>%{ы%}гъэн # ;
+@R.SUBJ.m@%<s_sg1%>:@R.SUBJ.m@%>%{ы%}гъэк # ;
+@R.SUBJ.n@%<s_sg3%>:@R.SUBJ.n@%>%{ы%}гъэн # ;
 
 
 !! Progressive
 
 LEXICON V-IV-PROG-AOR
-@R.SUBJ.s_sg1@%<s_sg1%>:@R.SUBJ.s_sg1@н # ;
-@R.SUBJ.s_pl1@%<s_pl1%>:@R.SUBJ.s_pl1@н # ;
+@R.SUBJ.t@%<s_sg1%>:@R.SUBJ.t@н # ;
+@R.SUBJ.myt@%<s_pl1%>:@R.SUBJ.myt@н # ;
 @D.SUBJ@%<s_sg2%>:@D.SUBJ@н # ;
 @D.SUBJ@%<s_pl2%>:@D.SUBJ@ни%>тык # ;
 @D.SUBJ@%<s_sg3%>:@D.SUBJ@н # ;
 @D.SUBJ@%<s_pl3%>:@D.SUBJ@т # ;
 
 LEXICON V-IV-PROG-FUT
-@R.SUBJ.s_sg1@%<s_sg1%>:@R.SUBJ.s_sg1@ # ;
-@R.SUBJ.s_pl1@%<s_pl1%>:@R.SUBJ.s_pl1@ # ;
+@R.SUBJ.t@%<s_sg1%>:@R.SUBJ.t@ # ;
+@R.SUBJ.myt@%<s_pl1%>:@R.SUBJ.myt@ # ;
 @D.SUBJ@%<s_sg2%>:@D.SUBJ@ # ;
 @D.SUBJ@%<s_pl2%>:@D.SUBJ@%>%{ы%}нтык # ;
 @D.SUBJ@%<s_sg3%>:@D.SUBJ@ # ;
 @D.SUBJ@%<s_pl3%>:@D.SUBJ@%>%{ы%}ӈыт # ;
 
 LEXICON V-IV-PROG-INTN
-@R.SUBJ.s_sg1_mood@%<s_sg1%>:@R.SUBJ.s_sg1_mood@н # ;
-@R.SUBJ.s_pl1_mood@%<s_pl1%>:@R.SUBJ.s_pl1_mood@н # ;
-@R.SUBJ.s_2@%<s_sg2%>:@R.SUBJ.s_2@н # ;
-@R.SUBJ.s_2@%<s_pl2%>:@R.SUBJ.s_2@ни%>тык # ;
-@R.SUBJ.s_3@%<s_sg3%>:@R.SUBJ.s_3@н # ;
-@R.SUBJ.s_3@%<s_pl3%>:@R.SUBJ.s_3@нэ%>%т # ;
+@R.SUBJ.m@%<s_sg1%>:@R.SUBJ.m@н # ;
+@R.SUBJ.myn@%<s_pl1%>:@R.SUBJ.myn@н # ;
+@R.SUBJ.q@%<s_sg2%>:@R.SUBJ.q@н # ;
+@R.SUBJ.q@%<s_pl2%>:@R.SUBJ.q@ни%>тык # ;
+@R.SUBJ.n@%<s_sg3%>:@R.SUBJ.n@н # ;
+@R.SUBJ.n@%<s_pl3%>:@R.SUBJ.n@нэ%>%т # ;
 
 LEXICON V-IV-PROG-COND
-@R.SUBJ.s_sg1_mood@%<s_sg1%>:@R.SUBJ.s_sg1_mood@н # ;
-@R.SUBJ.s_pl1_mood@%<s_pl1%>:@R.SUBJ.s_pl1_mood@н # ;
-@R.SUBJ.s_3@%<s_sg2%>:@R.SUBJ.s_3@н # ;
-@R.SUBJ.s_3@%<s_pl2%>:@R.SUBJ.s_3@ни%>тык # ;
-@R.SUBJ.s_3@%<s_sg3%>:@R.SUBJ.s_3@н # ;
-@R.SUBJ.s_3@%<s_pl3%>:@R.SUBJ.s_3@нэ%>%т # ;
+@R.SUBJ.m@%<s_sg1%>:@R.SUBJ.m@н # ;
+@R.SUBJ.myn@%<s_pl1%>:@R.SUBJ.myn@н # ;
+@R.SUBJ.n@%<s_sg2%>:@R.SUBJ.n@н # ;
+@R.SUBJ.n@%<s_pl2%>:@R.SUBJ.n@ни%>тык # ;
+@R.SUBJ.n@%<s_sg3%>:@R.SUBJ.n@н # ;
+@R.SUBJ.n@%<s_pl3%>:@R.SUBJ.n@нэ%>%т # ;
 
 LEXICON Verbs 
 
