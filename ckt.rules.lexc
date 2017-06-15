@@ -82,13 +82,15 @@ Multichar_Symbols
 @P.CASE.assoc@ @R.CASE.assoc@
 @P.CASE.prv@ @R.CASE.prv@
 @D.CASE@
-@P.SUBJ.t@ @R.SUBJ.t@
-@P.SUBJ.myt@ @R.SUBJ.myt@
-@P.SUBJ.m@ @R.SUBJ.m@
-@P.SUBJ.myn@ @R.SUBJ.myn@
-@P.SUBJ.q@ @R.SUBJ.q@
-@P.SUBJ.n@ @R.SUBJ.n@
-@D.SUBJ@
+@P.VPR.t@ @R.VPR.t@
+@P.VPR.myt@ @R.VPR.myt@
+@P.VPR.m@ @R.VPR.m@
+@P.VPR.myn@ @R.VPR.myn@
+@P.VPR.q@ @R.VPR.q@
+@P.VPR.n@ @R.VPR.n@
+@P.VPR.perf@ @R.VPR.perf@
+@P.VPR.hab@ @R.VPR.hab@
+@D.VPR@
 @P.TENSE.fut@ @R.TENSE.fut@
 @P.TENSE.cond@ @R.TENSE.cond@
 @D.TENSE@
