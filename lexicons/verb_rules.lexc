@@ -18,14 +18,14 @@ LEXICON Verb-prefixes
 @P.VPR.q@:@P.VPR.q@ӄ%{ы%}%> V-TENSE-PREFIXES ;
 @P.VPR.n@:@P.VPR.n@н%{ы%}%> V-TENSE-PREFIXES ;
 ! Stative prefixes
-@P.VPR.perf@:@P.VPR.perf@гэ%> Verbs ;
+@P.VPR.perf@:@P.VPR.perf@г%{Æ%}%> Verbs ;
 @P.VPR.hab@:@P.VPR.hab@н%{ы%}%> Verbs ;
 
 
 !!!!!! Tense prefixes (fut)
 
 LEXICON V-TENSE-PREFIXES
-@P.TENSE.fut@:@P.TENSE.fut@рэ%> Verbs ;
+@P.TENSE.fut@:@P.TENSE.fut@р%{Æ%}%> Verbs ;
 @P.TENSE.cond@:@P.TENSE.cond@ъ%{ы%}%> Verbs ;
 : Verbs ;
 
@@ -56,7 +56,7 @@ LEXICON V-IV-NONFIN
 %<inf%>:%>%{ы%}к # ;
 %<gna_sim%>:%>%{ы%}ма # ;
 %<gna_ant%>:%>%{ы%}к # ;
-%<gna_res%>:%>%{и%}нэӈу # ;
+%<gna_res%>:%>%{и%}н%{Æ%}ӈу # ;
 
 
 ! LEXICON V-TV
@@ -69,7 +69,7 @@ LEXICON V-IV-PERFECT
 %<s_sg2%>:%>%{I%}гыт # ;
 %<s_pl2%>:%>%{ы%}тури # ;
 %<s_sg3%>:%>%{ы%}лин # ;
-%<s_pl3%>:%>%{ы%}линэт # ;
+%<s_pl3%>:%>%{ы%}лин%{Æ%}т # ;
 
 LEXICON V-IV-HABITUAL
 %<s_sg1%>:%>%{I%}гым # ;
@@ -77,7 +77,7 @@ LEXICON V-IV-HABITUAL
 %<s_sg2%>:%>%{I%}гыт # ;
 %<s_pl2%>:%>%{ы%}тури # ;
 %<s_sg3%>:%>%{ы%}ӄин # ;
-%<s_pl3%>:%>%{ы%}ӄинэт # ;
+%<s_pl3%>:%>%{ы%}ӄин%{Æ%}т # ;
 
 
 !!! Active
@@ -110,10 +110,10 @@ LEXICON V-IV-NEUT-AOR
 @D.VPR@%<s_sg3%>:@D.VPR@%>и # ;
 @D.VPR@%<s_pl3%>:@D.VPR@%>%{ы%}т # ;
 ! +thematic suff
-@R.VPR.t@%<s_sg1%>:@R.VPR.t@%>%{ы%}гъэк # ;
+@R.VPR.t@%<s_sg1%>:@R.VPR.t@%>%{ы%}гъ%{Æ%}к # ;
 @D.VPR@%<s_sg2%>:@D.VPR@%>%{ы%}гъи # ;
 @D.VPR@%<s_sg3%>:@D.VPR@%>%{ы%}гъи # ;
-@D.VPR@%<s_pl3%>:@D.VPR@%>%{ы%}гъэт # ;
+@D.VPR@%<s_pl3%>:@D.VPR@%>%{ы%}гъ%{Æ%}т # ;
 
 
 LEXICON V-IV-NEUT-FUT
@@ -124,10 +124,10 @@ LEXICON V-IV-NEUT-FUT
 @D.VPR@%<s_sg3%>:@D.VPR@ # ;
 @D.VPR@%<s_pl3%>:@D.VPR@%>%{ы%}ӈыт # ;
 ! +thematic suff
-@R.VPR.t@%<s_sg1%>:@R.VPR.t@%>%{ы%}гъэ # ;
-@R.VPR.myt@%<s_pl1%>:@R.VPR.myt@%>%{ы%}гъэ # ;
-@D.VPR@%<s_sg2%>:@D.VPR@%>%{ы%}гъэ # ;
-@D.VPR@%<s_sg3%>:@D.VPR@%>%{ы%}гъэ # ;
+@R.VPR.t@%<s_sg1%>:@R.VPR.t@%>%{ы%}гъ%{Æ%} # ;
+@R.VPR.myt@%<s_pl1%>:@R.VPR.myt@%>%{ы%}гъ%{Æ%} # ;
+@D.VPR@%<s_sg2%>:@D.VPR@%>%{ы%}гъ%{Æ%} # ;
+@D.VPR@%<s_sg3%>:@D.VPR@%>%{ы%}гъ%{Æ%} # ;
 
 
 LEXICON V-IV-NEUT-INTN
@@ -136,10 +136,10 @@ LEXICON V-IV-NEUT-INTN
 @R.VPR.q@%<s_sg2%>:@R.VPR.q@%>%{ы%}ги # ;
 @R.VPR.q@%<s_pl2%>:@R.VPR.q@%>%{ы%}тык # ;
 @R.VPR.n@%<s_sg3%>:@R.VPR.n@%>%{ы%}н # ;
-@R.VPR.n@%<s_pl3%>:@R.VPR.n@%>%{ы%}нэт # ;
+@R.VPR.n@%<s_pl3%>:@R.VPR.n@%>%{ы%}н%{Æ%}т # ;
 ! +thematic suff
-@R.VPR.m@%<s_sg1%>:@R.VPR.m@%>%{ы%}гъэк # ;
-@R.VPR.n@%<s_sg3%>:@R.VPR.n@%>%{ы%}гъэн # ;
+@R.VPR.m@%<s_sg1%>:@R.VPR.m@%>%{ы%}гъ%{Æ%}к # ;
+@R.VPR.n@%<s_sg3%>:@R.VPR.n@%>%{ы%}гъ%{Æ%}н # ;
 
 LEXICON V-IV-NEUT-COND
 @R.VPR.m@%<s_sg1%>:@R.VPR.m@%>%{ы%}к # ;
@@ -147,10 +147,10 @@ LEXICON V-IV-NEUT-COND
 @R.VPR.n@%<s_sg2%>:@R.VPR.n@%>%{ы%}ги # ;
 @R.VPR.n@%<s_pl2%>:@R.VPR.n@%>%{ы%}тык # ;
 @R.VPR.n@%<s_sg3%>:@R.VPR.n@%>%{ы%}н # ;
-@R.VPR.n@%<s_pl3%>:@R.VPR.n@%>%{ы%}нэт # ;
+@R.VPR.n@%<s_pl3%>:@R.VPR.n@%>%{ы%}н%{Æ%}т # ;
 ! +thematic suff
-@R.VPR.m@%<s_sg1%>:@R.VPR.m@%>%{ы%}гъэк # ;
-@R.VPR.n@%<s_sg3%>:@R.VPR.n@%>%{ы%}гъэн # ;
+@R.VPR.m@%<s_sg1%>:@R.VPR.m@%>%{ы%}гъ%{Æ%}к # ;
+@R.VPR.n@%<s_sg3%>:@R.VPR.n@%>%{ы%}гъ%{Æ%}н # ;
 
 
 !! Progressive
@@ -177,7 +177,7 @@ LEXICON V-IV-PROG-INTN
 @R.VPR.q@%<s_sg2%>:@R.VPR.q@н # ;
 @R.VPR.q@%<s_pl2%>:@R.VPR.q@ни%>тык # ;
 @R.VPR.n@%<s_sg3%>:@R.VPR.n@н # ;
-@R.VPR.n@%<s_pl3%>:@R.VPR.n@нэ%>%т # ;
+@R.VPR.n@%<s_pl3%>:@R.VPR.n@н%{Æ%}%>%т # ;
 
 LEXICON V-IV-PROG-COND
 @R.VPR.m@%<s_sg1%>:@R.VPR.m@н # ;
@@ -185,4 +185,4 @@ LEXICON V-IV-PROG-COND
 @R.VPR.n@%<s_sg2%>:@R.VPR.n@н # ;
 @R.VPR.n@%<s_pl2%>:@R.VPR.n@ни%>тык # ;
 @R.VPR.n@%<s_sg3%>:@R.VPR.n@н # ;
-@R.VPR.n@%<s_pl3%>:@R.VPR.n@нэ%>%т # ;
+@R.VPR.n@%<s_pl3%>:@R.VPR.n@н%{Æ%}%>%т # ;
