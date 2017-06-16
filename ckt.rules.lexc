@@ -31,6 +31,33 @@ Multichar_Symbols
 %<gna_ant%>               ! Anterior temporal converb (temporal sequence)
 %<gna_res%>               ! Anterior temporal converb (consequence)
 
+%<approx%>                ! Approximative
+%<ints%>                  ! Intensifier
+%<ints2%>                 ! Intensifier 2
+%<ap%>                    ! Antipassive
+%<ap2%>                   ! Antipassive
+%<caus%>                  ! Causative
+%<punct%>                 ! Punctual
+%<dim%>
+%<aug%>
+%<res%>
+%<rev%>
+%<purp%>
+%<consume%>
+%<utilit%>
+%<vrblz%>                 ! Verb deriving suffix
+%<vrblz2%>                ! Verb deriving suffix 2
+%<desid%>                 ! Desiderative
+%<iter%>                  ! Iterative
+%<coll_s%>                ! Collective S
+%<coll_o%>                ! Collective O
+%<dur%>                   ! Durative
+%<inch%>                  ! Inchoative
+%<inch2%>                 ! Inchoative 2
+%<compl%>                 ! Completive
+
+
+
 %<s_sg1%>                 ! Subject, 1st person singular
 %<s_sg2%>                 ! Subject, 2nd person singular
 %<s_sg3%>                 ! Subject, 3rd person singular
@@ -94,7 +121,14 @@ Multichar_Symbols
 @P.TENSE.fut@ @R.TENSE.fut@
 @P.TENSE.cond@ @R.TENSE.cond@
 @D.TENSE@
-
+@P.VDER.approx@ @R.VDER.approx@ @D.VDER.approx@
+@P.VDER.ints@ @R.VDER.ints@ @D.VDER.ints@
+@P.VDER.ints2@ @R.VDER.ints2@ @D.VDER.ints2@
+@P.VDER.ap@ @R.VDER.ap@ @D.VDER.ap@
+@P.VDER.caus@ @R.VDER.caus@ @D.VDER.caus@
+@P.VDER.desid@ @R.VDER.desid@ @D.VDER.desid@
+@P.VDER.x@
+@D.VDER@
 
 
 
@@ -116,6 +150,7 @@ Miscellaneous ;
 Punctuation ;
 Pronouns ;
 Verb-prefixes ;
+Verb-deriv-prefixes ;
 Verbs ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

@@ -1,0 +1,65 @@
+! prefix tags
+@R.VDER.approx@%<approx%>:@R.VDER.approx@ V-IV-AFFIX ;
+@D.VDER.approx@:@D.VDER.approx@ V-DERIV-INTS ;
+
+LEXICON V-DERIV-INTS
+@R.VDER.ints@%<ints%>:@R.VDER.ints@ V-DERIV-INTS2 ;
+@D.VDER.ints@:@D.VDER.ints@ V-DERIV-INTS2 ;
+
+LEXICON V-DERIV-INTS2
+@R.VDER.ints2@%<ints2%>:@R.VDER.ints2@ V-DERIV-AP-PREF ;
+@D.VDER.ints2@:@D.VDER.ints2@ V-DERIV-AP-PREF ;
+
+LEXICON V-DERIV-AP-PREF
+@R.VDER.ap@%<ap%>:@R.VDER.ap@ V-DERIV-CAUS ;
+@D.VDER.ap@:@D.VDER.ap@ V-DERIV-CAUS ;
+
+LEXICON V-DERIV-CAUS
+@R.VDER.caus@%<caus%>:@R.VDER.caus@ V-DERIV-SUFF ;
+@D.VDER.caus@:@D.VDER.caus@ V-DERIV-SUFF ;
+
+LEXICON V-DERIV-SUFF
+! incompatible w/others (probably)
+%<punct%>:%>%{ы%}чӄыч%{Æ%}т V-DERIV-TH ;
+%<dim%>:%>%{ы%}ӄ%{Æ%}%{Æ%}т V-DERIV-TH ;
+%<aug%>:%>%{ы%}чгат V-DERIV-TH ;
+! attach right to the stem
+%<res%>:%>%{ы%}тва V-DERIV-TH ;
+%<rev%>:%>%{ы%}тв V-DERIV-TH ;
+%<purp%>:%>%{ы%}чӄив V-DERIV-TH ;
+%<consume%>:%>у V-DERIV-TH ;
+%<utilit%>:%>%{ы%}тку V-DERIV-TH ;
+: V-DERIV-TH ;
+
+LEXICON V-DERIV-TH
+%<vrblz%>:%>%{Æ%}т V-DERIV-AP ;
+%<vrblz2%>:%>%{Æ%}в V-DERIV-AP ;
+: V-DERIV-AP ;
+
+
+LEXICON V-DERIV-AP             ! Antipassive
+%<ap2%>:%>%{ы%}тку V-DERIV-DESID ;
+: V-DERIV-DESID ;
+
+LEXICON V-DERIV-DESID
+@R.VDER.desid@%<desid%>:@R.VDER.desid@%>ӈ V-DERIV-ITER ;
+@D.VDER.desid@:@D.VDER.desid@ V-DERIV-ITER ;
+
+LEXICON V-DERIV-ITER
+%<iter%>:%>%{ы%}тку V-DERIV-COLL ;
+: V-DERIV-COLL ;
+
+LEXICON V-DERIV-COLL
+%<coll_s%>:%>%{ы%}ръу V-DERIV-DUR ;
+%<coll_o%>:%>%{ы%}йв V-DERIV-DUR ;
+: V-DERIV-DUR ;
+
+LEXICON V-DERIV-DUR
+%<dur%>:%>%{ы%}лъ%{Æ%}т V-DERIV-INCH ;
+: V-DERIV-INCH ;
+
+LEXICON V-DERIV-INCH
+%<inch%>:%>%{ы%}мго V-IV-AFFIX ;
+%<inch2%>:%>%{ы%}ӈӈо V-IV-AFFIX ;
+%<compl%>:%>%{ы%}плытку V-IV-AFFIX ;
+: V-IV-AFFIX ;
