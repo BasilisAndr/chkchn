@@ -1,0 +1,2 @@
+hfst-fst2strings -X print-flags,obey-flags try.lexc.hfst
+cat alltest.test | hfst-lookup -X show-flags together.hfst
