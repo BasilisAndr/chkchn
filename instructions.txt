@@ -1,0 +1,57 @@
+- archiphonemes +
+- phonological rules +
+- symb-to-symb +
+- tags +
+- classes +
+
+
+- fix bugs +
+- test cases for each rule +
+- lexc +
+
+- lexc lexicon: слева должна быть лексема как в словаре +
+- sort lex-N into classes +/-
+
+
+- add high anim pl +
+- add false -lgyn to III +
+- add loan phonology +
+- compile lexicon +
+- stem-final vowel deletion & reduction to twol +
+- Ia re-check!!! +
+- rewrite N-VANGQASQOR in two lines +
+- lyng is sing +
+- определённость +
+- sing целиком или перенаправлять на третий класс? - целиком, потому что из исходных тегов не склеится
+- n-ng!!11 +
+- calculate coverage +
+
+- ' to ʼ +
+- л то ԓ +
+
+- and other lexicons from lexc.lexc +
+
+- write Fran +
+- answer Michael
+- make an issue on l +
+
+- add punctuation +
+
+- ԓ +
+
+- rewrite: add %{R%}:т _ Coronal :р elsewhere
+- N:г _ Nasal, anterior | :н г _ | :ng elsewhere +
+- change lexicon according to above
+- except loan phonology everywhere
+- fix twol so it dsnt fail tests
+- add pronouns
+- ask Michael about // - variants or not sure?
+- regular intransitive
+- account for allophony and shwas in root
+
+- изменение существительных по лицам
+
+- что делать с женскими вариантами
+- anim pl erg после н на что-то заканчивается но неизвестно на что
+- части речи через запятую
+- adjectives need person-number suffixes (16.3)
