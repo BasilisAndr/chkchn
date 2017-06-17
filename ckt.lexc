@@ -3488,24 +3488,24 @@ LEXICON V-TENSE-PREFIXES
 !!!!!! Derivational prefixes
 LEXICON V-DERIV
 ! incompatible w/others (probably)
-%<punct%>:%>%{ы%}чӄыч%{Æ%}т V-IV-AFFIX ;
-%<dim%>:%>%{ы%}ӄ%{Æ%}%{Æ%}т V-IV-AFFIX ;
-%<aug%>:%>%{ы%}чгат V-IV-AFFIX ;
-%<res%>:%>%{ы%}тва V-IV-AFFIX ;
-%<rev%>:%>%{ы%}тв V-IV-AFFIX ;
-%<purp%>:%>%{ы%}чӄив V-IV-AFFIX ;
-%<consume%>:%>у V-IV-AFFIX ;
-%<utilit%>:%>%{ы%}тку V-IV-AFFIX ;
-%<vrblz%>:%>%{Æ%}т V-IV-AFFIX ;
-%<vrblz2%>:%>%{Æ%}в V-IV-AFFIX ;
-%<ap2%>:%>%{ы%}тку V-IV-AFFIX ;
-%<iter%>:%>%{ы%}тку V-IV-AFFIX ;
-%<coll_s%>:%>%{ы%}ръу V-IV-AFFIX ;
-%<coll_o%>:%>%{ы%}йв V-IV-AFFIX ;
-%<dur%>:%>%{ы%}лъ%{Æ%}т V-IV-AFFIX ;
-%<inch%>:%>%{ы%}мго V-IV-AFFIX ;
-%<inch2%>:%>%{ы%}ӈӈо V-IV-AFFIX ;
-%<compl%>:%>%{ы%}плытку V-IV-AFFIX ;
+%<punct%>:%>%{ы%}чӄыч%{Æ%}т V-IV ;
+%<dim%>:%>%{ы%}ӄ%{Æ%}%{Æ%}т V-IV ;
+%<aug%>:%>%{ы%}чгат V-IV ;
+%<res%>:%>%{ы%}тва V-IV ;
+%<rev%>:%>%{ы%}тв V-IV ;
+%<purp%>:%>%{ы%}чӄив V-IV ;
+%<consume%>:%>у V-IV ;
+%<utilit%>:%>%{ы%}тку V-IV ;
+%<vrblz%>:%>%{Æ%}т V-IV ;
+%<vrblz2%>:%>%{Æ%}в V-IV ;
+%<ap2%>:%>%{ы%}тку V-IV ;
+%<iter%>:%>%{ы%}тку V-IV ;
+%<coll_s%>:%>%{ы%}ръу V-IV ;
+%<coll_o%>:%>%{ы%}йв V-IV ;
+%<dur%>:%>%{ы%}лъ%{Æ%}т V-IV ;
+%<inch%>:%>%{ы%}мго V-IV ;
+%<inch2%>:%>%{ы%}ӈӈо V-IV ;
+%<compl%>:%>%{ы%}плытку V-IV ;
 
 LEXICON V
 %<v%>%<iv%>: V-IV ;
