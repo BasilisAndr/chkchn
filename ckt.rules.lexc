@@ -96,6 +96,8 @@ Multichar_Symbols
 %{ы%}                     ! Epenthetic schwa: ы or 0
 %{и%}                     ! For plural: и or 0
 %{N%}                     ! allophones of ng
+%{R%}                     ! р or н
+%{I%}                     ! и or й in suffixes
 
 %{⁺ⱽᴴ%}                   ! Trigger for dominant harmony
 %{·%}                     ! Trigger for stem-final vowel deletion
