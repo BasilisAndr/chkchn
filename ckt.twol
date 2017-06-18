@@ -41,8 +41,8 @@ Cns   = Б В Г Д Ж З Й К Ӄ Л Ԓ М Н Ӈ П Р С Т Ф Х Ц Ч Ш Щ 
 Dominant = А О Я Ё
            а о я ё ;
 
-Coronal = Т Н Й Ч Р                 ! there was л before but this is from the grammar
-          т н й ч р ;
+Coronal = Т Н Й Ч Р Ԓ                ! there was л before but this is from the grammar
+          т н й ч р ԓ ;
 
 Glottal = ʼ Ъ Ь ъ ь ;
 
@@ -83,14 +83,54 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
                 _ :* \ %>: %{☭%}: ;
                 _ %{°%}:0 ;
                 _ %{·%}:0 ;
+    [ :ч | :ԓ ] _ ;
         where
             Vx in ( у ю и %{Æ%} )
             Vy in ( о ё э   а   ) matched ;
 
+!
+"Vowel harmony after ԓ"
+Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ԓ _ ;
+                                     :ԓ _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+       except
+           .#. _ %>: :Vow ;
+           Cns _ %>: :Vow ;
+               _ :* \ %>: %{☭%}: ;
+               _ %{°%}:0 ;
+               _ %{·%}:0 ;
+       where
+           Vx in ( у ю и %{Æ%} )
+           Vy in ( о ё е   я   ) matched ;
+
+!
+"Vowel harmony after ч"
+Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ч _ ;
+                                     :ч _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+       except
+           .#. _ %>: :Vow ;
+           Cns _ %>: :Vow ;
+               _ :* \ %>: %{☭%}: ;
+               _ %{°%}:0 ;
+               _ %{·%}:0 ;
+       where
+           Vx in ( у ю и %{Æ%} )
+           Vy in ( о ё е   а   ) matched ;
 
 "Vowel harmony for Æ (recessive)"
 ! Æ:э ю:ю п ы ч ь >:0 у:у
 %{Æ%}:э <=>  _ ;
+      except
+        [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
+                                   _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+                               .#. _ %>: :Vow ;
+                               Cns _ %>: :Vow ;
+                                   _ %{°%}:0 ;
+                                   _ %{·%}:0 ;
+                                   [ :ч | :ԓ ] _ ;
+
+!
+"Vowel harmony for Æ (recessive) after palatal"
+%{Æ%}:е <=> [ :ч | :ԓ ] _ ;
       except
         [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
                                    _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
@@ -114,12 +154,16 @@ V:0 <=> .#. _ %>: :Vow ;
                 Cns ( %{☭%}: ) %>: _ Cns Cns ;
             Cns ( %{☭%}: ) ( %>: ) _ Cns .#. ;
      Vow Cns ( %{☭%}: ) %>: %{G%}: _ ;
-                  [ : - :Vow ] Cns _ %>: [ Cns - :ъ ] ;
+                  [ : - :Vow ] Cns _ ( %>: ) [ Cns - :ъ ] ;
                                Cns _ %>: Cns Cns ;
+!                [ : - %{ы%}: ] ( %>: ) Cns _ ( %>: ) Cns ( %>: ) %{ы%}: ;
+!  [ : - :Vow] Cns ( %{☭%}: ) ( %>: ) _ ( %>: ) Cns ;
+!                Cns ( %{☭%}: ) ( %>: ) _ ( %>: ) Cns [ : - :Vow] ;
+
 
 !
 "Epenthesis for yot"
-! а й в а >:0 {ы}:0 к
+
 %{ы%}:ъ <=> [ Cns - :ԓ ] _ :Yot ;
       except
             Cns Cns ( %{☭%}: ) %>: _ Cns ;
@@ -128,6 +172,7 @@ V:0 <=> .#. _ %>: :Vow ;
      Vow Cns ( %{☭%}: ) %>: %{G%}: _ ;
                   [ : - :Vow ] Cns _ %>: [ Cns - :ъ ] ;
                                Cns _ %>: Cns Cns ;
+                           .#. Cns _ Cns ;
 
 
 "t insertion after vowel-final stems"
@@ -195,7 +240,7 @@ V:0 <=>  _ %{°%}:0 # ;
       except
             _ [ : - >: ]* %{☭%}: ;
 
-"R allophone t"             ! as archiphoneme or not?
+"р allophone t"             ! as archiphoneme or not?
 р:т <=> _ :Coronal ;
       except
             _ [ : - >: ]* %{☭%}: ;
