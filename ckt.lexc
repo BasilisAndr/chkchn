@@ -929,6 +929,8 @@ LEXICON Interjections
 тоок:тоок INTJ ;    ! ну
 тытэӈэтвэрин:тытэӈэтвэрин INTJ ;    ! выражение удивԓения и досады
 ынанкэн:ынанкэн INTJ ;    ! 1. что за диво! 2. вот он какой!
+ытлён:ытлён INTJ ;     ! эмфаза в вопросах
+ынан:ынан INTJ ;     ! эмфаза в будущем
 эви:эви INTJ ;    ! выражение сочувстсвия
 яге:яге INTJ ;    ! эй! (окрик издаԓи)
 
@@ -3420,13 +3422,13 @@ LEXICON Nouns
 тамэнӈысӄыёԓгын:тамэнӈысӄыёԓгы N-III-AVYNRAL ;    ! верстак
 
 
-LEXICON Pronouns
+!LEXICON Pronouns
 
-гымо:гымо PRN-PERS-SG-ABS ;
+! гымо:гымо PRN-PERS-SG-ABS ;
 ! гымо:гым      ! 1sg
-гыто:гыто PRN-PERS-SG-ABS ;
+! гыто:гыто PRN-PERS-SG-ABS ;
 ! гыто:гыт      ! 2sg
-ытԓён:ытԓён PRN-PERS-SG-ABS ; ! 3 sg
+! ытԓён:ытԓён PRN-PERS-SG-ABS ; ! 3 sg
 ! ытԓён:ын PRN-PERS-OBL ! 3sg
 ! мури:мури PRN-ABS      ! 1pl
 ! мури:мур(г)
@@ -3434,24 +3436,109 @@ LEXICON Pronouns
 ! ыччи:ычч      ! 3pl females
 ! ытри:ырг      ! 3pl males
 
-меӈин:меӈин PRN-ABS ;     ! кто
+! меӈин:меӈин PRN-ABS ;     ! кто
 ! меӈин:мик    ! кто
-рьенут:рьенут PRN-ABS ;     ! что
+! рьенут:рьенут PRN-ABS ;     ! что
 ! рьенут:реӄ   ! что
-ӄут:ӄоԓ PRN-ABS ;   ! один/другой
+! ӄут:ӄоԓ PRN-ABS ;   ! один/другой
 ! ӄут:ӄут CASES-OBL ;   ! один/другой
 
 
-LEXICON PRN-PERS-SG-ABS
-@D.CASE@%<prn%>%<abs%>:@D.CASE@ # ;
+! LEXICON PRN-PERS-SG-ABS
+! @D.CASE@%<prn%>%<abs%>:@D.CASE@ # ;
 
 
-LEXICON PRN-ABS
-@D.CASE@%<prn%>%<sg%>%<abs%>:@D.CASE@ # ;
+! LEXICON PRN-ABS
+! @D.CASE@%<prn%>%<sg%>%<abs%>:@D.CASE@ # ;
 
 
 ! obl-ep-case
 ! 3sg.erg = ынан
+
+
+LEXICON PRON-GYM
+
+%<prn%>%<pers%>%<p1%>%<sg%>%<abs%>: # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<erg%>:нан # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ык # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ыкы # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<all%>:ыкагты # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<equ%>:ыгмил # ;
+!%<prn%>%<pers%>%<p1%>%<sg%>%+инэ%<der%>%<subst%>:%>нин N-DERIV-SPACIAL ;
+
+LEXICON PRON-GYT
+
+%<prn%>%<pers%>%<p2%>%<sg%>%<abs%>:т # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<erg%>:тнан # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:тык # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:тыкы # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<all%>:тыкагты # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<equ%>:тыгмил # ;
+!%<prn%>%<pers%>%<p2%>%<sg%>%+инэ%<der%>%<subst%>:%>нин N-DERIV-SPACIAL ;
+
+LEXICON PRON-YTLJON
+
+%<prn%>%<pers%>%<p3%>%<sg%>%<abs%>:тԓён # ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:нык # ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ныкагты # ;
+
+LEXICON PRON-RXENUT-COMMON
+
+%<sg%>%<abs%>:ъэнут # ;
+%<sg%>%<erg%>:эӄэ # ;
+
+LEXICON PRON-RXENUT
+
+%<prn%>%<itg%>: PRON-RXENUT-COMMON ;
+
+LEXICON PRON-IMYRXENUT
+
+%<prn%>%<ind%>: PRON-RXENUT-COMMON ;
+
+LEXICON PRON-YNQEN
+
+%<prn%>%<dem%>%<sg%>%<abs%>: # ;
+
+LEXICON PRON-QOL-SG
+
+%<prn%>%<ind%>%<sg%>%<abs%>: # ;
+
+LEXICON PRON-QOL ! p.173 Inenlikei
+
+%<prn%>%<ind%>%<pl%>%<abs%>: # ;
+
+LEXICON PRON-CINIT
+
+%<prn%>%<ref%>: # ;
+
+LEXICON PRON                                 !! Generic pronoun [to be categorised]
+
+%<prn%>: # ;
+
+
+
+
+
+
+LEXICON Pronouns
+
+гым:гым PRON-GYM ;
+гыт:гы PRON-GYT ;
+гыт:гыы PRON-GYT ;  ! Dir/LR
+ытԓён:ы PRON-YTLJON ;
+
+ынӄэн:ынӄэн PRON-YNQEN ;
+
+ръэнут:р PRON-RXENUT ;
+
+имыръэнут:имыр PRON-IMYRXENUT ;
+
+ымыԓьо:ымыԓьо PRON ;     ! FIXME: To categorise
+
+ӄоԓ:ӄоԓ PRON-QOL-SG ;
+ӄоԓ:ӄутти PRON-QOL ;
+
+чинит:чинит PRON-CINIT ; ! "сам"
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!    Verbs    !!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
