@@ -150,10 +150,10 @@ V:0 <=> .#. _ %>: :Vow ;
 
 "Epenthesis"
 ! а й в а >:0 {ы}:0 к
-%{ы%}:ы <=> Cns Cns ( %{☭%}: ) %>: _ Cns ;
-                Cns ( %{☭%}: ) %>: _ Cns Cns ;
-            Cns ( %{☭%}: ) ( %>: ) _ Cns .#. ;
-     Vow Cns ( %{☭%}: ) %>: %{G%}: _ ;
+%{ы%}:ы <=> Cns Cns :0* %>: _ Cns ;
+                Cns :0* %>: _ Cns Cns ;
+                    Cns :0* _ Cns .#. ;
+     Vow Cns :0* %>: %{G%}: _ ;
                   [ : - :Vow ] Cns _ ( %>: ) [ Cns - :ъ ] ;
                                Cns _ %>: Cns Cns ;
 !                [ : - %{ы%}: ] ( %>: ) Cns _ ( %>: ) Cns ( %>: ) %{ы%}: ;
@@ -166,10 +166,10 @@ V:0 <=> .#. _ %>: :Vow ;
 
 %{ы%}:ъ <=> [ Cns - :ԓ ] _ :Yot ;
       except
-            Cns Cns ( %{☭%}: ) %>: _ Cns ;
-                Cns ( %{☭%}: ) %>: _ Cns Cns ;
-            Cns ( %{☭%}: ) ( %>: ) _ Cns .#. ;
-     Vow Cns ( %{☭%}: ) %>: %{G%}: _ ;
+            Cns Cns :0* %>: _ Cns ;
+                Cns :0* %>: _ Cns Cns ;
+                    Cns :0* _ Cns .#. ;
+     Vow Cns :0* %>: %{G%}: _ ;
                   [ : - :Vow ] Cns _ %>: [ Cns - :ъ ] ;
                                Cns _ %>: Cns Cns ;
                            .#. Cns _ Cns ;
