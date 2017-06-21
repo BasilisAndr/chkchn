@@ -64,9 +64,19 @@ LEXICON PRON-RXENUT-COMMON
 %<sg%>%<abs%>:ъэнут # ;
 %<sg%>%<erg%>:эӄэ # ;
 
-LEXICON PRON-RXENUT
 
-%<prn%>%<itg%>: PRON-RXENUT-COMMON ;
+LEXICON PRON-RXENUT-ABS
+
+@D.CASE@%<prn%>%<itg%>%<sg%>%<abs%>:@D.CASE@%{·%} # ;
+
+LEXICON PRON-RXENUT-OBL
+
+%<prn%>%<itg%>: CASES-OBL ;
+%<prn%>%<itg%>: CASES-ANIM ;
+
+! LEXICON PRON-RXENUT
+
+! %<prn%>%<itg%>: PRON-RXENUT-COMMON ;
 
 LEXICON PRON-IMYRXENUT
 
@@ -74,23 +84,33 @@ LEXICON PRON-IMYRXENUT
 
 LEXICON PRON-YNQEN
 
-%<prn%>%<dem%>%<sg%>%<abs%>: # ;
+! %<prn%>%<dem%>%<sg%>%<abs%>: # ;
+@D.CASE@%<prn%>%<dem%>%<sg%>%<abs%>:@D.CASE@%{·%} # ;
+%<prn%>%<dem%>: CASES-OBL ;
+%<prn%>%<dem%>: CASES-ANIM ;
+
+LEXICON PRON-YMYLJO
+%<prn%>%<quant%>%<sg%>: # ;
+%<prn%>%<quant%>: CASES-ANIM ;
+
 
 LEXICON PRON-QOL-SG
 
-%<prn%>%<ind%>%<sg%>%<abs%>: # ;
+%<prn%>%<quant%>%<sg%>%<abs%>: # ;
 
 LEXICON PRON-QOL ! p.173 Inenlikei
 
-%<prn%>%<ind%>%<pl%>%<abs%>: # ;
+! %<prn%>%<ind%>%<pl%>%<abs%>: # ;
+%<prn%>%<quant%>: CASES-OBL ;
+
 
 LEXICON PRON-CINIT
 
 %<prn%>%<ref%>: # ;
 
-LEXICON PRON                                 !! Generic pronoun [to be categorised]
+! LEXICON PRON                                 !! Generic pronoun [to be categorised]
 
-%<prn%>: # ;
+! %<prn%>: # ;
 
 
 
@@ -104,15 +124,27 @@ LEXICON Pronouns
 гыт:гыы PRON-GYT ;  ! Dir/LR
 ытԓён:ы PRON-YTLJON ;
 
-ынӄэн:ынӄэн PRON-YNQEN ;
+! ынӄэн:ынӄэн PRON-YNQEN ;
 
-ръэнут:р PRON-RXENUT ;
+! ръэнут:р PRON-RXENUT ;
 
 имыръэнут:имыр PRON-IMYRXENUT ;
 
-ымыԓьо:ымыԓьо PRON ;     ! FIXME: To categorise
+ымыԓьо:ымыԓьо PRON-YMYLJO ;     ! FIXME: To categorise
 
 ӄоԓ:ӄоԓ PRON-QOL-SG ;
-ӄоԓ:ӄутти PRON-QOL ;
+ӄоԓ:ӄут PRON-QOL ;
+
 
 чинит:чинит PRON-CINIT ; ! "сам"
+
+ӈотӄэн:ӈотӄэна PRON-YNQEN ;
+ӈанӄэн:ӈанӄэна PRON-YNQEN ;
+ӈаанӄэн:ӈаанӄэна PRON-YNQEN ;
+ӈоонӄэн:ӈоонӄэна PRON-YNQEN ;
+ынӄэн:ынӄэна PRON-YNQEN ;
+
+мэӈин:мэӈин%{Æ%} PRON-RXENUT-ABS ;     ! кто
+мэӈин:мик PRON-RXENUT-OBL ;   ! кто
+ръэнут:ръэнут%{Æ%} PRON-RXENUT-ABS ;     ! что
+ръэнут:рэӄ PRON-RXENUT-OBL ;  ! что
