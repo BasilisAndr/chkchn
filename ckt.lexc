@@ -92,6 +92,22 @@ Multichar_Symbols
 
 %<nmzr%>                  ! Nominalizer
 
+%<px1sg%>                 ! 1sg possessor
+%<px2sg%>                 ! 2sg possessor
+%<px3sg%>                 ! 3sg possessor
+%<px1pl%>                 ! 1pl possessor
+%<px2pl%>                 ! 2pl possessor
+%<px3pl%>                 ! 3pl possessor
+
+%<poss%>                  ! Possessor
+
+%<1sg%>                 ! 1sg possessed
+%<2sg%>                 ! 2sg possessed
+%<3sg%>                 ! 3sg possessed
+%<1pl%>                 ! 1pl possessed
+%<2pl%>                 ! 2pl possessed
+%<3pl%>                 ! 3pl possessed
+
 %<pers%>                  ! Personal pronoun
 %<itg%>                   ! Interrogative pronoun
 %<ind%>                   ! Indicative?
@@ -222,6 +238,7 @@ LEXICON N-Ia-AATGYR                                   ! bare stem
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
 %<n%>: N-DERIV-SUFF ;
+%<n%>: POSS ;
 
 
 LEXICON N-Ia-JYNYR-ABS                                ! bare stem with n/ng alteration
@@ -235,6 +252,7 @@ LEXICON N-Ib-ANGKY                                   ! stem-final vowel reductio
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
 %<n%>: N-DERIV-SUFF ;
+%<n%>: POSS ;
 
 
 LEXICON N-Ic-AJKOL                                   ! stem-final vowel deletion
@@ -243,6 +261,7 @@ LEXICON N-Ic-AJKOL                                   ! stem-final vowel deletion
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
 %<n%>: N-DERIV-SUFF ;
+%<n%>: POSS ;
 
 
 LEXICON N-Ic-EJNETKUNEN-ABS                          ! vowel deletion with n/ng alteration
@@ -266,6 +285,7 @@ LEXICON N-III-AVYNRAL                                   ! n absolutive
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
 %<n%>: N-DERIV-SUFF ;
+%<n%>: POSS ;
 
 
 LEXICON N-IV-ARAPA                                   ! ngy absolutive
@@ -274,6 +294,7 @@ LEXICON N-IV-ARAPA                                   ! ngy absolutive
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
 %<n%>: N-DERIV-SUFF ;
+%<n%>: POSS ;
 
 
 LEXICON N-IV-QORA-ABS                                ! qora-qaa
@@ -287,6 +308,7 @@ LEXICON N-Vv-AVEEN                                   ! irregular; в-oblique
 %<n%>:в CASES-OBL ;
 %<n%>:в CASES-ANIM ;
 %<n%>:в N-DERIV-SUFF ;
+%<n%>:в POSS ;
 
 
 LEXICON N-Vvy-AGNOTVAN                               ! irregular; в-oblique; ы-abs
@@ -295,6 +317,7 @@ LEXICON N-Vvy-AGNOTVAN                               ! irregular; в-oblique; ы
 %<n%>:в CASES-OBL ;
 %<n%>:в CASES-ANIM ;
 %<n%>:в N-DERIV-SUFF ;
+%<n%>:в POSS ;
 
 
 LEXICON N-SING-AJOPYCH                               ! lg singulative
@@ -302,6 +325,7 @@ LEXICON N-SING-AJOPYCH                               ! lg singulative
 @D.CASE@%<n%>%<sing%>%<abs%>:@D.CASE@%>%{ы%}ԓгын%{⁺ⱽᴴ%} # ;
 %<n%>: CASES-OBL ;
 %<n%>: N-DERIV-SUFF ;
+%<n%>: POSS ;
 
 
 LEXICON N-SING-EPEEPEG                               ! lyng singulative
@@ -309,6 +333,7 @@ LEXICON N-SING-EPEEPEG                               ! lyng singulative
 @D.CASE@%<n%>%<sing%>%<abs%>:@D.CASE@%>%{ы%}ԓыӈын%{⁺ⱽᴴ%} # ;
 %<n%>: CASES-OBL ;
 %<n%>: N-DERIV-SUFF ;
+%<n%>: POSS ;
 
 
 LEXICON N-VANGQASQOR-ABS
@@ -320,6 +345,7 @@ LEXICON N-OBL
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
 %<n%>: N-DERIV-SUFF ;
+%<n%>: POSS ;
 
 
 LEXICON N-DERIV-SUFF
@@ -334,7 +360,31 @@ LEXICON N-DERIV-SUFF
 %<nmzr%>:%>%{ы%}ӈэвыт N-DERIV-I ;
 %<nmzr%>:%>%{ы%}вйи N-DERIV-I ;
 
-!LEXICON N-POSS
+LEXICON POSS
+! different possessed, mark on the possessor
+%<poss%>%<1sg%>%<abs%>:%>ин%{Æ%}гым # ;
+%<poss%>%<2sg%>%<abs%>:%>ин%{Æ%}гыт # ;
+%<poss%>%<3sg%>%<abs%>:%>ин # ;
+%<poss%>%<1pl%>%<abs%>:%>ин%{Æ%}мури # ;
+%<poss%>%<2pl%>%<abs%>:%>ин%{Æ%}тури # ;
+%<poss%>%<3pl%>%<abs%>:%>ин%{Æ%}т%{и%} # ;
+%<pl%>%<poss%>%<1sg%>%<abs%>:%>%{ы%}ргин%{Æ%}гым # ;
+%<pl%>%<poss%>%<2sg%>%<abs%>:%>%{ы%}ргин%{Æ%}гыт # ;
+%<pl%>%<poss%>%<3sg%>%<abs%>:%>%{ы%}ргин # ;
+%<pl%>%<poss%>%<1pl%>%<abs%>:%>%{ы%}ргин%{Æ%}мури # ;
+%<pl%>%<poss%>%<2pl%>%<abs%>:%>%{ы%}ргин%{Æ%}тури # ;
+%<pl%>%<poss%>%<3pl%>%<abs%>:%>%{ы%}ргин%{Æ%}т%{и%} # ;
+
+! different possessors, mark on the possessed
+%<px1sg%>%<abs%>:%>%{ы%}гым # ;
+%<px2sg%>%<abs%>:%>%{ы%}гыт # ;
+%<px3sg%>%<abs%>:%>%{ы%}н # ;
+%<px1pl%>%<abs%>:%>%{ы%}мури # ;
+%<px2pl%>%<abs%>:%>%{ы%}тури # ;
+%<px3pl%>%<abs%>:%>%{ы%}т%{и%} # ;
+
+!LEXICON REL
+!%<rel%>:%>%{ы%}кин%{Æ%}
 
 
 
@@ -3563,6 +3613,7 @@ LEXICON PRON-PERS-CASES
 @R.CASE.com@%<com%>:@R.CASE.com@%>ык%>%{T%}%{Æ%} # ;
 @R.CASE.assoc@%<assoc%>:@R.CASE.assoc@%>ыг%>%{ы%}ма%{⁺ⱽᴴ%} # ;
 @R.CASE.prv@%<prv%>:@R.CASE.prv@%>ык%>%{ы%}к%{Æ%} # ;
+@D.CASE@:@D.CASE@ POSS ;
 
 
 LEXICON PRON-RXENUT-ABS
