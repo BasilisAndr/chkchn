@@ -15,4 +15,4 @@ test.sh is a hfst-pair-test for twolc<br />
 alltest.sh is a hfst-lookup for the lexc+twolc hfst<br />
 
 ### Coverage
-60.2%
+62%
