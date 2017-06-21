@@ -101,12 +101,21 @@ Multichar_Symbols
 
 %<poss%>                  ! Possessor
 
-%<1sg%>                 ! 1sg possessed
-%<2sg%>                 ! 2sg possessed
-%<3sg%>                 ! 3sg possessed
-%<1pl%>                 ! 1pl possessed
-%<2pl%>                 ! 2pl possessed
-%<3pl%>                 ! 3pl possessed
+%<1sg%>                   ! 1sg possessed
+%<2sg%>                   ! 2sg possessed
+%<3sg%>                   ! 3sg possessed
+%<1pl%>                   ! 1pl possessed
+%<2pl%>                   ! 2pl possessed
+%<3pl%>                   ! 3pl possessed
+
+%<top%>                   ! Spatial derivations
+%<side%>
+%<edge%>
+
+%<dim%>
+%<aug%>
+%<coll%>
+%<prtt%>                  ! Part of
 
 %<pers%>                  ! Personal pronoun
 %<itg%>                   ! Interrogative pronoun
@@ -223,6 +232,7 @@ LEXICON CASES-OBL                             !!
 @D.CASE@%<ine%>:@D.CASE@%>%{ы%}чыку # ;
 @D.CASE@%<per%>:@D.CASE@%>%{ы%}йэквэ%{⁺ⱽᴴ%} # ;
 @D.CASE@%<sub%>:@D.CASE@%>%{ы%}йиӈкы # ;
+@D.CASE@:@D.CASE@ POSS ;
 
 ! circumfixes
 @R.CASE.com@%<com%>:@R.CASE.com@%>%{T%}%{Æ%} # ;
@@ -238,7 +248,7 @@ LEXICON N-Ia-AATGYR                                   ! bare stem
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
 %<n%>: N-DERIV-SUFF ;
-%<n%>: POSS ;
+
 
 
 LEXICON N-Ia-JYNYR-ABS                                ! bare stem with n/ng alteration
@@ -252,7 +262,7 @@ LEXICON N-Ib-ANGKY                                   ! stem-final vowel reductio
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
 %<n%>: N-DERIV-SUFF ;
-%<n%>: POSS ;
+
 
 
 LEXICON N-Ic-AJKOL                                   ! stem-final vowel deletion
@@ -261,7 +271,7 @@ LEXICON N-Ic-AJKOL                                   ! stem-final vowel deletion
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
 %<n%>: N-DERIV-SUFF ;
-%<n%>: POSS ;
+
 
 
 LEXICON N-Ic-EJNETKUNEN-ABS                          ! vowel deletion with n/ng alteration
@@ -285,7 +295,7 @@ LEXICON N-III-AVYNRAL                                   ! n absolutive
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
 %<n%>: N-DERIV-SUFF ;
-%<n%>: POSS ;
+
 
 
 LEXICON N-IV-ARAPA                                   ! ngy absolutive
@@ -294,7 +304,7 @@ LEXICON N-IV-ARAPA                                   ! ngy absolutive
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
 %<n%>: N-DERIV-SUFF ;
-%<n%>: POSS ;
+
 
 
 LEXICON N-IV-QORA-ABS                                ! qora-qaa
@@ -325,7 +335,7 @@ LEXICON N-SING-AJOPYCH                               ! lg singulative
 @D.CASE@%<n%>%<sing%>%<abs%>:@D.CASE@%>%{ы%}ԓгын%{⁺ⱽᴴ%} # ;
 %<n%>: CASES-OBL ;
 %<n%>: N-DERIV-SUFF ;
-%<n%>: POSS ;
+
 
 
 LEXICON N-SING-EPEEPEG                               ! lyng singulative
@@ -333,7 +343,7 @@ LEXICON N-SING-EPEEPEG                               ! lyng singulative
 @D.CASE@%<n%>%<sing%>%<abs%>:@D.CASE@%>%{ы%}ԓыӈын%{⁺ⱽᴴ%} # ;
 %<n%>: CASES-OBL ;
 %<n%>: N-DERIV-SUFF ;
-%<n%>: POSS ;
+
 
 
 LEXICON N-VANGQASQOR-ABS
@@ -345,7 +355,7 @@ LEXICON N-OBL
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
 %<n%>: N-DERIV-SUFF ;
-%<n%>: POSS ;
+
 
 
 LEXICON N-DERIV-SUFF
@@ -359,6 +369,20 @@ LEXICON N-DERIV-SUFF
 %<nmzr%>:%>%{ы%}йоԓг N-DERIV-III ;
 %<nmzr%>:%>%{ы%}ӈэвыт N-DERIV-I ;
 %<nmzr%>:%>%{ы%}вйи N-DERIV-I ;
+%<top%>:%>%{ы%}ткын%{⁺ⱽᴴ%} N-DERIV-I ;
+%<side%>:%>%{ы%}ӈӄача N-DERIV-Ic ;
+%<edge%>:%>%{ы%}ԓг N-DERIV-III ;
+%<side%>:%>%{ы%}чурм N-DERIV-III ;
+%<dim%>:%>%{ы%}ӄ%{Æ%}й # ;
+%<dim%>:%>%{ы%}ӄ%{Æ%}й N-DERIV-I ;
+%<aug%>:%>%{ы%}ч%{ы%}ӈ N-DERIV-I ;
+%<aug%>:%>%{ы%}йӈ N-DERIV-I ;
+%<coll%>:%>%{ы%}мк N-DERIV-I ;
+%<coll%>:%>%{ы%}гинив N-DERIV-I ;
+%<prtt%>:%>%{ы%}тъул N-DERIV-I ;
+
+
+
 
 LEXICON POSS
 ! different possessed, mark on the possessor
@@ -388,15 +412,22 @@ LEXICON POSS
 
 
 
+LEXICON N-DERIV-I
+@D.CASE@%<sg%>%<abs%>:@D.CASE@ # ;
+: CASES-OBL ;
+: CASES-ANIM ;
+
+LEXICON N-DERIV-Ic
+@D.CASE@%<sg%>%<abs%>:@D.CASE@{·%} # ;
+: CASES-OBL ;
+: CASES-ANIM ;
+
 LEXICON N-DERIV-III
 @D.CASE@%<sg%>%<abs%>:@D.CASE@%>ын # ;
 : CASES-OBL ;
 : CASES-ANIM ;
 
-LEXICON N-DERIV-I
-@D.CASE@%<sg%>%<abs%>:@D.CASE@ # ;
-: CASES-OBL ;
-: CASES-ANIM ;
+
 
 LEXICON ADV
 %<adv%>: # ;
@@ -3528,6 +3559,8 @@ LEXICON Nouns
 таԓяёԓгын:таԓяёԓгы N-III-AVYNRAL ;    ! наковальня
 тамэнӈысӄыёԓгын:тамэнӈысӄыёԓгы N-III-AVYNRAL ;    ! верстак
 
+рэмкын:рэмк N-III-AVYNRAL ;
+яраӈы:яра N-IV-ARAPA ;
 
 !LEXICON Pronouns
 
