@@ -41,7 +41,7 @@ Cns   = Б В Г Д Ж З Й К Ӄ Л Ԓ М Н Ӈ П Р С Т Ф Х Ц Ч Ш Щ 
 Dominant = А О Я Ё
            а о я ё ;
 
-Coronal = Т Н Й Ч Р Ԓ                ! there was л before but this is from the grammar
+Coronal = Т Н Й Ч Р Ԓ
           т н й ч р ԓ ;
 
 Glottal = ʼ Ъ Ь ъ ь ;
@@ -257,7 +257,9 @@ V:0 <=>  _ %{°%}:0 # ;
 !             _ [ : - >: ]* %{☭%}: ;
 
 "k allophone q"
-ӄ:0 <=> _ ( %>: ) Cns ;
+ӄ:0 <=> _ ( %>: ) [ Cns - :ӄ ] ;
+      except
+            .#. _ ;
 
 
 "й allophone г"

@@ -90,6 +90,15 @@ Multichar_Symbols
 %<assoc%>                 ! Associative
 %<prv%>                   ! Privative
 
+%<pers%>                  ! Personal pronoun
+%<itg%>                   ! Interrogative pronoun
+%<ind%>                   ! Indicative?
+%<dem%>                   ! Demonstrative pronoun
+%<quant%>                 ! Quantifier pronoun
+%<p2%>                    ! First person
+%<p2%>                    ! Second person
+%<p3%>                    ! Third person
+
 %{Æ%}                     ! э or а
 %{T%}                     ! latin; erg & com т ot 0
 %{G%}                     ! all & abl; г/й/э
@@ -159,18 +168,28 @@ Verbs ;
 
 LEXICON Case-prefixes
 
-@P.CASE.com@:@P.CASE.com@г%{Æ%}%> Nouns ;
-@P.CASE.assoc@:@P.CASE.assoc@га%> Nouns ;
-@P.CASE.prv@:@P.CASE.prv@%{Æ%}%> Nouns ;
+@P.CASE.com@:@P.CASE.com@г%{Æ%}%> NOMINALS ;
+@P.CASE.assoc@:@P.CASE.assoc@га%> NOMINALS ;
+@P.CASE.prv@:@P.CASE.prv@%{Æ%}%> NOMINALS ;
+
+
+LEXICON NOMINALS
+: Nouns ;
+: Pronouns ;
 
 
 LEXICON CASES-ANIM
 
-@D.CASE@%<pl%>%<abs%>%<aa%>:@D.CASE@%>%{ы%}нти # ;
-@D.CASE@%<sg%>%<erg%>%<aa%>%<def%>:@D.CASE@%>%{ы%}нэ # ;
-@D.CASE@%<pl%>%<erg%>%<aa%>%<def%>:@D.CASE@%>%{ы%}рык # ;
-@D.CASE@%<all%>%<aa%>%<def%>:@D.CASE@%>%{ы%}на # ;
-@D.CASE@%<ess%>%<aa%>:@D.CASE@%>%{ы%}н # ;
+@D.CASE@%<aa%>%<pl%>%<abs%>:@D.CASE@%>%{ы%}нти # ;
+@D.CASE@%<aa%>%<sg%>%<erg%>%<def%>:@D.CASE@%>%{ы%}н%{Æ%} # ;
+@D.CASE@%<aa%>%<pl%>%<erg%>%<def%>:@D.CASE@%>%{ы%}рык # ;
+@D.CASE@%<aa%>%<sg%>%<loc%>%<def%>:@D.CASE@%>%{ы%}н%{Æ%} # ;
+@D.CASE@%<aa%>%<pl%>%<loc%>%<def%>:@D.CASE@%>%{ы%}рык # ;
+@D.CASE@%<aa%>%<pl%>%<all%>%<def%>:@D.CASE@%>%{ы%}рыкы%{⁺ⱽᴴ%} # ;
+@D.CASE@%<aa%>%<all%>%<def%>:@D.CASE@%>%{ы%}на # ;
+@D.CASE@%<aa%>%<ess%>:@D.CASE@%>%{ы%}н # ;
+%<aa%>:%>%{ы%}р CASES-OBL ;
+
 
 
 
@@ -929,7 +948,6 @@ LEXICON Interjections
 тоок:тоок INTJ ;    ! ну
 тытэӈэтвэрин:тытэӈэтвэрин INTJ ;    ! выражение удивԓения и досады
 ынанкэн:ынанкэн INTJ ;    ! 1. что за диво! 2. вот он какой!
-ытлён:ытлён INTJ ;     ! эмфаза в вопросах
 ынан:ынан INTJ ;     ! эмфаза в будущем
 эви:эви INTJ ;    ! выражение сочувстсвия
 яге:яге INTJ ;    ! эй! (окрик издаԓи)
@@ -3487,9 +3505,19 @@ LEXICON PRON-RXENUT-COMMON
 %<sg%>%<abs%>:ъэнут # ;
 %<sg%>%<erg%>:эӄэ # ;
 
-LEXICON PRON-RXENUT
 
-%<prn%>%<itg%>: PRON-RXENUT-COMMON ;
+LEXICON PRON-RXENUT-ABS
+
+@D.CASE@%<prn%>%<itg%>%<sg%>%<abs%>:@D.CASE@%{·%} # ;
+
+LEXICON PRON-RXENUT-OBL
+
+%<prn%>%<itg%>: CASES-OBL ;
+%<prn%>%<itg%>: CASES-ANIM ;
+
+! LEXICON PRON-RXENUT
+
+! %<prn%>%<itg%>: PRON-RXENUT-COMMON ;
 
 LEXICON PRON-IMYRXENUT
 
@@ -3497,23 +3525,33 @@ LEXICON PRON-IMYRXENUT
 
 LEXICON PRON-YNQEN
 
-%<prn%>%<dem%>%<sg%>%<abs%>: # ;
+! %<prn%>%<dem%>%<sg%>%<abs%>: # ;
+@D.CASE@%<prn%>%<dem%>%<sg%>%<abs%>:@D.CASE@%{·%} # ;
+%<prn%>%<dem%>: CASES-OBL ;
+%<prn%>%<dem%>: CASES-ANIM ;
+
+LEXICON PRON-YMYLJO
+%<prn%>%<quant%>%<sg%>: # ;
+%<prn%>%<quant%>: CASES-ANIM ;
+
 
 LEXICON PRON-QOL-SG
 
-%<prn%>%<ind%>%<sg%>%<abs%>: # ;
+%<prn%>%<quant%>%<sg%>%<abs%>: # ;
 
 LEXICON PRON-QOL ! p.173 Inenlikei
 
-%<prn%>%<ind%>%<pl%>%<abs%>: # ;
+! %<prn%>%<ind%>%<pl%>%<abs%>: # ;
+%<prn%>%<quant%>: CASES-OBL ;
+
 
 LEXICON PRON-CINIT
 
 %<prn%>%<ref%>: # ;
 
-LEXICON PRON                                 !! Generic pronoun [to be categorised]
+! LEXICON PRON                                 !! Generic pronoun [to be categorised]
 
-%<prn%>: # ;
+! %<prn%>: # ;
 
 
 
@@ -3527,18 +3565,30 @@ LEXICON Pronouns
 гыт:гыы PRON-GYT ;  ! Dir/LR
 ытԓён:ы PRON-YTLJON ;
 
-ынӄэн:ынӄэн PRON-YNQEN ;
+! ынӄэн:ынӄэн PRON-YNQEN ;
 
-ръэнут:р PRON-RXENUT ;
+! ръэнут:р PRON-RXENUT ;
 
 имыръэнут:имыр PRON-IMYRXENUT ;
 
-ымыԓьо:ымыԓьо PRON ;     ! FIXME: To categorise
+ымыԓьо:ымыԓьо PRON-YMYLJO ;     ! FIXME: To categorise
 
 ӄоԓ:ӄоԓ PRON-QOL-SG ;
-ӄоԓ:ӄутти PRON-QOL ;
+ӄоԓ:ӄут PRON-QOL ;
+
 
 чинит:чинит PRON-CINIT ; ! "сам"
+
+ӈотӄэн:ӈотӄэна PRON-YNQEN ;
+ӈанӄэн:ӈанӄэна PRON-YNQEN ;
+ӈаанӄэн:ӈаанӄэна PRON-YNQEN ;
+ӈоонӄэн:ӈоонӄэна PRON-YNQEN ;
+ынӄэн:ынӄэна PRON-YNQEN ;
+
+мэӈин:мэӈин%{Æ%} PRON-RXENUT-ABS ;     ! кто
+мэӈин:мик PRON-RXENUT-OBL ;   ! кто
+ръэнут:ръэнут%{Æ%} PRON-RXENUT-ABS ;     ! что
+ръэнут:рэӄ PRON-RXENUT-OBL ;  ! что
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!    Verbs    !!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
