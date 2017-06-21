@@ -90,6 +90,8 @@ Multichar_Symbols
 %<assoc%>                 ! Associative
 %<prv%>                   ! Privative
 
+%<nmzr%>                  ! Nominalizer
+
 %<pers%>                  ! Personal pronoun
 %<itg%>                   ! Interrogative pronoun
 %<ind%>                   ! Indicative?
@@ -212,8 +214,6 @@ LEXICON CASES-OBL                             !!
 @R.CASE.prv@%<prv%>:@R.CASE.prv@%>%{ы%}к%{Æ%} # ;
 
 
-! LEXICON SING
-! %<sing%>:%>%{л%}гы%{н%}%{⁺ⱽᴴ%} # ;
 
 
 LEXICON N-Ia-AATGYR                                   ! bare stem
@@ -221,6 +221,7 @@ LEXICON N-Ia-AATGYR                                   ! bare stem
 @D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ # ;
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
 
 
 LEXICON N-Ia-JYNYR-ABS                                ! bare stem with n/ng alteration
@@ -233,6 +234,7 @@ LEXICON N-Ib-ANGKY                                   ! stem-final vowel reductio
 @D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%{°%} # ;
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
 
 
 LEXICON N-Ic-AJKOL                                   ! stem-final vowel deletion
@@ -240,6 +242,7 @@ LEXICON N-Ic-AJKOL                                   ! stem-final vowel deletion
 @D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%{·%} # ;
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
 
 
 LEXICON N-Ic-EJNETKUNEN-ABS                          ! vowel deletion with n/ng alteration
@@ -262,6 +265,7 @@ LEXICON N-III-AVYNRAL                                   ! n absolutive
 @D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%>%{ы%}н # ;
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
 
 
 LEXICON N-IV-ARAPA                                   ! ngy absolutive
@@ -269,6 +273,7 @@ LEXICON N-IV-ARAPA                                   ! ngy absolutive
 @D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%>%{ы%}ӈы # ;
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
 
 
 LEXICON N-IV-QORA-ABS                                ! qora-qaa
@@ -281,6 +286,7 @@ LEXICON N-Vv-AVEEN                                   ! irregular; в-oblique
 @D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ # ;
 %<n%>:в CASES-OBL ;
 %<n%>:в CASES-ANIM ;
+%<n%>:в N-DERIV-SUFF ;
 
 
 LEXICON N-Vvy-AGNOTVAN                               ! irregular; в-oblique; ы-abs
@@ -288,18 +294,21 @@ LEXICON N-Vvy-AGNOTVAN                               ! irregular; в-oblique; ы
 @D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ы # ;
 %<n%>:в CASES-OBL ;
 %<n%>:в CASES-ANIM ;
+%<n%>:в N-DERIV-SUFF ;
 
 
 LEXICON N-SING-AJOPYCH                               ! lg singulative
 
-@D.CASE@%<n%>%<sing%>%<abs%>:@D.CASE@%>%{ы%}лгын%{⁺ⱽᴴ%} # ;
+@D.CASE@%<n%>%<sing%>%<abs%>:@D.CASE@%>%{ы%}ԓгын%{⁺ⱽᴴ%} # ;
 %<n%>: CASES-OBL ;
+%<n%>: N-DERIV-SUFF ;
 
 
 LEXICON N-SING-EPEEPEG                               ! lyng singulative
 
-@D.CASE@%<n%>%<sing%>%<abs%>:@D.CASE@%>%{ы%}лыӈын%{⁺ⱽᴴ%} # ;
+@D.CASE@%<n%>%<sing%>%<abs%>:@D.CASE@%>%{ы%}ԓыӈын%{⁺ⱽᴴ%} # ;
 %<n%>: CASES-OBL ;
+%<n%>: N-DERIV-SUFF ;
 
 
 LEXICON N-VANGQASQOR-ABS
@@ -310,9 +319,34 @@ LEXICON N-VANGQASQOR-ABS
 LEXICON N-OBL
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
+
+
+LEXICON N-DERIV-SUFF
+! these form nouns from verbs
+! %<ptcp%>%<act%>:ԓъ -%> nmzr also
+! %<ptcp%>%<pass%>:йо
+! %<nmzr%>:ԓӄыԓ
+%<nmzr%>:%>%{ы%}ԓъ N-DERIV-III ;
+%<nmzr%>:%>%{ы%}чь N-DERIV-III ;
+%<nmzr%>:%>%{ы%}гырг%{⁺ⱽᴴ%} N-DERIV-III ;
+%<nmzr%>:%>%{ы%}йоԓг N-DERIV-III ;
+%<nmzr%>:%>%{ы%}ӈэвыт N-DERIV-I ;
+%<nmzr%>:%>%{ы%}вйи N-DERIV-I ;
+
+!LEXICON N-POSS
 
 
 
+LEXICON N-DERIV-III
+@D.CASE@%<sg%>%<abs%>:@D.CASE@%>ын # ;
+: CASES-OBL ;
+: CASES-ANIM ;
+
+LEXICON N-DERIV-I
+@D.CASE@%<sg%>%<abs%>:@D.CASE@ # ;
+: CASES-OBL ;
+: CASES-ANIM ;
 
 LEXICON ADV
 %<adv%>: # ;
