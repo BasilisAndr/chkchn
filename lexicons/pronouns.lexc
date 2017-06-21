@@ -83,6 +83,7 @@ LEXICON PRON-PERS-CASES
 @R.CASE.com@%<com%>:@R.CASE.com@%>ык%>%{T%}%{Æ%} # ;
 @R.CASE.assoc@%<assoc%>:@R.CASE.assoc@%>ыг%>%{ы%}ма%{⁺ⱽᴴ%} # ;
 @R.CASE.prv@%<prv%>:@R.CASE.prv@%>ык%>%{ы%}к%{Æ%} # ;
+@D.CASE@:@D.CASE@ POSS ;
 
 
 LEXICON PRON-RXENUT-ABS
