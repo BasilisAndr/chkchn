@@ -916,6 +916,10 @@ LEXICON Adverbs
 янъян:янъян ADV ;    ! на виду
 
 
+чинит:чинит ADV ; ! "сам"
+чымӄык:чымӄык ADV ; ! "другие"
+
+
 
 LEXICON Interjections
 
@@ -948,9 +952,9 @@ LEXICON Interjections
 тоок:тоок INTJ ;    ! ну
 тытэӈэтвэрин:тытэӈэтвэрин INTJ ;    ! выражение удивԓения и досады
 ынанкэн:ынанкэн INTJ ;    ! 1. что за диво! 2. вот он какой!
-ынан:ынан INTJ ;     ! эмфаза в будущем
-эви:эви INTJ ;    ! выражение сочувстсвия
+эви:эви INTJ ;    ! выражение сочувствия
 яге:яге INTJ ;    ! эй! (окрик издаԓи)
+таӈ:таӈ INTJ ;    ! только
 
 
 
@@ -1028,6 +1032,7 @@ LEXICON Miscellaneous
 эты:эты PART ;    ! значит
 ым:ым PART ;      ! emph
 иаʼм:иаʼм PART ;     ! why
+ынан:ынан PART ;     ! эмфаза в будущем
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -3454,12 +3459,6 @@ LEXICON Nouns
 ! ыччи:ычч      ! 3pl females
 ! ытри:ырг      ! 3pl males
 
-! меӈин:меӈин PRN-ABS ;     ! кто
-! меӈин:мик    ! кто
-! рьенут:рьенут PRN-ABS ;     ! что
-! рьенут:реӄ   ! что
-! ӄут:ӄоԓ PRN-ABS ;   ! один/другой
-! ӄут:ӄут CASES-OBL ;   ! один/другой
 
 
 ! LEXICON PRN-PERS-SG-ABS
@@ -3470,40 +3469,66 @@ LEXICON Nouns
 ! @D.CASE@%<prn%>%<sg%>%<abs%>:@D.CASE@ # ;
 
 
-! obl-ep-case
-! 3sg.erg = ынан
 
 
 LEXICON PRON-GYM
 
+%<prn%>%<pers%>%<p1%>%<sg%>%<abs%>:о # ;
 %<prn%>%<pers%>%<p1%>%<sg%>%<abs%>: # ;
-%<prn%>%<pers%>%<p1%>%<sg%>%<erg%>:нан # ;
-%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ык # ;
-%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ыкы # ;
-%<prn%>%<pers%>%<p1%>%<sg%>%<all%>:ыкагты # ;
-%<prn%>%<pers%>%<p1%>%<sg%>%<equ%>:ыгмил # ;
+! %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ык # ;
+! %<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ыкы # ;
+! %<prn%>%<pers%>%<p1%>%<sg%>%<all%>:ыкагты # ;
+! %<prn%>%<pers%>%<p1%>%<sg%>%<equ%>:ыгмил # ;
 !%<prn%>%<pers%>%<p1%>%<sg%>%+инэ%<der%>%<subst%>:%>нин N-DERIV-SPACIAL ;
+%<prn%>%<pers%>%<p1%>%<sg%>: PRON-PERS-CASES ;
 
 LEXICON PRON-GYT
 
+%<prn%>%<pers%>%<p2%>%<sg%>%<abs%>:то # ;
 %<prn%>%<pers%>%<p2%>%<sg%>%<abs%>:т # ;
-%<prn%>%<pers%>%<p2%>%<sg%>%<erg%>:тнан # ;
-%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:тык # ;
-%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:тыкы # ;
-%<prn%>%<pers%>%<p2%>%<sg%>%<all%>:тыкагты # ;
-%<prn%>%<pers%>%<p2%>%<sg%>%<equ%>:тыгмил # ;
+! %<prn%>%<pers%>%<p2%>%<sg%>%<erg%>:тнан # ;
+! %<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:тык # ;
+! %<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:тыкы # ;
+! %<prn%>%<pers%>%<p2%>%<sg%>%<all%>:тыкагты # ;
+! %<prn%>%<pers%>%<p2%>%<sg%>%<equ%>:тыгмил # ;
 !%<prn%>%<pers%>%<p2%>%<sg%>%+инэ%<der%>%<subst%>:%>нин N-DERIV-SPACIAL ;
+%<prn%>%<pers%>%<p2%>%<sg%>:н PRON-PERS-CASES ;
 
 LEXICON PRON-YTLJON
 
 %<prn%>%<pers%>%<p3%>%<sg%>%<abs%>:тԓён # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:нык # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ныкагты # ;
+! %<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:нык # ;
+! %<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ныкагты # ;
+%<prn%>%<pers%>%<p3%>%<sg%>:н PRON-PERS-CASES ;
 
-LEXICON PRON-RXENUT-COMMON
+LEXICON PRON-MURI
+%<prn%>%<pers%>%<p1%>%<pl%>%<abs%>:и # ;
+%<prn%>%<pers%>%<p1%>%<pl%>: PRON-PERS-CASES ;
 
-%<sg%>%<abs%>:ъэнут # ;
-%<sg%>%<erg%>:эӄэ # ;
+LEXICON PRON-TURI
+%<prn%>%<pers%>%<p2%>%<pl%>%<abs%>:и # ;
+%<prn%>%<pers%>%<p2%>%<pl%>: PRON-PERS-CASES ;
+
+LEXICON PRON-YCCI
+%<prn%>%<pers%>%<p3%>%<pl%>%<abs%>:и # ;
+%<prn%>%<pers%>%<p3%>%<pl%>: PRON-PERS-CASES ;
+
+
+LEXICON PRON-PERS-CASES
+@D.CASE@%<erg%>:@D.CASE@%>нан # ;
+@D.CASE@%<erg%>:@D.CASE@%>ан # ;
+@D.CASE@%<ess%>:@D.CASE@%>%{ы%}ку # ;
+@D.CASE@%<loc%>:@D.CASE@%>%{ы%}к # ;
+@D.CASE@%<all%>:@D.CASE@%>ыкы%{⁺ⱽᴴ%} # ;
+@D.CASE@%<all%>:@D.CASE@%>ыка%>%{G%}ты%{⁺ⱽᴴ%} # ;
+@D.CASE@%<abl%>:@D.CASE@%>ыка%>%{G%}%{ы%}п%{ы%}%{⁺ⱽᴴ%} # ;
+@D.CASE@%<ori%>:@D.CASE@%>ык%{Æ%}%>%{ы%}гйит # ;
+@D.CASE@%<ine%>:@D.CASE@%>ык%{Æ%}%>%{ы%}чыку # ;
+@D.CASE@%<per%>:@D.CASE@%>ык%{Æ%}%>%{ы%}йэквэ%{⁺ⱽᴴ%} # ;
+@D.CASE@%<sub%>:@D.CASE@%>ык%{Æ%}%>%{ы%}йиӈкы # ;
+@R.CASE.com@%<com%>:@R.CASE.com@%>ык%>%{T%}%{Æ%} # ;
+@R.CASE.assoc@%<assoc%>:@R.CASE.assoc@%>ыг%>%{ы%}ма%{⁺ⱽᴴ%} # ;
+@R.CASE.prv@%<prv%>:@R.CASE.prv@%>ык%>%{ы%}к%{Æ%} # ;
 
 
 LEXICON PRON-RXENUT-ABS
@@ -3515,22 +3540,24 @@ LEXICON PRON-RXENUT-OBL
 %<prn%>%<itg%>: CASES-OBL ;
 %<prn%>%<itg%>: CASES-ANIM ;
 
-! LEXICON PRON-RXENUT
 
-! %<prn%>%<itg%>: PRON-RXENUT-COMMON ;
+LEXICON PRON-IMYRXENUT-ABS
 
-LEXICON PRON-IMYRXENUT
+@D.CASE@%<prn%>%<ind%>%<sg%>%<abs%>:@D.CASE@%{·%} # ;
 
-%<prn%>%<ind%>: PRON-RXENUT-COMMON ;
+LEXICON PRON-IMYRXENUT-OBL
+
+%<prn%>%<ind%>: CASES-OBL ;
+%<prn%>%<ind%>: CASES-ANIM ;
 
 LEXICON PRON-YNQEN
 
-! %<prn%>%<dem%>%<sg%>%<abs%>: # ;
 @D.CASE@%<prn%>%<dem%>%<sg%>%<abs%>:@D.CASE@%{·%} # ;
 %<prn%>%<dem%>: CASES-OBL ;
 %<prn%>%<dem%>: CASES-ANIM ;
 
 LEXICON PRON-YMYLJO
+
 %<prn%>%<quant%>%<sg%>: # ;
 %<prn%>%<quant%>: CASES-ANIM ;
 
@@ -3541,13 +3568,25 @@ LEXICON PRON-QOL-SG
 
 LEXICON PRON-QOL ! p.173 Inenlikei
 
-! %<prn%>%<ind%>%<pl%>%<abs%>: # ;
 %<prn%>%<quant%>: CASES-OBL ;
 
 
 LEXICON PRON-CINIT
 
-%<prn%>%<ref%>: # ;
+%<prn%>%<ref%>%<sg%>%<abs%>: # ;
+%<prn%>%<ref%>: CASES-OBL ;
+
+
+LEXICON PRON-AMYNAN
+
+%<prn%>%<restr%>%<p1%>%<sg%>:гымнан # ;
+%<prn%>%<restr%>%<p2%>%<sg%>:гынан # ;
+%<prn%>%<restr%>%<p3%>%<sg%>:ынан # ;
+%<prn%>%<restr%>%<p1%>%<pl%>:моргынан # ;
+%<prn%>%<restr%>%<p2%>%<pl%>:торгынан # ;
+%<prn%>%<restr%>%<p3%>%<pl%>:ыргынан # ;
+%<prn%>%<restr%>%<p3%>%<pl%>:ыччынан # ;
+
 
 ! LEXICON PRON                                 !! Generic pronoun [to be categorised]
 
@@ -3564,20 +3603,20 @@ LEXICON Pronouns
 гыт:гы PRON-GYT ;
 гыт:гыы PRON-GYT ;  ! Dir/LR
 ытԓён:ы PRON-YTLJON ;
+мури:мур PRON-MURI ;  ! 1pl
+тури:тур PRON-TURI ;  ! 2pl
+ыччи:ычч PRON-YCCI ;     ! 3pl females
+ытри:ырг PRON-YCCI ;     ! 3pl males
 
-! ынӄэн:ынӄэн PRON-YNQEN ;
 
-! ръэнут:р PRON-RXENUT ;
-
-имыръэнут:имыр PRON-IMYRXENUT ;
-
-ымыԓьо:ымыԓьо PRON-YMYLJO ;     ! FIXME: To categorise
+ымыԓьо:ымыԓьо PRON-YMYLJO ;
 
 ӄоԓ:ӄоԓ PRON-QOL-SG ;
 ӄоԓ:ӄут PRON-QOL ;
 
 
-чинит:чинит PRON-CINIT ; ! "сам"
+чиниткин:чиниткин PRON-CINIT ; ! "свой"
+
 
 ӈотӄэн:ӈотӄэна PRON-YNQEN ;
 ӈанӄэн:ӈанӄэна PRON-YNQEN ;
@@ -3589,6 +3628,13 @@ LEXICON Pronouns
 мэӈин:мик PRON-RXENUT-OBL ;   ! кто
 ръэнут:ръэнут%{Æ%} PRON-RXENUT-ABS ;     ! что
 ръэнут:рэӄ PRON-RXENUT-OBL ;  ! что
+
+имыръэнут:имыръэнут%{Æ%} PRON-IMYRXENUT-ABS ;   ! всё
+имыръэнут:имырэӄ PRON-IMYRXENUT-OBL ;  ! всё
+имымэӈин:имымэӈин%{Æ%} PRON-IMYRXENUT-ABS ;     ! все
+имымэӈин:имымик PRON-IMYRXENUT-OBL ;   ! все
+
+ам:ам PRON-AMYNAN ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!    Verbs    !!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
