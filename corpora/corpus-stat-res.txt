@@ -510,7 +510,7 @@
 ^йымнэнат/*йымнэнат$
 ^./.<sent>$
 ^Тыԓяма/Тыԓек<v><iv><gna_sim>/Тыԓяк<v><iv><gna_sim>$
-^наркычыткоӄэн/аркычыткок<v><iv><consume><stat><hab><s_sg3>/аркычыткок<v><iv><stat><hab><s_sg3>$
+^наркычыткоӄэн/аркычыткок<v><iv><stat><hab><s_sg3>$
 ^,/,<cm>$
 ^виԓюӄэгти/*виԓюӄэгти$
 ^нинэнрыӄинэт/*нинэнрыӄинэт$
@@ -808,7 +808,7 @@
 ^Нэмэ/Нэмэ<adv>$
 ^ратчочыкон/*ратчочыкон$
 ^нэнатыёйвыгъан/энатыёк<v><iv><coll_o><neut><intn><s_sg3>$
-^рагтыӈӈок/рагтык<v><iv><inch2><consume><gna_ant>/рагтык<v><iv><inch2><consume><inf>/рагтык<v><iv><inch2><gna_ant>/рагтык<v><iv><inch2><inf>$
+^рагтыӈӈок/рагтык<v><iv><inch2><gna_ant>/рагтык<v><iv><inch2><inf>$
 ^./.<sent>$
 ^Рагтыгъат/Рагтык<v><iv><neut><aor><s_pl3>$
 ^./.<sent>$
@@ -1381,7 +1381,7 @@
 ^ӄынвэр/ӄынвэр<adv>$
 ^эвъянвыткоӄаатгъэ/*эвъянвыткоӄаатгъэ$
 ^./.<sent>$
-^Пынԓёткогъэ/Пынԓёк<v><iv><ap2><consume><neut><aor><s_sg2>/Пынԓёк<v><iv><ap2><consume><neut><aor><s_sg3>/Пынԓёк<v><iv><ap2><neut><aor><s_sg2>/Пынԓёк<v><iv><ap2><neut><aor><s_sg3>/Пынԓёк<v><iv><iter><consume><neut><aor><s_sg2>/Пынԓёк<v><iv><iter><consume><neut><aor><s_sg3>/Пынԓёк<v><iv><iter><neut><aor><s_sg2>/Пынԓёк<v><iv><iter><neut><aor><s_sg3>/Пынԓёк<v><iv><utilit><consume><neut><aor><s_sg2>/Пынԓёк<v><iv><utilit><consume><neut><aor><s_sg3>/Пынԓёк<v><iv><utilit><neut><aor><s_sg2>/Пынԓёк<v><iv><utilit><neut><aor><s_sg3>/Пынԓёткок<v><iv><consume><neut><aor><s_sg2>/Пынԓёткок<v><iv><consume><neut><aor><s_sg3>/Пынԓёткок<v><iv><neut><aor><s_sg2>/Пынԓёткок<v><iv><neut><aor><s_sg3>$
+^Пынԓёткогъэ/Пынԓёк<v><iv><ap2><consume><neut><aor><s_sg2>/Пынԓёк<v><iv><ap2><consume><neut><aor><s_sg3>/Пынԓёк<v><iv><ap2><neut><aor><s_sg2>/Пынԓёк<v><iv><ap2><neut><aor><s_sg3>/Пынԓёк<v><iv><iter><consume><neut><aor><s_sg2>/Пынԓёк<v><iv><iter><consume><neut><aor><s_sg3>/Пынԓёк<v><iv><iter><neut><aor><s_sg2>/Пынԓёк<v><iv><iter><neut><aor><s_sg3>/Пынԓёк<v><iv><utilit><consume><neut><aor><s_sg2>/Пынԓёк<v><iv><utilit><consume><neut><aor><s_sg3>/Пынԓёк<v><iv><utilit><neut><aor><s_sg2>/Пынԓёк<v><iv><utilit><neut><aor><s_sg3>/Пынԓёткок<v><iv><neut><aor><s_sg2>/Пынԓёткок<v><iv><neut><aor><s_sg3>$
 ^./.<sent>$
 ^Гитгиԓыгйит/*Гитгиԓыгйит$
 ^руԓвыткувнин/*руԓвыткувнин$
@@ -1511,7 +1511,7 @@
 ^ӄымӈычгэчегыткы/*ӄымӈычгэчегыткы$
 ^!/!<sent>$
 ^Ӈирэӄ/Ӈирэӄ<n><sg><abs>$
-^аймавыӈӈогъат/аймык<v><iv><vrblz2><inch2><consume><neut><aor><s_pl3>/аймык<v><iv><vrblz2><inch2><neut><aor><s_pl3>$
+^аймавыӈӈогъат/аймык<v><iv><vrblz2><inch2><neut><aor><s_pl3>$
 ^ырыкы/*ырыкы$
 ^./.<sent>$
 ^Пытӄъаткэ/*Пытӄъаткэ$
@@ -1764,7 +1764,7 @@
 ^Ӄыԓымэнат/*Ӄыԓымэнат$
 ^!/!<sent>$
 ^-/-<guio>$
-^ночыткоӄэн/очык<v><iv><ap2><consume><stat><hab><s_sg3>/очык<v><iv><ap2><stat><hab><s_sg3>/очык<v><iv><iter><consume><stat><hab><s_sg3>/очык<v><iv><iter><stat><hab><s_sg3>/очык<v><iv><utilit><consume><stat><hab><s_sg3>/очык<v><iv><utilit><stat><hab><s_sg3>/очыткок<v><iv><consume><stat><hab><s_sg3>/очыткок<v><iv><stat><hab><s_sg3>$
+^ночыткоӄэн/очык<v><iv><ap2><consume><stat><hab><s_sg3>/очык<v><iv><ap2><stat><hab><s_sg3>/очык<v><iv><iter><consume><stat><hab><s_sg3>/очык<v><iv><iter><stat><hab><s_sg3>/очык<v><iv><utilit><consume><stat><hab><s_sg3>/очык<v><iv><utilit><stat><hab><s_sg3>/очыткок<v><iv><stat><hab><s_sg3>$
 ^ӈинӄэй/*ӈинӄэй$
 ^./.<sent>$
 ^Нэмэ/Нэмэ<adv>$
@@ -2224,7 +2224,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^Ӄувԓеграԓьыт/*Ӄувԓеграԓьыт$
 ^./.<sent>$
 ^Ынкы/Ынкы<adv>$
-^нымытваӈӈогъат/нымытвак<v><iv><inch2><consume><neut><aor><s_pl3>/нымытвак<v><iv><inch2><neut><aor><s_pl3>$
+^нымытваӈӈогъат/нымытвак<v><iv><inch2><neut><aor><s_pl3>$
 ^./.<sent>$
 ^Ӈэвъэн/Ӈэвъэн<n><sg><abs>$
 ^ивнин/*ивнин$
@@ -3047,7 +3047,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^./.<sent>$
 ^Эрмэчьын/*Эрмэчьын$
 ^коԓё/коԓё<adv>$
-^ӄоԓентогъэ/ӄоԓенток<v><iv><consume><neut><aor><s_sg2>/ӄоԓенток<v><iv><consume><neut><aor><s_sg3>/ӄоԓенток<v><iv><neut><aor><s_sg2>/ӄоԓенток<v><iv><neut><aor><s_sg3>$
+^ӄоԓентогъэ/ӄоԓенток<v><iv><neut><aor><s_sg2>/ӄоԓенток<v><iv><neut><aor><s_sg3>$
 ^:/:<sent>$
 ^-/-<guio>$
 ^А/*А$
@@ -3090,7 +3090,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^ӄыпэнрыгын/*ӄыпэнрыгын$
 ^!/!<sent>$
 ^Ытԓеӈи/*Ытԓеӈи$
-^очыткогъэ/очык<v><iv><ap2><consume><neut><aor><s_sg2>/очык<v><iv><ap2><consume><neut><aor><s_sg3>/очык<v><iv><ap2><neut><aor><s_sg2>/очык<v><iv><ap2><neut><aor><s_sg3>/очык<v><iv><iter><consume><neut><aor><s_sg2>/очык<v><iv><iter><consume><neut><aor><s_sg3>/очык<v><iv><iter><neut><aor><s_sg2>/очык<v><iv><iter><neut><aor><s_sg3>/очык<v><iv><utilit><consume><neut><aor><s_sg2>/очык<v><iv><utilit><consume><neut><aor><s_sg3>/очык<v><iv><utilit><neut><aor><s_sg2>/очык<v><iv><utilit><neut><aor><s_sg3>/очыткок<v><iv><consume><neut><aor><s_sg2>/очыткок<v><iv><consume><neut><aor><s_sg3>/очыткок<v><iv><neut><aor><s_sg2>/очыткок<v><iv><neut><aor><s_sg3>$
+^очыткогъэ/очык<v><iv><ap2><consume><neut><aor><s_sg2>/очык<v><iv><ap2><consume><neut><aor><s_sg3>/очык<v><iv><ap2><neut><aor><s_sg2>/очык<v><iv><ap2><neut><aor><s_sg3>/очык<v><iv><iter><consume><neut><aor><s_sg2>/очык<v><iv><iter><consume><neut><aor><s_sg3>/очык<v><iv><iter><neut><aor><s_sg2>/очык<v><iv><iter><neut><aor><s_sg3>/очык<v><iv><utilit><consume><neut><aor><s_sg2>/очык<v><iv><utilit><consume><neut><aor><s_sg3>/очык<v><iv><utilit><neut><aor><s_sg2>/очык<v><iv><utilit><neut><aor><s_sg3>/очыткок<v><iv><neut><aor><s_sg2>/очыткок<v><iv><neut><aor><s_sg3>$
 ^:/:<sent>$
 ^-/-<guio>$
 ^Гынан/Гыт<prn><pers><p2><sg><erg>$
@@ -3117,7 +3117,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^Ынӈатаԓ/*Ынӈатаԓ$
 ^-/-<guio>$
 ^ым/ым<part>$
-^мытӄамэтваӈӈомык/ӄамэтвак<v><iv><inch2><consume><neut><aor><s_pl1>/ӄамэтвак<v><iv><inch2><neut><aor><s_pl1>$
+^мытӄамэтваӈӈомык/ӄамэтвак<v><iv><inch2><neut><aor><s_pl1>$
 ^!/!<sent>$
 ^Мыттанычьатыӈӈомык/*Мыттанычьатыӈӈомык$
 ^!/!<sent>$
@@ -4658,7 +4658,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^./.<sent>$
 ^Ӈавэтын/Ӈавэтын<n><sg><abs>$
 ^расӄэвма/рэсӄивык<v><iv><gna_sim>$
-^ӄоԓентогъэ/ӄоԓенток<v><iv><consume><neut><aor><s_sg2>/ӄоԓенток<v><iv><consume><neut><aor><s_sg3>/ӄоԓенток<v><iv><neut><aor><s_sg2>/ӄоԓенток<v><iv><neut><aor><s_sg3>$
+^ӄоԓентогъэ/ӄоԓенток<v><iv><neut><aor><s_sg2>/ӄоԓенток<v><iv><neut><aor><s_sg3>$
 ^:/:<sent>$
 ^-/-<guio>$
 ^Како/Како<ij>$
@@ -4750,7 +4750,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^Аʼмын/аʼмын<ij>$
 ^тытэӈэт/*тытэӈэт$
 ^./.<sent>$
-^Аʼтчаӈӈогъат/аʼтчак<v><iv><inch2><consume><neut><aor><s_pl3>/аʼтчак<v><iv><inch2><neut><aor><s_pl3>$
+^Аʼтчаӈӈогъат/аʼтчак<v><iv><inch2><neut><aor><s_pl3>$
 ^./.<sent>$
 ^Пыкиргъэт/Пыкирык<v><iv><neut><aor><s_pl3>$
 ^./.<sent>$
@@ -5454,7 +5454,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^./.<sent>$
 ^Тытԓьыттъыёча/*Тытԓьыттъыёча$
 ^ытԓыгын/*ытԓыгын$
-^ныгатгаткоӄэн/гатгаткок<v><iv><consume><stat><hab><s_sg3>/гатгаткок<v><iv><stat><hab><s_sg3>$
+^ныгатгаткоӄэн/гатгаткок<v><iv><stat><hab><s_sg3>$
 ^,/,<cm>$
 ^гитэчьэтэ/*гитэчьэтэ$
 ^тыԓеԓьыт/*тыԓеԓьыт$
@@ -5541,7 +5541,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^./.<sent>$
 ^Ынкы/Ынкы<adv>$
 ^ӈыроргарэ/ӈыроргарэ<n><sg><abs>$
-^нымытваӈӈогъат/нымытвак<v><iv><inch2><consume><neut><aor><s_pl3>/нымытвак<v><iv><inch2><neut><aor><s_pl3>$
+^нымытваӈӈогъат/нымытвак<v><iv><inch2><neut><aor><s_pl3>$
 ^./.<sent>$
 ^Ытръэч/Ытръэч<part>$
 ^./.<sent>$
@@ -6645,7 +6645,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^а/*а$
 ^?/?<sent>$
 ^-/-<guio>$
-^очыткома/очык<v><iv><ap2><consume><gna_sim>/очык<v><iv><ap2><gna_sim>/очык<v><iv><iter><consume><gna_sim>/очык<v><iv><iter><gna_sim>/очык<v><iv><utilit><consume><gna_sim>/очык<v><iv><utilit><gna_sim>/очыткок<v><iv><consume><gna_sim>/очыткок<v><iv><gna_sim>$
+^очыткома/очык<v><iv><ap2><consume><gna_sim>/очык<v><iv><ap2><gna_sim>/очык<v><iv><iter><consume><gna_sim>/очык<v><iv><iter><gna_sim>/очык<v><iv><utilit><consume><gna_sim>/очык<v><iv><utilit><gna_sim>/очыткок<v><iv><gna_sim>$
 ^вай/вай<part>$
 ^нэнарэрӄэн/энарэрык<v><iv><stat><hab><s_sg3>$
 ^Кэнэӄучи/*Кэнэӄучи$
@@ -8610,7 +8610,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^,/,<cm>$
 ^-/-<guio>$
 ^ӈирэӄэв/ӈирэӄэв<n><sg><abs>$
-^татԓыӈыткогъэ/татԓыӈык<v><iv><ap2><consume><neut><aor><s_sg2>/татԓыӈык<v><iv><ap2><consume><neut><aor><s_sg3>/татԓыӈык<v><iv><ap2><neut><aor><s_sg2>/татԓыӈык<v><iv><ap2><neut><aor><s_sg3>/татԓыӈык<v><iv><iter><consume><neut><aor><s_sg2>/татԓыӈык<v><iv><iter><consume><neut><aor><s_sg3>/татԓыӈык<v><iv><iter><neut><aor><s_sg2>/татԓыӈык<v><iv><iter><neut><aor><s_sg3>/татԓыӈык<v><iv><utilit><consume><neut><aor><s_sg2>/татԓыӈык<v><iv><utilit><consume><neut><aor><s_sg3>/татԓыӈык<v><iv><utilit><neut><aor><s_sg2>/татԓыӈык<v><iv><utilit><neut><aor><s_sg3>/татԓыӈыткок<v><iv><consume><neut><aor><s_sg2>/татԓыӈыткок<v><iv><consume><neut><aor><s_sg3>/татԓыӈыткок<v><iv><neut><aor><s_sg2>/татԓыӈыткок<v><iv><neut><aor><s_sg3>$
+^татԓыӈыткогъэ/татԓыӈык<v><iv><ap2><consume><neut><aor><s_sg2>/татԓыӈык<v><iv><ap2><consume><neut><aor><s_sg3>/татԓыӈык<v><iv><ap2><neut><aor><s_sg2>/татԓыӈык<v><iv><ap2><neut><aor><s_sg3>/татԓыӈык<v><iv><iter><consume><neut><aor><s_sg2>/татԓыӈык<v><iv><iter><consume><neut><aor><s_sg3>/татԓыӈык<v><iv><iter><neut><aor><s_sg2>/татԓыӈык<v><iv><iter><neut><aor><s_sg3>/татԓыӈык<v><iv><utilit><consume><neut><aor><s_sg2>/татԓыӈык<v><iv><utilit><consume><neut><aor><s_sg3>/татԓыӈык<v><iv><utilit><neut><aor><s_sg2>/татԓыӈык<v><iv><utilit><neut><aor><s_sg3>/татԓыӈыткок<v><iv><neut><aor><s_sg2>/татԓыӈыткок<v><iv><neut><aor><s_sg3>$
 ^./.<sent>$
 ¶¶^./.<sent>$
 
@@ -8836,7 +8836,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^тыяаркын/*тыяаркын$
 ^,/,<cm>$
 ^-/-<guio>$
-^нытатԓыӈыткоӄэн/татԓыӈык<v><iv><ap2><consume><stat><hab><s_sg3>/татԓыӈык<v><iv><ap2><stat><hab><s_sg3>/татԓыӈык<v><iv><iter><consume><stat><hab><s_sg3>/татԓыӈык<v><iv><iter><stat><hab><s_sg3>/татԓыӈык<v><iv><utilit><consume><stat><hab><s_sg3>/татԓыӈык<v><iv><utilit><stat><hab><s_sg3>/татԓыӈыткок<v><iv><consume><stat><hab><s_sg3>/татԓыӈыткок<v><iv><stat><hab><s_sg3>$
+^нытатԓыӈыткоӄэн/татԓыӈык<v><iv><ap2><consume><stat><hab><s_sg3>/татԓыӈык<v><iv><ap2><stat><hab><s_sg3>/татԓыӈык<v><iv><iter><consume><stat><hab><s_sg3>/татԓыӈык<v><iv><iter><stat><hab><s_sg3>/татԓыӈык<v><iv><utilit><consume><stat><hab><s_sg3>/татԓыӈык<v><iv><utilit><stat><hab><s_sg3>/татԓыӈыткок<v><iv><stat><hab><s_sg3>$
 ^ӈэвысӄэт/ӈэвысӄэт<n><sg><abs>$
 ^./.<sent>$
 ^-/-<guio>$
@@ -9853,7 +9853,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^мынмайынԓягъан/*мынмайынԓягъан$
 ^!/!<sent>$
 ^Ыʼвэӄуч/ыʼвэӄуч<n><sg><abs>$
-^очыткогъэ/очык<v><iv><ap2><consume><neut><aor><s_sg2>/очык<v><iv><ap2><consume><neut><aor><s_sg3>/очык<v><iv><ap2><neut><aor><s_sg2>/очык<v><iv><ap2><neut><aor><s_sg3>/очык<v><iv><iter><consume><neut><aor><s_sg2>/очык<v><iv><iter><consume><neut><aor><s_sg3>/очык<v><iv><iter><neut><aor><s_sg2>/очык<v><iv><iter><neut><aor><s_sg3>/очык<v><iv><utilit><consume><neut><aor><s_sg2>/очык<v><iv><utilit><consume><neut><aor><s_sg3>/очык<v><iv><utilit><neut><aor><s_sg2>/очык<v><iv><utilit><neut><aor><s_sg3>/очыткок<v><iv><consume><neut><aor><s_sg2>/очыткок<v><iv><consume><neut><aor><s_sg3>/очыткок<v><iv><neut><aor><s_sg2>/очыткок<v><iv><neut><aor><s_sg3>$
+^очыткогъэ/очык<v><iv><ap2><consume><neut><aor><s_sg2>/очык<v><iv><ap2><consume><neut><aor><s_sg3>/очык<v><iv><ap2><neut><aor><s_sg2>/очык<v><iv><ap2><neut><aor><s_sg3>/очык<v><iv><iter><consume><neut><aor><s_sg2>/очык<v><iv><iter><consume><neut><aor><s_sg3>/очык<v><iv><iter><neut><aor><s_sg2>/очык<v><iv><iter><neut><aor><s_sg3>/очык<v><iv><utilit><consume><neut><aor><s_sg2>/очык<v><iv><utilit><consume><neut><aor><s_sg3>/очык<v><iv><utilit><neut><aor><s_sg2>/очык<v><iv><utilit><neut><aor><s_sg3>/очыткок<v><iv><neut><aor><s_sg2>/очыткок<v><iv><neut><aor><s_sg3>$
 ^:/:<sent>$
 ^-/-<guio>$
 ^Эвын/Эвын<adv>$
@@ -10105,7 +10105,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^ытԓывъёта/*ытԓывъёта$
 ^нэнӈивытык/*нэнӈивытык$
 ^?/?<sent>$
-^Очыткогъат/Очык<v><iv><ap2><consume><neut><aor><s_pl3>/Очык<v><iv><ap2><neut><aor><s_pl3>/Очык<v><iv><iter><consume><neut><aor><s_pl3>/Очык<v><iv><iter><neut><aor><s_pl3>/Очык<v><iv><utilit><consume><neut><aor><s_pl3>/Очык<v><iv><utilit><neut><aor><s_pl3>/Очыткок<v><iv><consume><neut><aor><s_pl3>/Очыткок<v><iv><neut><aor><s_pl3>$
+^Очыткогъат/Очык<v><iv><ap2><consume><neut><aor><s_pl3>/Очык<v><iv><ap2><neut><aor><s_pl3>/Очык<v><iv><iter><consume><neut><aor><s_pl3>/Очык<v><iv><iter><neut><aor><s_pl3>/Очык<v><iv><utilit><consume><neut><aor><s_pl3>/Очык<v><iv><utilit><neut><aor><s_pl3>/Очыткок<v><iv><neut><aor><s_pl3>$
 ^:/:<sent>$
 ^-/-<guio>$
 ^Катамӄэгԓынангэт/*Катамӄэгԓынангэт$
@@ -10140,7 +10140,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^гэчичевԓин/чичевык<v><iv><stat><perf><s_sg3>$
 ^./.<sent>$
 ^Ынангъо/*Ынангъо$
-^тэнмавымгогъэ/тэнмавык<v><iv><inch><consume><neut><aor><s_sg2>/тэнмавык<v><iv><inch><consume><neut><aor><s_sg3>/тэнмавык<v><iv><inch><neut><aor><s_sg2>/тэнмавык<v><iv><inch><neut><aor><s_sg3>/тэнмык<v><iv><vrblz2><inch><neut><aor><s_sg2>/тэнмык<v><iv><vrblz2><inch><neut><aor><s_sg3>$
+^тэнмавымгогъэ/тэнмавык<v><iv><inch><neut><aor><s_sg2>/тэнмавык<v><iv><inch><neut><aor><s_sg3>/тэнмык<v><iv><vrblz2><inch><neut><aor><s_sg2>/тэнмык<v><iv><vrblz2><inch><neut><aor><s_sg3>$
 ^ынпыначгыӄай/*ынпыначгыӄай$
 ^,/,<cm>$
 ^ивнинэт/*ивнинэт$
@@ -10324,7 +10324,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^йъонэн/*йъонэн$
 ^,/,<cm>$
 ^тэнвусӄымчыку/*тэнвусӄымчыку$
-^тыԓяӈӈогъэ/тыԓек<v><iv><inch2><neut><aor><s_sg2>/тыԓек<v><iv><inch2><neut><aor><s_sg3>/тыԓяк<v><iv><inch2><consume><neut><aor><s_sg2>/тыԓяк<v><iv><inch2><consume><neut><aor><s_sg3>/тыԓяк<v><iv><inch2><neut><aor><s_sg2>/тыԓяк<v><iv><inch2><neut><aor><s_sg3>$
+^тыԓяӈӈогъэ/тыԓек<v><iv><inch2><neut><aor><s_sg2>/тыԓек<v><iv><inch2><neut><aor><s_sg3>/тыԓяк<v><iv><inch2><neut><aor><s_sg2>/тыԓяк<v><iv><inch2><neut><aor><s_sg3>$
 ^./.<sent>$
 ^Авынтыԓяма/*Авынтыԓяма$
 ^ԓьунин/*ԓьунин$
@@ -11200,7 +11200,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^,/,<cm>$
 ^ынкы/ынкы<adv>$
 ^ԓюӈкыԓгытвэтэ/*ԓюӈкыԓгытвэтэ$
-^нымготваӄэнат/мгок<v><iv><consume><res><stat><hab><s_pl3>/мгок<v><iv><res><stat><hab><s_pl3>/тымгык<v><iv><consume><res><stat><hab><s_pl3>$
+^нымготваӄэнат/мгок<v><iv><res><stat><hab><s_pl3>/тымгык<v><iv><consume><res><stat><hab><s_pl3>$
 ^./.<sent>$
 ^Рэсӄиквъэт/*Рэсӄиквъэт$
 ^./.<sent>$
@@ -11276,7 +11276,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^Пэԓӄинъытвигъи/*Пэԓӄинъытвигъи$
 ^?/?<sent>$
 ^Ӄоԓ/Ӄоԓ<prn><quant><sg><abs>$
-^татԓыӈыткогъэ/татԓыӈык<v><iv><ap2><consume><neut><aor><s_sg2>/татԓыӈык<v><iv><ap2><consume><neut><aor><s_sg3>/татԓыӈык<v><iv><ap2><neut><aor><s_sg2>/татԓыӈык<v><iv><ap2><neut><aor><s_sg3>/татԓыӈык<v><iv><iter><consume><neut><aor><s_sg2>/татԓыӈык<v><iv><iter><consume><neut><aor><s_sg3>/татԓыӈык<v><iv><iter><neut><aor><s_sg2>/татԓыӈык<v><iv><iter><neut><aor><s_sg3>/татԓыӈык<v><iv><utilit><consume><neut><aor><s_sg2>/татԓыӈык<v><iv><utilit><consume><neut><aor><s_sg3>/татԓыӈык<v><iv><utilit><neut><aor><s_sg2>/татԓыӈык<v><iv><utilit><neut><aor><s_sg3>/татԓыӈыткок<v><iv><consume><neut><aor><s_sg2>/татԓыӈыткок<v><iv><consume><neut><aor><s_sg3>/татԓыӈыткок<v><iv><neut><aor><s_sg2>/татԓыӈыткок<v><iv><neut><aor><s_sg3>$
+^татԓыӈыткогъэ/татԓыӈык<v><iv><ap2><consume><neut><aor><s_sg2>/татԓыӈык<v><iv><ap2><consume><neut><aor><s_sg3>/татԓыӈык<v><iv><ap2><neut><aor><s_sg2>/татԓыӈык<v><iv><ap2><neut><aor><s_sg3>/татԓыӈык<v><iv><iter><consume><neut><aor><s_sg2>/татԓыӈык<v><iv><iter><consume><neut><aor><s_sg3>/татԓыӈык<v><iv><iter><neut><aor><s_sg2>/татԓыӈык<v><iv><iter><neut><aor><s_sg3>/татԓыӈык<v><iv><utilit><consume><neut><aor><s_sg2>/татԓыӈык<v><iv><utilit><consume><neut><aor><s_sg3>/татԓыӈык<v><iv><utilit><neut><aor><s_sg2>/татԓыӈык<v><iv><utilit><neut><aor><s_sg3>/татԓыӈыткок<v><iv><neut><aor><s_sg2>/татԓыӈыткок<v><iv><neut><aor><s_sg3>$
 ^:/:<sent>$
 ^-/-<guio>$
 ^Аныӄун/*Аныӄун$
@@ -11402,7 +11402,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^йытыркын/йыток<v><iv><prog><aor><s_sg2>/йыток<v><iv><prog><aor><s_sg3>/йытык<v><iv><prog><aor><s_sg2>/йытык<v><iv><prog><aor><s_sg3>$
 ^!/!<sent>$
 ^Аʼачек/аʼачек<n><sg><abs>$
-^тэнмавымгогъэ/тэнмавык<v><iv><inch><consume><neut><aor><s_sg2>/тэнмавык<v><iv><inch><consume><neut><aor><s_sg3>/тэнмавык<v><iv><inch><neut><aor><s_sg2>/тэнмавык<v><iv><inch><neut><aor><s_sg3>/тэнмык<v><iv><vrblz2><inch><neut><aor><s_sg2>/тэнмык<v><iv><vrblz2><inch><neut><aor><s_sg3>$
+^тэнмавымгогъэ/тэнмавык<v><iv><inch><neut><aor><s_sg2>/тэнмавык<v><iv><inch><neut><aor><s_sg3>/тэнмык<v><iv><vrblz2><inch><neut><aor><s_sg2>/тэнмык<v><iv><vrblz2><inch><neut><aor><s_sg3>$
 ^акватынво/акватын<n><ess>$
 ^./.<sent>$
 ^Ӈэвъэнэ/Ӈэвъэн<n><erg>$
@@ -11465,7 +11465,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^,/,<cm>$
 ^яраӄайык/яраӈы<n><dim><loc>$
 ^райвачыӈ/*райвачыӈ$
-^ныгатгаткоӄэн/гатгаткок<v><iv><consume><stat><hab><s_sg3>/гатгаткок<v><iv><stat><hab><s_sg3>$
+^ныгатгаткоӄэн/гатгаткок<v><iv><stat><hab><s_sg3>$
 ^./.<sent>$
 ^Ынпыначгыӄая/*Ынпыначгыӄая$
 ^пынԓёнэн/пынԓён<n><poss><3sg><abs>$
@@ -11481,7 +11481,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^Миӈкэкыԓьигыт/*Миӈкэкыԓьигыт$
 ^?/?<sent>$
 ^Ӄоԓ/Ӄоԓ<prn><quant><sg><abs>$
-^очыткогъэ/очык<v><iv><ap2><consume><neut><aor><s_sg2>/очык<v><iv><ap2><consume><neut><aor><s_sg3>/очык<v><iv><ap2><neut><aor><s_sg2>/очык<v><iv><ap2><neut><aor><s_sg3>/очык<v><iv><iter><consume><neut><aor><s_sg2>/очык<v><iv><iter><consume><neut><aor><s_sg3>/очык<v><iv><iter><neut><aor><s_sg2>/очык<v><iv><iter><neut><aor><s_sg3>/очык<v><iv><utilit><consume><neut><aor><s_sg2>/очык<v><iv><utilit><consume><neut><aor><s_sg3>/очык<v><iv><utilit><neut><aor><s_sg2>/очык<v><iv><utilit><neut><aor><s_sg3>/очыткок<v><iv><consume><neut><aor><s_sg2>/очыткок<v><iv><consume><neut><aor><s_sg3>/очыткок<v><iv><neut><aor><s_sg2>/очыткок<v><iv><neut><aor><s_sg3>$
+^очыткогъэ/очык<v><iv><ap2><consume><neut><aor><s_sg2>/очык<v><iv><ap2><consume><neut><aor><s_sg3>/очык<v><iv><ap2><neut><aor><s_sg2>/очык<v><iv><ap2><neut><aor><s_sg3>/очык<v><iv><iter><consume><neut><aor><s_sg2>/очык<v><iv><iter><consume><neut><aor><s_sg3>/очык<v><iv><iter><neut><aor><s_sg2>/очык<v><iv><iter><neut><aor><s_sg3>/очык<v><iv><utilit><consume><neut><aor><s_sg2>/очык<v><iv><utilit><consume><neut><aor><s_sg3>/очык<v><iv><utilit><neut><aor><s_sg2>/очык<v><iv><utilit><neut><aor><s_sg3>/очыткок<v><iv><neut><aor><s_sg2>/очыткок<v><iv><neut><aor><s_sg3>$
 ^./.<sent>$
 ^-/-<guio>$
 ^Вынэ/Вынэ<ij>$
@@ -11850,7 +11850,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^./.<sent>$
 ^Панэна/*Панэна$
 ^ынпыначгыӄай/*ынпыначгыӄай$
-^ныгатгаткоӄэн/гатгаткок<v><iv><consume><stat><hab><s_sg3>/гатгаткок<v><iv><stat><hab><s_sg3>$
+^ныгатгаткоӄэн/гатгаткок<v><iv><stat><hab><s_sg3>$
 ^./.<sent>$
 ^Орвыкэн/*Орвыкэн$
 ^пагтыԓгыԓӄыԓтэ/*пагтыԓгыԓӄыԓтэ$
@@ -11997,7 +11997,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^ым/ым<part>$
 ^оʼратԓывъёӄай/*оʼратԓывъёӄай$
 ^авнаваԓёмка/*авнаваԓёмка$
-^ваӈӈогъэ/вак<v><iv><inch2><consume><neut><aor><s_sg2>/вак<v><iv><inch2><consume><neut><aor><s_sg3>/вак<v><iv><inch2><neut><aor><s_sg2>/вак<v><iv><inch2><neut><aor><s_sg3>$
+^ваӈӈогъэ/вак<v><iv><inch2><neut><aor><s_sg2>/вак<v><iv><inch2><neut><aor><s_sg3>$
 ^!/!<sent>$
 ^Ԓыгэн/Ԓыгэн<part>$
 ^йъэԓгытомгырагты/*йъэԓгытомгырагты$
@@ -12217,7 +12217,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^./.<sent>$
 ^Гэԓытъоԓыткынык/*Гэԓытъоԓыткынык$
 ^./.<sent>$
-^Рэтыԓямгогъэ/Рэтыԓяк<v><iv><inch><consume><neut><aor><s_sg2>/Рэтыԓяк<v><iv><inch><consume><neut><aor><s_sg3>/Рэтыԓяк<v><iv><inch><neut><aor><s_sg2>/Рэтыԓяк<v><iv><inch><neut><aor><s_sg3>$
+^Рэтыԓямгогъэ/Рэтыԓяк<v><iv><inch><neut><aor><s_sg2>/Рэтыԓяк<v><iv><inch><neut><aor><s_sg3>$
 ^./.<sent>$
 ^Яраӈы/Яраӈы<n><sg><abs>$
 ^рэтыӈ/*рэтыӈ$
@@ -12546,7 +12546,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^выргыргын/выргыргын<n><aa><ess>/выргыргын<n><px3sg><abs>/выргыргын<n><sg><abs>$
 ^ваԓёмнэн/*ваԓёмнэн$
 ^./.<sent>$
-^Чемгъотваӈӈогъэ/Чимгъук<v><iv><res><inch2><consume><neut><aor><s_sg2>/Чимгъук<v><iv><res><inch2><consume><neut><aor><s_sg3>/Чимгъук<v><iv><res><inch2><neut><aor><s_sg2>/Чимгъук<v><iv><res><inch2><neut><aor><s_sg3>$
+^Чемгъотваӈӈогъэ/Чимгъук<v><iv><res><inch2><neut><aor><s_sg2>/Чимгъук<v><iv><res><inch2><neut><aor><s_sg3>$
 ^:/:<sent>$
 ^«/«<lquot>$
 ^Этыӄун/Этыӄун<cnjcoo>$
@@ -13970,7 +13970,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^мэмыԓенаванӈатык/*мэмыԓенаванӈатык$
 ^,/,<cm>$
 ^ӄынвэр/ӄынвэр<adv>$
-^чемгъотваӈӈогъэ/чимгъук<v><iv><res><inch2><consume><neut><aor><s_sg2>/чимгъук<v><iv><res><inch2><consume><neut><aor><s_sg3>/чимгъук<v><iv><res><inch2><neut><aor><s_sg2>/чимгъук<v><iv><res><inch2><neut><aor><s_sg3>$
+^чемгъотваӈӈогъэ/чимгъук<v><iv><res><inch2><neut><aor><s_sg2>/чимгъук<v><iv><res><inch2><neut><aor><s_sg3>$
 ^./.<sent>$
 ^Нивӄин/Ивык<v><iv><stat><hab><s_sg3>$
 ^:/:<sent>$
@@ -14318,7 +14318,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^./.<sent>$
 ^Увипԓыткук/Увик<v><iv><compl><consume><gna_ant>/Увик<v><iv><compl><consume><inf>/Увик<v><iv><compl><gna_ant>/Увик<v><iv><compl><inf>$
 ^,/,<cm>$
-^ӄамэтваӈӈогъат/ӄамэтвак<v><iv><inch2><consume><neut><aor><s_pl3>/ӄамэтвак<v><iv><inch2><neut><aor><s_pl3>$
+^ӄамэтваӈӈогъат/ӄамэтвак<v><iv><inch2><neut><aor><s_pl3>$
 ^./.<sent>$
 ^Уʼвэӄуч/*Уʼвэӄуч$
 ^амынан/ам<prn><restr><p3><sg>$
@@ -15416,7 +15416,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^чакыгэт/*чакыгэт$
 ^./.<sent>$
 ^Эʼквырга/эʼквырга<cnjcoo>$
-^кавтычгок/кавтычгок<v><iv><consume><gna_ant>/кавтычгок<v><iv><consume><inf>/кавтычгок<v><iv><gna_ant>/кавтычгок<v><iv><inf>$
+^кавтычгок/кавтычгок<v><iv><gna_ant>/кавтычгок<v><iv><inf>$
 ^ԓываквъэ/*ԓываквъэ$
 ^йичьэмиттумгын/йичьэмиттумгын<n><aa><ess>/йичьэмиттумгын<n><px3sg><abs>/йичьэмиттумгын<n><sg><abs>$
 ^./.<sent>$
@@ -16776,7 +16776,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^эвыр/эвыр<cnjcoo>$
 ^гарэԓӄыма/*гарэԓӄыма$
 ^!/!<sent>$
-^Ӄамэтваӈӈок/Ӄамэтвак<v><iv><inch2><consume><gna_ant>/Ӄамэтвак<v><iv><inch2><consume><inf>/Ӄамэтвак<v><iv><inch2><gna_ant>/Ӄамэтвак<v><iv><inch2><inf>$
+^Ӄамэтваӈӈок/Ӄамэтвак<v><iv><inch2><gna_ant>/Ӄамэтвак<v><iv><inch2><inf>$
 ^-/-<guio>$
 ^ым/ым<part>$
 ^таӈымыԓьо/*таӈымыԓьо$
@@ -16801,7 +16801,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^ынкъам/ынкъам<cnjcoo>$
 ^ынкэгйит/*ынкэгйит$
 ^напаӄатԓыӄэн/*напаӄатԓыӄэн$
-^ӄамэтваӈӈок/ӄамэтвак<v><iv><inch2><consume><gna_ant>/ӄамэтвак<v><iv><inch2><consume><inf>/ӄамэтвак<v><iv><inch2><gna_ant>/ӄамэтвак<v><iv><inch2><inf>$
+^ӄамэтваӈӈок/ӄамэтвак<v><iv><inch2><gna_ant>/ӄамэтвак<v><iv><inch2><inf>$
 ^./.<sent>$
 ^Янот/*Янот$
 ^-/-<guio>$
@@ -16908,7 +16908,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^Ынраӄ/*Ынраӄ$
 ^ӄытԓыги/ӄытԓыги<adv>$
 ^нутэргэтыԓьын/*нутэргэтыԓьын$
-^ӄамэтваӈӈок/ӄамэтвак<v><iv><inch2><consume><gna_ant>/ӄамэтвак<v><iv><inch2><consume><inf>/ӄамэтвак<v><iv><inch2><gna_ant>/ӄамэтвак<v><iv><inch2><inf>$
+^ӄамэтваӈӈок/ӄамэтвак<v><iv><inch2><gna_ant>/ӄамэтвак<v><iv><inch2><inf>$
 ^эʼӄэԓьэ/эʼӄэԓьын<n><erg>$
 ^нывинвыгитэӄин/*нывинвыгитэӄин$
 ^./.<sent>$
@@ -17141,7 +17141,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^нэнантэнмавӄэнат/*нэнантэнмавӄэнат$
 ^./.<sent>$
 ^Кэтэм/Кэтэм<adv>$
-^гатгаткома/гатгаткок<v><iv><consume><gna_sim>/гатгаткок<v><iv><gna_sim>$
+^гатгаткома/гатгаткок<v><iv><gna_sim>$
 ^ӈаргын/*ӈаргын$
 ^,/,<cm>$
 ^ӈэранъаачека/*ӈэранъаачека$
@@ -17171,7 +17171,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^,/,<cm>$
 ^мынӄамэтвасӄэвмык/*мынӄамэтвасӄэвмык$
 ^./.<sent>$
-^Татԓыӈыткогъат/Татԓыӈык<v><iv><ap2><consume><neut><aor><s_pl3>/Татԓыӈык<v><iv><ap2><neut><aor><s_pl3>/Татԓыӈык<v><iv><iter><consume><neut><aor><s_pl3>/Татԓыӈык<v><iv><iter><neut><aor><s_pl3>/Татԓыӈык<v><iv><utilit><consume><neut><aor><s_pl3>/Татԓыӈык<v><iv><utilit><neut><aor><s_pl3>/Татԓыӈыткок<v><iv><consume><neut><aor><s_pl3>/Татԓыӈыткок<v><iv><neut><aor><s_pl3>$
+^Татԓыӈыткогъат/Татԓыӈык<v><iv><ap2><consume><neut><aor><s_pl3>/Татԓыӈык<v><iv><ap2><neut><aor><s_pl3>/Татԓыӈык<v><iv><iter><consume><neut><aor><s_pl3>/Татԓыӈык<v><iv><iter><neut><aor><s_pl3>/Татԓыӈык<v><iv><utilit><consume><neut><aor><s_pl3>/Татԓыӈык<v><iv><utilit><neut><aor><s_pl3>/Татԓыӈыткок<v><iv><neut><aor><s_pl3>$
 ^:/:<sent>$
 ^-/-<guio>$
 ^Вынэ/Вынэ<ij>$
@@ -18309,7 +18309,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^агыткапаӈъэвкыԓьэн/*агыткапаӈъэвкыԓьэн$
 ^./.<sent>$
 ^Ӈэвъэн/Ӈэвъэн<n><sg><abs>$
-^ночыткоӄэн/очык<v><iv><ap2><consume><stat><hab><s_sg3>/очык<v><iv><ap2><stat><hab><s_sg3>/очык<v><iv><iter><consume><stat><hab><s_sg3>/очык<v><iv><iter><stat><hab><s_sg3>/очык<v><iv><utilit><consume><stat><hab><s_sg3>/очык<v><iv><utilit><stat><hab><s_sg3>/очыткок<v><iv><consume><stat><hab><s_sg3>/очыткок<v><iv><stat><hab><s_sg3>$
+^ночыткоӄэн/очык<v><iv><ap2><consume><stat><hab><s_sg3>/очык<v><iv><ap2><stat><hab><s_sg3>/очык<v><iv><iter><consume><stat><hab><s_sg3>/очык<v><iv><iter><stat><hab><s_sg3>/очык<v><iv><utilit><consume><stat><hab><s_sg3>/очык<v><iv><utilit><stat><hab><s_sg3>/очыткок<v><iv><stat><hab><s_sg3>$
 ^:/:<sent>$
 ^-/-<guio>$
 ^Ӄэԓюӄ/*Ӄэԓюӄ$
@@ -18475,7 +18475,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^Ӄынвэрэвыр/*Ӄынвэрэвыр$
 ^вай/вай<part>$
 ^рэмкын/рэмкын<n><aa><ess>/рэмкын<n><px3sg><abs>/рэмкын<n><sg><abs>$
-^ваԓёмыӈӈогъэ/ваԓёмык<v><iv><inch2><consume><neut><aor><s_sg2>/ваԓёмык<v><iv><inch2><consume><neut><aor><s_sg3>/ваԓёмык<v><iv><inch2><neut><aor><s_sg2>/ваԓёмык<v><iv><inch2><neut><aor><s_sg3>$
+^ваԓёмыӈӈогъэ/ваԓёмык<v><iv><inch2><neut><aor><s_sg2>/ваԓёмык<v><iv><inch2><neut><aor><s_sg3>$
 ^:/:<sent>$
 ^ӄуԓинымык/*ӄуԓинымык$
 ^ӈэвысӄэт/ӈэвысӄэт<n><sg><abs>$
@@ -19473,7 +19473,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^Эчги/*Эчги$
 ^ӈан/ӈан<part>$
 ^ярак/яраӈы<n><loc>$
-^аймавыӈӈогъат/аймык<v><iv><vrblz2><inch2><consume><neut><aor><s_pl3>/аймык<v><iv><vrblz2><inch2><neut><aor><s_pl3>$
+^аймавыӈӈогъат/аймык<v><iv><vrblz2><inch2><neut><aor><s_pl3>$
 ^,/,<cm>$
 ^Въэйиръыԓьын/*Въэйиръыԓьын$
 ^вытку/вытку<adv>$
@@ -19989,7 +19989,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^мууԓӄытгъэт/мууԓӄытык<v><iv><neut><aor><s_pl3>$
 ^,/,<cm>$
 ^янра/*янра$
-^ваӈӈогъат/вак<v><iv><inch2><consume><neut><aor><s_pl3>/вак<v><iv><inch2><neut><aor><s_pl3>$
+^ваӈӈогъат/вак<v><iv><inch2><neut><aor><s_pl3>$
 ^./.<sent>$
 ^Кыкватгыткаԓгын/*Кыкватгыткаԓгын$
 ^-/-<guio>$
@@ -20423,7 +20423,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^./.<sent>$
 ^Ԓюур/Ԓюур<adv>$
 ^тиӈурэ/тиӈур<n><erg>$
-^тэнмавыӈӈогъат/тэнмавык<v><iv><inch2><consume><neut><aor><s_pl3>/тэнмавык<v><iv><inch2><neut><aor><s_pl3>/тэнмык<v><iv><vrblz2><inch2><neut><aor><s_pl3>$
+^тэнмавыӈӈогъат/тэнмавык<v><iv><inch2><neut><aor><s_pl3>/тэнмык<v><iv><vrblz2><inch2><neut><aor><s_pl3>$
 ^эʼӄэԓьыт/*эʼӄэԓьыт$
 ^./.<sent>$
 ^Ваӈӄасӄорына/*Ваӈӄасӄорына$
@@ -21878,7 +21878,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^./.<sent>$
 ^Ярак/Яраӈы<n><loc>$
 ^пыкиринэӈу/пыкирык<v><iv><gna_res>$
-^яԓгытымгогъат/яԓгытык<v><iv><inch><consume><neut><aor><s_pl3>/яԓгытык<v><iv><inch><neut><aor><s_pl3>$
+^яԓгытымгогъат/яԓгытык<v><iv><inch><neut><aor><s_pl3>$
 ^,/,<cm>$
 ^гынтэквъэт/*гынтэквъэт$
 ^ырыгнотагты/*ырыгнотагты$
@@ -22486,7 +22486,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^ԓьук/ԓьук<v><iv><gna_ant>/ԓьук<v><iv><inf>$
 ^./.<sent>$
 ^Ӄынвэр/Ӄынвэр<adv>$
-^ваӈэйпыӈӈогъат/ваӈэйпык<v><iv><inch2><consume><neut><aor><s_pl3>/ваӈэйпык<v><iv><inch2><neut><aor><s_pl3>$
+^ваӈэйпыӈӈогъат/ваӈэйпык<v><iv><inch2><neut><aor><s_pl3>$
 ^Ӄунԓеԓюнти/*Ӄунԓеԓюнти$
 ^,/,<cm>$
 ^рыюԓьын/*рыюԓьын$
@@ -22808,7 +22808,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^./.<sent>$
 ^Ынӈин/*Ынӈин$
 ^ӄынвэр/ӄынвэр<adv>$
-^нымытваӈӈогъат/нымытвак<v><iv><inch2><consume><neut><aor><s_pl3>/нымытвак<v><iv><inch2><neut><aor><s_pl3>$
+^нымытваӈӈогъат/нымытвак<v><iv><inch2><neut><aor><s_pl3>$
 ^амаравка/*амаравка$
 ^./.<sent>$
 ^Ӄонпы/*Ӄонпы$
@@ -24366,7 +24366,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^Нэмэ/Нэмэ<adv>$
 ^гыт/гыт<prn><pers><p2><sg><abs>$
 ^ԓыгэн/ԓыгэн<part>$
-^тымӈэтваӈӈогъэ/тымӈэтвак<v><iv><inch2><consume><neut><aor><s_sg2>/тымӈэтвак<v><iv><inch2><consume><neut><aor><s_sg3>/тымӈэтвак<v><iv><inch2><neut><aor><s_sg2>/тымӈэтвак<v><iv><inch2><neut><aor><s_sg3>$
+^тымӈэтваӈӈогъэ/тымӈэтвак<v><iv><inch2><neut><aor><s_sg2>/тымӈэтвак<v><iv><inch2><neut><aor><s_sg3>$
 ^?/?<sent>$
 ^Ӄывинрэтыркын/Винрэтык<v><iv><prog><intn><s_sg2>$
 ^уттынумэкэвкы/*уттынумэкэвкы$
@@ -25281,7 +25281,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^ӄытыркын/так<v><iv><prog><intn><s_sg2>/ӄытык<v><iv><prog><aor><s_sg2>/ӄытык<v><iv><prog><aor><s_sg3>$
 ^!/!<sent>$
 ^Ӄэпэр/Ӄэпэр<n><sg><abs>$
-^очыткогъэ/очык<v><iv><ap2><consume><neut><aor><s_sg2>/очык<v><iv><ap2><consume><neut><aor><s_sg3>/очык<v><iv><ap2><neut><aor><s_sg2>/очык<v><iv><ap2><neut><aor><s_sg3>/очык<v><iv><iter><consume><neut><aor><s_sg2>/очык<v><iv><iter><consume><neut><aor><s_sg3>/очык<v><iv><iter><neut><aor><s_sg2>/очык<v><iv><iter><neut><aor><s_sg3>/очык<v><iv><utilit><consume><neut><aor><s_sg2>/очык<v><iv><utilit><consume><neut><aor><s_sg3>/очык<v><iv><utilit><neut><aor><s_sg2>/очык<v><iv><utilit><neut><aor><s_sg3>/очыткок<v><iv><consume><neut><aor><s_sg2>/очыткок<v><iv><consume><neut><aor><s_sg3>/очыткок<v><iv><neut><aor><s_sg2>/очыткок<v><iv><neut><aor><s_sg3>$
+^очыткогъэ/очык<v><iv><ap2><consume><neut><aor><s_sg2>/очык<v><iv><ap2><consume><neut><aor><s_sg3>/очык<v><iv><ap2><neut><aor><s_sg2>/очык<v><iv><ap2><neut><aor><s_sg3>/очык<v><iv><iter><consume><neut><aor><s_sg2>/очык<v><iv><iter><consume><neut><aor><s_sg3>/очык<v><iv><iter><neut><aor><s_sg2>/очык<v><iv><iter><neut><aor><s_sg3>/очык<v><iv><utilit><consume><neut><aor><s_sg2>/очык<v><iv><utilit><consume><neut><aor><s_sg3>/очык<v><iv><utilit><neut><aor><s_sg2>/очык<v><iv><utilit><neut><aor><s_sg3>/очыткок<v><iv><neut><aor><s_sg2>/очыткок<v><iv><neut><aor><s_sg3>$
 ^:/:<sent>$
 ^-/-<guio>$
 ^Тырэнгынтэвэнӈытык/*Тырэнгынтэвэнӈытык$
@@ -25315,7 +25315,7 @@ _ ^Ӄырым/Ӄырым<part>$
 ^!/!<sent>$
 ^Умӄы/*Умӄы$
 ^вэнԓыги/вэнԓыги<adv>$
-^ӄамэтваӈӈогъэ/ӄамэтвак<v><iv><inch2><consume><neut><aor><s_sg2>/ӄамэтвак<v><iv><inch2><consume><neut><aor><s_sg3>/ӄамэтвак<v><iv><inch2><neut><aor><s_sg2>/ӄамэтвак<v><iv><inch2><neut><aor><s_sg3>$
+^ӄамэтваӈӈогъэ/ӄамэтвак<v><iv><inch2><neut><aor><s_sg2>/ӄамэтвак<v><iv><inch2><neut><aor><s_sg3>$
 ^./.<sent>$
 ^Ӄэпэрэ/Ӄэпэр<n><erg>$
 ^йъонэн/*йъонэн$
