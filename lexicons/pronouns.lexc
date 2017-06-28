@@ -1,29 +1,4 @@
 
-!LEXICON Pronouns
-
-! гымо:гымо PRN-PERS-SG-ABS ;
-! гымо:гым      ! 1sg
-! гыто:гыто PRN-PERS-SG-ABS ;
-! гыто:гыт      ! 2sg
-! ытԓён:ытԓён PRN-PERS-SG-ABS ; ! 3 sg
-! ытԓён:ын PRN-PERS-OBL ! 3sg
-! мури:мури PRN-ABS      ! 1pl
-! мури:мур(г)
-! тури:тур(г)   ! 2pl
-! ыччи:ычч      ! 3pl females
-! ытри:ырг      ! 3pl males
-
-
-
-! LEXICON PRN-PERS-SG-ABS
-! @D.CASE@%<prn%>%<abs%>:@D.CASE@ # ;
-
-
-! LEXICON PRN-ABS
-! @D.CASE@%<prn%>%<sg%>%<abs%>:@D.CASE@ # ;
-
-
-
 
 LEXICON PRON-GYM
 
@@ -83,7 +58,17 @@ LEXICON PRON-PERS-CASES
 @R.CASE.com@%<com%>:@R.CASE.com@%>ык%>%{T%}%{Æ%} # ;
 @R.CASE.assoc@%<assoc%>:@R.CASE.assoc@%>ыг%>%{ы%}ма%{⁺ⱽᴴ%} # ;
 @R.CASE.prv@%<prv%>:@R.CASE.prv@%>ык%>%{ы%}к%{Æ%} # ;
-@D.CASE@:@D.CASE@ POSS ;
+: POSS ;
+:%{ы%}к%{Æ%} REL ;
+: PRON-REL ;
+
+
+LEXICON PRON-REL
+%<rel%>%<1sg%>:нин%{Æ%}кин N-DERIV-I ;
+%<rel%>%<1pl%>:гин%{Æ%}кин N-DERIV-I ;
+%<rel%>%<2sg%>:ин%{Æ%}кин N-DERIV-I ;
+%<rel%>%<2pl%>:гин%{Æ%}кин N-DERIV-I ;
+
 
 
 LEXICON PRON-RXENUT-ABS
