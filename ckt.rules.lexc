@@ -386,18 +386,18 @@ LEXICON N-DERIV-SUFF
 
 LEXICON POSS
 ! different possessed, mark on the possessor
-%<poss%>%<1sg%>%<abs%>:%>ин%{Æ%}гым # ;
-%<poss%>%<2sg%>%<abs%>:%>ин%{Æ%}гыт # ;
-%<poss%>%<3sg%>%<abs%>:%>ин # ;
-%<poss%>%<1pl%>%<abs%>:%>ин%{Æ%}мури # ;
-%<poss%>%<2pl%>%<abs%>:%>ин%{Æ%}тури # ;
-%<poss%>%<3pl%>%<abs%>:%>ин%{Æ%}т%{и%} # ;
-%<pl%>%<poss%>%<1sg%>%<abs%>:%>%{ы%}ргин%{Æ%}гым # ;
-%<pl%>%<poss%>%<2sg%>%<abs%>:%>%{ы%}ргин%{Æ%}гыт # ;
-%<pl%>%<poss%>%<3sg%>%<abs%>:%>%{ы%}ргин # ;
-%<pl%>%<poss%>%<1pl%>%<abs%>:%>%{ы%}ргин%{Æ%}мури # ;
-%<pl%>%<poss%>%<2pl%>%<abs%>:%>%{ы%}ргин%{Æ%}тури # ;
-%<pl%>%<poss%>%<3pl%>%<abs%>:%>%{ы%}ргин%{Æ%}т%{и%} # ;
+%<poss%>%<1sg%>:%>ин%{Æ%}гым N-DERIV-I ;
+%<poss%>%<2sg%>:%>ин%{Æ%}гыт N-DERIV-I ;
+%<poss%>%<3sg%>:%>ин N-DERIV-I ;
+%<poss%>%<1pl%>:%>ин%{Æ%}мури N-DERIV-I ;
+%<poss%>%<2pl%>:%>ин%{Æ%}тури N-DERIV-I ;
+%<poss%>%<3pl%>:%>ин%{Æ%}т%{и%} N-DERIV-I ;
+%<pl%>%<poss%>%<1sg%>:%>%{ы%}ргин%{Æ%}гым N-DERIV-I ;
+%<pl%>%<poss%>%<2sg%>:%>%{ы%}ргин%{Æ%}гыт N-DERIV-I ;
+%<pl%>%<poss%>%<3sg%>:%>%{ы%}ргин N-DERIV-I ;
+%<pl%>%<poss%>%<1pl%>:%>%{ы%}ргин%{Æ%}мури N-DERIV-I ;
+%<pl%>%<poss%>%<2pl%>:%>%{ы%}ргин%{Æ%}тури N-DERIV-I ;
+%<pl%>%<poss%>%<3pl%>:%>%{ы%}ргин%{Æ%}т%{и%} N-DERIV-I ;
 
 ! different possessors, mark on the possessed
 %<px1sg%>%<abs%>:%>%{ы%}гым # ;
@@ -407,9 +407,8 @@ LEXICON POSS
 %<px2pl%>%<abs%>:%>%{ы%}тури # ;
 %<px3pl%>%<abs%>:%>%{ы%}т%{и%} # ;
 
-!LEXICON REL
-!%<rel%>:%>%{ы%}кин%{Æ%}
-
+LEXICON REL
+%<rel%>:%>%{ы%}кин N-DERIV-I ;
 
 
 LEXICON N-DERIV-I
