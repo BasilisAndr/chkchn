@@ -153,6 +153,11 @@ Multichar_Symbols
 @P.VPR.myn@ @R.VPR.myn@
 @P.VPR.q@ @R.VPR.q@
 @P.VPR.n@ @R.VPR.n@
+@P.VPR.ne@ @R.VPR.ne@
+@P.VPR.ine@ @R.VPR.ine@
+@P.VPR.qine@ @R.VPR.qine@
+@P.VPR.nine@ @R.VPR.nine@
+@P.VPR.yn@ @R.VPR.yn@
 @P.VPR.perf@ @R.VPR.perf@
 @P.VPR.hab@ @R.VPR.hab@
 @D.VPR@
