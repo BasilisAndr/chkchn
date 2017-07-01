@@ -38,11 +38,11 @@ Multichar_Symbols
 %<ap2%>                   ! Antipassive
 %<caus%>                  ! Causative
 %<punct%>                 ! Punctual
-%<dim%>
-%<aug%>
-%<res%>
+%<dim%>                   ! Diminutive (verbal)
+%<aug%>                   ! Augmentative (verbal)
+%<res%>                   ! Resultative
 %<rev%>
-%<purp%>
+%<purp%>                  ! Purposive
 %<consume%>
 %<utilit%>
 %<vrblz%>                 ! Verb deriving suffix
