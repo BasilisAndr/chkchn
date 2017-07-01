@@ -400,3 +400,45 @@ LEXICON V-TV-NEUT-INTN
 @R.VPR.q@%<a_2pl%>%<o_3pl%>:@R.VPR.q@%>%{ы%}гыткы # ;
 @R.VPR.n@%<a_3sg%>%<o_3pl%>:@R.VPR.n@%>%{ы%}нин%{Æ%}т # ;
 @R.VPR.yn@%<a_3pl%>%<o_3pl%>:@R.VPR.yn@%>%{ы%}н%{Æ%}т # ;
+
+
+LEXICON V-TV-NEUT-COND
+
+@R.VPR.qine@%<a_2sg%>%<o_1sg%>:@R.VPR.qine@%>%{ы%}ги # ;
+@R.VPR.qine@%<a_2pl%>%<o_1sg%>:@R.VPR.qine@%>%{ы%}тык # ;
+@R.VPR.nine@%<a_3sg%>%<o_1sg%>:@R.VPR.nine@%>%{ы%}н # ;
+@R.VPR.nine@%<a_3sg%>%<o_1sg%>:@R.VPR.nine@%>%{ы%}гъ%{Æ%}н # ;
+@R.VPR.yn@%<a_3pl%>%<o_1sg%>:@R.VPR.yn@%>%{ы%}гым # ;
+
+@R.VPR.q@%<a_2sg%>%<o_1pl%>:@R.VPR.q@%>%{ы%}ткун # ;
+@R.VPR.q@%<a_2sg%>%<o_1pl%>:@R.VPR.q@%>%{ы%}ткугъ%{Æ%}н # ;
+@R.VPR.q@%<a_2pl%>%<o_1pl%>:@R.VPR.q@%>%{ы%}ткутык # ;
+@R.VPR.yn@%<a_3sg%>%<o_1pl%>:@R.VPR.yn@%>%{ы%}мык # ;
+@R.VPR.yn@%<a_3pl%>%<o_1pl%>:@R.VPR.yn@%>%{ы%}мык # ;
+
+@R.VPR.m@%<a_1sg%>%<o_2sg%>:@R.VPR.m@%>%{ы%}гыт # ;
+@R.VPR.myn@%<a_1pl%>%<o_2sg%>:@R.VPR.myn@%>%{ы%}гыт # ;
+@R.VPR.yn@%<a_3sg%>%<o_2sg%>:@R.VPR.yn@%>%{ы%}гыт # ;
+@R.VPR.yn@%<a_3pl%>%<o_2sg%>:@R.VPR.yn@%>%{ы%}гыт # ;
+
+@R.VPR.m@%<a_1sg%>%<o_2pl%>:@R.VPR.m@%>%{ы%}тык # ;
+@R.VPR.myn@%<a_1pl%>%<o_2pl%>:@R.VPR.myn@%>%{ы%}тык # ;
+@R.VPR.yn@%<a_3sg%>%<o_2pl%>:@R.VPR.yn@%>%{ы%}тык # ;
+@R.VPR.yn@%<a_3pl%>%<o_2pl%>:@R.VPR.yn@%>%{ы%}тык # ;
+
+@R.VPR.m@%<a_1sg%>%<o_3sg%>:@R.VPR.m@%>%{ы%}н # ;
+@R.VPR.m@%<a_1sg%>%<o_3sg%>:@R.VPR.m@%>%{ы%}гъ%{Æ%}н # ;
+@R.VPR.myn@%<a_1pl%>%<o_3sg%>:@R.VPR.myn@%>%{ы%}н # ;
+@R.VPR.myn@%<a_1pl%>%<o_3sg%>:@R.VPR.myn@%>%{ы%}гъ%{Æ%}н # ;
+@R.VPR.q@%<a_2sg%>%<o_3sg%>:@R.VPR.q@%>%{ы%}гын # ;
+@R.VPR.q@%<a_2pl%>%<o_3sg%>:@R.VPR.q@%>%{ы%}гыткы # ;
+@R.VPR.n@%<a_3sg%>%<o_3sg%>:@R.VPR.n@%>%{ы%}нин # ;
+@R.VPR.yn@%<a_3pl%>%<o_3sg%>:@R.VPR.yn@%>%{ы%}ӈын # ;
+@R.VPR.yn@%<a_3pl%>%<o_3sg%>:@R.VPR.yn@%>%{ы%}гъ%{Æ%}ӈын # ;
+
+@R.VPR.m@%<a_1sg%>%<o_3pl%>:@R.VPR.m@%>%{ы%}н%{Æ%}т # ;
+@R.VPR.myn@%<a_1pl%>%<o_3pl%>:@R.VPR.myn@%>%{ы%}н%{Æ%}т # ;
+@R.VPR.q@%<a_2sg%>%<o_3pl%>:@R.VPR.q@%>%{ы%}гын%{Æ%}т # ;
+@R.VPR.q@%<a_2pl%>%<o_3pl%>:@R.VPR.q@%>%{ы%}гыткы # ;
+@R.VPR.n@%<a_3sg%>%<o_3pl%>:@R.VPR.n@%>%{ы%}нин%{Æ%}т # ;
+@R.VPR.yn@%<a_3pl%>%<o_3pl%>:@R.VPR.yn@%>%{ы%}н%{Æ%}т # ;
