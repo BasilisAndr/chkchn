@@ -33,34 +33,113 @@ LEXICON Verb-prefixes
 
 LEXICON V-TENSE-PREFIXES
 
-@P.TENSE.fut@:@P.TENSE.fut@р%{Æ%}%> Verbs ;
-@P.TENSE.cond@:@P.TENSE.cond@ъ%{ы%}%> Verbs ;
+@P.TENSE.fut@:@P.TENSE.fut@р%{Æ%}%> Verb-deriv-prefixes ;
+@P.TENSE.cond@:@P.TENSE.cond@ъ%{ы%}%> Verb-deriv-prefixes ;
 : Verbs ;
 
 
 !!!!!! Derivational prefixes
 
-LEXICON V-DERIV
+LEXICON Verb-deriv-prefixes
+@P.VDER.approx@:@P.VDER.approx@м%{Æ%}ч%{ы%}%> Verbs ;
+@P.VDER.ints@:@P.VDER.ints@т%{Æ%}ӈ%{ы%}%> V-DERIV-PREF-INTS ;
+: V-DERIV-PREF-INTS ;
 
+LEXICON V-DERIV-PREF-INTS
+@P.VDER.ints2@:@P.VDER.ints2@лги%> V-DERIV-PREF-DESID ;
+: V-DERIV-PREF-DESID ;
+
+LEXICON V-DERIV-PREF-DESID
+@P.VDER.desid@:@P.VDER.desid@р%{Æ%}%> V-DERIV-PREF-AP ;
+: V-DERIV-PREF-AP ;
+
+LEXICON V-DERIV-PREF-AP
+@P.VDER.ap@:@P.VDER.ap@ин%{Æ%}%> V-DERIV-PREF-CAUS ;
+: V-DERIV-PREF-CAUS ;
+
+LEXICON V-DERIV-PREF-CAUS
+@P.VDER.caus@:@P.VDER.caus@н%{ы%}%> Verbs ;
+@P.VDER.caus@:@P.VDER.caus@р%{ы%}%> Verbs ;
+: Verbs ;
+
+! circum: desid, cs+th
+
+
+! %<root here%>
+
+
+!!!!!! Derivational suffixes
+
+LEXICON V-DERIV
+! prefix tags
+@R.VDER.approx@%<approx%>:@R.VDER.approx@ V-IV-AFFIX ;
+@D.VDER.approx@:@D.VDER.approx@ V-DERIV-INTS ;
+
+LEXICON V-DERIV-INTS
+@R.VDER.ints@%<ints%>:@R.VDER.ints@ V-DERIV-INTS2 ;
+@D.VDER.ints@:@D.VDER.ints@ V-DERIV-INTS2 ;
+
+LEXICON V-DERIV-INTS2
+@R.VDER.ints2@%<ints2%>:@R.VDER.ints2@ V-DERIV-AP-PREF ;
+@D.VDER.ints2@:@D.VDER.ints2@ V-DERIV-AP-PREF ;
+
+LEXICON V-DERIV-AP-PREF
+@R.VDER.ap@%<ap%>:@R.VDER.ap@ V-DERIV-CAUS ;
+@D.VDER.ap@:@D.VDER.ap@ V-DERIV-CAUS ;
+
+LEXICON V-DERIV-CAUS
+@R.VDER.caus@%<caus%>:@R.VDER.caus@ V-DERIV-SUFF ;
+@D.VDER.caus@:@D.VDER.caus@ V-DERIV-SUFF ;
+
+LEXICON V-DERIV-SUFF
 ! incompatible w/others (probably)
-%<punct%>:%>%{ы%}чӄыч%{Æ%}т V-IV ;
-%<dim%>:%>%{ы%}ӄ%{Æ%}%{Æ%}т V-IV ;
-%<aug%>:%>%{ы%}чгат V-IV ;
-%<res%>:%>%{ы%}тва V-IV ;
-%<rev%>:%>%{ы%}тв V-IV ;
-%<purp%>:%>%{ы%}чӄив V-IV ;
-%<consume%>:%>у V-IV ;
-%<utilit%>:%>%{ы%}тку V-IV ;
-%<vrblz%>:%>%{Æ%}т V-IV ;
-%<vrblz2%>:%>%{Æ%}в V-IV ;
-%<ap2%>:%>%{ы%}тку V-IV ;
-%<iter%>:%>%{ы%}тку V-IV ;
-%<coll_s%>:%>%{ы%}ръу V-IV ;
-%<coll_o%>:%>%{ы%}йв V-IV ;
-%<dur%>:%>%{ы%}ԓъ%{Æ%}т V-IV ;
-%<inch%>:%>%{ы%}мго V-IV ;
-%<inch2%>:%>%{ы%}ӈӈо V-IV ;
-%<compl%>:%>%{ы%}пԓытку V-IV ;
+%<punct%>:%>%{ы%}чӄыч%{Æ%}т V-DERIV-TH ;
+%<dim%>:%>%{ы%}ӄ%{Æ%}%{Æ%}т V-DERIV-TH ;
+%<aug%>:%>%{ы%}чгат V-DERIV-TH ;
+! attach right to the stem
+%<res%>:%>%{ы%}тва V-DERIV-TH ;
+%<rev%>:%>%{ы%}тв V-DERIV-TH ;
+%<purp%>:%>%{ы%}чӄив V-DERIV-TH ;
+%<consume%>:%>у V-DERIV-TH ;
+%<utilit%>:%>%{ы%}тку V-DERIV-TH ;
+: V-DERIV-TH ;
+
+LEXICON V-DERIV-TH
+%<vrblz%>:%>%{Æ%}т V-DERIV-AP ;
+%<vrblz2%>:%>%{Æ%}в V-DERIV-AP ;
+: V-DERIV-AP ;
+
+
+LEXICON V-DERIV-AP             ! Antipassive
+%<ap2%>:%>%{ы%}тку V-DERIV-DESID ;
+: V-DERIV-DESID ;
+
+LEXICON V-DERIV-DESID
+@R.VDER.desid@%<desid%>:@R.VDER.desid@%>ӈ V-DERIV-ITER ;
+@D.VDER.desid@:@D.VDER.desid@ V-DERIV-ITER ;
+
+LEXICON V-DERIV-ITER
+%<iter%>:%>%{ы%}тку V-DERIV-COOP ;
+: V-DERIV-COOP ;
+
+LEXICON V-DERIV-COOP
+%<coop_s%>:%>%{ы%}ръу V-DERIV-DUR ;
+%<coop_o%>:%>%{ы%}йв V-DERIV-DUR ;
+: V-DERIV-DUR ;
+
+LEXICON V-DERIV-DUR
+%<dur%>:%>%{ы%}лъ%{Æ%}т V-DERIV-INCH ;
+: V-DERIV-INCH ;
+
+LEXICON V-DERIV-INCH
+%<inch%>:%>%{ы%}мго V-DERIV-FIN ;
+%<inch2%>:%>%{ы%}ӈӈо V-DERIV-FIN ;
+%<compl%>:%>%{ы%}плытку V-DERIV-FIN ;
+: V-DERIV-FIN ;
+
+LEXICON V-DERIV-FIN
+@R.V.iv@:@R.V.iv@ V-IV-AFFIX ;
+@R.V.tv@:@R.V.tv@ V-TV-AFFIX ;
 
 
 LEXICON V
@@ -76,7 +155,7 @@ LEXICON V
 LEXICON V-IV
 
 @D.VDER@:@D.VDER@ V-IV-AFFIX ;
-: V-DERIV ;
+@P.V.iv@:@P.V.iv@ V-DERIV ;
 
 
 LEXICON V-IV-AFFIX
@@ -109,7 +188,7 @@ LEXICON V-IV-NONFIN
 LEXICON V-TV
 
 @D.VDER@:@D.VDER@ V-TV-AFFIX ;
-! : V-DERIV ;
+@P.V.tv@:@P.V.tv@ V-DERIV ;
 
 
 LEXICON V-TV-AFFIX
