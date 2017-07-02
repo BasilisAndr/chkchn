@@ -38,19 +38,19 @@ Multichar_Symbols
 %<ap2%>                   ! Antipassive
 %<caus%>                  ! Causative
 %<punct%>                 ! Punctual
-%<dim%>
-%<aug%>
-%<res%>
+%<dim%>                   ! Diminutive (verbal)
+%<aug%>                   ! Augmentative (verbal)
+%<res%>                   ! Resultative
 %<rev%>
-%<purp%>
+%<purp%>                  ! Purposive
 %<consume%>
 %<utilit%>
 %<vrblz%>                 ! Verb deriving suffix
 %<vrblz2%>                ! Verb deriving suffix 2
 %<desid%>                 ! Desiderative
 %<iter%>                  ! Iterative
-%<coll_s%>                ! Collective S
-%<coll_o%>                ! Collective O
+%<coop_s%>                ! Collective S
+%<coop_o%>                ! Collective O
 %<dur%>                   ! Durative
 %<inch%>                  ! Inchoative
 %<inch2%>                 ! Inchoative 2
@@ -114,7 +114,7 @@ Multichar_Symbols
 
 %<dim%>
 %<aug%>
-%<coll%>
+%<coop%>
 %<prtt%>                  ! Part of
 
 %<pers%>                  ! Personal pronoun
@@ -193,7 +193,7 @@ Miscellaneous ;
 Punctuation ;
 Pronouns ;
 Verb-prefixes ;
-! Verb-deriv-prefixes ;
+Verb-deriv-prefixes ;
 Verbs ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -382,8 +382,8 @@ LEXICON N-DERIV-SUFF
 %<dim%>:%>%{ы%}ӄ%{Æ%}й N-DERIV-I ;
 %<aug%>:%>%{ы%}ч%{ы%}ӈ N-DERIV-I ;
 %<aug%>:%>%{ы%}йӈ N-DERIV-I ;
-%<coll%>:%>%{ы%}мк N-DERIV-I ;
-%<coll%>:%>%{ы%}гинив N-DERIV-I ;
+%<coop%>:%>%{ы%}мк N-DERIV-I ;
+%<coop%>:%>%{ы%}гинив N-DERIV-I ;
 %<prtt%>:%>%{ы%}тъул N-DERIV-I ;
 
 
@@ -3777,34 +3777,113 @@ LEXICON Verb-prefixes
 
 LEXICON V-TENSE-PREFIXES
 
-@P.TENSE.fut@:@P.TENSE.fut@р%{Æ%}%> Verbs ;
-@P.TENSE.cond@:@P.TENSE.cond@ъ%{ы%}%> Verbs ;
+@P.TENSE.fut@:@P.TENSE.fut@р%{Æ%}%> Verb-deriv-prefixes ;
+@P.TENSE.cond@:@P.TENSE.cond@ъ%{ы%}%> Verb-deriv-prefixes ;
 : Verbs ;
 
 
 !!!!!! Derivational prefixes
 
-LEXICON V-DERIV
+LEXICON Verb-deriv-prefixes
+@P.VDER.approx@:@P.VDER.approx@м%{Æ%}ч%{ы%}%> Verbs ;
+@P.VDER.ints@:@P.VDER.ints@т%{Æ%}ӈ%{ы%}%> V-DERIV-PREF-INTS ;
+: V-DERIV-PREF-INTS ;
 
+LEXICON V-DERIV-PREF-INTS
+@P.VDER.ints2@:@P.VDER.ints2@лги%> V-DERIV-PREF-DESID ;
+: V-DERIV-PREF-DESID ;
+
+LEXICON V-DERIV-PREF-DESID
+@P.VDER.desid@:@P.VDER.desid@р%{Æ%}%> V-DERIV-PREF-AP ;
+: V-DERIV-PREF-AP ;
+
+LEXICON V-DERIV-PREF-AP
+@P.VDER.ap@:@P.VDER.ap@ин%{Æ%}%> V-DERIV-PREF-CAUS ;
+: V-DERIV-PREF-CAUS ;
+
+LEXICON V-DERIV-PREF-CAUS
+@P.VDER.caus@:@P.VDER.caus@н%{ы%}%> Verbs ;
+@P.VDER.caus@:@P.VDER.caus@р%{ы%}%> Verbs ;
+: Verbs ;
+
+! circum: desid, cs+th
+
+
+! %<root here%>
+
+
+!!!!!! Derivational suffixes
+
+LEXICON V-DERIV
+! prefix tags
+@R.VDER.approx@%<approx%>:@R.VDER.approx@ V-IV-AFFIX ;
+@D.VDER.approx@:@D.VDER.approx@ V-DERIV-INTS ;
+
+LEXICON V-DERIV-INTS
+@R.VDER.ints@%<ints%>:@R.VDER.ints@ V-DERIV-INTS2 ;
+@D.VDER.ints@:@D.VDER.ints@ V-DERIV-INTS2 ;
+
+LEXICON V-DERIV-INTS2
+@R.VDER.ints2@%<ints2%>:@R.VDER.ints2@ V-DERIV-AP-PREF ;
+@D.VDER.ints2@:@D.VDER.ints2@ V-DERIV-AP-PREF ;
+
+LEXICON V-DERIV-AP-PREF
+@R.VDER.ap@%<ap%>:@R.VDER.ap@ V-DERIV-CAUS ;
+@D.VDER.ap@:@D.VDER.ap@ V-DERIV-CAUS ;
+
+LEXICON V-DERIV-CAUS
+@R.VDER.caus@%<caus%>:@R.VDER.caus@ V-DERIV-SUFF ;
+@D.VDER.caus@:@D.VDER.caus@ V-DERIV-SUFF ;
+
+LEXICON V-DERIV-SUFF
 ! incompatible w/others (probably)
-%<punct%>:%>%{ы%}чӄыч%{Æ%}т V-IV ;
-%<dim%>:%>%{ы%}ӄ%{Æ%}%{Æ%}т V-IV ;
-%<aug%>:%>%{ы%}чгат V-IV ;
-%<res%>:%>%{ы%}тва V-IV ;
-%<rev%>:%>%{ы%}тв V-IV ;
-%<purp%>:%>%{ы%}чӄив V-IV ;
-%<consume%>:%>у V-IV ;
-%<utilit%>:%>%{ы%}тку V-IV ;
-%<vrblz%>:%>%{Æ%}т V-IV ;
-%<vrblz2%>:%>%{Æ%}в V-IV ;
-%<ap2%>:%>%{ы%}тку V-IV ;
-%<iter%>:%>%{ы%}тку V-IV ;
-%<coll_s%>:%>%{ы%}ръу V-IV ;
-%<coll_o%>:%>%{ы%}йв V-IV ;
-%<dur%>:%>%{ы%}ԓъ%{Æ%}т V-IV ;
-%<inch%>:%>%{ы%}мго V-IV ;
-%<inch2%>:%>%{ы%}ӈӈо V-IV ;
-%<compl%>:%>%{ы%}пԓытку V-IV ;
+%<punct%>:%>%{ы%}чӄыч%{Æ%}т V-DERIV-TH ;
+%<dim%>:%>%{ы%}ӄ%{Æ%}%{Æ%}т V-DERIV-TH ;
+%<aug%>:%>%{ы%}чгат V-DERIV-TH ;
+! attach right to the stem
+%<res%>:%>%{ы%}тва V-DERIV-TH ;
+%<rev%>:%>%{ы%}тв V-DERIV-TH ;
+%<purp%>:%>%{ы%}чӄив V-DERIV-TH ;
+%<consume%>:%>у V-DERIV-TH ;
+%<utilit%>:%>%{ы%}тку V-DERIV-TH ;
+: V-DERIV-TH ;
+
+LEXICON V-DERIV-TH
+%<vrblz%>:%>%{Æ%}т V-DERIV-AP ;
+%<vrblz2%>:%>%{Æ%}в V-DERIV-AP ;
+: V-DERIV-AP ;
+
+
+LEXICON V-DERIV-AP             ! Antipassive
+%<ap2%>:%>%{ы%}тку V-DERIV-DESID ;
+: V-DERIV-DESID ;
+
+LEXICON V-DERIV-DESID
+@R.VDER.desid@%<desid%>:@R.VDER.desid@%>ӈ V-DERIV-ITER ;
+@D.VDER.desid@:@D.VDER.desid@ V-DERIV-ITER ;
+
+LEXICON V-DERIV-ITER
+%<iter%>:%>%{ы%}тку V-DERIV-COOP ;
+: V-DERIV-COOP ;
+
+LEXICON V-DERIV-COOP
+%<coop_s%>:%>%{ы%}ръу V-DERIV-DUR ;
+%<coop_o%>:%>%{ы%}йв V-DERIV-DUR ;
+: V-DERIV-DUR ;
+
+LEXICON V-DERIV-DUR
+%<dur%>:%>%{ы%}лъ%{Æ%}т V-DERIV-INCH ;
+: V-DERIV-INCH ;
+
+LEXICON V-DERIV-INCH
+%<inch%>:%>%{ы%}мго V-DERIV-FIN ;
+%<inch2%>:%>%{ы%}ӈӈо V-DERIV-FIN ;
+%<compl%>:%>%{ы%}плытку V-DERIV-FIN ;
+: V-DERIV-FIN ;
+
+LEXICON V-DERIV-FIN
+@R.V.iv@:@R.V.iv@ V-IV-AFFIX ;
+@R.V.tv@:@R.V.tv@ V-TV-AFFIX ;
 
 
 LEXICON V
@@ -3820,7 +3899,7 @@ LEXICON V
 LEXICON V-IV
 
 @D.VDER@:@D.VDER@ V-IV-AFFIX ;
-: V-DERIV ;
+@P.V.iv@:@P.V.iv@ V-DERIV ;
 
 
 LEXICON V-IV-AFFIX
@@ -3853,7 +3932,7 @@ LEXICON V-IV-NONFIN
 LEXICON V-TV
 
 @D.VDER@:@D.VDER@ V-TV-AFFIX ;
-! : V-DERIV ;
+@P.V.tv@:@P.V.tv@ V-DERIV ;
 
 
 LEXICON V-TV-AFFIX
@@ -3919,7 +3998,7 @@ LEXICON V-TV-NEUT
 @D.TENSE@%<aor%>:@D.TENSE@ V-TV-NEUT-AOR ;
 @R.TENSE.fut@%<fut%>:@R.TENSE.fut@ V-TV-NEUT-FUT ;
 @D.TENSE@%<intn%>:@D.TENSE@ V-TV-NEUT-INTN ;
-! @R.TENSE.cond@%<cond%>:@R.TENSE.cond@ V-TV-NEUT-COND ;
+@R.TENSE.cond@%<cond%>:@R.TENSE.cond@ V-TV-NEUT-COND ;
 
 
 !!!!!! Subject suffixes
@@ -4114,6 +4193,48 @@ LEXICON V-TV-NEUT-INTN
 @R.VPR.yn@%<a_3pl%>%<o_1sg%>:@R.VPR.yn@%>%{ы%}гым # ;
 
 @R.VPR.q@%<a_2sg%>%<o_1pl%>:@R.VPR.q@%>%{ы%}ткуги # ;
+@R.VPR.q@%<a_2pl%>%<o_1pl%>:@R.VPR.q@%>%{ы%}ткутык # ;
+@R.VPR.yn@%<a_3sg%>%<o_1pl%>:@R.VPR.yn@%>%{ы%}мык # ;
+@R.VPR.yn@%<a_3pl%>%<o_1pl%>:@R.VPR.yn@%>%{ы%}мык # ;
+
+@R.VPR.m@%<a_1sg%>%<o_2sg%>:@R.VPR.m@%>%{ы%}гыт # ;
+@R.VPR.myn@%<a_1pl%>%<o_2sg%>:@R.VPR.myn@%>%{ы%}гыт # ;
+@R.VPR.yn@%<a_3sg%>%<o_2sg%>:@R.VPR.yn@%>%{ы%}гыт # ;
+@R.VPR.yn@%<a_3pl%>%<o_2sg%>:@R.VPR.yn@%>%{ы%}гыт # ;
+
+@R.VPR.m@%<a_1sg%>%<o_2pl%>:@R.VPR.m@%>%{ы%}тык # ;
+@R.VPR.myn@%<a_1pl%>%<o_2pl%>:@R.VPR.myn@%>%{ы%}тык # ;
+@R.VPR.yn@%<a_3sg%>%<o_2pl%>:@R.VPR.yn@%>%{ы%}тык # ;
+@R.VPR.yn@%<a_3pl%>%<o_2pl%>:@R.VPR.yn@%>%{ы%}тык # ;
+
+@R.VPR.m@%<a_1sg%>%<o_3sg%>:@R.VPR.m@%>%{ы%}н # ;
+@R.VPR.m@%<a_1sg%>%<o_3sg%>:@R.VPR.m@%>%{ы%}гъ%{Æ%}н # ;
+@R.VPR.myn@%<a_1pl%>%<o_3sg%>:@R.VPR.myn@%>%{ы%}н # ;
+@R.VPR.myn@%<a_1pl%>%<o_3sg%>:@R.VPR.myn@%>%{ы%}гъ%{Æ%}н # ;
+@R.VPR.q@%<a_2sg%>%<o_3sg%>:@R.VPR.q@%>%{ы%}гын # ;
+@R.VPR.q@%<a_2pl%>%<o_3sg%>:@R.VPR.q@%>%{ы%}гыткы # ;
+@R.VPR.n@%<a_3sg%>%<o_3sg%>:@R.VPR.n@%>%{ы%}нин # ;
+@R.VPR.yn@%<a_3pl%>%<o_3sg%>:@R.VPR.yn@%>%{ы%}ӈын # ;
+@R.VPR.yn@%<a_3pl%>%<o_3sg%>:@R.VPR.yn@%>%{ы%}гъ%{Æ%}ӈын # ;
+
+@R.VPR.m@%<a_1sg%>%<o_3pl%>:@R.VPR.m@%>%{ы%}н%{Æ%}т # ;
+@R.VPR.myn@%<a_1pl%>%<o_3pl%>:@R.VPR.myn@%>%{ы%}н%{Æ%}т # ;
+@R.VPR.q@%<a_2sg%>%<o_3pl%>:@R.VPR.q@%>%{ы%}гын%{Æ%}т # ;
+@R.VPR.q@%<a_2pl%>%<o_3pl%>:@R.VPR.q@%>%{ы%}гыткы # ;
+@R.VPR.n@%<a_3sg%>%<o_3pl%>:@R.VPR.n@%>%{ы%}нин%{Æ%}т # ;
+@R.VPR.yn@%<a_3pl%>%<o_3pl%>:@R.VPR.yn@%>%{ы%}н%{Æ%}т # ;
+
+
+LEXICON V-TV-NEUT-COND
+
+@R.VPR.qine@%<a_2sg%>%<o_1sg%>:@R.VPR.qine@%>%{ы%}ги # ;
+@R.VPR.qine@%<a_2pl%>%<o_1sg%>:@R.VPR.qine@%>%{ы%}тык # ;
+@R.VPR.nine@%<a_3sg%>%<o_1sg%>:@R.VPR.nine@%>%{ы%}н # ;
+@R.VPR.nine@%<a_3sg%>%<o_1sg%>:@R.VPR.nine@%>%{ы%}гъ%{Æ%}н # ;
+@R.VPR.yn@%<a_3pl%>%<o_1sg%>:@R.VPR.yn@%>%{ы%}гым # ;
+
+@R.VPR.q@%<a_2sg%>%<o_1pl%>:@R.VPR.q@%>%{ы%}ткун # ;
+@R.VPR.q@%<a_2sg%>%<o_1pl%>:@R.VPR.q@%>%{ы%}ткугъ%{Æ%}н # ;
 @R.VPR.q@%<a_2pl%>%<o_1pl%>:@R.VPR.q@%>%{ы%}ткутык # ;
 @R.VPR.yn@%<a_3sg%>%<o_1pl%>:@R.VPR.yn@%>%{ы%}мык # ;
 @R.VPR.yn@%<a_3pl%>%<o_1pl%>:@R.VPR.yn@%>%{ы%}мык # ;
