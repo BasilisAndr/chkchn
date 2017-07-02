@@ -3792,7 +3792,7 @@ LEXICON Verb-deriv-prefixes
 : V-DERIV-PREF-INTS ;
 
 LEXICON V-DERIV-PREF-INTS
-@P.VDER.ints2@:@P.VDER.ints2@лги%> V-DERIV-PREF-DESID ;
+@P.VDER.ints2@:@P.VDER.ints2@ԓги%> V-DERIV-PREF-DESID ;
 : V-DERIV-PREF-DESID ;
 
 LEXICON V-DERIV-PREF-DESID
@@ -3874,13 +3874,13 @@ LEXICON V-DERIV-COOP
 : V-DERIV-DUR ;
 
 LEXICON V-DERIV-DUR
-%<dur%>:%>%{ы%}лъ%{Æ%}т V-DERIV-INCH ;
+%<dur%>:%>%{ы%}ԓъ%{Æ%}т V-DERIV-INCH ;
 : V-DERIV-INCH ;
 
 LEXICON V-DERIV-INCH
 %<inch%>:%>%{ы%}мго V-DERIV-FIN ;
 %<inch2%>:%>%{ы%}ӈӈо V-DERIV-FIN ;
-%<compl%>:%>%{ы%}плытку V-DERIV-FIN ;
+%<compl%>:%>%{ы%}пԓытку V-DERIV-FIN ;
 : V-DERIV-FIN ;
 
 LEXICON V-DERIV-FIN
