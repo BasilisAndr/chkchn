@@ -49,8 +49,8 @@ Multichar_Symbols
 %<vrblz2%>                ! Verb deriving suffix 2
 %<desid%>                 ! Desiderative
 %<iter%>                  ! Iterative
-%<coll_s%>                ! Collective S
-%<coll_o%>                ! Collective O
+%<coop_s%>                ! Collective S
+%<coop_o%>                ! Collective O
 %<dur%>                   ! Durative
 %<inch%>                  ! Inchoative
 %<inch2%>                 ! Inchoative 2
@@ -114,7 +114,7 @@ Multichar_Symbols
 
 %<dim%>
 %<aug%>
-%<coll%>
+%<coop%>
 %<prtt%>                  ! Part of
 
 %<pers%>                  ! Personal pronoun
@@ -193,7 +193,7 @@ Miscellaneous ;
 Punctuation ;
 Pronouns ;
 Verb-prefixes ;
-! Verb-deriv-prefixes ;
+Verb-deriv-prefixes ;
 Verbs ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -382,8 +382,8 @@ LEXICON N-DERIV-SUFF
 %<dim%>:%>%{ы%}ӄ%{Æ%}й N-DERIV-I ;
 %<aug%>:%>%{ы%}ч%{ы%}ӈ N-DERIV-I ;
 %<aug%>:%>%{ы%}йӈ N-DERIV-I ;
-%<coll%>:%>%{ы%}мк N-DERIV-I ;
-%<coll%>:%>%{ы%}гинив N-DERIV-I ;
+%<coop%>:%>%{ы%}мк N-DERIV-I ;
+%<coop%>:%>%{ы%}гинив N-DERIV-I ;
 %<prtt%>:%>%{ы%}тъул N-DERIV-I ;
 
 
