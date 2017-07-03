@@ -172,8 +172,8 @@ Multichar_Symbols
 @P.VDER.desid@ @R.VDER.desid@ @D.VDER.desid@
 @P.VDER.x@
 @D.VDER@
-@P.V.iv@ @R.V.iv@
-@P.V.tv@ @R.V.tv@
+@U.V.iv@
+@U.V.tv@
 
 
 
@@ -3884,8 +3884,8 @@ LEXICON V-DERIV-INCH
 : V-DERIV-FIN ;
 
 LEXICON V-DERIV-FIN
-@R.V.iv@:@R.V.iv@ V-IV-AFFIX ;
-@R.V.tv@:@R.V.tv@ V-TV-AFFIX ;
+@U.V.iv@:@U.V.iv@ V-IV-AFFIX ;
+@U.V.tv@:@U.V.tv@ V-TV-AFFIX ;
 
 
 LEXICON V
@@ -3901,7 +3901,7 @@ LEXICON V
 LEXICON V-IV
 
 @D.VDER@:@D.VDER@ V-IV-AFFIX ;
-@P.V.iv@:@P.V.iv@ V-DERIV ;
+@U.V.iv@:@U.V.iv@ V-DERIV ;
 
 
 LEXICON V-IV-AFFIX
@@ -3934,7 +3934,7 @@ LEXICON V-IV-NONFIN
 LEXICON V-TV
 
 @D.VDER@:@D.VDER@ V-TV-AFFIX ;
-@P.V.tv@:@P.V.tv@ V-DERIV ;
+@U.V.tv@:@U.V.tv@ V-DERIV ;
 
 
 LEXICON V-TV-AFFIX
