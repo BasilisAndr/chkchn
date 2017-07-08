@@ -1,0 +1,65 @@
+Alphabet
+
+ А Б В Г Д Е Ё Ж З И Й К Ӄ Л Ԓ М Н Ӈ О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
+ а б в г д е ё ж з и й к ӄ л ԓ м н ӈ о п р с т у ф х ц ч ш щ ъ ы ь э ю я ʼ
+
+ %{Æ%}                     ! э or а
+ %{T%}                     ! latin; erg & com т ot 0
+ %{G%}                     ! all & abl; г/й/э
+ %{ы%}                     ! Epenthetic schwa: ы or 0
+ %{и%}                     ! For plural: и or 0
+ %{N%}                     ! allophones of ng
+ %{R%}                     ! р or н
+ %{I%}                     ! и or й in suffixes
+
+ %{⁺ⱽᴴ%}                   ! Trigger for dominant harmony
+ %{·%}                     ! Trigger for stem-final vowel deletion
+ %{°%}                     ! Trigger for stem-final vowel reduction
+ %{☭%}                     ! Trigger for loan word phonology
+
+ %>                        ! Morpheme boundary
+
+%[%+approx%]:0
+%[%+ints%]:0
+%[%+ints2%]:0
+%[%+desid%]:0
+%[%+ap%]:0
+%[%+caus%]:0
+%[%+fut%]:0
+%[%+cond%]:0
+;
+
+Rules
+
+"Approximative"
+%[%+approx%]:0 <=> _ :* %[%+approx%]:0 ;
+                 %[%+approx%]:0 :* _ ;
+
+"Intensifier1"
+%[%+ints%]:0 <=> _ :* %[%+ints%]:0 ;
+               %[%+ints%]:0 :* _ ;
+
+"Intensifier2"
+%[%+ints2%]:0 <=> _ :* %[%+ints2%]:0 ;
+                %[%+ints2%]:0 :* _ ;
+
+"Desiderative"
+%[%+desid%]:0 <=> _ :* %[%+desid%]:0 ;
+                %[%+desid%]:0 :* _ ;
+
+"Antipassive"
+%[%+ap%]:0 <=> _ :* %[%+ap%]:0 ;
+             %[%+ap%]:0 :* _ ;
+
+"Causative"
+%[%+caus%]:0 <=> _ :* %[%+caus%]:0 ;
+               %[%+caus%]:0 :* _ ;
+
+"Future"
+%[%+fut%]:0 <=> _ :* %[%+fut%]:0 ;
+                %[%+fut%]:0 :* _ ;
+
+!
+"Conditional"
+%[%+cond%]:0 <=> _ :* %[%+cond%]:0 ;
+                %[%+cond%]:0 :* _ ;
