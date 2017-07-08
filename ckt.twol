@@ -143,6 +143,7 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ч _ ;
 
 "Vowel deletion for recessive"                    ! because syllable structure
 ! Æ:0 >:0 а г н о т в а н в >:0 {ы}:ы к Æ:а
+! авэръэп>{ы}чӄыч{Æ}т>{ы}тк у:о >:0 {ы}:0 ръу>{ы}к
 V:0 <=> .#. _ %>: :Vow ;       ! [ :Vow - V: - :Vd ]
        Cns _ %>: :Vow ;
        except
