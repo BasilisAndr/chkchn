@@ -33,33 +33,33 @@ LEXICON Verb-prefixes
 
 LEXICON V-TENSE-PREFIXES
 
-@P.TENSE.fut@:@P.TENSE.fut@р%{Æ%}%> Verb-deriv-prefixes ;
-@P.TENSE.cond@:@P.TENSE.cond@ъ%{ы%}%> Verb-deriv-prefixes ;
+:%[%+fut%]р%{Æ%}%> Verb-deriv-prefixes ;
+:%[%+cond%]ъ%{ы%}%> Verb-deriv-prefixes ;
 : Verbs ;
 
 
 !!!!!! Derivational prefixes
 
 LEXICON Verb-deriv-prefixes
-@P.VDER.approx@:@P.VDER.approx@м%{Æ%}ч%{ы%}%> Verbs ;
-@P.VDER.ints@:@P.VDER.ints@т%{Æ%}ӈ%{ы%}%> V-DERIV-PREF-INTS ;
+:%[%+approx%]м%{Æ%}ч%{ы%}%> Verbs ;
+:%[%+ints%]т%{Æ%}ӈ%{ы%}%> V-DERIV-PREF-INTS ;
 : V-DERIV-PREF-INTS ;
 
 LEXICON V-DERIV-PREF-INTS
-@P.VDER.ints2@:@P.VDER.ints2@ԓги%> V-DERIV-PREF-DESID ;
+:%[%+ints2%]ԓги%> V-DERIV-PREF-DESID ;
 : V-DERIV-PREF-DESID ;
 
 LEXICON V-DERIV-PREF-DESID
-@P.VDER.desid@:@P.VDER.desid@р%{Æ%}%> V-DERIV-PREF-AP ;
+:%[%+desid%]р%{Æ%}%> V-DERIV-PREF-AP ;
 : V-DERIV-PREF-AP ;
 
 LEXICON V-DERIV-PREF-AP
-@P.VDER.ap@:@P.VDER.ap@ин%{Æ%}%> V-DERIV-PREF-CAUS ;
+:%[%+ap%]ин%{Æ%}%> V-DERIV-PREF-CAUS ;
 : V-DERIV-PREF-CAUS ;
 
 LEXICON V-DERIV-PREF-CAUS
-@P.VDER.caus@:@P.VDER.caus@н%{ы%}%> Verbs ;
-@P.VDER.caus@:@P.VDER.caus@р%{ы%}%> Verbs ;
+:%[%+caus%]н%{ы%}%> Verbs ;
+:%[%+caus%]р%{ы%}%> Verbs ;
 : Verbs ;
 
 ! circum: desid, cs+th
@@ -72,24 +72,24 @@ LEXICON V-DERIV-PREF-CAUS
 
 LEXICON V-DERIV
 ! prefix tags
-@R.VDER.approx@%<approx%>:@R.VDER.approx@ V-IV-AFFIX ;
-@D.VDER.approx@:@D.VDER.approx@ V-DERIV-INTS ;
+%<approx%>:%[%+approx%] V-IV-AFFIX ;
+: V-DERIV-INTS ;
 
 LEXICON V-DERIV-INTS
-@R.VDER.ints@%<ints%>:@R.VDER.ints@ V-DERIV-INTS2 ;
-@D.VDER.ints@:@D.VDER.ints@ V-DERIV-INTS2 ;
+%<ints%>:%[%+ints%] V-DERIV-INTS2 ;
+: V-DERIV-INTS2 ;
 
 LEXICON V-DERIV-INTS2
-@R.VDER.ints2@%<ints2%>:@R.VDER.ints2@ V-DERIV-AP-PREF ;
-@D.VDER.ints2@:@D.VDER.ints2@ V-DERIV-AP-PREF ;
+%<ints2%>:%[%+ints2%] V-DERIV-AP-PREF ;
+: V-DERIV-AP-PREF ;
 
 LEXICON V-DERIV-AP-PREF
-@R.VDER.ap@%<ap%>:@R.VDER.ap@ V-DERIV-CAUS ;
-@D.VDER.ap@:@D.VDER.ap@ V-DERIV-CAUS ;
+%<ap%>:%[%+ap%] V-DERIV-CAUS ;
+: V-DERIV-CAUS ;
 
 LEXICON V-DERIV-CAUS
-@R.VDER.caus@%<caus%>:@R.VDER.caus@ V-DERIV-SUFF ;
-@D.VDER.caus@:@D.VDER.caus@ V-DERIV-SUFF ;
+%<caus%>:%[%+caus%] V-DERIV-SUFF ;
+: V-DERIV-SUFF ;
 
 LEXICON V-DERIV-SUFF
 ! incompatible w/others (probably)
@@ -115,8 +115,8 @@ LEXICON V-DERIV-AP             ! Antipassive
 : V-DERIV-DESID ;
 
 LEXICON V-DERIV-DESID
-@R.VDER.desid@%<desid%>:@R.VDER.desid@%>ӈ V-DERIV-ITER ;
-@D.VDER.desid@:@D.VDER.desid@ V-DERIV-ITER ;
+%<desid%>:%[%+desid%]%>ӈ V-DERIV-ITER ;
+: V-DERIV-ITER ;
 
 LEXICON V-DERIV-ITER
 %<iter%>:%>%{ы%}тку V-DERIV-COOP ;
@@ -154,15 +154,15 @@ LEXICON V
 
 LEXICON V-IV
 
-@D.VDER@:@D.VDER@ V-IV-AFFIX ;
+! @D.VDER@:@D.VDER@ V-IV-AFFIX ;
 @U.V.iv@:@U.V.iv@ V-DERIV ;
 
 
 LEXICON V-IV-AFFIX
 
 : V-IV-ACTIVE ;
-@D.TENSE@%<stat%>:@D.TENSE@ V-IV-STATIVE ;
-@D.TENSE@@D.VPR@:@D.TENSE@@D.VPR@ V-IV-NONFIN ;
+%<stat%>: V-IV-STATIVE ;
+@D.VPR@:@D.VPR@ V-IV-NONFIN ;
 
 
 LEXICON V-IV-ACTIVE
@@ -187,15 +187,15 @@ LEXICON V-IV-NONFIN
 
 LEXICON V-TV
 
-@D.VDER@:@D.VDER@ V-TV-AFFIX ;
+! @D.VDER@:@D.VDER@ V-TV-AFFIX ;
 @U.V.tv@:@U.V.tv@ V-DERIV ;
 
 
 LEXICON V-TV-AFFIX
 
 : V-TV-ACTIVE ;
-! @D.TENSE@%<stat%>:@D.TENSE@ V-TV-STATIVE ;
-! @D.TENSE@@D.VPR@:@D.TENSE@@D.VPR@ V-TV-NONFIN ;
+! %<stat%>: V-TV-STATIVE ;
+! @D.VPR@:@D.VPR@ V-TV-NONFIN ;
 
 
 LEXICON V-TV-ACTIVE
@@ -234,27 +234,27 @@ LEXICON V-IV-HABITUAL
 
 LEXICON V-IV-NEUT
 
-@D.TENSE@%<aor%>:@D.TENSE@ V-IV-NEUT-AOR ;
-@R.TENSE.fut@%<fut%>:@R.TENSE.fut@ V-IV-NEUT-FUT ;
-! @D.TENSE@%<fut%>:@D.TENSE@ V-IV-NEUT-FUT ;
-@D.TENSE@%<intn%>:@D.TENSE@ V-IV-NEUT-INTN ;
-@R.TENSE.cond@%<cond%>:@R.TENSE.cond@ V-IV-NEUT-COND ;
+%<aor%>: V-IV-NEUT-AOR ;
+%<fut%>:%[%+fut%] V-IV-NEUT-FUT ;
+! %<fut%>: V-IV-NEUT-FUT ;
+%<intn%>: V-IV-NEUT-INTN ;
+%<cond%>:%[%+cond%] V-IV-NEUT-COND ;
 
 
 LEXICON V-IV-PROG
 
-@D.TENSE@%<aor%>:@D.TENSE@ V-IV-PROG-AOR ;
-@R.TENSE.fut@%<fut%>:@R.TENSE.fut@ V-IV-PROG-FUT ;
-@D.TENSE@%<intn%>:@D.TENSE@ V-IV-PROG-INTN ;
-@R.TENSE.cond@%<cond%>:@R.TENSE.cond@ V-IV-PROG-COND ;
+%<aor%>: V-IV-PROG-AOR ;
+%<fut%>:%[%+fut%] V-IV-PROG-FUT ;
+%<intn%>: V-IV-PROG-INTN ;
+%<cond%>:%[%+cond%] V-IV-PROG-COND ;
 
 
 LEXICON V-TV-NEUT
 
-@D.TENSE@%<aor%>:@D.TENSE@ V-TV-NEUT-AOR ;
-@R.TENSE.fut@%<fut%>:@R.TENSE.fut@ V-TV-NEUT-FUT ;
-@D.TENSE@%<intn%>:@D.TENSE@ V-TV-NEUT-INTN ;
-@R.TENSE.cond@%<cond%>:@R.TENSE.cond@ V-TV-NEUT-COND ;
+%<aor%>: V-TV-NEUT-AOR ;
+%<fut%>:%[%+fut%] V-TV-NEUT-FUT ;
+%<intn%>: V-TV-NEUT-INTN ;
+%<cond%>:%[%+cond%] V-TV-NEUT-COND ;
 
 
 !!!!!! Subject suffixes

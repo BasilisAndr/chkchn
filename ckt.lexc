@@ -175,7 +175,14 @@ Multichar_Symbols
 @U.V.iv@
 @U.V.tv@
 
-
+%[%+approx%]
+%[%+ints%]
+%[%+ints2%]
+%[%+desid%]
+%[%+ap%]
+%[%+caus%]
+%[%+fut%]
+%[%+cond%]
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -2297,7 +2304,7 @@ LEXICON Nouns
 кричмын:крич%{ы%}м N-III-AVYNRAL ;    ! праздник
 крокаквыргын:крокаквыр%{ы%}г N-III-AVYNRAL ;    ! обида
 кропопгыргын:кропопгыр%{ы%}г N-III-AVYNRAL ;    ! упрямство
-кувчемгъогыргын:кувчемгъогыр%{ы%}г N-III-AVYNRAL ;    ! 1) мудрость, ум; 2) прозорливость
+кывчемгъогыргын:кывчемгъогыр%{ы%}г N-III-AVYNRAL ;    ! 1) мудрость, ум; 2) прозорливость
 курыткуԓьын:курыткуԓь N-III-AVYNRAL ;    ! покупатель
 кывчемгъочьатгыргын:кывчемгъочьатгыр%{ы%}г N-III-AVYNRAL ;    ! гениальность
 кывэннэйиквин:кыв%{Æ%}нн%{Æ%}йикви N-III-AVYNRAL ;    ! позвоночник
@@ -2814,8 +2821,8 @@ LEXICON Nouns
 увиԓӄын:увиԓ%{ы%}ӄ N-III-AVYNRAL ;    ! * костёр
 увиԓьын:увиԓь N-III-AVYNRAL ;    ! повар
 увичвын:увич%{ы%}в N-III-AVYNRAL ;    ! игра, забава
-увэԓьыран:ув%{Æ%}ԓьыра N-III-AVYNRAL ;    ! кухня
-увэран:ув%{Æ%}ра N-III-AVYNRAL ;    ! яма для хранения мяса
+ывэԓьыран:ыв%{Æ%}ԓьыра N-III-AVYNRAL ;    ! кухня
+ывэран:ыв%{Æ%}ра N-III-AVYNRAL ;    ! яма для хранения мяса
 уккыԓтын:уккыԓ%{ы%}т N-III-AVYNRAL ;    ! 1. плот; 2. связка дров
 умкыԓӄын:умкыԓ%{ы%}ӄ N-III-AVYNRAL ;    ! 1) роща; 2) чаща
 умкычурмын:умкычур%{ы%}м N-III-AVYNRAL ;    ! опушка леса
@@ -3276,10 +3283,10 @@ LEXICON Nouns
 
 ! this one may be III
 
-айгоԓяткэгыргын:айгоԓяткэгыргын N-Ia-AATGYR ;    ! невежество
+айгоԓяткэгыргын:айгоԓяткэгырг N-III-AVYNRAL ;    ! невежество
 айыԓгычемгъока:айыԓгычемгъока N-Ia-AATGYR ;    ! спокойно, уверенно
 амӈырооткэн:амӈырооткэн N-Ia-AATGYR ;    ! восемь
-анӈэԓён:анӈэԓён N-Ia-AATGYR ;    ! волна (морская)
+анӈэԓён:анӈэԓё N-III-AVYNRAL ;    ! волна (морская)
 анӈэн:анӈэн N-Ia-AATGYR ;    ! гнев, злоба
 анон:анон N-Ia-AATGYR ;    ! лето (раннее)
 аӈӄаԓьын:аӈӄаԓьын N-Ia-AATGYR ;    ! прибрежный житель
@@ -3315,7 +3322,7 @@ LEXICON Nouns
 йъуун:йъуун N-Ia-AATGYR ;    ! игра, во время которой делают нитью на пальцах различные фигуры
 йынрэтԓян:йынрэтԓян N-Ia-AATGYR ;    ! искра
 кааран:кааран N-Ia-AATGYR ;    ! нарта с кибиткой (для перевозки детей)
-камԓеԓятгыргын:камԓеԓятгыргын N-Ia-AATGYR ;    ! окружение
+камԓеԓятгыргын:камԓеԓятгырг N-III-AVYNRAL ;    ! окружение
 китчен:китчен N-Ia-AATGYR ;    ! якорь
 кувԓыкытэн:кувԓыкыт%{Æ%}н N-Ia-AATGYR ;    ! деревянное блюдо
 кунъуръун:кунъуръун N-Ia-AATGYR ;    ! южное морское течение
@@ -3328,7 +3335,6 @@ LEXICON Nouns
 кынъэйӈэн:кынъ%{Æ%}йӈ%{Æ%}н N-Ia-AATGYR ;    ! рычание
 кэвйиквин:к%{Æ%}вйиквин N-Ia-AATGYR ;    ! грудная кость
 кэгԓючин:к%{Æ%}гԓючин N-Ia-AATGYR ;    ! морж, живущий отдельно от стада
-кэмԓиԓюн:к%{Æ%}мԓиԓюн N-Ia-AATGYR ;    ! женская камлейка (чехол на верхней одежде)
 кэнъун:к%{Æ%}нъун N-Ia-AATGYR ;    ! кассиопея (растение)
 кэӈикупрэн:к%{Æ%}ӈикупр%{Æ%}н N-Ia-AATGYR ;    ! невод, закидная сеть
 кэӈъирин:к%{Æ%}ӈъирин N-Ia-AATGYR ;    ! креветка
@@ -3382,7 +3388,7 @@ LEXICON Nouns
 рыровэн:рыровэн N-Ia-AATGYR ;    ! даль
 рырымэткон:рырымэткон N-Ia-AATGYR ;    ! 1) перемена; 2) перестановка
 рэԓкун:р%{Æ%}ԓкун N-Ia-AATGYR ;    ! 1) внутренность полога; 2) квартира
-таӈпаԓёмтэԓгыргын:таӈпаԓёмтэԓгыргын N-Ia-AATGYR ;    ! внимание
+таӈпаԓёмтэԓгыргын:таӈпаԓёмтэԓгырг N-III-AVYNRAL ;    ! внимание
 типъэйӈэн:типъ%{Æ%}йӈ%{Æ%}н N-Ia-AATGYR ;    ! песня
 торымгон:торымгон N-Ia-AATGYR ;    ! начало
 туквэн:тукв%{Æ%}н N-Ia-AATGYR ;    ! кромка льда
@@ -3608,6 +3614,8 @@ LEXICON Nouns
 ԓинԓиӈ:ԓинԓиӈ N-Ia-AATGYR ;    ! сердце
 нунун:нунун N-IIa-VIIL-ABS ;    ! 1) лезвие; 2) пилка для лобзика
 нунун:нун N-OBL ;    ! 1) лезвие; 2) пилка для лобзика
+
+кэмԓиԓюн:к%{Æ%}мԓиԓю N-III-AVYNRAL ;    ! женская камлейка (чехол на верхней одежде)
 рэмкын:рэмк N-III-AVYNRAL ;
 яраӈы:яра N-IV-ARAPA ;
 
@@ -3822,33 +3830,33 @@ LEXICON Verb-prefixes
 
 LEXICON V-TENSE-PREFIXES
 
-@P.TENSE.fut@:@P.TENSE.fut@р%{Æ%}%> Verb-deriv-prefixes ;
-@P.TENSE.cond@:@P.TENSE.cond@ъ%{ы%}%> Verb-deriv-prefixes ;
+:%[%+fut%]р%{Æ%}%> Verb-deriv-prefixes ;
+:%[%+cond%]ъ%{ы%}%> Verb-deriv-prefixes ;
 : Verbs ;
 
 
 !!!!!! Derivational prefixes
 
 LEXICON Verb-deriv-prefixes
-@P.VDER.approx@:@P.VDER.approx@м%{Æ%}ч%{ы%}%> Verbs ;
-@P.VDER.ints@:@P.VDER.ints@т%{Æ%}ӈ%{ы%}%> V-DERIV-PREF-INTS ;
+:%[%+approx%]м%{Æ%}ч%{ы%}%> Verbs ;
+:%[%+ints%]т%{Æ%}ӈ%{ы%}%> V-DERIV-PREF-INTS ;
 : V-DERIV-PREF-INTS ;
 
 LEXICON V-DERIV-PREF-INTS
-@P.VDER.ints2@:@P.VDER.ints2@ԓги%> V-DERIV-PREF-DESID ;
+:%[%+ints2%]ԓги%> V-DERIV-PREF-DESID ;
 : V-DERIV-PREF-DESID ;
 
 LEXICON V-DERIV-PREF-DESID
-@P.VDER.desid@:@P.VDER.desid@р%{Æ%}%> V-DERIV-PREF-AP ;
+:%[%+desid%]р%{Æ%}%> V-DERIV-PREF-AP ;
 : V-DERIV-PREF-AP ;
 
 LEXICON V-DERIV-PREF-AP
-@P.VDER.ap@:@P.VDER.ap@ин%{Æ%}%> V-DERIV-PREF-CAUS ;
+:%[%+ap%]ин%{Æ%}%> V-DERIV-PREF-CAUS ;
 : V-DERIV-PREF-CAUS ;
 
 LEXICON V-DERIV-PREF-CAUS
-@P.VDER.caus@:@P.VDER.caus@н%{ы%}%> Verbs ;
-@P.VDER.caus@:@P.VDER.caus@р%{ы%}%> Verbs ;
+:%[%+caus%]н%{ы%}%> Verbs ;
+:%[%+caus%]р%{ы%}%> Verbs ;
 : Verbs ;
 
 ! circum: desid, cs+th
@@ -3861,24 +3869,24 @@ LEXICON V-DERIV-PREF-CAUS
 
 LEXICON V-DERIV
 ! prefix tags
-@R.VDER.approx@%<approx%>:@R.VDER.approx@ V-IV-AFFIX ;
-@D.VDER.approx@:@D.VDER.approx@ V-DERIV-INTS ;
+%<approx%>:%[%+approx%] V-IV-AFFIX ;
+: V-DERIV-INTS ;
 
 LEXICON V-DERIV-INTS
-@R.VDER.ints@%<ints%>:@R.VDER.ints@ V-DERIV-INTS2 ;
-@D.VDER.ints@:@D.VDER.ints@ V-DERIV-INTS2 ;
+%<ints%>:%[%+ints%] V-DERIV-INTS2 ;
+: V-DERIV-INTS2 ;
 
 LEXICON V-DERIV-INTS2
-@R.VDER.ints2@%<ints2%>:@R.VDER.ints2@ V-DERIV-AP-PREF ;
-@D.VDER.ints2@:@D.VDER.ints2@ V-DERIV-AP-PREF ;
+%<ints2%>:%[%+ints2%] V-DERIV-AP-PREF ;
+: V-DERIV-AP-PREF ;
 
 LEXICON V-DERIV-AP-PREF
-@R.VDER.ap@%<ap%>:@R.VDER.ap@ V-DERIV-CAUS ;
-@D.VDER.ap@:@D.VDER.ap@ V-DERIV-CAUS ;
+%<ap%>:%[%+ap%] V-DERIV-CAUS ;
+: V-DERIV-CAUS ;
 
 LEXICON V-DERIV-CAUS
-@R.VDER.caus@%<caus%>:@R.VDER.caus@ V-DERIV-SUFF ;
-@D.VDER.caus@:@D.VDER.caus@ V-DERIV-SUFF ;
+%<caus%>:%[%+caus%] V-DERIV-SUFF ;
+: V-DERIV-SUFF ;
 
 LEXICON V-DERIV-SUFF
 ! incompatible w/others (probably)
@@ -3904,8 +3912,8 @@ LEXICON V-DERIV-AP             ! Antipassive
 : V-DERIV-DESID ;
 
 LEXICON V-DERIV-DESID
-@R.VDER.desid@%<desid%>:@R.VDER.desid@%>ӈ V-DERIV-ITER ;
-@D.VDER.desid@:@D.VDER.desid@ V-DERIV-ITER ;
+%<desid%>:%[%+desid%]%>ӈ V-DERIV-ITER ;
+: V-DERIV-ITER ;
 
 LEXICON V-DERIV-ITER
 %<iter%>:%>%{ы%}тку V-DERIV-COOP ;
@@ -3943,15 +3951,15 @@ LEXICON V
 
 LEXICON V-IV
 
-@D.VDER@:@D.VDER@ V-IV-AFFIX ;
+! @D.VDER@:@D.VDER@ V-IV-AFFIX ;
 @U.V.iv@:@U.V.iv@ V-DERIV ;
 
 
 LEXICON V-IV-AFFIX
 
 : V-IV-ACTIVE ;
-@D.TENSE@%<stat%>:@D.TENSE@ V-IV-STATIVE ;
-@D.TENSE@@D.VPR@:@D.TENSE@@D.VPR@ V-IV-NONFIN ;
+%<stat%>: V-IV-STATIVE ;
+@D.VPR@:@D.VPR@ V-IV-NONFIN ;
 
 
 LEXICON V-IV-ACTIVE
@@ -3976,15 +3984,15 @@ LEXICON V-IV-NONFIN
 
 LEXICON V-TV
 
-@D.VDER@:@D.VDER@ V-TV-AFFIX ;
+! @D.VDER@:@D.VDER@ V-TV-AFFIX ;
 @U.V.tv@:@U.V.tv@ V-DERIV ;
 
 
 LEXICON V-TV-AFFIX
 
 : V-TV-ACTIVE ;
-! @D.TENSE@%<stat%>:@D.TENSE@ V-TV-STATIVE ;
-! @D.TENSE@@D.VPR@:@D.TENSE@@D.VPR@ V-TV-NONFIN ;
+! %<stat%>: V-TV-STATIVE ;
+! @D.VPR@:@D.VPR@ V-TV-NONFIN ;
 
 
 LEXICON V-TV-ACTIVE
@@ -4023,27 +4031,27 @@ LEXICON V-IV-HABITUAL
 
 LEXICON V-IV-NEUT
 
-@D.TENSE@%<aor%>:@D.TENSE@ V-IV-NEUT-AOR ;
-@R.TENSE.fut@%<fut%>:@R.TENSE.fut@ V-IV-NEUT-FUT ;
-! @D.TENSE@%<fut%>:@D.TENSE@ V-IV-NEUT-FUT ;
-@D.TENSE@%<intn%>:@D.TENSE@ V-IV-NEUT-INTN ;
-@R.TENSE.cond@%<cond%>:@R.TENSE.cond@ V-IV-NEUT-COND ;
+%<aor%>: V-IV-NEUT-AOR ;
+%<fut%>:%[%+fut%] V-IV-NEUT-FUT ;
+! %<fut%>: V-IV-NEUT-FUT ;
+%<intn%>: V-IV-NEUT-INTN ;
+%<cond%>:%[%+cond%] V-IV-NEUT-COND ;
 
 
 LEXICON V-IV-PROG
 
-@D.TENSE@%<aor%>:@D.TENSE@ V-IV-PROG-AOR ;
-@R.TENSE.fut@%<fut%>:@R.TENSE.fut@ V-IV-PROG-FUT ;
-@D.TENSE@%<intn%>:@D.TENSE@ V-IV-PROG-INTN ;
-@R.TENSE.cond@%<cond%>:@R.TENSE.cond@ V-IV-PROG-COND ;
+%<aor%>: V-IV-PROG-AOR ;
+%<fut%>:%[%+fut%] V-IV-PROG-FUT ;
+%<intn%>: V-IV-PROG-INTN ;
+%<cond%>:%[%+cond%] V-IV-PROG-COND ;
 
 
 LEXICON V-TV-NEUT
 
-@D.TENSE@%<aor%>:@D.TENSE@ V-TV-NEUT-AOR ;
-@R.TENSE.fut@%<fut%>:@R.TENSE.fut@ V-TV-NEUT-FUT ;
-@D.TENSE@%<intn%>:@D.TENSE@ V-TV-NEUT-INTN ;
-@R.TENSE.cond@%<cond%>:@R.TENSE.cond@ V-TV-NEUT-COND ;
+%<aor%>: V-TV-NEUT-AOR ;
+%<fut%>:%[%+fut%] V-TV-NEUT-FUT ;
+%<intn%>: V-TV-NEUT-INTN ;
+%<cond%>:%[%+cond%] V-TV-NEUT-COND ;
 
 
 !!!!!! Subject suffixes
@@ -6154,7 +6162,8 @@ LEXICON Verbs
 парык:пар V ;    ! гадать
 танныӈык:танныӈ V ;    ! пробиваться (о рогах)
 тъирэк:тъир%{Æ%} V ;    ! дремать
-тэвык:тэв V ;    ! грести короткими вёсламивак:тва V ;    ! 1) быть, существовать; 2) находиться; 3) жить, проживать
+тэвык:тэв V ;    ! грести короткими вёслами
+вак:тва V ;    ! 1) быть, существовать; 2) находиться; 3) жить, проживать
 вак:ва V ;    ! 1) быть, существовать; 2) находиться; 3) жить, проживать
 ватык:ват V ;    ! 1) худеть 2) обессилеть; 3) умирать от истощения
 ватык:тват V ;    ! 1) худеть 2) обессилеть; 3) умирать от истощения
