@@ -237,7 +237,6 @@ LEXICON V-IV-NEUT
 
 %<aor%>: V-IV-NEUT-AOR ;
 %<fut%>:%[%+fut%] V-IV-NEUT-FUT ;
-! %<fut%>: V-IV-NEUT-FUT ;
 %<intn%>: V-IV-NEUT-INTN ;
 %<cond%>:%[%+cond%] V-IV-NEUT-COND ;
 

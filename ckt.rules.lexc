@@ -9,6 +9,21 @@ Multichar_Symbols
 %<cnjcoo%>                ! Co-ordinating conjunction
 %<cnjadv%>                ! Adverbial conjunction
 %<v%>                     ! Verb
+%<adv%>
+%<adj%>
+%<part%>
+%<ptcp%>
+
+%<lpar%>
+%<rpar%>
+%<sent%>
+%<rquot%>
+%<lquot%>
+%<guio%>
+%<cm%>
+%<apos%>
+%<quot%>
+
 
 %<iv%>                    ! Intransitive
 %<tv%>                    ! Transitive
@@ -65,6 +80,19 @@ Multichar_Symbols
 %<s_pl2%>                 ! Subject, 2nd person plural
 %<s_pl3%>                 ! Subject, 3rd person plural
 
+%<a_3sg%>
+%<a_3pl%>
+%<a_2sg%>
+%<a_2pl%>
+%<a_1sg%>
+%<a_1pl%>
+
+%<o_3sg%>
+%<o_3pl%>
+%<o_2sg%>
+%<o_2pl%>
+%<o_1sg%>
+%<o_1pl%>
 
 %<pl%>                    ! Plural
 %<sg%>                    ! Singular
@@ -122,7 +150,7 @@ Multichar_Symbols
 %<ind%>                   ! Indicative?
 %<dem%>                   ! Demonstrative pronoun
 %<quant%>                 ! Quantifier pronoun
-%<p2%>                    ! First person
+%<p1%>                    ! First person
 %<p2%>                    ! Second person
 %<p3%>                    ! Third person
 
@@ -161,8 +189,8 @@ Multichar_Symbols
 @P.VPR.perf@ @R.VPR.perf@
 @P.VPR.hab@ @R.VPR.hab@
 @D.VPR@
-@P.TENSE.fut@ @R.TENSE.fut@
-@P.TENSE.cond@ @R.TENSE.cond@
+! @P.TENSE.fut@ @R.TENSE.fut@
+! @P.TENSE.cond@ @R.TENSE.cond@
 @D.TENSE@
 @P.VDER.approx@ @R.VDER.approx@ @D.VDER.approx@
 @P.VDER.ints@ @R.VDER.ints@ @D.VDER.ints@
