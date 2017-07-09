@@ -27,6 +27,7 @@ Alphabet
 %[%+caus%]:0
 %[%+fut%]:0
 %[%+cond%]:0
+%[%+inv%]:0
 ;
 
 Rules
@@ -63,3 +64,7 @@ Rules
 "Conditional"
 %[%+cond%]:0 <=> _ :* %[%+cond%]:0 ;
                 %[%+cond%]:0 :* _ ;
+
+"Inversive in progressive o_1pl"
+%[%+inv%]:0 <=> _ :* %[%+inv%]:0 ;
+                %[%+inv%]:0 :* _ ;
