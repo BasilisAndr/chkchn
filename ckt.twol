@@ -220,12 +220,12 @@ V:0 <=> .#. _ %>: [ :Vow - :V ] ;
 
 
 "Stem-final vowel deletion"
-V:0 <=>  _ %{·%}:0 # ;
+V:0 <=>  _ %{·%}:0 .#. ;
         where
             V in Vow ;
 
 "Stem-final vowel reduction"
-V:0 <=>  _ %{°%}:0 # ;
+V:ы <=>  _ %{°%}:0 .#. ;
         where
             V in Vow ;
 
