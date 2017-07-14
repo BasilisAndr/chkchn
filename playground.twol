@@ -8,9 +8,9 @@ Alphabet
 ! %{E%}:э %{t%}:а
  %{N%}:ӈ %{N%}:г %{N%}:н %{N%}:м
  %{и%}:и %{и%}:э %{и%}:0
- ! %{R%}:т  %{R%}:р
+! %{R%}:т  %{R%}:р
  %{R%}:р %{R%}:н
- %{Æ%}:а %{Æ%}:э %{Æ%}:0
+ %{Æ%}:а %{Æ%}:э %{Æ%}:е %{Æ%}:0
 
 ! %{к%}:к %{к%}:г
 ! %{e%}:э %{e%}:г
@@ -76,11 +76,11 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
                                     _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
        except
            .#. _ %>: :Vow ;         ! contexts for deletion
-           Cns _ %>: :Vow ;
-               _ :* \ %>: %{☭%}: ;
-               _ %{°%}:0 ;
-               _ %{·%}:0 ;
-   [ :ч | :ԓ ] :0* _ ;
+           Cns _ [ :0 - Vow: ]* %>: :Vow ;    ! deletion; [ :0 - Vow: ]* = special symbols
+               _ :* \ %>: %{☭%}: ;  ! doesn't affect loan phonology
+               _ %{°%}:0 .#. ;          ! word-final abs reduction
+               _ %{·%}:0 .#. ; ;        ! word-final abs deletion
+   [ :ч | :ԓ ] [ :0 - Vow: ]* _ ;       ! orthography
        where
            Vx in ( у ю и %{Æ%} )
            Vy in ( о ё э   а   ) matched ;
@@ -89,14 +89,14 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
 "Vowel harmony after ԓ"
 ! а й в а ԓ >:0 у:ё
 ! а й в а ԓ >:0 у:о   ! Neg
-Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ԓ :0* _ ;
-                                    :ԓ :0* _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ԓ [ :0 - Vow: ]* _ ;
+                                    :ԓ [ :0 - Vow: ]* _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
       except
           .#. _ %>: :Vow ;
-          Cns _ %>: :Vow ;
+          Cns _ [ :0 - Vow: ]* %>: :Vow ;
               _ :* \ %>: %{☭%}: ;
-              _ %{°%}:0 ;
-              _ %{·%}:0 ;
+              _ %{°%}:0 .#. ;
+              _ %{·%}:0 .#. ; ;
       where
           Vx in ( у ю и %{Æ%} )
           Vy in ( ё ё е   я   ) matched ;
@@ -105,14 +105,74 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ԓ :0* _ ;
 "Vowel harmony after ч"
 ! о ч >:0 {Æ}:а
 ! о ч >:0 и:е
-Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ч :0* _ ;
-                                     :ч :0* _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ч [ :0 - Vow: ]* _ ;
+                                     :ч [ :0 - Vow: ]* _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
        except
            .#. _ %>: :Vow ;
-           Cns _ %>: :Vow ;
+           Cns _ [ :0 - Vow: ]* %>: :Vow ;
                _ :* \ %>: %{☭%}: ;
-               _ %{°%}:0 ;
-               _ %{·%}:0 ;
+               _ %{°%}:0 .#. ;
+               _ %{·%}:0 .#. ; ;
        where
            Vx in ( у ю и %{Æ%} )
            Vy in ( о ё е   а   ) matched ;
+
+!
+"Vowel harmony for Æ (recessive)"
+! {Æ}:э ю:ю п ы ч ь >:0 у:у
+%{Æ%}:э <=>  _ ;
+      except
+        [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
+                                   _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+                               .#. _ %>: :Vow ;
+                               Cns _ [ :0 - Vow: ]* %>: :Vow ;
+                                   _ %{°%}:0 .#. ;
+                                   _ %{·%}:0 .#. ; ;
+        [ :ч | :ԓ ] [ :0 - Vow: ]* _ ;
+
+!
+"Vowel harmony for Æ (recessive) after palatal"
+! п р и ч {☭}:0 >:0 {Æ}:е
+%{Æ%}:е <=> [ :ч | :ԓ ] [ :0 - Vow: ]* _ ;
+      except
+        [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
+                                   _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+                               .#. _ %>: :Vow ;         ! contexts for deletion
+                               Cns _ [ :0 - Vow: ]* %>: :Vow ;
+                                   _ :* \ %>: %{☭%}: ;
+                                   _ %{°%}:0 .#. ;
+                                   _ %{·%}:0 .#. ; ;
+
+
+"Vowel deletion for recessive"                    ! because syllable structure
+! Æ:0 >:0 а г н о т в а н в >:0 {ы}:ы к Æ:а
+! авэръэп>{ы}чӄыч{Æ}т>{ы}тк у:о >:0 {ы}:0 ръу>{ы}к
+V:0 <=> .#. _ %>: :Vow ;
+        Cns _ [ :0 - Vow: ]* %>: :Vow ;
+       except
+            Cns _ [ :0 - Vow: ]* %>: [ V: | :Vd ] %>: ;     ! for one-vowel suffixes
+            %>: _ [ :0 - Vow: ]* %>: [ V: | :Vd ] ;
+       where
+           V in ( е и у ю %{Æ%} )
+           Vd in ( я э о ё а ) matched ;
+
+
+"Vowel deletion for dominant"                    ! because syllable structure
+! а г н о т в а:0 >:0 у:о
+V:0 <=> .#. _ %>: [ :Vow - :V ] ;       ! same as for rec but can be written shorter
+       Cns _ %>: [ :Vow - :V ] ;
+       where
+           V in ( я э о ё а ) ;
+
+!
+"Epenthesis"
+! а й в а >:0 {ы}:0 к
+%{ы%}:ы <=> Cns Cns :0* %>: _ Cns ;
+                Cns :0* %>: _ Cns Cns ;
+                    Cns :0* _ Cns .#. ;
+     Vow Cns :0* %>: %{G%}: _ ;
+                  [ : - :Vow ] Cns _ ( %>: ) [ Cns - :ъ ] ;
+                               Cns _ %>: Cns Cns ;
+!                [ : - %{ы%}: ] ( %>: ) Cns _ ( %>: ) Cns ( %>: ) %{ы%}: ;
+!  [ : - :Vow] Cns ( %{☭%}: ) ( %>: ) _ ( %>: ) Cns ;
+!                Cns ( %{☭%}: ) ( %>: ) _ ( %>: ) Cns [ : - :Vow] ;
