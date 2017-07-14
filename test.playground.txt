@@ -1,0 +1,28 @@
+! "Vowel harmony"
+а й в а н >:0 у:о
+б у т ы л к а {☭}:0
+
+! "Vowel harmony after ԓ"
+а й в а ԓ >:0 у:ё
+н у ԓ я {☭}:0
+
+! "Vowel harmony after ч"
+о ч >:0 {Æ}:а
+о ч >:0 и:е
+
+! "Vowel harmony for Æ (recessive)"
+{Æ}:э ю:ю п ы ч ь >:0 у:у
+
+! "Vowel harmony for Æ (recessive) after palatal"
+п:п р:р и:и ч:ч {☭}:0 >:0 {Æ}:е
+
+! "Vowel deletion for recessive"
+{Æ}:0 >:0 а г н о т в а н >:0 к {Æ}:а
+а г н о т в а н о {☭}:0 >:0 у:о >:0 к ы н
+г а н >:0 у:о >:0 о
+
+! "Vowel deletion for dominant"                    ! because syllable structure
+а г н о т в а:0 >:0 у:о
+
+! "Epenthesis"
+а й в а >:0 {ы}:0 к
