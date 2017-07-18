@@ -242,7 +242,7 @@ LEXICON CASES-OBL                             !!
 @D.CASE@%<ess%>:@D.CASE@%>у # ;
 @D.CASE@%<loc%>:@D.CASE@%>%{ы%}к # ;
 @D.CASE@%<all%>:@D.CASE@%>%{G%}ты%{⁺ⱽᴴ%} # ;
-@D.CASE@%<abl%>:@D.CASE@%>%{G%}%{ы%}п%{ы%}%{⁺ⱽᴴ%} # ;
+@D.CASE@%<abl%>:@D.CASE@%>%{G%}%{ы%}пы%{⁺ⱽᴴ%} # ;
 @D.CASE@%<ori%>:@D.CASE@%>%{ы%}гйит # ;
 @D.CASE@%<ine%>:@D.CASE@%>%{ы%}чыку # ;
 @D.CASE@%<per%>:@D.CASE@%>%{ы%}йэквэ%{⁺ⱽᴴ%} # ;
@@ -266,10 +266,12 @@ LEXICON N-Ia-AATGYR                                   ! bare stem
 
 
 
-LEXICON N-Ia-JYNYR-ABS                                ! bare stem with n/ng alteration
+LEXICON N-Ia-JYNYR                                ! bare stem with n/ng alteration
 
 @D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ # ;
-
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
 
 LEXICON N-Ib-ANGKY                                   ! stem-final vowel reduction
 
@@ -289,9 +291,12 @@ LEXICON N-Ic-AJKOL                                   ! stem-final vowel deletion
 
 
 
-LEXICON N-Ic-EJNETKUNEN-ABS                          ! vowel deletion with n/ng alteration
+LEXICON N-Ic-EJNETKUNEN                          ! vowel deletion with n/ng alteration
 
 @D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%{·%} # ;
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
 
 
 LEXICON N-IIa-VIIL-ABS                               ! full reduplication
