@@ -8,13 +8,13 @@ Alphabet
 ! %{E%}:э %{t%}:а
  %{N%}:ӈ %{N%}:г %{N%}:н %{N%}:м
  %{и%}:и %{и%}:э %{и%}:0
- ! %{R%}:т  %{R%}:р
+! %{R%}:т  %{R%}:р
  %{R%}:р %{R%}:н
- %{Æ%}:а %{Æ%}:э %{Æ%}:0
+ %{Æ%}:а %{Æ%}:э %{Æ%}:е %{Æ%}:0
 
 ! %{к%}:к %{к%}:г
 ! %{e%}:э %{e%}:г
- %{ы%}:ы %{ы%}:0 %{ы%}:ъ
+ %{ы%}:ы %{ы%}:0 %{ы%}:ъ %{ы%}:ь
  %{G%}:й %{G%}:э %{G%}:г
  %{I%}:и %{I%}:й
 
@@ -70,198 +70,241 @@ Back = К Ӄ Ӈ Г
 
 Rules
 
-
-! can ӈ be word-final?
-
-
- "Vowel harmony"
-! а й в а л >:0 у:о
+"Vowel harmony"
+! а й в а н >:0 у:о
 Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
-                                     _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
-        except
-            .#. _ %>: :Vow ;
-            Cns _ %>: :Vow ;
-                _ :* \ %>: %{☭%}: ;
-                _ %{°%}:0 ;
-                _ %{·%}:0 ;
-    [ :ч | :ԓ ] _ ;
-        where
-            Vx in ( у ю и %{Æ%} )
-            Vy in ( о ё э   а   ) matched ;
-
-!
-"Vowel harmony after ԓ"
-Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ԓ _ ;
-                                     :ԓ _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+                                    _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
        except
-           .#. _ %>: :Vow ;
-           Cns _ %>: :Vow ;
-               _ :* \ %>: %{☭%}: ;
-               _ %{°%}:0 ;
-               _ %{·%}:0 ;
+           .#. _ %>: :Vow ;         ! contexts for deletion
+          :Cns _ :0* %>: :Vow ;     ! deletion; :0* = special symbols
+               _ :* \ %>: %{☭%}: ;  ! doesn't affect loan phonology
+               _ %{°%}:0 .#. ;          ! word-final abs reduction
+               _ %{·%}:0 .#. ; ;        ! word-final abs deletion
+   [ :ч | :ԓ ] :0* _ ;       ! orthography
        where
            Vx in ( у ю и %{Æ%} )
-           Vy in ( о ё е   я   ) matched ;
+           Vy in ( о ё э   а   ) matched ;
+
+
+"Vowel harmony after ԓ"
+! а й в а ԓ >:0 у:ё
+! а й в а ԓ >:0 у:о   ! Neg
+Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ԓ :0* _ ;
+                                    :ԓ :0* _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+      except
+          .#. _ %>: :Vow ;
+         :Cns _ :0* %>: :Vow ;
+              _ :* \ %>: %{☭%}: ;
+              _ %{°%}:0 .#. ;
+              _ %{·%}:0 .#. ; ;
+      where
+          Vx in ( у ю и %{Æ%} )
+          Vy in ( ё ё е   я   ) matched ;
 
 !
 "Vowel harmony after ч"
-Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ч _ ;
-                                     :ч _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+! о ч >:0 {Æ}:а
+! о ч >:0 и:е
+Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ч :0* _ ;
+                                     :ч :0* _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
        except
            .#. _ %>: :Vow ;
-           Cns _ %>: :Vow ;
+          :Cns _ :0* %>: :Vow ;
                _ :* \ %>: %{☭%}: ;
-               _ %{°%}:0 ;
-               _ %{·%}:0 ;
+               _ %{°%}:0 .#. ;
+               _ %{·%}:0 .#. ; ;
        where
            Vx in ( у ю и %{Æ%} )
            Vy in ( о ё е   а   ) matched ;
 
+!
 "Vowel harmony for Æ (recessive)"
-! Æ:э ю:ю п ы ч ь >:0 у:у
+! {Æ}:э ю:ю п ы ч ь >:0 у:у
 %{Æ%}:э <=>  _ ;
       except
         [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
                                    _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
                                .#. _ %>: :Vow ;
-                               Cns _ %>: :Vow ;
-                                   _ %{°%}:0 ;
-                                   _ %{·%}:0 ;
-                                   [ :ч | :ԓ ] _ ;
+                              :Cns _ :0* %>: :Vow ;
+                                   _ %{°%}:0 .#. ;
+                                   _ %{·%}:0 .#. ; ;
+        [ :ч | :ԓ ] :0* _ ;
 
 !
 "Vowel harmony for Æ (recessive) after palatal"
-%{Æ%}:е <=> [ :ч | :ԓ ] _ ;
+! п р и ч {☭}:0 >:0 {Æ}:е
+%{Æ%}:е <=> [ :ч | :ԓ ] :0* _ ;
       except
         [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
                                    _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
-                               .#. _ %>: :Vow ;
-                               Cns _ %>: :Vow ;
-                                   _ %{°%}:0 ;
-                                   _ %{·%}:0 ;
+                               .#. _ %>: :Vow ;         ! contexts for deletion
+                              :Cns _ :0* %>: :Vow ;
+                                   _ :* \ %>: %{☭%}: ;
+                                   _ %{°%}:0 .#. ;
+                                   _ %{·%}:0 .#. ; ;
 
 
 "Vowel deletion for recessive"                    ! because syllable structure
-! Æ:0 >:0 а г н о т в а н в >:0 {ы}:ы к Æ:а
-! авэръэп>{ы}чӄыч{Æ}т>{ы}тк у:о >:0 {ы}:0 ръу>{ы}к
-V:0 <=> .#. _ %>: :Vow ;       ! [ :Vow - V: - :Vd ]
-       Cns _ %>: :Vow ;
+! {Æ}:0 >:0 а г н о т в а н >:0 к {Æ}:а
+! а г н о т в а н о {☭}:0 >:0 у:о >:0 к ы н
+! г а н >:0 у:о >:0 о
+V:0 <=> .#. _ %>: :Vow ;
+       :Cns _ :0* %>: :Vow ;
        except
-            ! [: - .#. ] Cns _ %>: [ V: | :Vd ] ;
-            Cns _ %>: [ V: | :Vd ] %>: ;
-            %>: _ %>: [ V: | :Vd ] ;
+           :Cns _ :0* %>: [ V: | :Vd ] %>: ;     ! for one-vowel suffixes
+            %>: _ :0* %>: [ V: | :Vd ] ;
        where
            V in ( е и у ю %{Æ%} )
            Vd in ( я э о ё а ) matched ;
 
+
 "Vowel deletion for dominant"                    ! because syllable structure
-! Æ:0 >:0 а г н о т в а н в >:0 {ы}:ы к Æ:а
-V:0 <=> .#. _ %>: [ :Vow - :V ] ;
-       Cns _ %>: [ :Vow - :V ] ;
+! а г н о т в а:0 >:0 у:о
+V:0 <=> .#. _ %>: :Vow ;       ! same as for rec but can be written shorter
+       :Cns _ :0* %>: :Vow ;
+       except
+            :Cns _ :0* %>: :V %>: ;     ! for one-vowel suffixes
+             %>: _ :0* %>: :V ;
        where
-           V in ( я э о ё а ) ;
+            V in ( я э о ё а ) ;
+
 
 "Epenthesis"
 ! а й в а >:0 {ы}:0 к
-%{ы%}:ы <=> Cns Cns :0* %>: _ Cns ;
-                Cns :0* %>: _ Cns Cns ;
-                    Cns :0* _ Cns .#. ;
-     Vow Cns :0* %>: %{G%}: _ ;
-                  [ : - :Vow ] Cns _ ( %>: ) [ Cns - :ъ ] ;
-                               Cns _ %>: Cns Cns ;
-!                [ : - %{ы%}: ] ( %>: ) Cns _ ( %>: ) Cns ( %>: ) %{ы%}: ;
-!  [ : - :Vow] Cns ( %{☭%}: ) ( %>: ) _ ( %>: ) Cns ;
-!                Cns ( %{☭%}: ) ( %>: ) _ ( %>: ) Cns [ : - :Vow] ;
+! г {ы}:ы р >:0 {ы}:ы к
+! м ы т {ы}:0 >:0 г {ы}:ы р >:0 {ы}:0 м ы к
+! м {ы}:ы >:0 к ы ԓ е >:0 {ы}:0 к
+%{ы%}:ы <=> [ :Cns | .#. ] :0* [ :Cns | :Glottal ] :0* _ :0* :Cns ;       ! first syll/three :Cns in a row, after the second
+            :Cns :0* _ :0* :Cns :0* [ :Cns | .#. ] ;       ! last syll/three :Cns in a row, after the first
+       :Vow :Cns :0* %>: %{G%}: _ ;
 
 
-!
 "Epenthesis for yot"
+! м ы т {ы}:ъ >:0 я р >:0 {ы}:0 м ы к
+%{ы%}:ъ <=> [ :Cns - :ԓ - %{G%}: ] :0* _ :0* :Yot ;
 
-%{ы%}:ъ <=> [ Cns - :ԓ ] _ :Yot ;
-      except
-            Cns Cns :0* %>: _ Cns ;
-                Cns :0* %>: _ Cns Cns ;
-                    Cns :0* _ Cns .#. ;
-     Vow Cns :0* %>: %{G%}: _ ;
-                  [ : - :Vow ] Cns _ %>: [ Cns - :ъ ] ;
-                               Cns _ %>: Cns Cns ;
-                           .#. Cns _ Cns ;
+
+"Epenthesis for yot after л"
+! м ы ԓ {ы}:ь >:0 я р >:0 {ы}:0 м ы к
+%{ы%}:ь <=> :ԓ :0* _ :0* :Yot ;
 
 
 "t insertion after vowel-final stems"
-! г Æ:0 >:0 а й в а >:0 {T}:т Æ:а
-! г Æ:0 >:0 а г т а ч г >:0 {T}:0 Æ:а
-%{T%}:т <=> Vow ( %{☭%}: ) %>: _ ;
-
+! г {Æ}:0 >:0 а й в а >:0 {T}:т {Æ}:а
+! г {Æ}:0 >:0 а г т а ч г >:0 {T}:0 {Æ}:а
+%{T%}:т <=> Vow :0* %>: _ ;
 
 
 "All/Abl allomorph г-"
 ! а й в а >:0 {G}:г т ы {⁺ⱽᴴ}:0
-%{G%}:г <=> Vow Cns ( %{☭%}: ) %>: _ ;
-                    ( %{☭%}: ) %>: _ т ;
+%{G%}:г <=> Vow :Cns :0* %>: _ ;
+                     :0* %>: _ т ;
         except
-                Cns ( %{☭%}: ) %>: _ т ;
+      [ :Cns | :Glottal ] :0* %>: _ т ;
 
 
 "All/Abl allomorph э-"
-%{G%}:э <=> Cns Cns ( %{☭%}: ) %>: _ ;
-                Cns ( %{☭%}: ) %>: _ т ;
+! а г ъ ё л я т к э г ы р г >:0 {G}:э {ы}:0 п ы {⁺ⱽᴴ}:0
+%{G%}:э <=> :Cns [ :Cns | :Glottal ] :0* %>: _ ;
+                 [ :Cns | :Glottal ] :0* %>: _ т ;
 
 
 "Abl allomorph й-"
-%{G%}:й <=> Vow ( %{☭%}: ) %>: _ ;
+! а й в а >:0 {G}:й {ы}:0 п ы {⁺ⱽᴴ}:0
+%{G%}:й <=> Vow :0* %>: _ ;
         except
-                ( %{☭%}: ) %>: _ т ;               ! this line turns off Allative
+                :0* %>: _ т ;               ! this line turns off Allative
 
 
-"{и} in suffixes incl. after non-coronals "
-%{и%}:0 <=> [ :Cns - :Coronal ] ( %{☭%}: ) %>: %{ы%}: т _ ;
-                                               :Vow %>: _ ;
+"{и} in suffixes incl. after non-coronals"
+! а г н о т в а н в >:0 {ы}:ы т {и}:0
+! а й в э р э т >:0 {ы}:0 т {и}:э
+%{и%}:0 <=> [ :Cns - :Coronal | :Glottal ] :0* %{ы%}: т _ ;
+                                               :Vow :0* _ ;
+                  :Cns [ :Cns | :Glottal ] :0* %{ы%}: т _ ;
 
 
 "Stem-final vowel deletion"
+! ч а й к о к а:0 {·}:0
 V:0 <=>  _ %{·%}:0 .#. ;
         where
             V in Vow ;
 
-"Stem-final vowel reduction"
-V:ы <=>  _ %{°%}:0 .#. ;
-        where
-            V in Vow ;
+! "Stem-final vowel reduction"
+! г о п ӄ а:ы {°}:0
+! V:ы <=>  _ %{°%}:0 .#. ;
+!        where
+!             V in Vow ;
+
 
 "N allomorph г"
-%{N%}:г <=> _ [ :Nasal & :Anterior ] ;
+!
+%{N%}:г <=> _ :0* [ :Nasal & :Anterior ] ;
       except
-            :г _ ;
+            :г :0* _ ;
 
 "N allomorph н"
-%{N%}:н <=> :г _ ;
-               _ [ :Alveolar - :Nasal | :й ] ;
+! %{Æ%}ʼйӈ%{Æ%}выткун%{Æ%}%{N%}%{Æ%}
+! й ы %{N%}:ӈ %{ы%}:ы р
+! й ы %{N%}:н %{ы%}:0 р >:0 у
+%{N%}:н <=> :г :0* _ ;
+               _ :0* [ :Alveolar - :Nasal | :й ] ;
+               _ :0* .#. ;
 
 "N allomorph м"
-%{N%}:м <=> _ [ :Bilabial - :Nasal ];
+%{N%}:м <=> _ :0* [ :Bilabial - :Nasal ];
       except
-            :г _ ;
+            :г :0* _ ;
 
 "п assimilation"
-п:м <=> _ :Nasal ;
+! в а т а п:м >:0 {ы}:0 н а
+п:м <=> _ :0* :Nasal ;
       except
-            _ [ : - >: ]* %{☭%}: ;
+            _ [ : - %>: ]* %{☭%}: ;
 
 "т assimilation"
-т:н <=> _ :Nasal ;
+! в а р а т:н >:0 {ы}:0 н а
+т:н <=> _ :0* :Nasal ;
       except
-            _ [ : - >: ]* %{☭%}: ;
+            _ [ : - %>: ]* %{☭%}: ;
 
-"р allophone t"             ! as archiphoneme or not?
-р:т <=> _ :Coronal ;
+"р allophone t"
+! и:э ԓ и:е р:т >:0 {ы}:0 н а
+р:т <=> _ :0* :Coronal ;
       except
-            _ [ : - >: ]* %{☭%}: ;
+            _ [ : - %>: ]* %{☭%}: ;
 
 "k allophone q"
-к:ӄ <=> _ ӄ ;
+к:ӄ <=> _ :0* ӄ ;
+      except
+            _ [ : - %>: ]* %{☭%}: ;
+
+
+"q deletion"
+ӄ:0 <=> _ :0* [ :Cns - :ӄ ] ;
+      except
+            .#. _ ;
+
+
+"й allophone г"
+! к и ԓ в %{Æ%}:э й
+! к и:э ԓ в %{Æ%}:а й:г >:0 {ы}:0 н а
+й:г <=> _ :0* :Coronal ;
       except
             _ [ : - >: ]* %{☭%}: ;
+
+
+"гм -> ӈӈ first"
+г:ӈ <=> _ :0* м: ;
+
+"гм -> ӈӈ second"
+м:ӈ <=> г: :0* _ ;
+
+"I to й in stative"
+%{I%}:й <=> :Vow :0* _ ;
+
+"R that is р"
+%{R%}:р <=> .#. _ ;
 
 ! this dsnt work :(
 ! "к allophone г"
@@ -269,27 +312,4 @@ V:ы <=>  _ %{°%}:0 .#. ;
 !       except
 !             _ [ : - >: ]* %{☭%}: ;
 
-"k allophone q"
-ӄ:0 <=> _ ( %>: ) [ Cns - :ӄ ] ;
-      except
-            .#. _ ;
-
-
-"й allophone г"
-й:г <=> _ :Coronal ;
-      except
-            _ [ : - >: ]* %{☭%}: ;
-
 ! "Non-coronal cluster transformation"
-
-"гм -> ӈӈ first"
-г:ӈ <=> _ ( %{☭%}: ) ( %>: ) м: ;
-
-"гм -> ӈӈ second"
-м:ӈ <=> г: ( %{☭%}: ) ( %>: ) _ ;
-
-"I to й in stative"
-%{I%}:й <=> Cns ( %{☭%}: ) %>: _ ;
-
-"R that is р"
-%{R%}:р <=> .#. _ ;

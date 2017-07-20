@@ -1,89 +1,104 @@
-! harmony
+! "Vowel harmony"
 а й в а л >:0 у:о
+б у т ы л к а {☭}:0
 {Æ}:э ю:ю п ы ч ь >:0 у:у
 а г н о т в а н в >:0 {ы}:ы г й и:э т
 
-! epenthesis
-а й в а >:0 {ы}:0 к
-{Æ}:э ю:ю п ы ч ь >:0 {ы}:ы к
+! "Vowel harmony after ԓ"
+а й в а ԓ >:0 у:ё
+н у ԓ я {☭}:0
 
-! deletion
+! "Vowel harmony after ч"
+о ч >:0 {Æ}:а
+о ч >:0 и:е
+
+! "Vowel harmony for Æ (recessive)"
+{Æ}:э ю:ю п ы ч ь >:0 у:у
+
+! "Vowel harmony for Æ (recessive) after palatal"
+п:п р:р и:и ч:ч {☭}:0 >:0 {Æ}:е
+
+! "Vowel deletion for recessive"
+{Æ}:0 >:0 а г н о т в а н >:0 к {Æ}:а
+а г н о т в а н о {☭}:0 >:0 у:о >:0 к ы н
+г а н >:0 у:о >:0 о
 г а:0 >:0 {Æ}:а ю:ё п ы ч ь >:0 {ы}:ы м а {⁺ⱽᴴ}:0
 г {Æ}:0 >:0 {Æ}:э ю:ю п ы ч ь >:0 {T}:0 {Æ}:э
 {Æ}:0 >:0 а г н о т в а н в >:0 {ы}:ы к {Æ}:а
 
-! и after non-coronals
+! "Vowel deletion for dominant"
+а г н о т в а:0 {⁺ⱽᴴ}:0 >:0 у:о
+
+"{и} in suffixes incl. after non-coronals"
 а г н о т в а н в >:0 {ы}:ы т {и}:0
 а й в э р э т >:0 {ы}:0 т {и}:э
+в ы л ь >:0 {ы}:ы т {и}:0
 
-! t insertion
+! "Epenthesis"
+а й в а >:0 {ы}:0 к
+г {ы}:ы р >:0 {ы}:ы к
+{Æ}:э ю:ю п ы ч ь >:0 {ы}:ы к
+м ы т {ы}:0 >:0 г {ы}:ы р >:0 {ы}:0 м ы к
+м {ы}:ы >:0 к ы ԓ е >:0 {ы}:0 к
+
+! "Epenthesis for yot"
+м ы т {ы}:ъ >:0 я р >:0 {ы}:0 м ы к
+
+"Epenthesis for yot after л"
+м ы ԓ {ы}:ь >:0 я р >:0 {ы}:0 м ы к
+
+! "t insertion after vowel-final stems"
 г {Æ}:0 >:0 а й в а >:0 {T}:т {Æ}:а
 г {Æ}:0 >:0 а г т а ч г >:0 {T}:0 {Æ}:а
 а а т г ы р >:0 {T}:0 {Æ}:а
 
-! G realizations
-а й в а >:0 {G}:г т ы {⁺ⱽᴴ}:0
-а г н о т в а н в >:0 {G}:э т ы {⁺ⱽᴴ}:0
-
-
-! "Vowel harmony"
-
-! "Vowel harmony after ԓ"
-
-! "Vowel harmony after ч"
-
-! "Vowel harmony for Æ (recessive)"
-
-! "Vowel harmony for Æ (recessive) after palatal"
-
-! "Vowel deletion for recessive"
-
-! "Vowel deletion for dominant"
-г:г а:а >:0 {ы}:0 к
-г:г а:0 >:0 у:о
-
-! "Epenthesis"
-
-! "Epenthesis for yot"
-
-! "t insertion after vowel-final stems"
-
 ! "All/Abl allomorph г-"
+а й в а >:0 {G}:г т ы {⁺ⱽᴴ}:0
 
 ! "All/Abl allomorph э-"
+а г ъ ё л я т к э г ы р г >:0 {G}:э {ы}:0 п ы {⁺ⱽᴴ}:0
+а г н о т в а н в >:0 {G}:э т ы {⁺ⱽᴴ}:0
 
-! "Abl allomorph й-"
+! "All/Abl allomorph й-"
+а й в а >:0 {G}:й {ы}:0 п ы:ы {⁺ⱽᴴ}:0
 
-! "{и} in suffixes incl. after non-coronals"
+! "и after non-coronals"
+а г н о т в а н в >:0 {ы}:ы т {и}:0
+а й в э р э т >:0 {ы}:0 т {и}:э
 
 ! "Stem-final vowel deletion"
-г:г а:0 {·}:0
-г:г а:а {·}:0 >:0 {ы}:0 к
+ч а й к о к а:0 {·}:0
 
-! "Stem-final vowel reduction"
+! "Stem-final vowel reduction"        ! STILL NOT WORKING
+! г о п ӄ а:ы {°}:0
 
 ! "N allomorph г"
+{Æ}:а ʼ й ӈ {Æ}:а в ы т к у:о н {Æ}:а {N}:г >:0 {ы}:0 н а
 
 ! "N allomorph н"
-
-! "N allomorph м"
+{Æ}:а ʼ й ӈ {Æ}:а в ы т к у:о н {Æ}:а {N}:ӈ {Æ}:а >:0 {ы}:0 н а
+{Æ}:э ʼ й ӈ {Æ}:э в ы т к у:у н {Æ}:э {N}:н {Æ}:0 {·}:0
+й ы {N}:ӈ {ы}:ы р
+й ы {N}:н {ы}:0 р >:0 у
 
 ! "п assimilation"
+в а т а п:м >:0 {ы}:0 н а
 
 ! "т assimilation"
+в а р а т:н >:0 {ы}:0 н а
 
-! "р allophone t"
+"р allophone t"
+и:э ԓ и:е р:т >:0 {ы}:0 н а
+ч о г а р:т >:0 т э
 
-! "k allophone q"
+"й allophone г"
+к и ԓ в {Æ}:э й
+к и:э ԓ в {Æ}:а й:г >:0 {ы}:0 н а
 
-! "k deletion"
+"I to й in stative"
+г {Æ}:0 >:0 а м а ӄ а >:0 {I}:й г ы м
+г {Æ}:0 >:0 а н ӈ а т >:0 {I}:и г ы м
 
-! "й allophone г"
-
-! "гм -> ӈӈ first"
-
-! "гм -> ӈӈ second"
-
-! "I to й in stative"
-
-! "R that is р"
+"R that is р"
+{R}:р а т в >:0 {ы}:ы к
+т {ы}:ы >:0 {R}:н а т в >:0 {ы}:ы к
