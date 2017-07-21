@@ -29,7 +29,5 @@ The files in .hfstol format are the faster versions of .hfst.
 test.sh is a hfst-pair-test for twolc. The input file for the positive test is test.test.<br />
 alltest.sh is a hfst-lookup for the whole transducer.<br />
 
-make_and_count.sh compiles the transducer and counts the coverage; it's a composition of `make` and `scripts/corpus-stat-res.sh`
-
 ### Coverage
 69.8%
