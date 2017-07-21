@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat alltest.test | hfst-lookup together.hfst
+cat test.lookup.txt | hfst-lookup ckt.gen.hfstol

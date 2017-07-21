@@ -20,7 +20,7 @@ The transducer is composed of three transducers:<br />
 ### Testing
 
 test.sh is a hfst-pair-test for twolc. The input file for the positive test is test.test.<br />
-alltest.sh is a hfst-lookup for the whole transducer<br />
+alltest.sh is a hfst-lookup for the whole transducer.<br />
 
 ### Coverage
 69.8%
