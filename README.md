@@ -3,10 +3,16 @@
 ### Description
 
 This is a Google Summer of Code project for a morphological analyzer (autoglosser) for Chukchi based on HFST.<br />
-The transducer is composed of three transducers:<br />
+The full transducer is composed of three transducers:<br />
 - lexc deals with morphology and lexicon;
 - twoc helps to implement morphology that is not possible (or too difficult) to implement in lexc;
 - twol deals with phonology and morphophonology.
+
+ckt.mor.hfst is the transducer for morphological analysis; ckt.gen.hfst is the one for forms generation.
+
+The files in .hfstol format are the faster versions of .hfst.
+
+All the transducers are pre-compiled.
 
 ### Compilation
 
