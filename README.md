@@ -8,11 +8,12 @@ The full transducer is composed of three transducers:<br />
 - twoc helps to implement morphology that is not possible (or too difficult) to implement in lexc;
 - twol deals with phonology and morphophonology.
 
-ckt.mor.hfst is the transducer for morphological analysis; ckt.gen.hfst is the one for forms generation.
+Compilation produces the before mentioned transducers plus two composed ones:
+- ckt.mor.hfst is the transducer for morphological analysis;
+- ckt.gen.hfst is the one for forms generation.
 
 The files in .hfstol format are the faster versions of .hfst.
 
-All the transducers are pre-compiled.
 
 ### Compilation
 
