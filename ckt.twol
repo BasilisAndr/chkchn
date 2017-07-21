@@ -174,8 +174,8 @@ V:0 <=> .#. _ %>: :Vow ;       ! same as for rec but can be written shorter
 ! г {ы}:ы р >:0 {ы}:ы к
 ! м ы т {ы}:0 >:0 г {ы}:ы р >:0 {ы}:0 м ы к
 ! м {ы}:ы >:0 к ы ԓ е >:0 {ы}:0 к
-%{ы%}:ы <=> [ :Cns | .#. ] :0* [ :Cns | :Glottal ] :0* _ :0* :Cns ;       ! first syll/three :Cns in a row, after the second
-            :Cns :0* _ :0* :Cns :0* [ :Cns | .#. ] ;       ! last syll/three :Cns in a row, after the first
+%{ы%}:ы <=> [ :Cns | .#. ] :0* [ :Cns | :Glottal ] [ :0 - Vow: ]* _ :0* :Cns ;       ! first syll/three :Cns in a row, after the second
+            :Cns [ :0 - Vow: ]* _ :0* :Cns :0* [ :Cns | .#. ] ;       ! last syll/three :Cns in a row, after the first
        :Vow :Cns :0* %>: %{G%}: _ ;
 
 
