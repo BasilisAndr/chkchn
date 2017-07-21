@@ -371,307 +371,307 @@ LEXICON V-IV-PROG-COND
 
 LEXICON V-TV-NEUT-AOR
 
-@R.VPR.ine@%<a_2sg%>%<o_1sg%>:@R.VPR.ine@%>и # ;
-@R.VPR.ine@%<a_2sg%>%<o_1sg%>:@R.VPR.ine@%>%{ы%}гъи # ;
-@R.VPR.ine@%<a_2pl%>%<o_1sg%>:@R.VPR.ine@%>%{ы%}тык # ;
-@R.VPR.ine@%<a_3sg%>%<o_1sg%>:@R.VPR.ine@%>и # ;
-@R.VPR.ine@%<a_3sg%>%<o_1sg%>:@R.VPR.ine@%>%{ы%}гъи # ;
-@R.VPR.ne@%<a_3pl%>%<o_1sg%>:@R.VPR.ne@%>%{ы%}гым # ;
+@R.VPR.ine@%<a_sg2%>%<o_sg1%>:@R.VPR.ine@%>и # ;
+@R.VPR.ine@%<a_sg2%>%<o_sg1%>:@R.VPR.ine@%>%{ы%}гъи # ;
+@R.VPR.ine@%<a_pl2%>%<o_sg1%>:@R.VPR.ine@%>%{ы%}тык # ;
+@R.VPR.ine@%<a_sg3%>%<o_sg1%>:@R.VPR.ine@%>и # ;
+@R.VPR.ine@%<a_sg3%>%<o_sg1%>:@R.VPR.ine@%>%{ы%}гъи # ;
+@R.VPR.ne@%<a_pl3%>%<o_sg1%>:@R.VPR.ne@%>%{ы%}гым # ;
 
-@D.VPR@%<a_2sg%>%<o_1pl%>:@D.VPR@%>%{ы%}ткугъи # ;
-@D.VPR@%<a_2pl%>%<o_1pl%>:@D.VPR@%>%{ы%}ткутык # ;
-@R.VPR.ne@%<a_3sg%>%<o_1pl%>:@R.VPR.ne@%>%{ы%}мык # ;
-@R.VPR.ne@%<a_3pl%>%<o_1pl%>:@R.VPR.ne@%>%{ы%}мык # ;
+@D.VPR@%<a_sg2%>%<o_pl1%>:@D.VPR@%>%{ы%}ткугъи # ;
+@D.VPR@%<a_pl2%>%<o_pl1%>:@D.VPR@%>%{ы%}ткутык # ;
+@R.VPR.ne@%<a_sg3%>%<o_pl1%>:@R.VPR.ne@%>%{ы%}мык # ;
+@R.VPR.ne@%<a_pl3%>%<o_pl1%>:@R.VPR.ne@%>%{ы%}мык # ;
 
-@R.VPR.t@%<a_1sg%>%<o_2sg%>:@R.VPR.t@%>%{ы%}ткугъи # ;
-@R.VPR.myt@%<a_1pl%>%<o_2sg%>:@R.VPR.myt@%>%{ы%}ткутык # ;
-@R.VPR.ne@%<a_3sg%>%<o_2sg%>:@R.VPR.ne@%>%{ы%}гыт # ;
-@R.VPR.ne@%<a_3pl%>%<o_2sg%>:@R.VPR.ne@%>%{ы%}гыт # ;
+@R.VPR.t@%<a_sg1%>%<o_sg2%>:@R.VPR.t@%>%{ы%}ткугъи # ;
+@R.VPR.myt@%<a_pl1%>%<o_sg2%>:@R.VPR.myt@%>%{ы%}ткутык # ;
+@R.VPR.ne@%<a_sg3%>%<o_sg2%>:@R.VPR.ne@%>%{ы%}гыт # ;
+@R.VPR.ne@%<a_pl3%>%<o_sg2%>:@R.VPR.ne@%>%{ы%}гыт # ;
 
-@R.VPR.t@%<a_1sg%>%<o_2pl%>:@R.VPR.t@%>%{ы%}тык # ;
-@R.VPR.myt@%<a_1pl%>%<o_2pl%>:@R.VPR.myt@%>%{ы%}тык # ;
-@R.VPR.ne@%<a_3sg%>%<o_2pl%>:@R.VPR.ne@%>%{ы%}тык # ;
-@R.VPR.ne@%<a_3pl%>%<o_2pl%>:@R.VPR.ne@%>%{ы%}тык # ;
+@R.VPR.t@%<a_sg1%>%<o_pl2%>:@R.VPR.t@%>%{ы%}тык # ;
+@R.VPR.myt@%<a_pl1%>%<o_pl2%>:@R.VPR.myt@%>%{ы%}тык # ;
+@R.VPR.ne@%<a_sg3%>%<o_pl2%>:@R.VPR.ne@%>%{ы%}тык # ;
+@R.VPR.ne@%<a_pl3%>%<o_pl2%>:@R.VPR.ne@%>%{ы%}тык # ;
 
-@R.VPR.t@%<a_1sg%>%<o_3sg%>:@R.VPR.t@%>%{ы%}н # ;
-@R.VPR.t@%<a_1sg%>%<o_3sg%>:@R.VPR.t@%>%{ы%}гъ%{Æ%}н # ;
-@R.VPR.myt@%<a_1pl%>%<o_3sg%>:@R.VPR.myt@%>%{ы%}н # ;
-@R.VPR.myt@%<a_1pl%>%<o_3sg%>:@R.VPR.myt@%>%{ы%}гъ%{Æ%}н # ;
-@D.VPR@%<a_2sg%>%<o_3sg%>:@D.VPR@%>%{ы%}н # ;
-@D.VPR@%<a_2sg%>%<o_3sg%>:@D.VPR@%>%{ы%}гъ%{Æ%}н # ;
-@D.VPR@%<a_2pl%>%<o_3sg%>:@D.VPR@%>%{ы%}ткы # ;
-@D.VPR@%<a_3sg%>%<o_3sg%>:@D.VPR@%>%{ы%}нин # ;
-@R.VPR.ne@%<a_3pl%>%<o_3sg%>:@R.VPR.ne@%>%{ы%}н # ;
+@R.VPR.t@%<a_sg1%>%<o_sg3%>:@R.VPR.t@%>%{ы%}н # ;
+@R.VPR.t@%<a_sg1%>%<o_sg3%>:@R.VPR.t@%>%{ы%}гъ%{Æ%}н # ;
+@R.VPR.myt@%<a_pl1%>%<o_sg3%>:@R.VPR.myt@%>%{ы%}н # ;
+@R.VPR.myt@%<a_pl1%>%<o_sg3%>:@R.VPR.myt@%>%{ы%}гъ%{Æ%}н # ;
+@D.VPR@%<a_sg2%>%<o_sg3%>:@D.VPR@%>%{ы%}н # ;
+@D.VPR@%<a_sg2%>%<o_sg3%>:@D.VPR@%>%{ы%}гъ%{Æ%}н # ;
+@D.VPR@%<a_pl2%>%<o_sg3%>:@D.VPR@%>%{ы%}ткы # ;
+@D.VPR@%<a_sg3%>%<o_sg3%>:@D.VPR@%>%{ы%}нин # ;
+@R.VPR.ne@%<a_pl3%>%<o_sg3%>:@R.VPR.ne@%>%{ы%}н # ;
 
-@R.VPR.t@%<a_1sg%>%<o_3pl%>:@R.VPR.t@%>%{ы%}н%{Æ%}т # ;
-@R.VPR.myt@%<a_1pl%>%<o_3pl%>:@R.VPR.myt@%>%{ы%}н%{Æ%}т # ;
-@D.VPR@%<a_2sg%>%<o_3pl%>:@D.VPR@%>%{ы%}н%{Æ%}т # ;
-@D.VPR@%<a_2pl%>%<o_3pl%>:@D.VPR@%>%{ы%}ткы # ;
-@D.VPR@%<a_3sg%>%<o_3pl%>:@D.VPR@%>%{ы%}нин%{Æ%}т # ;
-@R.VPR.ne@%<a_3pl%>%<o_3pl%>:@R.VPR.ne@%>%{ы%}н%{Æ%}т # ;
+@R.VPR.t@%<a_sg1%>%<o_pl3%>:@R.VPR.t@%>%{ы%}н%{Æ%}т # ;
+@R.VPR.myt@%<a_pl1%>%<o_pl3%>:@R.VPR.myt@%>%{ы%}н%{Æ%}т # ;
+@D.VPR@%<a_sg2%>%<o_pl3%>:@D.VPR@%>%{ы%}н%{Æ%}т # ;
+@D.VPR@%<a_pl2%>%<o_pl3%>:@D.VPR@%>%{ы%}ткы # ;
+@D.VPR@%<a_sg3%>%<o_pl3%>:@D.VPR@%>%{ы%}нин%{Æ%}т # ;
+@R.VPR.ne@%<a_pl3%>%<o_pl3%>:@R.VPR.ne@%>%{ы%}н%{Æ%}т # ;
 
 
 LEXICON V-TV-NEUT-FUT
 
-@R.VPR.ine@%<a_2sg%>%<o_1sg%>:@R.VPR.ine@%>%{ы%}гъ%{Æ%} # ;
-@R.VPR.ine@%<a_2pl%>%<o_1sg%>:@R.VPR.ine@%>%{ы%}нтык # ;
-@R.VPR.ine@%<a_3sg%>%<o_1sg%>:@R.VPR.ine@%>%{ы%}гъ%{Æ%} # ;
-@R.VPR.ne@%<a_3pl%>%<o_1sg%>:@R.VPR.ne@%>%{ы%}гым # ;
+@R.VPR.ine@%<a_sg2%>%<o_sg1%>:@R.VPR.ine@%>%{ы%}гъ%{Æ%} # ;
+@R.VPR.ine@%<a_pl2%>%<o_sg1%>:@R.VPR.ine@%>%{ы%}нтык # ;
+@R.VPR.ine@%<a_sg3%>%<o_sg1%>:@R.VPR.ine@%>%{ы%}гъ%{Æ%} # ;
+@R.VPR.ne@%<a_pl3%>%<o_sg1%>:@R.VPR.ne@%>%{ы%}гым # ;
 
-@D.VPR@%<a_2sg%>%<o_1pl%>:@D.VPR@%>%{ы%}ткугъ%{Æ%} # ;
-@D.VPR@%<a_2pl%>%<o_1pl%>:@D.VPR@%>%{ы%}ткунтык # ;
-@R.VPR.ne@%<a_3sg%>%<o_1pl%>:@R.VPR.ne@%>%{ы%}мык # ;
-@R.VPR.ne@%<a_3pl%>%<o_1pl%>:@R.VPR.ne@%>%{ы%}мык # ;
+@D.VPR@%<a_sg2%>%<o_pl1%>:@D.VPR@%>%{ы%}ткугъ%{Æ%} # ;
+@D.VPR@%<a_pl2%>%<o_pl1%>:@D.VPR@%>%{ы%}ткунтык # ;
+@R.VPR.ne@%<a_sg3%>%<o_pl1%>:@R.VPR.ne@%>%{ы%}мык # ;
+@R.VPR.ne@%<a_pl3%>%<o_pl1%>:@R.VPR.ne@%>%{ы%}мык # ;
 
-@R.VPR.t@%<a_1sg%>%<o_2sg%>:@R.VPR.t@%>%{ы%}гыт # ;
-@R.VPR.myt@%<a_1pl%>%<o_2sg%>:@R.VPR.myt@%>%{ы%}гыт # ;
-@R.VPR.ne@%<a_3sg%>%<o_2sg%>:@R.VPR.ne@%>%{ы%}гыт # ;
-@R.VPR.ne@%<a_3pl%>%<o_2sg%>:@R.VPR.ne@%>%{ы%}гыт # ;
+@R.VPR.t@%<a_sg1%>%<o_sg2%>:@R.VPR.t@%>%{ы%}гыт # ;
+@R.VPR.myt@%<a_pl1%>%<o_sg2%>:@R.VPR.myt@%>%{ы%}гыт # ;
+@R.VPR.ne@%<a_sg3%>%<o_sg2%>:@R.VPR.ne@%>%{ы%}гыт # ;
+@R.VPR.ne@%<a_pl3%>%<o_sg2%>:@R.VPR.ne@%>%{ы%}гыт # ;
 
-@R.VPR.t@%<a_1sg%>%<o_2pl%>:@R.VPR.t@%>%{ы%}тык # ;
-@R.VPR.myt@%<a_1pl%>%<o_2pl%>:@R.VPR.myt@%>%{ы%}тык # ;
-@R.VPR.ne@%<a_3sg%>%<o_2pl%>:@R.VPR.ne@%>%{ы%}тык # ;
-@R.VPR.ne@%<a_3pl%>%<o_2pl%>:@R.VPR.ne@%>%{ы%}тык # ;
+@R.VPR.t@%<a_sg1%>%<o_pl2%>:@R.VPR.t@%>%{ы%}тык # ;
+@R.VPR.myt@%<a_pl1%>%<o_pl2%>:@R.VPR.myt@%>%{ы%}тык # ;
+@R.VPR.ne@%<a_sg3%>%<o_pl2%>:@R.VPR.ne@%>%{ы%}тык # ;
+@R.VPR.ne@%<a_pl3%>%<o_pl2%>:@R.VPR.ne@%>%{ы%}тык # ;
 
-@R.VPR.t@%<a_1sg%>%<o_3sg%>:@R.VPR.t@%>%{ы%}ӈын # ;
-@R.VPR.myt@%<a_1pl%>%<o_3sg%>:@R.VPR.myt@%>%{ы%}ӈын # ;
-@D.VPR@%<a_2sg%>%<o_3sg%>:@D.VPR@%>%{ы%}ӈын # ;
-@D.VPR@%<a_2pl%>%<o_3sg%>:@D.VPR@%>%{ы%}ӈыткы # ;
-@D.VPR@%<a_3sg%>%<o_3sg%>:@D.VPR@%>%{ы%}гнин # ;
-@R.VPR.ne@%<a_3pl%>%<o_3sg%>:@R.VPR.ne@%>%{ы%}ӈын # ;
+@R.VPR.t@%<a_sg1%>%<o_sg3%>:@R.VPR.t@%>%{ы%}ӈын # ;
+@R.VPR.myt@%<a_pl1%>%<o_sg3%>:@R.VPR.myt@%>%{ы%}ӈын # ;
+@D.VPR@%<a_sg2%>%<o_sg3%>:@D.VPR@%>%{ы%}ӈын # ;
+@D.VPR@%<a_pl2%>%<o_sg3%>:@D.VPR@%>%{ы%}ӈыткы # ;
+@D.VPR@%<a_sg3%>%<o_sg3%>:@D.VPR@%>%{ы%}гнин # ;
+@R.VPR.ne@%<a_pl3%>%<o_sg3%>:@R.VPR.ne@%>%{ы%}ӈын # ;
 
-@R.VPR.t@%<a_1sg%>%<o_3pl%>:@R.VPR.t@%>%{ы%}ӈын%{Æ%}т # ;
-@R.VPR.myt@%<a_1pl%>%<o_3pl%>:@R.VPR.myt@%>%{ы%}ӈын%{Æ%}т # ;
-@D.VPR@%<a_2sg%>%<o_3pl%>:@D.VPR@%>%{ы%}ӈын%{Æ%}т # ;
-@D.VPR@%<a_2pl%>%<o_3pl%>:@D.VPR@%>%{ы%}ӈыткы # ;
-@D.VPR@%<a_3sg%>%<o_3pl%>:@D.VPR@%>%{ы%}гнин%{Æ%}т # ;
-@R.VPR.ne@%<a_3pl%>%<o_3pl%>:@R.VPR.ne@%>%{ы%}ӈын%{Æ%}т # ;
+@R.VPR.t@%<a_sg1%>%<o_pl3%>:@R.VPR.t@%>%{ы%}ӈын%{Æ%}т # ;
+@R.VPR.myt@%<a_pl1%>%<o_pl3%>:@R.VPR.myt@%>%{ы%}ӈын%{Æ%}т # ;
+@D.VPR@%<a_sg2%>%<o_pl3%>:@D.VPR@%>%{ы%}ӈын%{Æ%}т # ;
+@D.VPR@%<a_pl2%>%<o_pl3%>:@D.VPR@%>%{ы%}ӈыткы # ;
+@D.VPR@%<a_sg3%>%<o_pl3%>:@D.VPR@%>%{ы%}гнин%{Æ%}т # ;
+@R.VPR.ne@%<a_pl3%>%<o_pl3%>:@R.VPR.ne@%>%{ы%}ӈын%{Æ%}т # ;
 
 
 LEXICON V-TV-NEUT-INTN
 
-@R.VPR.qine@%<a_2sg%>%<o_1sg%>:@R.VPR.qine@%>%{ы%}ги # ;
-@R.VPR.qine@%<a_2pl%>%<o_1sg%>:@R.VPR.qine@%>%{ы%}тык # ;
-@R.VPR.nine@%<a_3sg%>%<o_1sg%>:@R.VPR.nine@%>%{ы%}н # ;
-@R.VPR.nine@%<a_3sg%>%<o_1sg%>:@R.VPR.nine@%>%{ы%}гъ%{Æ%}н # ;
-@R.VPR.yn@%<a_3pl%>%<o_1sg%>:@R.VPR.yn@%>%{ы%}гым # ;
+@R.VPR.qine@%<a_sg2%>%<o_sg1%>:@R.VPR.qine@%>%{ы%}ги # ;
+@R.VPR.qine@%<a_pl2%>%<o_sg1%>:@R.VPR.qine@%>%{ы%}тык # ;
+@R.VPR.nine@%<a_sg3%>%<o_sg1%>:@R.VPR.nine@%>%{ы%}н # ;
+@R.VPR.nine@%<a_sg3%>%<o_sg1%>:@R.VPR.nine@%>%{ы%}гъ%{Æ%}н # ;
+@R.VPR.yn@%<a_pl3%>%<o_sg1%>:@R.VPR.yn@%>%{ы%}гым # ;
 
-@R.VPR.q@%<a_2sg%>%<o_1pl%>:@R.VPR.q@%>%{ы%}ткуги # ;
-@R.VPR.q@%<a_2pl%>%<o_1pl%>:@R.VPR.q@%>%{ы%}ткутык # ;
-@R.VPR.yn@%<a_3sg%>%<o_1pl%>:@R.VPR.yn@%>%{ы%}мык # ;
-@R.VPR.yn@%<a_3pl%>%<o_1pl%>:@R.VPR.yn@%>%{ы%}мык # ;
+@R.VPR.q@%<a_sg2%>%<o_pl1%>:@R.VPR.q@%>%{ы%}ткуги # ;
+@R.VPR.q@%<a_pl2%>%<o_pl1%>:@R.VPR.q@%>%{ы%}ткутык # ;
+@R.VPR.yn@%<a_sg3%>%<o_pl1%>:@R.VPR.yn@%>%{ы%}мык # ;
+@R.VPR.yn@%<a_pl3%>%<o_pl1%>:@R.VPR.yn@%>%{ы%}мык # ;
 
-@R.VPR.m@%<a_1sg%>%<o_2sg%>:@R.VPR.m@%>%{ы%}гыт # ;
-@R.VPR.myn@%<a_1pl%>%<o_2sg%>:@R.VPR.myn@%>%{ы%}гыт # ;
-@R.VPR.yn@%<a_3sg%>%<o_2sg%>:@R.VPR.yn@%>%{ы%}гыт # ;
-@R.VPR.yn@%<a_3pl%>%<o_2sg%>:@R.VPR.yn@%>%{ы%}гыт # ;
+@R.VPR.m@%<a_sg1%>%<o_sg2%>:@R.VPR.m@%>%{ы%}гыт # ;
+@R.VPR.myn@%<a_pl1%>%<o_sg2%>:@R.VPR.myn@%>%{ы%}гыт # ;
+@R.VPR.yn@%<a_sg3%>%<o_sg2%>:@R.VPR.yn@%>%{ы%}гыт # ;
+@R.VPR.yn@%<a_pl3%>%<o_sg2%>:@R.VPR.yn@%>%{ы%}гыт # ;
 
-@R.VPR.m@%<a_1sg%>%<o_2pl%>:@R.VPR.m@%>%{ы%}тык # ;
-@R.VPR.myn@%<a_1pl%>%<o_2pl%>:@R.VPR.myn@%>%{ы%}тык # ;
-@R.VPR.yn@%<a_3sg%>%<o_2pl%>:@R.VPR.yn@%>%{ы%}тык # ;
-@R.VPR.yn@%<a_3pl%>%<o_2pl%>:@R.VPR.yn@%>%{ы%}тык # ;
+@R.VPR.m@%<a_sg1%>%<o_pl2%>:@R.VPR.m@%>%{ы%}тык # ;
+@R.VPR.myn@%<a_pl1%>%<o_pl2%>:@R.VPR.myn@%>%{ы%}тык # ;
+@R.VPR.yn@%<a_sg3%>%<o_pl2%>:@R.VPR.yn@%>%{ы%}тык # ;
+@R.VPR.yn@%<a_pl3%>%<o_pl2%>:@R.VPR.yn@%>%{ы%}тык # ;
 
-@R.VPR.m@%<a_1sg%>%<o_3sg%>:@R.VPR.m@%>%{ы%}н # ;
-@R.VPR.m@%<a_1sg%>%<o_3sg%>:@R.VPR.m@%>%{ы%}гъ%{Æ%}н # ;
-@R.VPR.myn@%<a_1pl%>%<o_3sg%>:@R.VPR.myn@%>%{ы%}н # ;
-@R.VPR.myn@%<a_1pl%>%<o_3sg%>:@R.VPR.myn@%>%{ы%}гъ%{Æ%}н # ;
-@R.VPR.q@%<a_2sg%>%<o_3sg%>:@R.VPR.q@%>%{ы%}гын # ;
-@R.VPR.q@%<a_2pl%>%<o_3sg%>:@R.VPR.q@%>%{ы%}гыткы # ;
-@R.VPR.n@%<a_3sg%>%<o_3sg%>:@R.VPR.n@%>%{ы%}нин # ;
-@R.VPR.yn@%<a_3pl%>%<o_3sg%>:@R.VPR.yn@%>%{ы%}ӈын # ;
-@R.VPR.yn@%<a_3pl%>%<o_3sg%>:@R.VPR.yn@%>%{ы%}гъ%{Æ%}ӈын # ;
+@R.VPR.m@%<a_sg1%>%<o_sg3%>:@R.VPR.m@%>%{ы%}н # ;
+@R.VPR.m@%<a_sg1%>%<o_sg3%>:@R.VPR.m@%>%{ы%}гъ%{Æ%}н # ;
+@R.VPR.myn@%<a_pl1%>%<o_sg3%>:@R.VPR.myn@%>%{ы%}н # ;
+@R.VPR.myn@%<a_pl1%>%<o_sg3%>:@R.VPR.myn@%>%{ы%}гъ%{Æ%}н # ;
+@R.VPR.q@%<a_sg2%>%<o_sg3%>:@R.VPR.q@%>%{ы%}гын # ;
+@R.VPR.q@%<a_pl2%>%<o_sg3%>:@R.VPR.q@%>%{ы%}гыткы # ;
+@R.VPR.n@%<a_sg3%>%<o_sg3%>:@R.VPR.n@%>%{ы%}нин # ;
+@R.VPR.yn@%<a_pl3%>%<o_sg3%>:@R.VPR.yn@%>%{ы%}ӈын # ;
+@R.VPR.yn@%<a_pl3%>%<o_sg3%>:@R.VPR.yn@%>%{ы%}гъ%{Æ%}ӈын # ;
 
-@R.VPR.m@%<a_1sg%>%<o_3pl%>:@R.VPR.m@%>%{ы%}н%{Æ%}т # ;
-@R.VPR.myn@%<a_1pl%>%<o_3pl%>:@R.VPR.myn@%>%{ы%}н%{Æ%}т # ;
-@R.VPR.q@%<a_2sg%>%<o_3pl%>:@R.VPR.q@%>%{ы%}гын%{Æ%}т # ;
-@R.VPR.q@%<a_2pl%>%<o_3pl%>:@R.VPR.q@%>%{ы%}гыткы # ;
-@R.VPR.n@%<a_3sg%>%<o_3pl%>:@R.VPR.n@%>%{ы%}нин%{Æ%}т # ;
-@R.VPR.yn@%<a_3pl%>%<o_3pl%>:@R.VPR.yn@%>%{ы%}н%{Æ%}т # ;
+@R.VPR.m@%<a_sg1%>%<o_pl3%>:@R.VPR.m@%>%{ы%}н%{Æ%}т # ;
+@R.VPR.myn@%<a_pl1%>%<o_pl3%>:@R.VPR.myn@%>%{ы%}н%{Æ%}т # ;
+@R.VPR.q@%<a_sg2%>%<o_pl3%>:@R.VPR.q@%>%{ы%}гын%{Æ%}т # ;
+@R.VPR.q@%<a_pl2%>%<o_pl3%>:@R.VPR.q@%>%{ы%}гыткы # ;
+@R.VPR.n@%<a_sg3%>%<o_pl3%>:@R.VPR.n@%>%{ы%}нин%{Æ%}т # ;
+@R.VPR.yn@%<a_pl3%>%<o_pl3%>:@R.VPR.yn@%>%{ы%}н%{Æ%}т # ;
 
 
 LEXICON V-TV-NEUT-COND
 
-@R.VPR.qine@%<a_2sg%>%<o_1sg%>:@R.VPR.qine@%>%{ы%}ги # ;
-@R.VPR.qine@%<a_2pl%>%<o_1sg%>:@R.VPR.qine@%>%{ы%}тык # ;
-@R.VPR.nine@%<a_3sg%>%<o_1sg%>:@R.VPR.nine@%>%{ы%}н # ;
-@R.VPR.nine@%<a_3sg%>%<o_1sg%>:@R.VPR.nine@%>%{ы%}гъ%{Æ%}н # ;
-@R.VPR.yn@%<a_3pl%>%<o_1sg%>:@R.VPR.yn@%>%{ы%}гым # ;
+@R.VPR.qine@%<a_sg2%>%<o_sg1%>:@R.VPR.qine@%>%{ы%}ги # ;
+@R.VPR.qine@%<a_pl2%>%<o_sg1%>:@R.VPR.qine@%>%{ы%}тык # ;
+@R.VPR.nine@%<a_sg3%>%<o_sg1%>:@R.VPR.nine@%>%{ы%}н # ;
+@R.VPR.nine@%<a_sg3%>%<o_sg1%>:@R.VPR.nine@%>%{ы%}гъ%{Æ%}н # ;
+@R.VPR.yn@%<a_pl3%>%<o_sg1%>:@R.VPR.yn@%>%{ы%}гым # ;
 
-@R.VPR.q@%<a_2sg%>%<o_1pl%>:@R.VPR.q@%>%{ы%}ткун # ;
-@R.VPR.q@%<a_2sg%>%<o_1pl%>:@R.VPR.q@%>%{ы%}ткугъ%{Æ%}н # ;
-@R.VPR.q@%<a_2pl%>%<o_1pl%>:@R.VPR.q@%>%{ы%}ткутык # ;
-@R.VPR.yn@%<a_3sg%>%<o_1pl%>:@R.VPR.yn@%>%{ы%}мык # ;
-@R.VPR.yn@%<a_3pl%>%<o_1pl%>:@R.VPR.yn@%>%{ы%}мык # ;
+@R.VPR.q@%<a_sg2%>%<o_pl1%>:@R.VPR.q@%>%{ы%}ткун # ;
+@R.VPR.q@%<a_sg2%>%<o_pl1%>:@R.VPR.q@%>%{ы%}ткугъ%{Æ%}н # ;
+@R.VPR.q@%<a_pl2%>%<o_pl1%>:@R.VPR.q@%>%{ы%}ткутык # ;
+@R.VPR.yn@%<a_sg3%>%<o_pl1%>:@R.VPR.yn@%>%{ы%}мык # ;
+@R.VPR.yn@%<a_pl3%>%<o_pl1%>:@R.VPR.yn@%>%{ы%}мык # ;
 
-@R.VPR.m@%<a_1sg%>%<o_2sg%>:@R.VPR.m@%>%{ы%}гыт # ;
-@R.VPR.myn@%<a_1pl%>%<o_2sg%>:@R.VPR.myn@%>%{ы%}гыт # ;
-@R.VPR.yn@%<a_3sg%>%<o_2sg%>:@R.VPR.yn@%>%{ы%}гыт # ;
-@R.VPR.yn@%<a_3pl%>%<o_2sg%>:@R.VPR.yn@%>%{ы%}гыт # ;
+@R.VPR.m@%<a_sg1%>%<o_sg2%>:@R.VPR.m@%>%{ы%}гыт # ;
+@R.VPR.myn@%<a_pl1%>%<o_sg2%>:@R.VPR.myn@%>%{ы%}гыт # ;
+@R.VPR.yn@%<a_sg3%>%<o_sg2%>:@R.VPR.yn@%>%{ы%}гыт # ;
+@R.VPR.yn@%<a_pl3%>%<o_sg2%>:@R.VPR.yn@%>%{ы%}гыт # ;
 
-@R.VPR.m@%<a_1sg%>%<o_2pl%>:@R.VPR.m@%>%{ы%}тык # ;
-@R.VPR.myn@%<a_1pl%>%<o_2pl%>:@R.VPR.myn@%>%{ы%}тык # ;
-@R.VPR.yn@%<a_3sg%>%<o_2pl%>:@R.VPR.yn@%>%{ы%}тык # ;
-@R.VPR.yn@%<a_3pl%>%<o_2pl%>:@R.VPR.yn@%>%{ы%}тык # ;
+@R.VPR.m@%<a_sg1%>%<o_pl2%>:@R.VPR.m@%>%{ы%}тык # ;
+@R.VPR.myn@%<a_pl1%>%<o_pl2%>:@R.VPR.myn@%>%{ы%}тык # ;
+@R.VPR.yn@%<a_sg3%>%<o_pl2%>:@R.VPR.yn@%>%{ы%}тык # ;
+@R.VPR.yn@%<a_pl3%>%<o_pl2%>:@R.VPR.yn@%>%{ы%}тык # ;
 
-@R.VPR.m@%<a_1sg%>%<o_3sg%>:@R.VPR.m@%>%{ы%}н # ;
-@R.VPR.m@%<a_1sg%>%<o_3sg%>:@R.VPR.m@%>%{ы%}гъ%{Æ%}н # ;
-@R.VPR.myn@%<a_1pl%>%<o_3sg%>:@R.VPR.myn@%>%{ы%}н # ;
-@R.VPR.myn@%<a_1pl%>%<o_3sg%>:@R.VPR.myn@%>%{ы%}гъ%{Æ%}н # ;
-@R.VPR.q@%<a_2sg%>%<o_3sg%>:@R.VPR.q@%>%{ы%}гын # ;
-@R.VPR.q@%<a_2pl%>%<o_3sg%>:@R.VPR.q@%>%{ы%}гыткы # ;
-@R.VPR.n@%<a_3sg%>%<o_3sg%>:@R.VPR.n@%>%{ы%}нин # ;
-@R.VPR.yn@%<a_3pl%>%<o_3sg%>:@R.VPR.yn@%>%{ы%}ӈын # ;
-@R.VPR.yn@%<a_3pl%>%<o_3sg%>:@R.VPR.yn@%>%{ы%}гъ%{Æ%}ӈын # ;
+@R.VPR.m@%<a_sg1%>%<o_sg3%>:@R.VPR.m@%>%{ы%}н # ;
+@R.VPR.m@%<a_sg1%>%<o_sg3%>:@R.VPR.m@%>%{ы%}гъ%{Æ%}н # ;
+@R.VPR.myn@%<a_pl1%>%<o_sg3%>:@R.VPR.myn@%>%{ы%}н # ;
+@R.VPR.myn@%<a_pl1%>%<o_sg3%>:@R.VPR.myn@%>%{ы%}гъ%{Æ%}н # ;
+@R.VPR.q@%<a_sg2%>%<o_sg3%>:@R.VPR.q@%>%{ы%}гын # ;
+@R.VPR.q@%<a_pl2%>%<o_sg3%>:@R.VPR.q@%>%{ы%}гыткы # ;
+@R.VPR.n@%<a_sg3%>%<o_sg3%>:@R.VPR.n@%>%{ы%}нин # ;
+@R.VPR.yn@%<a_pl3%>%<o_sg3%>:@R.VPR.yn@%>%{ы%}ӈын # ;
+@R.VPR.yn@%<a_pl3%>%<o_sg3%>:@R.VPR.yn@%>%{ы%}гъ%{Æ%}ӈын # ;
 
-@R.VPR.m@%<a_1sg%>%<o_3pl%>:@R.VPR.m@%>%{ы%}н%{Æ%}т # ;
-@R.VPR.myn@%<a_1pl%>%<o_3pl%>:@R.VPR.myn@%>%{ы%}н%{Æ%}т # ;
-@R.VPR.q@%<a_2sg%>%<o_3pl%>:@R.VPR.q@%>%{ы%}гын%{Æ%}т # ;
-@R.VPR.q@%<a_2pl%>%<o_3pl%>:@R.VPR.q@%>%{ы%}гыткы # ;
-@R.VPR.n@%<a_3sg%>%<o_3pl%>:@R.VPR.n@%>%{ы%}нин%{Æ%}т # ;
-@R.VPR.yn@%<a_3pl%>%<o_3pl%>:@R.VPR.yn@%>%{ы%}н%{Æ%}т # ;
+@R.VPR.m@%<a_sg1%>%<o_pl3%>:@R.VPR.m@%>%{ы%}н%{Æ%}т # ;
+@R.VPR.myn@%<a_pl1%>%<o_pl3%>:@R.VPR.myn@%>%{ы%}н%{Æ%}т # ;
+@R.VPR.q@%<a_sg2%>%<o_pl3%>:@R.VPR.q@%>%{ы%}гын%{Æ%}т # ;
+@R.VPR.q@%<a_pl2%>%<o_pl3%>:@R.VPR.q@%>%{ы%}гыткы # ;
+@R.VPR.n@%<a_sg3%>%<o_pl3%>:@R.VPR.n@%>%{ы%}нин%{Æ%}т # ;
+@R.VPR.yn@%<a_pl3%>%<o_pl3%>:@R.VPR.yn@%>%{ы%}н%{Æ%}т # ;
 
 LEXICON V-TV-PROG-AOR
 
-@R.VPR.ine@%<a_2sg%>%<o_1sg%>:@R.VPR.ine@ # ;
-@R.VPR.ine@%<a_2pl%>%<o_1sg%>:@R.VPR.ine@%>тык # ;
-@R.VPR.ine@%<a_3sg%>%<o_1sg%>:@R.VPR.ine@ # ;
-@R.VPR.ne@%<a_3pl%>%<o_1sg%>:@R.VPR.ne@%>гым # ;
+@R.VPR.ine@%<a_sg2%>%<o_sg1%>:@R.VPR.ine@ # ;
+@R.VPR.ine@%<a_pl2%>%<o_sg1%>:@R.VPR.ine@%>тык # ;
+@R.VPR.ine@%<a_sg3%>%<o_sg1%>:@R.VPR.ine@ # ;
+@R.VPR.ne@%<a_pl3%>%<o_sg1%>:@R.VPR.ne@%>гым # ;
 
-@D.VPR@%<a_2pl%>%<o_1pl%>:@D.VPR@%%[%+inv%] # ;
-@D.VPR@%<a_3sg%>%<o_1pl%>:@D.VPR@%>тык%[%+inv%] # ;
-@R.VPR.ne@%<a_3pl%>%<o_1pl%>:@R.VPR.ne@%>мык # ;
+@D.VPR@%<a_pl2%>%<o_pl1%>:@D.VPR@%%[%+inv%] # ;
+@D.VPR@%<a_sg3%>%<o_pl1%>:@D.VPR@%>тык%[%+inv%] # ;
+@R.VPR.ne@%<a_pl3%>%<o_pl1%>:@R.VPR.ne@%>мык # ;
 
-@R.VPR.t@%<a_1sg%>%<o_2sg%>:@R.VPR.t@%>гыт # ;
-@R.VPR.myt@%<a_1pl%>%<o_2sg%>:@R.VPR.myt@%>гыт # ;
-@R.VPR.ne@%<a_3sg%>%<o_2sg%>:@R.VPR.ne@%>гыт # ;
-@R.VPR.ne@%<a_3pl%>%<o_2sg%>:@R.VPR.ne@%>гыт # ;
+@R.VPR.t@%<a_sg1%>%<o_sg2%>:@R.VPR.t@%>гыт # ;
+@R.VPR.myt@%<a_pl1%>%<o_sg2%>:@R.VPR.myt@%>гыт # ;
+@R.VPR.ne@%<a_sg3%>%<o_sg2%>:@R.VPR.ne@%>гыт # ;
+@R.VPR.ne@%<a_pl3%>%<o_sg2%>:@R.VPR.ne@%>гыт # ;
 
-@R.VPR.t@%<a_1sg%>%<o_2pl%>:@R.VPR.t@%>тык # ;
-@R.VPR.myt@%<a_1pl%>%<o_2pl%>:@R.VPR.myt@%>тык # ;
-@R.VPR.ne@%<a_3sg%>%<o_2pl%>:@R.VPR.ne@%>тык # ;
-@R.VPR.ne@%<a_3pl%>%<o_2pl%>:@R.VPR.ne@%>тык # ;
+@R.VPR.t@%<a_sg1%>%<o_pl2%>:@R.VPR.t@%>тык # ;
+@R.VPR.myt@%<a_pl1%>%<o_pl2%>:@R.VPR.myt@%>тык # ;
+@R.VPR.ne@%<a_sg3%>%<o_pl2%>:@R.VPR.ne@%>тык # ;
+@R.VPR.ne@%<a_pl3%>%<o_pl2%>:@R.VPR.ne@%>тык # ;
 
-@R.VPR.t@%<a_1sg%>%<o_3sg%>:@R.VPR.t@ # ;
-@R.VPR.myt@%<a_1pl%>%<o_3sg%>:@R.VPR.myt@ # ;
-@D.VPR@%<a_2sg%>%<o_3sg%>:@D.VPR@ # ;
-@D.VPR@%<a_2pl%>%<o_3sg%>:@D.VPR@%>ткы # ;
-@D.VPR@%<a_3sg%>%<o_3sg%>:@D.VPR@н # ;
-@R.VPR.ne@%<a_3pl%>%<o_3sg%>:@R.VPR.ne@ # ;
+@R.VPR.t@%<a_sg1%>%<o_sg3%>:@R.VPR.t@ # ;
+@R.VPR.myt@%<a_pl1%>%<o_sg3%>:@R.VPR.myt@ # ;
+@D.VPR@%<a_sg2%>%<o_sg3%>:@D.VPR@ # ;
+@D.VPR@%<a_pl2%>%<o_sg3%>:@D.VPR@%>ткы # ;
+@D.VPR@%<a_sg3%>%<o_sg3%>:@D.VPR@н # ;
+@R.VPR.ne@%<a_pl3%>%<o_sg3%>:@R.VPR.ne@ # ;
 
-@R.VPR.t@%<a_1sg%>%<o_3pl%>:@R.VPR.t@%>%{Æ%}т # ;
-@R.VPR.myt@%<a_1pl%>%<o_3pl%>:@R.VPR.myt@%>%{Æ%}т # ;
-@D.VPR@%<a_2sg%>%<o_3pl%>:@D.VPR@%>%{Æ%}т # ;
-@D.VPR@%<a_2pl%>%<o_3pl%>:@D.VPR@%>ткы # ;
-@D.VPR@%<a_3sg%>%<o_3pl%>:@D.VPR@%>н%{Æ%}т # ;
-@R.VPR.ne@%<a_3pl%>%<o_3pl%>:@R.VPR.ne@%>%{Æ%}т # ;
+@R.VPR.t@%<a_sg1%>%<o_pl3%>:@R.VPR.t@%>%{Æ%}т # ;
+@R.VPR.myt@%<a_pl1%>%<o_pl3%>:@R.VPR.myt@%>%{Æ%}т # ;
+@D.VPR@%<a_sg2%>%<o_pl3%>:@D.VPR@%>%{Æ%}т # ;
+@D.VPR@%<a_pl2%>%<o_pl3%>:@D.VPR@%>ткы # ;
+@D.VPR@%<a_sg3%>%<o_pl3%>:@D.VPR@%>н%{Æ%}т # ;
+@R.VPR.ne@%<a_pl3%>%<o_pl3%>:@R.VPR.ne@%>%{Æ%}т # ;
 
 
 LEXICON V-TV-PROG-FUT
 
-@R.VPR.ine@%<a_2sg%>%<o_1sg%>:@R.VPR.ine@ # ;
-@R.VPR.ine@%<a_2pl%>%<o_1sg%>:@R.VPR.ine@%>тык # ;
-@R.VPR.ine@%<a_3sg%>%<o_1sg%>:@R.VPR.ine@ # ;
-@R.VPR.ne@%<a_3pl%>%<o_1sg%>:@R.VPR.ne@%>гым # ;
+@R.VPR.ine@%<a_sg2%>%<o_sg1%>:@R.VPR.ine@ # ;
+@R.VPR.ine@%<a_pl2%>%<o_sg1%>:@R.VPR.ine@%>тык # ;
+@R.VPR.ine@%<a_sg3%>%<o_sg1%>:@R.VPR.ine@ # ;
+@R.VPR.ne@%<a_pl3%>%<o_sg1%>:@R.VPR.ne@%>гым # ;
 
-@D.VPR@%<a_2sg%>%<o_1pl%>:@D.VPR@%[%+inv%] # ;
-@D.VPR@%<a_2pl%>%<o_1pl%>:@D.VPR@%>%[%+inv%]тык # ;
-@R.VPR.ne@%<a_3sg%>%<o_1pl%>:@R.VPR.ne@%>мык # ;
-@R.VPR.ne@%<a_3pl%>%<o_1pl%>:@R.VPR.ne@%>мык # ;
+@D.VPR@%<a_sg2%>%<o_pl1%>:@D.VPR@%[%+inv%] # ;
+@D.VPR@%<a_pl2%>%<o_pl1%>:@D.VPR@%>%[%+inv%]тык # ;
+@R.VPR.ne@%<a_sg3%>%<o_pl1%>:@R.VPR.ne@%>мык # ;
+@R.VPR.ne@%<a_pl3%>%<o_pl1%>:@R.VPR.ne@%>мык # ;
 
-@R.VPR.t@%<a_1sg%>%<o_2sg%>:@R.VPR.t@%>гыт # ;
-@R.VPR.myt@%<a_1pl%>%<o_2sg%>:@R.VPR.myt@%>гыт # ;
-@R.VPR.ne@%<a_3sg%>%<o_2sg%>:@R.VPR.ne@%>гыт # ;
-@R.VPR.ne@%<a_3pl%>%<o_2sg%>:@R.VPR.ne@%>гыт # ;
+@R.VPR.t@%<a_sg1%>%<o_sg2%>:@R.VPR.t@%>гыт # ;
+@R.VPR.myt@%<a_pl1%>%<o_sg2%>:@R.VPR.myt@%>гыт # ;
+@R.VPR.ne@%<a_sg3%>%<o_sg2%>:@R.VPR.ne@%>гыт # ;
+@R.VPR.ne@%<a_pl3%>%<o_sg2%>:@R.VPR.ne@%>гыт # ;
 
-@R.VPR.t@%<a_1sg%>%<o_2pl%>:@R.VPR.t@%>тык # ;
-@R.VPR.myt@%<a_1pl%>%<o_2pl%>:@R.VPR.myt@%>тык # ;
-@R.VPR.ne@%<a_3sg%>%<o_2pl%>:@R.VPR.ne@%>тык # ;
-@R.VPR.ne@%<a_3pl%>%<o_2pl%>:@R.VPR.ne@%>тык # ;
+@R.VPR.t@%<a_sg1%>%<o_pl2%>:@R.VPR.t@%>тык # ;
+@R.VPR.myt@%<a_pl1%>%<o_pl2%>:@R.VPR.myt@%>тык # ;
+@R.VPR.ne@%<a_sg3%>%<o_pl2%>:@R.VPR.ne@%>тык # ;
+@R.VPR.ne@%<a_pl3%>%<o_pl2%>:@R.VPR.ne@%>тык # ;
 
-@R.VPR.t@%<a_1sg%>%<o_3sg%>:@R.VPR.t@ # ;
-@R.VPR.myt@%<a_1pl%>%<o_3sg%>:@R.VPR.myt@ # ;
-@D.VPR@%<a_2sg%>%<o_3sg%>:@D.VPR@ # ;
-@D.VPR@%<a_2pl%>%<o_3sg%>:@D.VPR@%>ткы # ;
-@D.VPR@%<a_3sg%>%<o_3sg%>:@D.VPR@%>н # ;
-@R.VPR.ne@%<a_3pl%>%<o_3sg%>:@R.VPR.ne@ # ;
+@R.VPR.t@%<a_sg1%>%<o_sg3%>:@R.VPR.t@ # ;
+@R.VPR.myt@%<a_pl1%>%<o_sg3%>:@R.VPR.myt@ # ;
+@D.VPR@%<a_sg2%>%<o_sg3%>:@D.VPR@ # ;
+@D.VPR@%<a_pl2%>%<o_sg3%>:@D.VPR@%>ткы # ;
+@D.VPR@%<a_sg3%>%<o_sg3%>:@D.VPR@%>н # ;
+@R.VPR.ne@%<a_pl3%>%<o_sg3%>:@R.VPR.ne@ # ;
 
-@R.VPR.t@%<a_1sg%>%<o_3pl%>:@R.VPR.t@%>%{Æ%}т # ;
-@R.VPR.myt@%<a_1pl%>%<o_3pl%>:@R.VPR.myt@%{Æ%}т # ;
-@D.VPR@%<a_2sg%>%<o_3pl%>:@D.VPR@%>%{Æ%}т # ;
-@D.VPR@%<a_2pl%>%<o_3pl%>:@D.VPR@%>ткы # ;
-@D.VPR@%<a_3sg%>%<o_3pl%>:@D.VPR@%>%{Æ%}т # ;
-@R.VPR.ne@%<a_3pl%>%<o_3pl%>:@R.VPR.ne@%>%{Æ%}т # ;
+@R.VPR.t@%<a_sg1%>%<o_pl3%>:@R.VPR.t@%>%{Æ%}т # ;
+@R.VPR.myt@%<a_pl1%>%<o_pl3%>:@R.VPR.myt@%{Æ%}т # ;
+@D.VPR@%<a_sg2%>%<o_pl3%>:@D.VPR@%>%{Æ%}т # ;
+@D.VPR@%<a_pl2%>%<o_pl3%>:@D.VPR@%>ткы # ;
+@D.VPR@%<a_sg3%>%<o_pl3%>:@D.VPR@%>%{Æ%}т # ;
+@R.VPR.ne@%<a_pl3%>%<o_pl3%>:@R.VPR.ne@%>%{Æ%}т # ;
 
 
 LEXICON V-TV-PROG-INTN
 
-@R.VPR.qine@%<a_2sg%>%<o_1sg%>:@R.VPR.qine@ # ;
-@R.VPR.qine@%<a_2pl%>%<o_1sg%>:@R.VPR.qine@тык # ;
-@R.VPR.nine@%<a_3sg%>%<o_1sg%>:@R.VPR.nine@ # ;
-! @R.VPR.ynine@%<a_3pl%>%<o_1sg%>:@R.VPR.ynine@гым # ;    !!! FIXME
+@R.VPR.qine@%<a_sg2%>%<o_sg1%>:@R.VPR.qine@ # ;
+@R.VPR.qine@%<a_pl2%>%<o_sg1%>:@R.VPR.qine@тык # ;
+@R.VPR.nine@%<a_sg3%>%<o_sg1%>:@R.VPR.nine@ # ;
+! @R.VPR.ynine@%<a_pl3%>%<o_sg1%>:@R.VPR.ynine@гым # ;    !!! FIXME
 
-@R.VPR.q@%<a_2sg%>%<o_1pl%>:@R.VPR.q@[%+inv%] # ;
-@R.VPR.q@%<a_2pl%>%<o_1pl%>:@R.VPR.q@%>[%+inv%]тык # ;
-@R.VPR.yn@%<a_3sg%>%<o_1pl%>:@R.VPR.yn@%>мык # ;
-@R.VPR.yn@%<a_3pl%>%<o_1pl%>:@R.VPR.yn@%>мык # ;
+@R.VPR.q@%<a_sg2%>%<o_pl1%>:@R.VPR.q@[%+inv%] # ;
+@R.VPR.q@%<a_pl2%>%<o_pl1%>:@R.VPR.q@%>[%+inv%]тык # ;
+@R.VPR.yn@%<a_sg3%>%<o_pl1%>:@R.VPR.yn@%>мык # ;
+@R.VPR.yn@%<a_pl3%>%<o_pl1%>:@R.VPR.yn@%>мык # ;
 
-@R.VPR.m@%<a_1sg%>%<o_2sg%>:@R.VPR.m@%>гыт # ;
-@R.VPR.myn@%<a_1pl%>%<o_2sg%>:@R.VPR.myn@%>гыт # ;
-@R.VPR.yn@%<a_3sg%>%<o_2sg%>:@R.VPR.yn@%>гыт # ;
-@R.VPR.yn@%<a_3pl%>%<o_2sg%>:@R.VPR.yn@%>гыт # ;
+@R.VPR.m@%<a_sg1%>%<o_sg2%>:@R.VPR.m@%>гыт # ;
+@R.VPR.myn@%<a_pl1%>%<o_sg2%>:@R.VPR.myn@%>гыт # ;
+@R.VPR.yn@%<a_sg3%>%<o_sg2%>:@R.VPR.yn@%>гыт # ;
+@R.VPR.yn@%<a_pl3%>%<o_sg2%>:@R.VPR.yn@%>гыт # ;
 
-@R.VPR.m@%<a_1sg%>%<o_2pl%>:@R.VPR.m@%>тык # ;
-@R.VPR.myn@%<a_1pl%>%<o_2pl%>:@R.VPR.myn@%>тык # ;
-@R.VPR.yn@%<a_3sg%>%<o_2pl%>:@R.VPR.yn@%>тык # ;
-@R.VPR.yn@%<a_3pl%>%<o_2pl%>:@R.VPR.yn@%>тык # ;
+@R.VPR.m@%<a_sg1%>%<o_pl2%>:@R.VPR.m@%>тык # ;
+@R.VPR.myn@%<a_pl1%>%<o_pl2%>:@R.VPR.myn@%>тык # ;
+@R.VPR.yn@%<a_sg3%>%<o_pl2%>:@R.VPR.yn@%>тык # ;
+@R.VPR.yn@%<a_pl3%>%<o_pl2%>:@R.VPR.yn@%>тык # ;
 
-@R.VPR.m@%<a_1sg%>%<o_3sg%>:@R.VPR.m@ # ;
-@R.VPR.myn@%<a_1pl%>%<o_3sg%>:@R.VPR.myn@ # ;
-@R.VPR.q@%<a_2sg%>%<o_3sg%>:@R.VPR.q@ # ;
-@R.VPR.q@%<a_2pl%>%<o_3sg%>:@R.VPR.q@%>ткы # ;
-@R.VPR.n@%<a_3sg%>%<o_3sg%>:@R.VPR.n@%>н # ;
-@R.VPR.yn@%<a_3pl%>%<o_3sg%>:@R.VPR.yn@ # ;
+@R.VPR.m@%<a_sg1%>%<o_sg3%>:@R.VPR.m@ # ;
+@R.VPR.myn@%<a_pl1%>%<o_sg3%>:@R.VPR.myn@ # ;
+@R.VPR.q@%<a_sg2%>%<o_sg3%>:@R.VPR.q@ # ;
+@R.VPR.q@%<a_pl2%>%<o_sg3%>:@R.VPR.q@%>ткы # ;
+@R.VPR.n@%<a_sg3%>%<o_sg3%>:@R.VPR.n@%>н # ;
+@R.VPR.yn@%<a_pl3%>%<o_sg3%>:@R.VPR.yn@ # ;
 
-@R.VPR.m@%<a_1sg%>%<o_3pl%>:@R.VPR.m@%>%{Æ%}т # ;
-@R.VPR.myn@%<a_1pl%>%<o_3pl%>:@R.VPR.myn@%>%{Æ%}т # ;
-@R.VPR.q@%<a_2sg%>%<o_3pl%>:@R.VPR.q@%>%{Æ%}т # ;
-@R.VPR.q@%<a_2pl%>%<o_3pl%>:@R.VPR.q@%>ткы # ;
-@R.VPR.n@%<a_3sg%>%<o_3pl%>:@R.VPR.n@%>н%{Æ%}т # ;
-@R.VPR.yn@%<a_3pl%>%<o_3pl%>:@R.VPR.yn@%>%{Æ%}т # ;
+@R.VPR.m@%<a_sg1%>%<o_pl3%>:@R.VPR.m@%>%{Æ%}т # ;
+@R.VPR.myn@%<a_pl1%>%<o_pl3%>:@R.VPR.myn@%>%{Æ%}т # ;
+@R.VPR.q@%<a_sg2%>%<o_pl3%>:@R.VPR.q@%>%{Æ%}т # ;
+@R.VPR.q@%<a_pl2%>%<o_pl3%>:@R.VPR.q@%>ткы # ;
+@R.VPR.n@%<a_sg3%>%<o_pl3%>:@R.VPR.n@%>н%{Æ%}т # ;
+@R.VPR.yn@%<a_pl3%>%<o_pl3%>:@R.VPR.yn@%>%{Æ%}т # ;
 
 
 LEXICON V-TV-PROG-COND    !!! FIXME
 
-@R.VPR.nine@%<a_2sg%>%<o_1sg%>:@R.VPR.nine@ # ;
-@R.VPR.nine@%<a_2pl%>%<o_1sg%>:@R.VPR.nine@%>%{ы%}тык # ;
-@R.VPR.nine@%<a_3sg%>%<o_1sg%>:@R.VPR.nine@ # ;
-@R.VPR.ne@%<a_3pl%>%<o_1sg%>:@R.VPR.ne@%>%{ы%}гым # ;
+@R.VPR.nine@%<a_sg2%>%<o_sg1%>:@R.VPR.nine@ # ;
+@R.VPR.nine@%<a_pl2%>%<o_sg1%>:@R.VPR.nine@%>%{ы%}тык # ;
+@R.VPR.nine@%<a_sg3%>%<o_sg1%>:@R.VPR.nine@ # ;
+@R.VPR.ne@%<a_pl3%>%<o_sg1%>:@R.VPR.ne@%>%{ы%}гым # ;
 
-@R.VPR.n@%<a_2sg%>%<o_1pl%>:@R.VPR.n@[%+inv%] # ;
-@R.VPR.n@%<a_2pl%>%<o_1pl%>:@R.VPR.n@%>[%+inv%]тык # ;
-@R.VPR.yn@%<a_3sg%>%<o_1pl%>:@R.VPR.yn@%>%{ы%}мык # ;
-@R.VPR.yn@%<a_3pl%>%<o_1pl%>:@R.VPR.yn@%>%{ы%}мык # ;
+@R.VPR.n@%<a_sg2%>%<o_pl1%>:@R.VPR.n@[%+inv%] # ;
+@R.VPR.n@%<a_pl2%>%<o_pl1%>:@R.VPR.n@%>[%+inv%]тык # ;
+@R.VPR.yn@%<a_sg3%>%<o_pl1%>:@R.VPR.yn@%>%{ы%}мык # ;
+@R.VPR.yn@%<a_pl3%>%<o_pl1%>:@R.VPR.yn@%>%{ы%}мык # ;
 
-@R.VPR.m@%<a_1sg%>%<o_2sg%>:@R.VPR.m@%>%{ы%}гыт # ;
-@R.VPR.myn@%<a_1pl%>%<o_2sg%>:@R.VPR.myn@%>%{ы%}гыт # ;
-@R.VPR.yn@%<a_3sg%>%<o_2sg%>:@R.VPR.yn@%>%{ы%}гыт # ;
-@R.VPR.yn@%<a_3pl%>%<o_2sg%>:@R.VPR.yn@%>%{ы%}гыт # ;
+@R.VPR.m@%<a_sg1%>%<o_sg2%>:@R.VPR.m@%>%{ы%}гыт # ;
+@R.VPR.myn@%<a_pl1%>%<o_sg2%>:@R.VPR.myn@%>%{ы%}гыт # ;
+@R.VPR.yn@%<a_sg3%>%<o_sg2%>:@R.VPR.yn@%>%{ы%}гыт # ;
+@R.VPR.yn@%<a_pl3%>%<o_sg2%>:@R.VPR.yn@%>%{ы%}гыт # ;
 
-@R.VPR.m@%<a_1sg%>%<o_2pl%>:@R.VPR.m@%>%{ы%}тык # ;
-@R.VPR.myn@%<a_1pl%>%<o_2pl%>:@R.VPR.myn@%>%{ы%}тык # ;
-@R.VPR.yn@%<a_3sg%>%<o_2pl%>:@R.VPR.yn@%>%{ы%}тык # ;
-@R.VPR.yn@%<a_3pl%>%<o_2pl%>:@R.VPR.yn@%>%{ы%}тык # ;
+@R.VPR.m@%<a_sg1%>%<o_pl2%>:@R.VPR.m@%>%{ы%}тык # ;
+@R.VPR.myn@%<a_pl1%>%<o_pl2%>:@R.VPR.myn@%>%{ы%}тык # ;
+@R.VPR.yn@%<a_sg3%>%<o_pl2%>:@R.VPR.yn@%>%{ы%}тык # ;
+@R.VPR.yn@%<a_pl3%>%<o_pl2%>:@R.VPR.yn@%>%{ы%}тык # ;
 
-@R.VPR.m@%<a_1sg%>%<o_3sg%>:@R.VPR.m@ # ;
-@R.VPR.myn@%<a_1pl%>%<o_3sg%>:@R.VPR.myn@ # ;
-@R.VPR.n@%<a_2sg%>%<o_3sg%>:@R.VPR.n@ # ;
-@R.VPR.n@%<a_2pl%>%<o_3sg%>:@R.VPR.n@%>ткы # ;
-@R.VPR.n@%<a_3sg%>%<o_3sg%>:@R.VPR.n@%>н # ;
-@R.VPR.ne@%<a_3pl%>%<o_3sg%>:@R.VPR.ne@ # ;
+@R.VPR.m@%<a_sg1%>%<o_sg3%>:@R.VPR.m@ # ;
+@R.VPR.myn@%<a_pl1%>%<o_sg3%>:@R.VPR.myn@ # ;
+@R.VPR.n@%<a_sg2%>%<o_sg3%>:@R.VPR.n@ # ;
+@R.VPR.n@%<a_pl2%>%<o_sg3%>:@R.VPR.n@%>ткы # ;
+@R.VPR.n@%<a_sg3%>%<o_sg3%>:@R.VPR.n@%>н # ;
+@R.VPR.ne@%<a_pl3%>%<o_sg3%>:@R.VPR.ne@ # ;
 
-@R.VPR.m@%<a_1sg%>%<o_3pl%>:@R.VPR.m@%>%{Æ%}т # ;
-@R.VPR.myn@%<a_1pl%>%<o_3pl%>:@R.VPR.myn@%>%{Æ%}т # ;
-@R.VPR.n@%<a_2sg%>%<o_3pl%>:@R.VPR.n@%>%{Æ%}т # ;
-@R.VPR.n@%<a_2pl%>%<o_3pl%>:@R.VPR.n@%>ткы # ;
-@R.VPR.n@%<a_3sg%>%<o_3pl%>:@R.VPR.n@%>н%{Æ%}т # ;
-@R.VPR.ne@%<a_3pl%>%<o_3pl%>:@R.VPR.ne@%>%{Æ%}т # ;
+@R.VPR.m@%<a_sg1%>%<o_pl3%>:@R.VPR.m@%>%{Æ%}т # ;
+@R.VPR.myn@%<a_pl1%>%<o_pl3%>:@R.VPR.myn@%>%{Æ%}т # ;
+@R.VPR.n@%<a_sg2%>%<o_pl3%>:@R.VPR.n@%>%{Æ%}т # ;
+@R.VPR.n@%<a_pl2%>%<o_pl3%>:@R.VPR.n@%>ткы # ;
+@R.VPR.n@%<a_sg3%>%<o_pl3%>:@R.VPR.n@%>н%{Æ%}т # ;
+@R.VPR.ne@%<a_pl3%>%<o_pl3%>:@R.VPR.ne@%>%{Æ%}т # ;
