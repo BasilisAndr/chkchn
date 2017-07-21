@@ -230,11 +230,11 @@ V:0 <=>  _ %{·%}:0 .#. ;
         where
             V in Vow ;
 
-! "Stem-final vowel reduction"
+"Stem-final vowel reduction"
 ! г о п ӄ а:ы {°}:0
-! V:ы <=>  _ %{°%}:0 .#. ;
-!        where
-!             V in Vow ;
+V:ы <=>  _ %{°%}:0 .#. ;
+      where
+           V in Vow ;
 
 
 "N allomorph г"
