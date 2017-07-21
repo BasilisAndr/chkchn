@@ -65,6 +65,19 @@ Multichar_Symbols
 %<s_pl2%>                 ! Subject, 2nd person plural
 %<s_pl3%>                 ! Subject, 3rd person plural
 
+%<a_sg1%>                 ! Agent, 1st person singular
+%<a_sg2%>                 ! Agent, 2nd person singular
+%<a_sg3%>                 ! Agent, 3rd person singular
+%<a_pl1%>                 ! Agent, 1st person plural
+%<a_pl2%>                 ! Agent, 2nd person plural
+%<a_pl3%>                 ! Agent, 3rd person plural
+
+%<o_sg1%>                 ! Object, 1st person singular
+%<o_sg2%>                 ! Object, 2nd person singular
+%<o_sg3%>                 ! Object, 3rd person singular
+%<o_pl1%>                 ! Object, 1st person plural
+%<o_pl2%>                 ! Object, 2nd person plural
+%<o_pl3%>                 ! Object, 3rd person plural
 
 %<pl%>                    ! Plural
 %<sg%>                    ! Singular
@@ -183,7 +196,9 @@ Multichar_Symbols
 %[%+caus%]
 %[%+fut%]
 %[%+cond%]
-%[%+inv%]
+%[%+inv%]       ! тку
+%[%+inv2%]       ! инэ
+
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
