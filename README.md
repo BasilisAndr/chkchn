@@ -1,4 +1,4 @@
-# chkchn
+# Chukchi morphological parser
 
 ### Description
 
