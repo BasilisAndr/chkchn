@@ -135,119 +135,124 @@
 
 	+?	inf
 
-инэттъэтык<v><tv><neut><aor><a_sg2><o_sg1>	инэттъэтык<v><tv><neut><aor><a_sg2><o_sg1>+?	inf
+инэттъэтык<v><tv><neut><aor><a_sg2><o_sg1>	ининэттъэтгъи	0.000000
+инэттъэтык<v><tv><neut><aor><a_sg2><o_sg1>	ининэттъэти	0.000000
 
-анъяк<v><tv><neut><aor><a_pl2><o_sg1>	анъяк<v><tv><neut><aor><a_pl2><o_sg1>+?	inf
+анъяк<v><tv><neut><aor><a_pl2><o_sg1>	энанъятык	0.000000
 
-ԓымӈэнак<v><tv><neut><aor><a_sg3><o_sg1>	ԓымӈэнак<v><tv><neut><aor><a_sg3><o_sg1>+?	inf
+ԓымӈэнак<v><tv><neut><aor><a_sg3><o_sg1>	инэԓымӈэни	0.000000
+ԓымӈэнак<v><tv><neut><aor><a_sg3><o_sg1>	энаԓымӈэнагъэ	0.000000
 
-ԓымӈэнак<v><tv><neut><aor><a_pl3><o_sg1>	ԓымӈэнак<v><tv><neut><aor><a_pl3><o_sg1>+?	inf
-
-	+?	inf
-
-агтатык<v><tv><neut><aor><a_sg2><o_pl1>	агтатык<v><tv><neut><aor><a_sg2><o_pl1>+?	inf
-
-анъяк<v><tv><neut><aor><a_pl2><o_pl1>	анъяк<v><tv><neut><aor><a_pl2><o_pl1>+?	inf
-
-инэттъэтык<v><tv><neut><aor><a_sg3><o_pl1>	инэттъэтык<v><tv><neut><aor><a_sg3><o_pl1>+?	inf
-
-агтатык<v><tv><neut><aor><a_pl3><o_pl1>	агтатык<v><tv><neut><aor><a_pl3><o_pl1>+?	inf
+ԓымӈэнак<v><tv><neut><aor><a_pl3><o_sg1>	наԓымӈэнагым	0.000000
 
 	+?	inf
 
-ԓымӈэнак<v><tv><neut><aor><a_sg1><o_sg2>	ԓымӈэнак<v><tv><neut><aor><a_sg1><o_sg2>+?	inf
+агтатык<v><tv><neut><aor><a_sg2><o_pl1>	агтатыткогъэ	0.000000
 
-анъяк<v><tv><neut><aor><a_pl1><o_sg2>	анъяк<v><tv><neut><aor><a_pl1><o_sg2>+?	inf
+анъяк<v><tv><neut><aor><a_pl2><o_pl1>	анъяткотык	0.000000
 
-инэттъэтык<v><tv><neut><aor><a_sg3><o_sg2>	инэттъэтык<v><tv><neut><aor><a_sg3><o_sg2>+?	inf
+инэттъэтык<v><tv><neut><aor><a_sg3><o_pl1>	нинэттъэнмык	0.000000
 
-инэттъэтык<v><tv><neut><aor><a_pl3><o_sg2>	инэттъэтык<v><tv><neut><aor><a_pl3><o_sg2>+?	inf
-
-	+?	inf
-
-агтатык<v><tv><neut><aor><a_sg1><o_pl2>	агтатык<v><tv><neut><aor><a_sg1><o_pl2>+?	inf
-
-анъяк<v><tv><neut><aor><a_pl1><o_pl2>	анъяк<v><tv><neut><aor><a_pl1><o_pl2>+?	inf
-
-ԓымӈэнак<v><tv><neut><aor><a_sg3><o_pl2>	ԓымӈэнак<v><tv><neut><aor><a_sg3><o_pl2>+?	inf
-
-агтатык<v><tv><neut><aor><a_pl3><o_pl2>	агтатык<v><tv><neut><aor><a_pl3><o_pl2>+?	inf
+агтатык<v><tv><neut><aor><a_pl3><o_pl1>	нагтанмык	0.000000
 
 	+?	inf
 
-ԓымӈэнак<v><tv><neut><aor><a_sg1><o_sg3>	ԓымӈэнак<v><tv><neut><aor><a_sg1><o_sg3>+?	inf
+ԓымӈэнак<v><tv><neut><aor><a_sg1><o_sg2>	тыԓымӈэнаткогъэ	0.000000
 
-анъяк<v><tv><neut><aor><a_pl1><o_sg3>	анъяк<v><tv><neut><aor><a_pl1><o_sg3>+?	inf
+анъяк<v><tv><neut><aor><a_pl1><o_sg2>	мытанъяткотык	0.000000
 
-инэттъэтык<v><tv><neut><aor><a_sg2><o_sg3>	инэттъэтык<v><tv><neut><aor><a_sg2><o_sg3>+?	inf
+инэттъэтык<v><tv><neut><aor><a_sg3><o_sg2>	нинэттъэтгыт	0.000000
 
-агтатык<v><tv><neut><aor><a_pl2><o_sg3>	агтатык<v><tv><neut><aor><a_pl2><o_sg3>+?	inf
-
-инэттъэтык<v><tv><neut><aor><a_sg3><o_sg3>	инэттъэтык<v><tv><neut><aor><a_sg3><o_sg3>+?	inf
-
-ԓымӈэнак<v><tv><neut><aor><a_pl3><o_sg3>	ԓымӈэнак<v><tv><neut><aor><a_pl3><o_sg3>+?	inf
+инэттъэтык<v><tv><neut><aor><a_pl3><o_sg2>	нинэттъэтгыт	0.000000
 
 	+?	inf
 
-инэттъэтык<v><tv><neut><aor><a_sg1><o_pl3>	инэттъэтык<v><tv><neut><aor><a_sg1><o_pl3>+?	inf
+агтатык<v><tv><neut><aor><a_sg1><o_pl2>	тагтаттык	0.000000
 
-инэттъэтык<v><tv><neut><aor><a_pl1><o_pl3>	инэттъэтык<v><tv><neut><aor><a_pl1><o_pl3>+?	inf
+анъяк<v><tv><neut><aor><a_pl1><o_pl2>	мытанъятык	0.000000
 
-агтатык<v><tv><neut><aor><a_sg2><o_pl3>	агтатык<v><tv><neut><aor><a_sg2><o_pl3>+?	inf
+ԓымӈэнак<v><tv><neut><aor><a_sg3><o_pl2>	наԓымӈэнатык	0.000000
 
-инэттъэтык<v><tv><neut><aor><a_pl2><o_pl3>	инэттъэтык<v><tv><neut><aor><a_pl2><o_pl3>+?	inf
+агтатык<v><tv><neut><aor><a_pl3><o_pl2>	нагтаттык	0.000000
 
-инэттъэтык<v><tv><neut><aor><a_sg3><o_pl3>	инэттъэтык<v><tv><neut><aor><a_sg3><o_pl3>+?	inf
+	+?	inf
 
-анъяк<v><tv><neut><aor><a_pl3><o_pl3>	анъяк<v><tv><neut><aor><a_pl3><o_pl3>+?	inf
+ԓымӈэнак<v><tv><neut><aor><a_sg1><o_sg3>	тыԓымӈэнагъан	0.000000
+ԓымӈэнак<v><tv><neut><aor><a_sg1><o_sg3>	тыԓымӈэнан	0.000000
+
+анъяк<v><tv><neut><aor><a_pl1><o_sg3>	мытанъягъан	0.000000
+анъяк<v><tv><neut><aor><a_pl1><o_sg3>	мытанъян	0.000000
+
+инэттъэтык<v><tv><neut><aor><a_sg2><o_sg3>	инэттъэтгъэн	0.000000
+инэттъэтык<v><tv><neut><aor><a_sg2><o_sg3>	инэттъэтын	0.000000
+
+агтатык<v><tv><neut><aor><a_pl2><o_sg3>	агтатыткы	0.000000
+
+инэттъэтык<v><tv><neut><aor><a_sg3><o_sg3>	инэттъэннин	0.000000
+
+ԓымӈэнак<v><tv><neut><aor><a_pl3><o_sg3>	наԓымӈэнан	0.000000
+
+	+?	inf
+
+инэттъэтык<v><tv><neut><aor><a_sg1><o_pl3>	тинэттъэннэт	0.000000
+
+инэттъэтык<v><tv><neut><aor><a_pl1><o_pl3>	мытинэттъэннэт	0.000000
+
+агтатык<v><tv><neut><aor><a_sg2><o_pl3>	агтаннат	0.000000
+
+инэттъэтык<v><tv><neut><aor><a_pl2><o_pl3>	инэттъэтыткы	0.000000
+
+инэттъэтык<v><tv><neut><aor><a_sg3><o_pl3>	инэттъэннинэт	0.000000
+
+анъяк<v><tv><neut><aor><a_pl3><o_pl3>	нанъянат	0.000000
 
 	+?	inf
 
 	+?	inf
 
-анъяк<v><tv><neut><fut><a_sg2><o_sg1>	анъяк<v><tv><neut><fut><a_sg2><o_sg1>+?	inf
+анъяк<v><tv><neut><fut><a_sg2><o_sg1>	энаранъягъа	0.000000
 
-агтатык<v><tv><neut><fut><a_pl2><o_sg1>	агтатык<v><tv><neut><fut><a_pl2><o_sg1>+?	inf
+агтатык<v><tv><neut><fut><a_pl2><o_sg1>	энарагтатынтык	0.000000
 
-агтатык<v><tv><neut><fut><a_sg3><o_sg1>	агтатык<v><tv><neut><fut><a_sg3><o_sg1>+?	inf
+агтатык<v><tv><neut><fut><a_sg3><o_sg1>	энарагтатгъа	0.000000
 
-агтатык<v><tv><neut><fut><a_pl3><o_sg1>	агтатык<v><tv><neut><fut><a_pl3><o_sg1>+?	inf
-
-	+?	inf
-
-анъяк<v><tv><neut><fut><a_sg2><o_sg1>	анъяк<v><tv><neut><fut><a_sg2><o_sg1>+?	inf
-
-агтатык<v><tv><neut><fut><a_pl2><o_sg1>	агтатык<v><tv><neut><fut><a_pl2><o_sg1>+?	inf
-
-агтатык<v><tv><neut><fut><a_sg3><o_sg1>	агтатык<v><tv><neut><fut><a_sg3><o_sg1>+?	inf
-
-агтатык<v><tv><neut><fut><a_pl3><o_sg1>	агтатык<v><tv><neut><fut><a_pl3><o_sg1>+?	inf
+агтатык<v><tv><neut><fut><a_pl3><o_sg1>	нарагтатгым	0.000000
 
 	+?	inf
 
-ԓымӈэнак<v><tv><neut><fut><a_sg1><o_sg2>	ԓымӈэнак<v><tv><neut><fut><a_sg1><o_sg2>+?	inf
+анъяк<v><tv><neut><fut><a_sg2><o_sg1>	энаранъягъа	0.000000
 
-агтатык<v><tv><neut><fut><a_pl1><o_sg2>	агтатык<v><tv><neut><fut><a_pl1><o_sg2>+?	inf
+агтатык<v><tv><neut><fut><a_pl2><o_sg1>	энарагтатынтык	0.000000
 
-агтатык<v><tv><neut><fut><a_sg3><o_sg2>	агтатык<v><tv><neut><fut><a_sg3><o_sg2>+?	inf
+агтатык<v><tv><neut><fut><a_sg3><o_sg1>	энарагтатгъа	0.000000
 
-анъяк<v><tv><neut><fut><a_pl3><o_sg2>	анъяк<v><tv><neut><fut><a_pl3><o_sg2>+?	inf
-
-	+?	inf
-
-инэттъэтык<v><tv><neut><fut><a_sg1><o_pl2>	инэттъэтык<v><tv><neut><fut><a_sg1><o_pl2>+?	inf
-
-анъяк<v><tv><neut><fut><a_pl1><o_pl2>	анъяк<v><tv><neut><fut><a_pl1><o_pl2>+?	inf
-
-ԓымӈэнак<v><tv><neut><fut><a_sg3><o_pl2>	ԓымӈэнак<v><tv><neut><fut><a_sg3><o_pl2>+?	inf
-
-ԓымӈэнак<v><tv><neut><fut><a_pl3><o_pl2>	ԓымӈэнак<v><tv><neut><fut><a_pl3><o_pl2>+?	inf
+агтатык<v><tv><neut><fut><a_pl3><o_sg1>	нарагтатгым	0.000000
 
 	+?	inf
 
-ԓымӈэнак<v><tv><neut><fut><a_sg1><o_sg3>	ԓымӈэнак<v><tv><neut><fut><a_sg1><o_sg3>+?	inf
+ԓымӈэнак<v><tv><neut><fut><a_sg1><o_sg2>	тыраԓымӈэнагыт	0.000000
 
-анъяк<v><tv><neut><fut><a_pl1><o_sg3>	анъяк<v><tv><neut><fut><a_pl1><o_sg3>+?	inf
+агтатык<v><tv><neut><fut><a_pl1><o_sg2>	мытрагтатгыт	0.000000
+
+агтатык<v><tv><neut><fut><a_sg3><o_sg2>	нарагтатгыт	0.000000
+
+анъяк<v><tv><neut><fut><a_pl3><o_sg2>	наранъягыт	0.000000
+
+	+?	inf
+
+инэттъэтык<v><tv><neut><fut><a_sg1><o_pl2>	тыринэттъэттык	0.000000
+
+анъяк<v><tv><neut><fut><a_pl1><o_pl2>	мытранъятык	0.000000
+
+ԓымӈэнак<v><tv><neut><fut><a_sg3><o_pl2>	нараԓымӈэнатык	0.000000
+
+ԓымӈэнак<v><tv><neut><fut><a_pl3><o_pl2>	нараԓымӈэнатык	0.000000
+
+	+?	inf
+
+ԓымӈэнак<v><tv><neut><fut><a_sg1><o_sg3>	тыраԓымӈэнаӈын	0.000000
+
+анъяк<v><tv><neut><fut><a_pl1><o_sg3>	мытранъяӈын	0.000000
 
 анъяк<v><tv><neut><fut><a_sg2><o_sg3>	анъяк<v><tv><neut><fut><a_sg2><o_sg3>+?	inf
 
@@ -255,13 +260,13 @@
 
 ԓымӈэнак<v><tv><neut><fut><a_sg3><o_sg3>	ԓымӈэнак<v><tv><neut><fut><a_sg3><o_sg3>+?	inf
 
-агтатык<v><tv><neut><fut><a_pl3><o_sg3>	агтатык<v><tv><neut><fut><a_pl3><o_sg3>+?	inf
+агтатык<v><tv><neut><fut><a_pl3><o_sg3>	нарагтанӈын	0.000000
 
 	+?	inf
 
-анъяк<v><tv><neut><fut><a_sg1><o_pl3>	анъяк<v><tv><neut><fut><a_sg1><o_pl3>+?	inf
+анъяк<v><tv><neut><fut><a_sg1><o_pl3>	тыранъяӈынат	0.000000
 
-инэттъэтык<v><tv><neut><fut><a_pl1><o_pl3>	инэттъэтык<v><tv><neut><fut><a_pl1><o_pl3>+?	inf
+инэттъэтык<v><tv><neut><fut><a_pl1><o_pl3>	мытринэттъэнӈынэт	0.000000
 
 анъяк<v><tv><neut><fut><a_sg2><o_pl3>	анъяк<v><tv><neut><fut><a_sg2><o_pl3>+?	inf
 
@@ -269,147 +274,156 @@
 
 агтатык<v><tv><neut><fut><a_sg3><o_pl3>	агтатык<v><tv><neut><fut><a_sg3><o_pl3>+?	inf
 
-ԓымӈэнак<v><tv><neut><fut><a_pl3><o_pl3>	ԓымӈэнак<v><tv><neut><fut><a_pl3><o_pl3>+?	inf
+ԓымӈэнак<v><tv><neut><fut><a_pl3><o_pl3>	нараԓымӈэнаӈынат	0.000000
 
 	+?	inf
 
 	+?	inf
 
-анъяк<v><tv><neut><intn><a_sg2><o_sg1>	анъяк<v><tv><neut><intn><a_sg2><o_sg1>+?	inf
+анъяк<v><tv><neut><intn><a_sg2><o_sg1>	ӄэнанъягэ	0.000000
 
-инэттъэтык<v><tv><neut><intn><a_pl2><o_sg1>	инэттъэтык<v><tv><neut><intn><a_pl2><o_sg1>+?	inf
+инэттъэтык<v><tv><neut><intn><a_pl2><o_sg1>	ӄининэттъэттык	0.000000
 
-анъяк<v><tv><neut><intn><a_sg3><o_sg1>	анъяк<v><tv><neut><intn><a_sg3><o_sg1>+?	inf
+анъяк<v><tv><neut><intn><a_sg3><o_sg1>	нэнанъягъан	0.000000
+анъяк<v><tv><neut><intn><a_sg3><o_sg1>	нэнанъян	0.000000
 
-анъяк<v><tv><neut><intn><a_pl3><o_sg1>	анъяк<v><tv><neut><intn><a_pl3><o_sg1>+?	inf
-
-	+?	inf
-
-инэттъэтык<v><tv><neut><intn><a_sg2><o_pl1>	инэттъэтык<v><tv><neut><intn><a_sg2><o_pl1>+?	inf
-
-мыԓытйик<v><tv><neut><intn><a_pl2><o_pl1>	мыԓытйик<v><tv><neut><intn><a_pl2><o_pl1>+?	inf
-
-ԓымӈэнак<v><tv><neut><intn><a_sg3><o_pl1>	ԓымӈэнак<v><tv><neut><intn><a_sg3><o_pl1>+?	inf
-
-мыԓытйик<v><tv><neut><intn><a_pl3><o_pl1>	мыԓытйик<v><tv><neut><intn><a_pl3><o_pl1>+?	inf
+анъяк<v><tv><neut><intn><a_pl3><o_sg1>	ыʼнанъягым	0.000000
 
 	+?	inf
 
-анъяк<v><tv><neut><intn><a_sg1><o_sg2>	анъяк<v><tv><neut><intn><a_sg1><o_sg2>+?	inf
+инэттъэтык<v><tv><neut><intn><a_sg2><o_pl1>	ӄинэттъэтыткуги	0.000000
 
-ԓымӈэнак<v><tv><neut><intn><a_pl1><o_sg2>	ԓымӈэнак<v><tv><neut><intn><a_pl1><o_sg2>+?	inf
+мыԓытйик<v><tv><neut><intn><a_pl2><o_pl1>	ӄымыԓытйиткутык	0.000000
 
-ԓымӈэнак<v><tv><neut><intn><a_sg3><o_sg2>	ԓымӈэнак<v><tv><neut><intn><a_sg3><o_sg2>+?	inf
+ԓымӈэнак<v><tv><neut><intn><a_sg3><o_pl1>	ыʼнԓымӈэнамык	0.000000
 
-анъяк<v><tv><neut><intn><a_pl3><o_sg2>	анъяк<v><tv><neut><intn><a_pl3><o_sg2>+?	inf
-
-	+?	inf
-
-анъяк<v><tv><neut><intn><a_sg1><o_pl2>	анъяк<v><tv><neut><intn><a_sg1><o_pl2>+?	inf
-
-агтатык<v><tv><neut><intn><a_pl1><o_pl2>	агтатык<v><tv><neut><intn><a_pl1><o_pl2>+?	inf
-
-инэттъэтык<v><tv><neut><intn><a_sg3><o_pl2>	инэттъэтык<v><tv><neut><intn><a_sg3><o_pl2>+?	inf
-
-инэттъэтык<v><tv><neut><intn><a_pl3><o_pl2>	инэттъэтык<v><tv><neut><intn><a_pl3><o_pl2>+?	inf
+мыԓытйик<v><tv><neut><intn><a_pl3><o_pl1>	ыʼнмыԓытйимык	0.000000
 
 	+?	inf
 
-инэттъэтык<v><tv><neut><intn><a_sg1><o_sg3>	инэттъэтык<v><tv><neut><intn><a_sg1><o_sg3>+?	inf
+анъяк<v><tv><neut><intn><a_sg1><o_sg2>	манъягыт	0.000000
 
-мыԓытйик<v><tv><neut><intn><a_pl1><o_sg3>	мыԓытйик<v><tv><neut><intn><a_pl1><o_sg3>+?	inf
+ԓымӈэнак<v><tv><neut><intn><a_pl1><o_sg2>	мынԓымӈэнагыт	0.000000
 
-мыԓытйик<v><tv><neut><intn><a_sg2><o_sg3>	мыԓытйик<v><tv><neut><intn><a_sg2><o_sg3>+?	inf
+ԓымӈэнак<v><tv><neut><intn><a_sg3><o_sg2>	ыʼнԓымӈэнагыт	0.000000
 
-агтатык<v><tv><neut><intn><a_pl2><o_sg3>	агтатык<v><tv><neut><intn><a_pl2><o_sg3>+?	inf
-
-анъяк<v><tv><neut><intn><a_sg3><o_sg3>	анъяк<v><tv><neut><intn><a_sg3><o_sg3>+?	inf
-
-инэттъэтык<v><tv><neut><intn><a_pl3><o_sg3>	инэттъэтык<v><tv><neut><intn><a_pl3><o_sg3>+?	inf
+анъяк<v><tv><neut><intn><a_pl3><o_sg2>	ыʼнанъягыт	0.000000
 
 	+?	inf
 
-мыԓытйик<v><tv><neut><intn><a_sg1><o_pl3>	мыԓытйик<v><tv><neut><intn><a_sg1><o_pl3>+?	inf
+анъяк<v><tv><neut><intn><a_sg1><o_pl2>	манъятык	0.000000
 
-анъяк<v><tv><neut><intn><a_pl1><o_pl3>	анъяк<v><tv><neut><intn><a_pl1><o_pl3>+?	inf
+агтатык<v><tv><neut><intn><a_pl1><o_pl2>	мынагтаттык	0.000000
 
-мыԓытйик<v><tv><neut><intn><a_sg2><o_pl3>	мыԓытйик<v><tv><neut><intn><a_sg2><o_pl3>+?	inf
+инэттъэтык<v><tv><neut><intn><a_sg3><o_pl2>	ыʼнинэттъэттык	0.000000
 
-анъяк<v><tv><neut><intn><a_pl2><o_pl3>	анъяк<v><tv><neut><intn><a_pl2><o_pl3>+?	inf
+инэттъэтык<v><tv><neut><intn><a_pl3><o_pl2>	ыʼнинэттъэттык	0.000000
 
-анъяк<v><tv><neut><intn><a_sg3><o_pl3>	анъяк<v><tv><neut><intn><a_sg3><o_pl3>+?	inf
+	+?	inf
 
-ԓымӈэнак<v><tv><neut><intn><a_pl3><o_pl3>	ԓымӈэнак<v><tv><neut><intn><a_pl3><o_pl3>+?	inf
+инэттъэтык<v><tv><neut><intn><a_sg1><o_sg3>	минэттъэтгъэн	0.000000
+инэттъэтык<v><tv><neut><intn><a_sg1><o_sg3>	минэттъэтын	0.000000
+
+мыԓытйик<v><tv><neut><intn><a_pl1><o_sg3>	мынмыԓытйигъэн	0.000000
+мыԓытйик<v><tv><neut><intn><a_pl1><o_sg3>	мынмыԓытйин	0.000000
+
+мыԓытйик<v><tv><neut><intn><a_sg2><o_sg3>	ӄымыԓытйигын	0.000000
+
+агтатык<v><tv><neut><intn><a_pl2><o_sg3>	ӄагтатгыткы	0.000000
+
+анъяк<v><tv><neut><intn><a_sg3><o_sg3>	нанъянэн	0.000000
+
+инэттъэтык<v><tv><neut><intn><a_pl3><o_sg3>	ыʼнинэттъэнӈын	0.000000
+инэттъэтык<v><tv><neut><intn><a_pl3><o_sg3>	ыʼнинэттъэтгъэӈын	0.000000
+
+	+?	inf
+
+мыԓытйик<v><tv><neut><intn><a_sg1><o_pl3>	мымыԓытйинэт	0.000000
+
+анъяк<v><tv><neut><intn><a_pl1><o_pl3>	мынанъянат	0.000000
+
+мыԓытйик<v><tv><neut><intn><a_sg2><o_pl3>	ӄымыԓытйигынэт	0.000000
+
+анъяк<v><tv><neut><intn><a_pl2><o_pl3>	ӄанъягыткы	0.000000
+
+анъяк<v><tv><neut><intn><a_sg3><o_pl3>	нанъянэнат	0.000000
+
+ԓымӈэнак<v><tv><neut><intn><a_pl3><o_pl3>	ыʼнԓымӈэнанат	0.000000
 
 	+?	inf
 
 	+?	inf
 
-мыԓытйик<v><tv><neut><cond><a_sg2><o_sg1>	мыԓытйик<v><tv><neut><cond><a_sg2><o_sg1>+?	inf
+мыԓытйик<v><tv><neut><cond><a_sg2><o_sg1>	ӄинэъмыԓытйиги	0.000000
 
-мыԓытйик<v><tv><neut><cond><a_pl2><o_sg1>	мыԓытйик<v><tv><neut><cond><a_pl2><o_sg1>+?	inf
+мыԓытйик<v><tv><neut><cond><a_pl2><o_sg1>	ӄинэъмыԓытйитык	0.000000
 
-ԓымӈэнак<v><tv><neut><cond><a_sg3><o_sg1>	ԓымӈэнак<v><tv><neut><cond><a_sg3><o_sg1>+?	inf
+ԓымӈэнак<v><tv><neut><cond><a_sg3><o_sg1>	нэнаъԓымӈэнагъан	0.000000
+ԓымӈэнак<v><tv><neut><cond><a_sg3><o_sg1>	нэнаъԓымӈэнан	0.000000
 
-анъяк<v><tv><neut><cond><a_pl3><o_sg1>	анъяк<v><tv><neut><cond><a_pl3><o_sg1>+?	inf
-
-	+?	inf
-
-ԓымӈэнак<v><tv><neut><cond><a_sg2><o_pl1>	ԓымӈэнак<v><tv><neut><cond><a_sg2><o_pl1>+?	inf
-
-анъяк<v><tv><neut><cond><a_pl2><o_pl1>	анъяк<v><tv><neut><cond><a_pl2><o_pl1>+?	inf
-
-инэттъэтык<v><tv><neut><cond><a_sg3><o_pl1>	инэттъэтык<v><tv><neut><cond><a_sg3><o_pl1>+?	inf
-
-инэттъэтык<v><tv><neut><cond><a_pl3><o_pl1>	инэттъэтык<v><tv><neut><cond><a_pl3><o_pl1>+?	inf
+анъяк<v><tv><neut><cond><a_pl3><o_sg1>	ыʼнъанъягым	0.000000
 
 	+?	inf
 
-ԓымӈэнак<v><tv><neut><cond><a_sg1><o_sg2>	ԓымӈэнак<v><tv><neut><cond><a_sg1><o_sg2>+?	inf
+ԓымӈэнак<v><tv><neut><cond><a_sg2><o_pl1>	ӄъыԓымӈэнаткогъан	0.000000
+ԓымӈэнак<v><tv><neut><cond><a_sg2><o_pl1>	ӄъыԓымӈэнаткон	0.000000
 
-анъяк<v><tv><neut><cond><a_pl1><o_sg2>	анъяк<v><tv><neut><cond><a_pl1><o_sg2>+?	inf
+анъяк<v><tv><neut><cond><a_pl2><o_pl1>	ӄъанъяткотык	0.000000
 
-агтатык<v><tv><neut><cond><a_sg3><o_sg2>	агтатык<v><tv><neut><cond><a_sg3><o_sg2>+?	inf
+инэттъэтык<v><tv><neut><cond><a_sg3><o_pl1>	ыʼнъинэттъэнмык	0.000000
 
-инэттъэтык<v><tv><neut><cond><a_pl3><o_sg2>	инэттъэтык<v><tv><neut><cond><a_pl3><o_sg2>+?	inf
-
-	+?	inf
-
-агтатык<v><tv><neut><cond><a_sg1><o_pl2>	агтатык<v><tv><neut><cond><a_sg1><o_pl2>+?	inf
-
-инэттъэтык<v><tv><neut><cond><a_pl1><o_pl2>	инэттъэтык<v><tv><neut><cond><a_pl1><o_pl2>+?	inf
-
-ԓымӈэнак<v><tv><neut><cond><a_sg3><o_pl2>	ԓымӈэнак<v><tv><neut><cond><a_sg3><o_pl2>+?	inf
-
-анъяк<v><tv><neut><cond><a_pl3><o_pl2>	анъяк<v><tv><neut><cond><a_pl3><o_pl2>+?	inf
+инэттъэтык<v><tv><neut><cond><a_pl3><o_pl1>	ыʼнъинэттъэнмык	0.000000
 
 	+?	inf
 
-мыԓытйик<v><tv><neut><cond><a_sg1><o_sg3>	мыԓытйик<v><tv><neut><cond><a_sg1><o_sg3>+?	inf
+ԓымӈэнак<v><tv><neut><cond><a_sg1><o_sg2>	мъыԓымӈэнагыт	0.000000
 
-мыԓытйик<v><tv><neut><cond><a_pl1><o_sg3>	мыԓытйик<v><tv><neut><cond><a_pl1><o_sg3>+?	inf
+анъяк<v><tv><neut><cond><a_pl1><o_sg2>	мынъанъягыт	0.000000
 
-мыԓытйик<v><tv><neut><cond><a_sg2><o_sg3>	мыԓытйик<v><tv><neut><cond><a_sg2><o_sg3>+?	inf
+агтатык<v><tv><neut><cond><a_sg3><o_sg2>	ыʼнъагтатгыт	0.000000
 
-мыԓытйик<v><tv><neut><cond><a_pl2><o_sg3>	мыԓытйик<v><tv><neut><cond><a_pl2><o_sg3>+?	inf
-
-мыԓытйик<v><tv><neut><cond><a_sg3><o_sg3>	мыԓытйик<v><tv><neut><cond><a_sg3><o_sg3>+?	inf
-
-ԓымӈэнак<v><tv><neut><cond><a_pl3><o_sg3>	ԓымӈэнак<v><tv><neut><cond><a_pl3><o_sg3>+?	inf
+инэттъэтык<v><tv><neut><cond><a_pl3><o_sg2>	ыʼнъинэттъэтгыт	0.000000
 
 	+?	inf
 
-анъяк<v><tv><neut><cond><a_sg1><o_pl3>	анъяк<v><tv><neut><cond><a_sg1><o_pl3>+?	inf
+агтатык<v><tv><neut><cond><a_sg1><o_pl2>	мъагтаттык	0.000000
 
-ԓымӈэнак<v><tv><neut><cond><a_pl1><o_pl3>	ԓымӈэнак<v><tv><neut><cond><a_pl1><o_pl3>+?	inf
+инэттъэтык<v><tv><neut><cond><a_pl1><o_pl2>	мынъинэттъэттык	0.000000
 
-инэттъэтык<v><tv><neut><cond><a_sg2><o_pl3>	инэттъэтык<v><tv><neut><cond><a_sg2><o_pl3>+?	inf
+ԓымӈэнак<v><tv><neut><cond><a_sg3><o_pl2>	ыʼнъыԓымӈэнатык	0.000000
 
-мыԓытйик<v><tv><neut><cond><a_pl2><o_pl3>	мыԓытйик<v><tv><neut><cond><a_pl2><o_pl3>+?	inf
+анъяк<v><tv><neut><cond><a_pl3><o_pl2>	ыʼнъанъятык	0.000000
 
-мыԓытйик<v><tv><neut><cond><a_sg3><o_pl3>	мыԓытйик<v><tv><neut><cond><a_sg3><o_pl3>+?	inf
+	+?	inf
 
-мыԓытйик<v><tv><neut><cond><a_pl3><o_pl3>	мыԓытйик<v><tv><neut><cond><a_pl3><o_pl3>+?	inf
+мыԓытйик<v><tv><neut><cond><a_sg1><o_sg3>	мъымыԓытйигъэн	0.000000
+мыԓытйик<v><tv><neut><cond><a_sg1><o_sg3>	мъымыԓытйин	0.000000
+
+мыԓытйик<v><tv><neut><cond><a_pl1><o_sg3>	мынъымыԓытйигъэн	0.000000
+мыԓытйик<v><tv><neut><cond><a_pl1><o_sg3>	мынъымыԓытйин	0.000000
+
+мыԓытйик<v><tv><neut><cond><a_sg2><o_sg3>	ӄъымыԓытйигын	0.000000
+
+мыԓытйик<v><tv><neut><cond><a_pl2><o_sg3>	ӄъымыԓытйигыткы	0.000000
+
+мыԓытйик<v><tv><neut><cond><a_sg3><o_sg3>	нъымыԓытйинин	0.000000
+
+ԓымӈэнак<v><tv><neut><cond><a_pl3><o_sg3>	ыʼнъыԓымӈэнагъаӈын	0.000000
+ԓымӈэнак<v><tv><neut><cond><a_pl3><o_sg3>	ыʼнъыԓымӈэнаӈын	0.000000
+
+	+?	inf
+
+анъяк<v><tv><neut><cond><a_sg1><o_pl3>	мъанъянат	0.000000
+
+ԓымӈэнак<v><tv><neut><cond><a_pl1><o_pl3>	мынъыԓымӈэнанат	0.000000
+
+инэттъэтык<v><tv><neut><cond><a_sg2><o_pl3>	ӄъинэттъэтгынэт	0.000000
+
+мыԓытйик<v><tv><neut><cond><a_pl2><o_pl3>	ӄъымыԓытйигыткы	0.000000
+
+мыԓытйик<v><tv><neut><cond><a_sg3><o_pl3>	нъымыԓытйининэт	0.000000
+
+мыԓытйик<v><tv><neut><cond><a_pl3><o_pl3>	ыʼнъымыԓытйинэт	0.000000
 
 	+?	inf
 
