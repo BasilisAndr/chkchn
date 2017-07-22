@@ -899,6 +899,7 @@ LEXICON Conjunctions
 этыӄун:этыӄун CONJ ;    ! 1) иԓи же; 2) а может
 эченчи:эченчи CONJ ;    ! 1. маԓо того; а ещё; 2. а ԓучше...
 эʼквырга:эʼквырга CONJ ;    ! 1. однако; 2. 1) просто так; 2) нарочно
+ынраӄ:ынраӄ CONJ ;    ! then
 
 
 
@@ -3854,10 +3855,11 @@ LEXICON V-TENSE-PREFIXES
 
 :%[%+fut%]р%{Æ%}%> V-INV ;
 :%[%+cond%]ъ%{ы%}%> V-INV ;
-: Verbs ;
+: V-INV ;
 
 LEXICON V-INV
 :%[%+inv2%]ин%{Æ%}%> Verb-deriv-prefixes ;
+: Verbs ;
 
 !!!!!! Derivational prefixes
 
@@ -4057,34 +4059,33 @@ LEXICON V-IV-HABITUAL
 LEXICON V-IV-NEUT
 
 %<aor%>: V-IV-NEUT-AOR ;
-%<fut%>:%[%+fut%] V-IV-NEUT-FUT ;
-! %<fut%>: V-IV-NEUT-FUT ;
+%<fut%>:%>%[%+fut%] V-IV-NEUT-FUT ;
 %<intn%>: V-IV-NEUT-INTN ;
-%<cond%>:%[%+cond%] V-IV-NEUT-COND ;
+%<cond%>:%>%[%+cond%] V-IV-NEUT-COND ;
 
 
 LEXICON V-IV-PROG
 
 %<aor%>: V-IV-PROG-AOR ;
-%<fut%>:%[%+fut%] V-IV-PROG-FUT ;
+%<fut%>:%>%[%+fut%] V-IV-PROG-FUT ;
 %<intn%>: V-IV-PROG-INTN ;
-%<cond%>:%[%+cond%] V-IV-PROG-COND ;
+%<cond%>:%>%[%+cond%] V-IV-PROG-COND ;
 
 
 LEXICON V-TV-NEUT
 
 %<aor%>: V-TV-NEUT-AOR ;
-%<fut%>:%[%+fut%] V-TV-NEUT-FUT ;
+%<fut%>:%>%[%+fut%] V-TV-NEUT-FUT ;
 %<intn%>: V-TV-NEUT-INTN ;
-%<cond%>:%[%+cond%] V-TV-NEUT-COND ;
+%<cond%>:%>%[%+cond%] V-TV-NEUT-COND ;
 
 
 LEXICON V-TV-PROG
 
 %<aor%>: V-TV-PROG-AOR ;
-%<fut%>:%[%+fut%] V-TV-PROG-FUT ;
+%<fut%>:%>%[%+fut%] V-TV-PROG-FUT ;
 %<intn%>: V-TV-PROG-INTN ;
-%<cond%>:%[%+cond%] V-TV-PROG-COND ;
+%<cond%>:%>%[%+cond%] V-TV-PROG-COND ;
 
 !!!!!! Subject suffixes
 
@@ -4192,11 +4193,11 @@ LEXICON V-IV-PROG-COND
 
 LEXICON V-TV-NEUT-AOR
 
-%<a_sg2%>%<o_sg1%>:%>и%[%+inv2%] # ;
-%<a_sg2%>%<o_sg1%>:%>%{ы%}гъи%[%+inv2%] # ;
-%<a_pl2%>%<o_sg1%>:%>%{ы%}тык%[%+inv2%] # ;
-%<a_sg3%>%<o_sg1%>:%>и%[%+inv2%] # ;
-%<a_sg3%>%<o_sg1%>:%>%{ы%}гъи%[%+inv2%] # ;
+@D.VPR@%<a_sg2%>%<o_sg1%>:@D.VPR@%>и%[%+inv2%] # ;
+@D.VPR@%<a_sg2%>%<o_sg1%>:@D.VPR@%>%{ы%}гъи%[%+inv2%] # ;
+@D.VPR@%<a_pl2%>%<o_sg1%>:@D.VPR@%>%{ы%}тык%[%+inv2%] # ;
+@D.VPR@%<a_sg3%>%<o_sg1%>:@D.VPR@%>и%[%+inv2%] # ;
+@D.VPR@%<a_sg3%>%<o_sg1%>:@D.VPR@%>%{ы%}гъи%[%+inv2%] # ;
 @R.VPR.ne@%<a_pl3%>%<o_sg1%>:@R.VPR.ne@%>%{ы%}гым # ;
 
 @D.VPR@%<a_sg2%>%<o_pl1%>:@D.VPR@%>%{ы%}ткугъи # ;
@@ -4234,9 +4235,9 @@ LEXICON V-TV-NEUT-AOR
 
 LEXICON V-TV-NEUT-FUT
 
-%<a_sg2%>%<o_sg1%>:%>%{ы%}гъ%{Æ%}%[%+inv2%] # ;
-%<a_pl2%>%<o_sg1%>:%>%{ы%}нтык%[%+inv2%] # ;
-%<a_sg3%>%<o_sg1%>:%>%{ы%}гъ%{Æ%}%[%+inv2%] # ;
+@D.VPR@%<a_sg2%>%<o_sg1%>:@D.VPR@%>%{ы%}гъ%{Æ%}%[%+inv2%] # ;
+@D.VPR@%<a_pl2%>%<o_sg1%>:@D.VPR@%>%{ы%}нтык%[%+inv2%] # ;
+@D.VPR@%<a_sg3%>%<o_sg1%>:@D.VPR@%>%{ы%}гъ%{Æ%}%[%+inv2%] # ;
 @R.VPR.ne@%<a_pl3%>%<o_sg1%>:@R.VPR.ne@%>%{ы%}гым # ;
 
 @D.VPR@%<a_sg2%>%<o_pl1%>:@D.VPR@%>%{ы%}ткугъ%{Æ%} # ;
@@ -4353,9 +4354,9 @@ LEXICON V-TV-NEUT-COND
 
 LEXICON V-TV-PROG-AOR
 
-%<a_sg2%>%<o_sg1%>:%[%+inv2%] # ;
-%<a_pl2%>%<o_sg1%>:%>тык%[%+inv2%] # ;
-%<a_sg3%>%<o_sg1%>:%[%+inv2%] # ;
+@D.VPR@%<a_sg2%>%<o_sg1%>:@D.VPR@%[%+inv2%] # ;
+@D.VPR@%<a_pl2%>%<o_sg1%>:@D.VPR@%>тык%[%+inv2%] # ;
+@D.VPR@%<a_sg3%>%<o_sg1%>:@D.VPR@%[%+inv2%] # ;
 @R.VPR.ne@%<a_pl3%>%<o_sg1%>:@R.VPR.ne@%>гым # ;
 
 @D.VPR@%<a_pl2%>%<o_pl1%>:@D.VPR@%[%+inv%] # ;
@@ -4389,9 +4390,9 @@ LEXICON V-TV-PROG-AOR
 
 LEXICON V-TV-PROG-FUT
 
-%<a_sg2%>%<o_sg1%>:%[%+inv2%] # ;
-%<a_pl2%>%<o_sg1%>:%>тык%[%+inv2%] # ;
-%<a_sg3%>%<o_sg1%>:%[%+inv2%] # ;
+@D.VPR@%<a_sg2%>%<o_sg1%>:@D.VPR@%[%+inv2%] # ;
+@D.VPR@%<a_pl2%>%<o_sg1%>:@D.VPR@%>тык%[%+inv2%] # ;
+@D.VPR@%<a_sg3%>%<o_sg1%>:@D.VPR@%[%+inv2%] # ;
 @R.VPR.ne@%<a_pl3%>%<o_sg1%>:@R.VPR.ne@%>гым # ;
 
 @D.VPR@%<a_sg2%>%<o_pl1%>:@D.VPR@%[%+inv%] # ;
@@ -4429,7 +4430,7 @@ LEXICON V-TV-PROG-INTN
 @R.VPR.q@%<a_sg2%>%<o_sg1%>:@R.VPR.q@%[%+inv2%] # ;
 @R.VPR.q@%<a_pl2%>%<o_sg1%>:@R.VPR.q@тык%[%+inv2%] # ;
 @R.VPR.n@%<a_sg3%>%<o_sg1%>:@R.VPR.n@%[%+inv2%] # ;
-@R.VPR.yn@%<a_pl3%>%<o_sg1%>:@R.VPR.yn@гым%[%+inv2%] # ;    !!! FIXME
+@R.VPR.yn@%<a_pl3%>%<o_sg1%>:@R.VPR.yn@гым%[%+inv2%] # ;
 
 @R.VPR.q@%<a_sg2%>%<o_pl1%>:@R.VPR.q@[%+inv%] # ;
 @R.VPR.q@%<a_pl2%>%<o_pl1%>:@R.VPR.q@%>[%+inv%]тык # ;
@@ -4532,7 +4533,7 @@ LEXICON Verbs
 атӄавык:атӄав V ;    ! захромать
 атӄатык:атӄат V ;    ! хромать
 атчатык:атчат V ;    ! 1) опрокидываться 2) падать
-атчык:ат%{ы%}ч V ;    ! 1) прятаться
+атчык:атч V ;    ! 1) прятаться
 атчысӄэвык:атчысӄэв V ;    ! пойти прятаться
 атчычетык:атчычет V ;    ! играть в прятки
 атчьатык:атчьат V ;    ! ложиться спать
