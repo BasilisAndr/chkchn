@@ -226,15 +226,15 @@ V:0 <=> .#. _ %>: :Vow ;       ! same as for rec but can be written shorter
 
 "Stem-final vowel deletion"
 ! ч а й к о к а:0 {·}:0
-V:0 <=>  _ %{·%}:0 .#. ;
+V:0 <=>  _ %{·%}: .#. ;
         where
             V in Vow ;
 
 "Stem-final vowel reduction"
 ! г о п ӄ а:ы {°}:0
-V:ы <=>  _ %{°%}:0 .#. ;
+V:ы <=>  _ %{°%}: .#. ;
       where
-           V in Vow ;
+           V in ( а е ё и о у э ю я  ) ;
 
 
 "N allomorph г"
