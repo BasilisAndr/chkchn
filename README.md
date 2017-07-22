@@ -15,22 +15,6 @@ Compilation produces the before mentioned transducers plus two composed ones:
 The files in .hfstol format are the faster versions of .hfst.
 
 
-### Description
-
-This is a Google Summer of Code project for a morphological analyzer (autoglosser) for Chukchi based on HFST.<br />
-The transducer is composed of three transducers:<br />
-- lexc deals with morphology and lexicon;
-- twoc helps to implement morphology that is not possible (or too difficult) to implement in lexc;
-- twol deals with phonology and morphophonology.
-
-### Description
-
-This is a Google Summer of Code project for a morphological analyzer (autoglosser) for Chukchi based on HFST.<br />
-The transducer is composed of three transducers:<br />
-- lexc deals with morphology and lexicon;
-- twoc helps to implement morphology that is not possible (or too difficult) to implement in lexc;
-- twol deals with phonology and morphophonology.
-
 ### Compilation
 
 | make       | for |
