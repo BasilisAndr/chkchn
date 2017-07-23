@@ -73,6 +73,8 @@ LEXICON V-DERIV-PREF-CAUS
 LEXICON V-DERIV
 ! prefix tags
 %<approx%>:%[%+approx%] V-IV-AFFIX ;
+! thematic smth
+%<th%>:%>въи # ;
 : V-DERIV-INTS ;
 
 LEXICON V-DERIV-INTS
