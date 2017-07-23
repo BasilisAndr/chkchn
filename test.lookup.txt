@@ -100,10 +100,10 @@
 агтатык<v><tv><neut><fut><a_sg3><o_sg1>
 агтатык<v><tv><neut><fut><a_pl3><o_sg1>
 
-анъяк<v><tv><neut><fut><a_sg2><o_sg1>
-агтатык<v><tv><neut><fut><a_pl2><o_sg1>
-агтатык<v><tv><neut><fut><a_sg3><o_sg1>
-агтатык<v><tv><neut><fut><a_pl3><o_sg1>
+анъяк<v><tv><neut><fut><a_sg2><o_pl1>
+агтатык<v><tv><neut><fut><a_pl2><o_pl1>
+агтатык<v><tv><neut><fut><a_sg3><o_pl1>
+агтатык<v><tv><neut><fut><a_pl3><o_pl1>
 
 ԓымӈэнак<v><tv><neut><fut><a_sg1><o_sg2>
 агтатык<v><tv><neut><fut><a_pl1><o_sg2>

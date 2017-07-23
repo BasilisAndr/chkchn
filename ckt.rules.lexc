@@ -9,6 +9,10 @@ Multichar_Symbols
 %<cnjcoo%>                ! Co-ordinating conjunction
 %<cnjadv%>                ! Adverbial conjunction
 %<v%>                     ! Verb
+%<post%>                  ! Postposition
+%<adv%>                   ! Adverb
+%<ptcp%>                  ! Participle
+%<part%>                  ! Particle
 
 %<iv%>                    ! Intransitive
 %<tv%>                    ! Transitive
@@ -31,6 +35,7 @@ Multichar_Symbols
 %<gna_ant%>               ! Anterior temporal converb (temporal sequence)
 %<gna_res%>               ! Anterior temporal converb (consequence)
 
+%<th%>                    ! thematic verb suffix вьи
 %<approx%>                ! Approximative
 %<ints%>                  ! Intensifier
 %<ints2%>                 ! Intensifier 2
@@ -215,6 +220,7 @@ Interjections ;
 Participles ;
 Conjunctions ;
 Miscellaneous ;
+Postpositions ;
 Punctuation ;
 Pronouns ;
 Verb-prefixes ;
@@ -239,6 +245,8 @@ LEXICON CONJ          ! ?
 LEXICON PART
 %<part%>: # ;
 
+LEXICON POST
+%<post%>: # ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
