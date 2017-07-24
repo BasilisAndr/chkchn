@@ -1,8 +1,19 @@
-# chkchn
+# Chukchi morphological parser
 
 ### Description
 
-This is a Google Summer of Code project for a morphological analyzer (autoglosser) for Chukchi based on HFST.
+This is a Google Summer of Code project for a morphological analyzer (autoglosser) for Chukchi based on HFST.<br />
+The full transducer is composed of three transducers:<br />
+- lexc deals with morphology and lexicon;
+- twoc helps to implement morphology that is not possible (or too difficult) to implement in lexc;
+- twol deals with phonology and morphophonology.
+
+Compilation produces the before mentioned transducers plus two composed ones:
+- ckt.mor.hfst is the transducer for morphological analysis;
+- ckt.gen.hfst is the one for forms generation.
+
+The files in .hfstol format are the faster versions of .hfst.
+
 
 ### Compilation
 
@@ -15,8 +26,8 @@ This is a Google Summer of Code project for a morphological analyzer (autoglosse
 
 ### Testing
 
-test.sh is a hfst-pair-test for twolc<br />
-alltest.sh is a hfst-lookup for the lexc+twolc hfst<br />
+test.sh is a hfst-pair-test for twolc. The input file for the positive test is test.test.<br />
+alltest.sh is a hfst-lookup for the whole transducer.<br />
 
 ### Coverage
-66.8%
+69.8%
