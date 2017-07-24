@@ -46,6 +46,7 @@ Multichar_Symbols
 %<gna_ant%>               ! Anterior temporal converb (temporal sequence)
 %<gna_res%>               ! Anterior temporal converb (consequence)
 
+%<th%>                    ! thematic verb suffix вьи
 %<approx%>                ! Approximative
 %<ints%>                  ! Intensifier
 %<ints2%>                 ! Intensifier 2
@@ -80,19 +81,19 @@ Multichar_Symbols
 %<s_pl2%>                 ! Subject, 2nd person plural
 %<s_pl3%>                 ! Subject, 3rd person plural
 
-%<a_3sg%>
-%<a_3pl%>
-%<a_2sg%>
-%<a_2pl%>
-%<a_1sg%>
-%<a_1pl%>
+%<a_sg1%>                 ! Agent, 1st person singular
+%<a_sg2%>                 ! Agent, 2nd person singular
+%<a_sg3%>                 ! Agent, 3rd person singular
+%<a_pl1%>                 ! Agent, 1st person plural
+%<a_pl2%>                 ! Agent, 2nd person plural
+%<a_pl3%>                 ! Agent, 3rd person plural
 
-%<o_3sg%>
-%<o_3pl%>
-%<o_2sg%>
-%<o_2pl%>
-%<o_1sg%>
-%<o_1pl%>
+%<o_sg1%>                 ! Object, 1st person singular
+%<o_sg2%>                 ! Object, 2nd person singular
+%<o_sg3%>                 ! Object, 3rd person singular
+%<o_pl1%>                 ! Object, 1st person plural
+%<o_pl2%>                 ! Object, 2nd person plural
+%<o_pl3%>                 ! Object, 3rd person plural
 
 %<pl%>                    ! Plural
 %<sg%>                    ! Singular
@@ -211,7 +212,9 @@ Multichar_Symbols
 %[%+caus%]
 %[%+fut%]
 %[%+cond%]
-%[%+inv%]
+%[%+inv%]       ! тку
+%[%+inv2%]       ! инэ
+
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -228,6 +231,7 @@ Interjections ;
 Participles ;
 Conjunctions ;
 Miscellaneous ;
+Postpositions ;
 Punctuation ;
 Pronouns ;
 Verb-prefixes ;
@@ -235,240 +239,6 @@ Verb-deriv-prefixes ;
 Verbs ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-LEXICON Case-prefixes
-
-@P.CASE.com@:@P.CASE.com@г%{Æ%}%> NOMINALS ;
-@P.CASE.assoc@:@P.CASE.assoc@га%> NOMINALS ;
-@P.CASE.prv@:@P.CASE.prv@%{Æ%}%> NOMINALS ;
-
-
-LEXICON NOMINALS
-: Nouns ;
-: Pronouns ;
-
-
-LEXICON CASES-ANIM
-
-@D.CASE@%<aa%>%<pl%>%<abs%>:@D.CASE@%>%{ы%}нти # ;
-@D.CASE@%<aa%>%<sg%>%<erg%>%<def%>:@D.CASE@%>%{ы%}н%{Æ%} # ;
-@D.CASE@%<aa%>%<pl%>%<erg%>%<def%>:@D.CASE@%>%{ы%}рык # ;
-@D.CASE@%<aa%>%<sg%>%<loc%>%<def%>:@D.CASE@%>%{ы%}н%{Æ%} # ;
-@D.CASE@%<aa%>%<pl%>%<loc%>%<def%>:@D.CASE@%>%{ы%}рык # ;
-@D.CASE@%<aa%>%<pl%>%<all%>%<def%>:@D.CASE@%>%{ы%}рыкы%{⁺ⱽᴴ%} # ;
-@D.CASE@%<aa%>%<all%>%<def%>:@D.CASE@%>%{ы%}на # ;
-@D.CASE@%<aa%>%<ess%>:@D.CASE@%>%{ы%}н # ;
-%<aa%>:%>%{ы%}р CASES-OBL ;
-
-
-
-
-LEXICON CASES-OBL                             !!
-
-@D.CASE@%<pl%>%<abs%>:@D.CASE@%>%{ы%}т%{и%} # ;
-@D.CASE@%<erg%>:@D.CASE@%>%{T%}%{Æ%} # ;
-@D.CASE@%<ess%>:@D.CASE@%>у # ;
-@D.CASE@%<loc%>:@D.CASE@%>%{ы%}к # ;
-@D.CASE@%<all%>:@D.CASE@%>%{G%}ты%{⁺ⱽᴴ%} # ;
-@D.CASE@%<abl%>:@D.CASE@%>%{G%}%{ы%}п%{ы%}%{⁺ⱽᴴ%} # ;
-@D.CASE@%<ori%>:@D.CASE@%>%{ы%}гйит # ;
-@D.CASE@%<ine%>:@D.CASE@%>%{ы%}чыку # ;
-@D.CASE@%<per%>:@D.CASE@%>%{ы%}йэквэ%{⁺ⱽᴴ%} # ;
-@D.CASE@%<sub%>:@D.CASE@%>%{ы%}йиӈкы # ;
-@D.CASE@:@D.CASE@ POSS ;
-
-! circumfixes
-@R.CASE.com@%<com%>:@R.CASE.com@%>%{T%}%{Æ%} # ;
-@R.CASE.assoc@%<assoc%>:@R.CASE.assoc@%>%{ы%}ма%{⁺ⱽᴴ%} # ;
-@R.CASE.prv@%<prv%>:@R.CASE.prv@%>%{ы%}к%{Æ%} # ;
-
-
-
-
-LEXICON N-Ia-AATGYR                                   ! bare stem
-
-@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ # ;
-%<n%>: CASES-OBL ;
-%<n%>: CASES-ANIM ;
-%<n%>: N-DERIV-SUFF ;
-
-
-
-LEXICON N-Ia-JYNYR-ABS                                ! bare stem with n/ng alteration
-
-@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ # ;
-
-
-LEXICON N-Ib-ANGKY                                   ! stem-final vowel reduction
-
-@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%{°%} # ;
-%<n%>: CASES-OBL ;
-%<n%>: CASES-ANIM ;
-%<n%>: N-DERIV-SUFF ;
-
-
-
-LEXICON N-Ic-AJKOL                                   ! stem-final vowel deletion
-
-@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%{·%} # ;
-%<n%>: CASES-OBL ;
-%<n%>: CASES-ANIM ;
-%<n%>: N-DERIV-SUFF ;
-
-
-
-LEXICON N-Ic-EJNETKUNEN-ABS                          ! vowel deletion with n/ng alteration
-
-@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%{·%} # ;
-
-
-LEXICON N-IIa-VIIL-ABS                               ! full reduplication
-
-@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ # ;
-
-
-LEXICON N-IIb-VAJP-ABS                               ! partial reduplication
-
-@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ # ;
-
-
-LEXICON N-III-AVYNRAL                                   ! n absolutive
-
-@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%>%{ы%}н # ;
-%<n%>: CASES-OBL ;
-%<n%>: CASES-ANIM ;
-%<n%>: N-DERIV-SUFF ;
-
-
-
-LEXICON N-IV-ARAPA                                   ! ngy absolutive
-
-@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%>%{ы%}ӈы # ;
-%<n%>: CASES-OBL ;
-%<n%>: CASES-ANIM ;
-%<n%>: N-DERIV-SUFF ;
-
-
-
-LEXICON N-IV-QORA-ABS                                ! qora-qaa
-
-@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%>%{ы%}ӈы # ;
-
-
-LEXICON N-Vv-AVEEN                                   ! irregular; в-oblique
-
-@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ # ;
-%<n%>:в CASES-OBL ;
-%<n%>:в CASES-ANIM ;
-%<n%>:в N-DERIV-SUFF ;
-%<n%>:в POSS ;
-
-
-LEXICON N-Vvy-AGNOTVAN                               ! irregular; в-oblique; ы-abs
-
-@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ы # ;
-%<n%>:в CASES-OBL ;
-%<n%>:в CASES-ANIM ;
-%<n%>:в N-DERIV-SUFF ;
-%<n%>:в POSS ;
-
-
-LEXICON N-SING-AJOPYCH                               ! lg singulative
-
-@D.CASE@%<n%>%<sing%>%<abs%>:@D.CASE@%>%{ы%}ԓгын%{⁺ⱽᴴ%} # ;
-%<n%>: CASES-OBL ;
-%<n%>: N-DERIV-SUFF ;
-
-
-
-LEXICON N-SING-EPEEPEG                               ! lyng singulative
-
-@D.CASE@%<n%>%<sing%>%<abs%>:@D.CASE@%>%{ы%}ԓыӈын%{⁺ⱽᴴ%} # ;
-%<n%>: CASES-OBL ;
-%<n%>: N-DERIV-SUFF ;
-
-
-
-LEXICON N-VANGQASQOR-ABS
-
-@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ # ;
-
-
-LEXICON N-OBL
-%<n%>: CASES-OBL ;
-%<n%>: CASES-ANIM ;
-%<n%>: N-DERIV-SUFF ;
-
-
-
-LEXICON N-DERIV-SUFF
-! these form nouns from verbs
-! %<ptcp%>%<act%>:ԓъ -%> nmzr also
-! %<ptcp%>%<pass%>:йо
-! %<nmzr%>:ԓӄыԓ
-%<nmzr%>:%>%{ы%}ԓъ N-DERIV-III ;
-%<nmzr%>:%>%{ы%}чь N-DERIV-III ;
-%<nmzr%>:%>%{ы%}гырг%{⁺ⱽᴴ%} N-DERIV-III ;
-%<nmzr%>:%>%{ы%}йоԓг N-DERIV-III ;
-%<nmzr%>:%>%{ы%}ӈэвыт N-DERIV-I ;
-%<nmzr%>:%>%{ы%}вйи N-DERIV-I ;
-%<top%>:%>%{ы%}ткын%{⁺ⱽᴴ%} N-DERIV-I ;
-%<side%>:%>%{ы%}ӈӄача N-DERIV-Ic ;
-%<edge%>:%>%{ы%}ԓг N-DERIV-III ;
-%<side%>:%>%{ы%}чурм N-DERIV-III ;
-%<dim%>:%>%{ы%}ӄ%{Æ%}й # ;
-%<dim%>:%>%{ы%}ӄ%{Æ%}й N-DERIV-I ;
-%<aug%>:%>%{ы%}ч%{ы%}ӈ N-DERIV-I ;
-%<aug%>:%>%{ы%}йӈ N-DERIV-I ;
-%<coop%>:%>%{ы%}мк N-DERIV-I ;
-%<coop%>:%>%{ы%}гинив N-DERIV-I ;
-%<prtt%>:%>%{ы%}тъул N-DERIV-I ;
-
-
-
-
-LEXICON POSS
-! different possessed, mark on the possessor
-%<poss%>%<1sg%>:%>ин%{Æ%}гым N-DERIV-I ;
-%<poss%>%<2sg%>:%>ин%{Æ%}гыт N-DERIV-I ;
-%<poss%>%<3sg%>:%>ин N-DERIV-I ;
-%<poss%>%<1pl%>:%>ин%{Æ%}мури N-DERIV-I ;
-%<poss%>%<2pl%>:%>ин%{Æ%}тури N-DERIV-I ;
-%<poss%>%<3pl%>:%>ин%{Æ%}т%{и%} N-DERIV-I ;
-%<pl%>%<poss%>%<1sg%>:%>%{ы%}ргин%{Æ%}гым N-DERIV-I ;
-%<pl%>%<poss%>%<2sg%>:%>%{ы%}ргин%{Æ%}гыт N-DERIV-I ;
-%<pl%>%<poss%>%<3sg%>:%>%{ы%}ргин N-DERIV-I ;
-%<pl%>%<poss%>%<1pl%>:%>%{ы%}ргин%{Æ%}мури N-DERIV-I ;
-%<pl%>%<poss%>%<2pl%>:%>%{ы%}ргин%{Æ%}тури N-DERIV-I ;
-%<pl%>%<poss%>%<3pl%>:%>%{ы%}ргин%{Æ%}т%{и%} N-DERIV-I ;
-
-! different possessors, mark on the possessed
-%<px1sg%>%<abs%>:%>%{ы%}гым # ;
-%<px2sg%>%<abs%>:%>%{ы%}гыт # ;
-%<px3sg%>%<abs%>:%>%{ы%}н # ;
-%<px1pl%>%<abs%>:%>%{ы%}мури # ;
-%<px2pl%>%<abs%>:%>%{ы%}тури # ;
-%<px3pl%>%<abs%>:%>%{ы%}т%{и%} # ;
-
-LEXICON REL
-%<rel%>:%>%{ы%}кин N-DERIV-I ;
-
-
-LEXICON N-DERIV-I
-@D.CASE@%<sg%>%<abs%>:@D.CASE@ # ;
-: CASES-OBL ;
-: CASES-ANIM ;
-
-LEXICON N-DERIV-Ic
-@D.CASE@%<sg%>%<abs%>:@D.CASE@{·%} # ;
-: CASES-OBL ;
-: CASES-ANIM ;
-
-LEXICON N-DERIV-III
-@D.CASE@%<sg%>%<abs%>:@D.CASE@%>ын # ;
-: CASES-OBL ;
-: CASES-ANIM ;
-
 
 
 LEXICON ADV
@@ -486,6 +256,8 @@ LEXICON CONJ          ! ?
 LEXICON PART
 %<part%>: # ;
 
+LEXICON POST
+%<post%>: # ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

@@ -28,6 +28,7 @@ Alphabet
 %[%+fut%]:0
 %[%+cond%]:0
 %[%+inv%]:0
+%[%+inv2%]:0
 ;
 
 Rules
@@ -68,3 +69,7 @@ Rules
 "Inversive in progressive o_1pl"
 %[%+inv%]:0 <=> _ :* %[%+inv%]:0 ;
                 %[%+inv%]:0 :* _ ;
+
+"Inversive prefix ine"
+%[%+inv2%]:0 <=> _ :* %[%+inv2%]:0 ;
+                %[%+inv2%]:0 :* _ ;

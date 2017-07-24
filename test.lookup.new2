@@ -1,0 +1,470 @@
+йъэтык<v><iv><neut><aor><s_sg1>	тыйъэтгъэк
+йъэтык<v><iv><neut><aor><s_sg1>	тыйъэтык
+
+йъэтык<v><iv><neut><aor><s_sg2>	йъэти
+йъэтык<v><iv><neut><aor><s_sg2>	йъэтгъи
+
+йъэтык<v><iv><neut><aor><s_sg3>	йъэти
+йъэтык<v><iv><neut><aor><s_sg3>	йъэтгъи
+
+йыԓӄэтык<v><iv><neut><aor><s_pl1>	мытйыԓӄэнмык
+
+йыԓӄэтык<v><iv><neut><aor><s_pl2>	йыԓӄэттык
+
+йыԓӄэтык<v><iv><neut><aor><s_pl3>	йыԓӄэтгъэт
+йыԓӄэтык<v><iv><neut><aor><s_pl3>	йыԓӄэтыт
+
+йъэтык<v><iv><neut><fut><s_sg1>	тырэйъэтгъэ
+йъэтык<v><iv><neut><fut><s_sg1>	тырэйъэтык
+
+йъэтык<v><iv><neut><fut><s_sg2>	+?
+
+йъэтык<v><iv><neut><fut><s_sg3>	+?
+
+йыԓӄэтык<v><iv><neut><fut><s_pl1>	мытрэйыԓӄэнмык
+йыԓӄэтык<v><iv><neut><fut><s_pl1>	мытрэйыԓӄэтгъэ
+
+йыԓӄэтык<v><iv><neut><fut><s_pl2>	+?
+
+йыԓӄэтык<v><iv><neut><fut><s_pl3>	+?
+
+йъэтык<v><iv><neut><intn><s_sg1>	мыйъэтгъэк
+йъэтык<v><iv><neut><intn><s_sg1>	мыйъэтык
+
+йъэтык<v><iv><neut><intn><s_sg2>	ӄыйъэтги
+
+йъэтык<v><iv><neut><intn><s_sg3>	ныйъэтгъэн
+йъэтык<v><iv><neut><intn><s_sg3>	ныйъэтын
+
+авэръэпык<v><iv><neut><intn><s_pl1>	мынавэръэммык
+
+авэръэпык<v><iv><neut><intn><s_pl2>	ӄавэръэптык
+
+авэръэпык<v><iv><neut><intn><s_pl3>	навэръэмнат
+
+йъэтык<v><iv><neut><cond><s_sg1>	мъыйъэтгъэк
+йъэтык<v><iv><neut><cond><s_sg1>	мъыйъэтык
+
+йъэтык<v><iv><neut><cond><s_sg2>	нъыйъэтги
+
+йъэтык<v><iv><neut><cond><s_sg3>	нъыйъэтгъэн
+йъэтык<v><iv><neut><cond><s_sg3>	нъыйъэтын
+
+авэръэпык<v><iv><neut><cond><s_pl1>	мынъавэръэммык
+
+авэръэпык<v><iv><neut><cond><s_pl2>	нъавэръэптык
+
+авэръэпык<v><iv><neut><cond><s_pl3>	нъавэръэмнат
+
+йъэтык<v><iv><prog><aor><s_sg1>	тыйъэтыркын
+
+йынрэтԓяръок<v><iv><prog><aor><s_sg2>	йынрэтԓяръоркын
+
+йынрэтԓяръок<v><iv><prog><aor><s_sg3>	йынрэтԓяръоркын
+
+каргок<v><iv><prog><aor><s_pl1>	мыткаргоркын
+
+каргок<v><iv><prog><aor><s_pl2>	каргоркынэтык
+
+каргок<v><iv><prog><aor><s_pl3>	каргоркыт
+
+йынрэтԓяръок<v><iv><prog><fut><s_sg1>	тырайынрэтԓяръоркы
+
+йынрэтԓяръок<v><iv><prog><fut><s_sg2>	+?
+
+йынрэтԓяръок<v><iv><prog><fut><s_sg3>	+?
+
+каргок<v><iv><prog><fut><s_pl1>	мытракаргоркы
+
+каргок<v><iv><prog><fut><s_pl2>	+?
+
+каргок<v><iv><prog><fut><s_pl3>	+?
+
+каргок<v><iv><prog><intn><s_sg1>	мыкаргоркын
+
+каргок<v><iv><prog><intn><s_sg2>	ӄыкаргоркын
+
+каргок<v><iv><prog><intn><s_sg3>	ныкаргоркын
+
+йынрэтԓяръок<v><iv><prog><intn><s_pl1>	мынйынрэтԓяръоркын
+
+йынрэтԓяръок<v><iv><prog><intn><s_pl2>	ӄыйынрэтԓяръоркынэтык
+
+йынрэтԓяръок<v><iv><prog><intn><s_pl3>	ныйынрэтԓяръоркынат
+
+киԓвэйык<v><iv><prog><cond><s_sg1>	мъыкиԓвэйыркын
+
+киԓвэйык<v><iv><prog><cond><s_sg2>	нъыкиԓвэйыркын
+
+киԓвэйык<v><iv><prog><cond><s_sg3>	нъыкиԓвэйыркын
+
+ӄэԓпэравык<v><iv><prog><cond><s_pl1>	мынъыӄэԓпэравыркын
+
+ӄэԓпэравык<v><iv><prog><cond><s_pl2>	нъыӄэԓпэравыркынэтык
+
+ӄэԓпэравык<v><iv><prog><cond><s_pl3>	нъыӄэԓпэравыркынат
+
+ӈэюк<v><iv><stat><perf><s_sg1>	гэӈэюйгым
+
+ӈэюк<v><iv><stat><perf><s_sg2>	гэӈэюйгыт
+
+йъэтык<v><iv><stat><perf><s_sg3>	гэйъэтԓин
+
+ӈэюк<v><iv><stat><perf><s_pl1>	гэӈэюмури
+
+ӈэюк<v><iv><stat><perf><s_pl2>	гэӈэютури
+
+ӈэюк<v><iv><stat><perf><s_pl3>	гэӈэюԓинэт
+
+атчык<v><iv><stat><perf><s_sg1>	гатчигым
+
+атчык<v><iv><stat><perf><s_sg2>	гатчигыт
+
+йъэтык<v><iv><stat><hab><s_sg3>	ныйъэтӄин
+
+атчык<v><iv><stat><perf><s_pl1>	гатчыморэ
+
+атчык<v><iv><stat><perf><s_pl2>	гатчыторэ
+
+вак<v><iv><stat><hab><s_pl3>	нытваӄэнат
+вак<v><iv><stat><hab><s_pl3>	нываӄэнат
+
+	+?
+
+	+?
+
+инэттъэтык<v><tv><neut><aor><a_sg2><o_sg1>	+?
+
+анъяк<v><tv><neut><aor><a_pl2><o_sg1>	+?
+
+ԓымӈэнак<v><tv><neut><aor><a_sg3><o_sg1>	+?
+
+ԓымӈэнак<v><tv><neut><aor><a_pl3><o_sg1>	наԓымӈэнагым
+
+	+?
+
+агтатык<v><tv><neut><aor><a_sg2><o_pl1>	агтатыткогъэ
+
+анъяк<v><tv><neut><aor><a_pl2><o_pl1>	анъяткотык
+
+инэттъэтык<v><tv><neut><aor><a_sg3><o_pl1>	нинэттъэнмык
+
+агтатык<v><tv><neut><aor><a_pl3><o_pl1>	нагтанмык
+
+	+?
+
+ԓымӈэнак<v><tv><neut><aor><a_sg1><o_sg2>	тыԓымӈэнаткогъэ
+
+анъяк<v><tv><neut><aor><a_pl1><o_sg2>	мытанъяткотык
+
+инэттъэтык<v><tv><neut><aor><a_sg3><o_sg2>	нинэттъэтгыт
+
+инэттъэтык<v><tv><neut><aor><a_pl3><o_sg2>	нинэттъэтгыт
+
+	+?
+
+агтатык<v><tv><neut><aor><a_sg1><o_pl2>	тагтаттык
+
+анъяк<v><tv><neut><aor><a_pl1><o_pl2>	мытанъятык
+
+ԓымӈэнак<v><tv><neut><aor><a_sg3><o_pl2>	наԓымӈэнатык
+
+агтатык<v><tv><neut><aor><a_pl3><o_pl2>	нагтаттык
+
+	+?
+
+ԓымӈэнак<v><tv><neut><aor><a_sg1><o_sg3>	тыԓымӈэнагъан
+ԓымӈэнак<v><tv><neut><aor><a_sg1><o_sg3>	тыԓымӈэнан
+
+анъяк<v><tv><neut><aor><a_pl1><o_sg3>	мытанъягъан
+анъяк<v><tv><neut><aor><a_pl1><o_sg3>	мытанъян
+
+инэттъэтык<v><tv><neut><aor><a_sg2><o_sg3>	инэттъэтгъэн
+инэттъэтык<v><tv><neut><aor><a_sg2><o_sg3>	инэттъэтын
+
+агтатык<v><tv><neut><aor><a_pl2><o_sg3>	агтатыткы
+
+инэттъэтык<v><tv><neut><aor><a_sg3><o_sg3>	инэттъэннин
+
+ԓымӈэнак<v><tv><neut><aor><a_pl3><o_sg3>	наԓымӈэнан
+
+	+?
+
+инэттъэтык<v><tv><neut><aor><a_sg1><o_pl3>	тинэттъэннэт
+
+инэттъэтык<v><tv><neut><aor><a_pl1><o_pl3>	мытинэттъэннэт
+
+агтатык<v><tv><neut><aor><a_sg2><o_pl3>	агтаннат
+
+инэттъэтык<v><tv><neut><aor><a_pl2><o_pl3>	инэттъэтыткы
+
+инэттъэтык<v><tv><neut><aor><a_sg3><o_pl3>	инэттъэннинэт
+
+анъяк<v><tv><neut><aor><a_pl3><o_pl3>	нанъянат
+
+	+?
+
+	+?
+
+анъяк<v><tv><neut><fut><a_sg2><o_sg1>	+?
+
+агтатык<v><tv><neut><fut><a_pl2><o_sg1>	+?
+
+агтатык<v><tv><neut><fut><a_sg3><o_sg1>	+?
+
+агтатык<v><tv><neut><fut><a_pl3><o_sg1>	нарагтатгым
+
+	+?
+
+анъяк<v><tv><neut><fut><a_sg2><o_sg1>	+?
+
+агтатык<v><tv><neut><fut><a_pl2><o_sg1>	+?
+
+агтатык<v><tv><neut><fut><a_sg3><o_sg1>	+?
+
+агтатык<v><tv><neut><fut><a_pl3><o_sg1>	нарагтатгым
+
+	+?
+
+ԓымӈэнак<v><tv><neut><fut><a_sg1><o_sg2>	тыраԓымӈэнагыт
+
+агтатык<v><tv><neut><fut><a_pl1><o_sg2>	мытрагтатгыт
+
+агтатык<v><tv><neut><fut><a_sg3><o_sg2>	нарагтатгыт
+
+анъяк<v><tv><neut><fut><a_pl3><o_sg2>	наранъягыт
+
+	+?
+
+инэттъэтык<v><tv><neut><fut><a_sg1><o_pl2>	тыринэттъэттык
+
+анъяк<v><tv><neut><fut><a_pl1><o_pl2>	мытранъятык
+
+ԓымӈэнак<v><tv><neut><fut><a_sg3><o_pl2>	нараԓымӈэнатык
+
+ԓымӈэнак<v><tv><neut><fut><a_pl3><o_pl2>	нараԓымӈэнатык
+
+	+?
+
+ԓымӈэнак<v><tv><neut><fut><a_sg1><o_sg3>	тыраԓымӈэнаӈын
+
+анъяк<v><tv><neut><fut><a_pl1><o_sg3>	мытранъяӈын
+
+анъяк<v><tv><neut><fut><a_sg2><o_sg3>	+?
+
+анъяк<v><tv><neut><fut><a_pl2><o_sg3>	+?
+
+ԓымӈэнак<v><tv><neut><fut><a_sg3><o_sg3>	+?
+
+агтатык<v><tv><neut><fut><a_pl3><o_sg3>	нарагтанӈын
+
+	+?
+
+анъяк<v><tv><neut><fut><a_sg1><o_pl3>	тыранъяӈынат
+
+инэттъэтык<v><tv><neut><fut><a_pl1><o_pl3>	мытринэттъэнӈынэт
+
+анъяк<v><tv><neut><fut><a_sg2><o_pl3>	+?
+
+агтатык<v><tv><neut><fut><a_pl2><o_pl3>	+?
+
+агтатык<v><tv><neut><fut><a_sg3><o_pl3>	+?
+
+ԓымӈэнак<v><tv><neut><fut><a_pl3><o_pl3>	нараԓымӈэнаӈынат
+
+	+?
+
+	+?
+
+анъяк<v><tv><neut><intn><a_sg2><o_sg1>	ӄэнанъягэ
+
+инэттъэтык<v><tv><neut><intn><a_pl2><o_sg1>	ӄининэттъэттык
+
+анъяк<v><tv><neut><intn><a_sg3><o_sg1>	нэнанъягъан
+анъяк<v><tv><neut><intn><a_sg3><o_sg1>	нэнанъян
+
+анъяк<v><tv><neut><intn><a_pl3><o_sg1>	ыʼнанъягым
+
+	+?
+
+инэттъэтык<v><tv><neut><intn><a_sg2><o_pl1>	ӄинэттъэтыткуги
+
+мыԓытйик<v><tv><neut><intn><a_pl2><o_pl1>	ӄымыԓытйиткутык
+
+ԓымӈэнак<v><tv><neut><intn><a_sg3><o_pl1>	ыʼнԓымӈэнамык
+
+мыԓытйик<v><tv><neut><intn><a_pl3><o_pl1>	ыʼнмыԓытйимык
+
+	+?
+
+анъяк<v><tv><neut><intn><a_sg1><o_sg2>	манъягыт
+
+ԓымӈэнак<v><tv><neut><intn><a_pl1><o_sg2>	мынԓымӈэнагыт
+
+ԓымӈэнак<v><tv><neut><intn><a_sg3><o_sg2>	ыʼнԓымӈэнагыт
+
+анъяк<v><tv><neut><intn><a_pl3><o_sg2>	ыʼнанъягыт
+
+	+?
+
+анъяк<v><tv><neut><intn><a_sg1><o_pl2>	манъятык
+
+агтатык<v><tv><neut><intn><a_pl1><o_pl2>	мынагтаттык
+
+инэттъэтык<v><tv><neut><intn><a_sg3><o_pl2>	ыʼнинэттъэттык
+
+инэттъэтык<v><tv><neut><intn><a_pl3><o_pl2>	ыʼнинэттъэттык
+
+	+?
+
+инэттъэтык<v><tv><neut><intn><a_sg1><o_sg3>	минэттъэтгъэн
+инэттъэтык<v><tv><neut><intn><a_sg1><o_sg3>	минэттъэтын
+
+мыԓытйик<v><tv><neut><intn><a_pl1><o_sg3>	мынмыԓытйигъэн
+мыԓытйик<v><tv><neut><intn><a_pl1><o_sg3>	мынмыԓытйин
+
+мыԓытйик<v><tv><neut><intn><a_sg2><o_sg3>	ӄымыԓытйигын
+
+агтатык<v><tv><neut><intn><a_pl2><o_sg3>	ӄагтатгыткы
+
+анъяк<v><tv><neut><intn><a_sg3><o_sg3>	нанъянэн
+
+инэттъэтык<v><tv><neut><intn><a_pl3><o_sg3>	ыʼнинэттъэнӈын
+инэттъэтык<v><tv><neut><intn><a_pl3><o_sg3>	ыʼнинэттъэтгъэӈын
+
+	+?
+
+мыԓытйик<v><tv><neut><intn><a_sg1><o_pl3>	мымыԓытйинэт
+
+анъяк<v><tv><neut><intn><a_pl1><o_pl3>	мынанъянат
+
+мыԓытйик<v><tv><neut><intn><a_sg2><o_pl3>	ӄымыԓытйигынэт
+
+анъяк<v><tv><neut><intn><a_pl2><o_pl3>	ӄанъягыткы
+
+анъяк<v><tv><neut><intn><a_sg3><o_pl3>	нанъянэнат
+
+ԓымӈэнак<v><tv><neut><intn><a_pl3><o_pl3>	ыʼнԓымӈэнанат
+
+	+?
+
+	+?
+
+мыԓытйик<v><tv><neut><cond><a_sg2><o_sg1>	ӄъинэмыԓытйиги
+
+мыԓытйик<v><tv><neut><cond><a_pl2><o_sg1>	ӄъинэмыԓытйитык
+
+ԓымӈэнак<v><tv><neut><cond><a_sg3><o_sg1>	нъэнаԓымӈэнагъан
+ԓымӈэнак<v><tv><neut><cond><a_sg3><o_sg1>	нъэнаԓымӈэнан
+
+анъяк<v><tv><neut><cond><a_pl3><o_sg1>	ыʼнъанъягым
+
+	+?
+
+ԓымӈэнак<v><tv><neut><cond><a_sg2><o_pl1>	ӄъыԓымӈэнаткогъан
+ԓымӈэнак<v><tv><neut><cond><a_sg2><o_pl1>	ӄъыԓымӈэнаткон
+
+анъяк<v><tv><neut><cond><a_pl2><o_pl1>	ӄъанъяткотык
+
+инэттъэтык<v><tv><neut><cond><a_sg3><o_pl1>	ыʼнъинэттъэнмык
+
+инэттъэтык<v><tv><neut><cond><a_pl3><o_pl1>	ыʼнъинэттъэнмык
+
+	+?
+
+ԓымӈэнак<v><tv><neut><cond><a_sg1><o_sg2>	мъыԓымӈэнагыт
+
+анъяк<v><tv><neut><cond><a_pl1><o_sg2>	мынъанъягыт
+
+агтатык<v><tv><neut><cond><a_sg3><o_sg2>	ыʼнъагтатгыт
+
+инэттъэтык<v><tv><neut><cond><a_pl3><o_sg2>	ыʼнъинэттъэтгыт
+
+	+?
+
+агтатык<v><tv><neut><cond><a_sg1><o_pl2>	мъагтаттык
+
+инэттъэтык<v><tv><neut><cond><a_pl1><o_pl2>	мынъинэттъэттык
+
+ԓымӈэнак<v><tv><neut><cond><a_sg3><o_pl2>	ыʼнъыԓымӈэнатык
+
+анъяк<v><tv><neut><cond><a_pl3><o_pl2>	ыʼнъанъятык
+
+	+?
+
+мыԓытйик<v><tv><neut><cond><a_sg1><o_sg3>	мъымыԓытйигъэн
+мыԓытйик<v><tv><neut><cond><a_sg1><o_sg3>	мъымыԓытйин
+
+мыԓытйик<v><tv><neut><cond><a_pl1><o_sg3>	мынъымыԓытйигъэн
+мыԓытйик<v><tv><neut><cond><a_pl1><o_sg3>	мынъымыԓытйин
+
+мыԓытйик<v><tv><neut><cond><a_sg2><o_sg3>	ӄъымыԓытйигын
+
+мыԓытйик<v><tv><neut><cond><a_pl2><o_sg3>	ӄъымыԓытйигыткы
+
+мыԓытйик<v><tv><neut><cond><a_sg3><o_sg3>	нъымыԓытйинин
+
+ԓымӈэнак<v><tv><neut><cond><a_pl3><o_sg3>	ыʼнъыԓымӈэнагъаӈын
+ԓымӈэнак<v><tv><neut><cond><a_pl3><o_sg3>	ыʼнъыԓымӈэнаӈын
+
+	+?
+
+анъяк<v><tv><neut><cond><a_sg1><o_pl3>	мъанъянат
+
+ԓымӈэнак<v><tv><neut><cond><a_pl1><o_pl3>	мынъыԓымӈэнанат
+
+инэттъэтык<v><tv><neut><cond><a_sg2><o_pl3>	ӄъинэттъэтгынэт
+
+мыԓытйик<v><tv><neut><cond><a_pl2><o_pl3>	ӄъымыԓытйигыткы
+
+мыԓытйик<v><tv><neut><cond><a_sg3><o_pl3>	нъымыԓытйининэт
+
+мыԓытйик<v><tv><neut><cond><a_pl3><o_pl3>	ыʼнъымыԓытйинэт
+
+	+?
+
+	+?
+
+	+?
+
+йъэтык<v><iv><inf>	йъэтык
+
+	+?
+
+йъэтык<v><iv><prog><aor><s_sg1>	тыйъэтыркын
+
+	+?
+
+йъэтык<v><iv><stat><hab><s_sg3>	ныйъэтӄин
+
+йъэтык<v><iv><stat><perf><s_sg3>	гэйъэтԓин
+
+	+?
+
+ӄамэтвак<v><iv><neut><aor><s_sg3>	ӄамэтвэ
+ӄамэтвак<v><iv><neut><aor><s_sg3>	ӄамэтвагъэ
+
+тыԓяк<v><iv><gna_sim>	тыԓяма
+
+пыкирык<v><iv><neut><aor><s_sg3>	пыкири
+пыкирык<v><iv><neut><aor><s_sg3>	пыкиргъи
+
+авэръэпык<v><iv><neut><intn><s_pl1>	мынавэръэммык
+
+вак<v><iv><stat><hab><s_pl3>	нытваӄэнат
+вак<v><iv><stat><hab><s_pl3>	нываӄэнат
+
+вак<v><iv><approx><inf>	мачвак
+вак<v><iv><approx><inf>	мачытвак
+
+авэръэпык<v><iv><approx><inf>	мачавэръэпык
+
+авэръэпык<v><iv><punct><iter><coop_s><inf>	авэръэпычӄычатыткоръок
+
+авэръэпык<v><iv><punct><neut><intn><s_pl1>	мынавэръэпычӄычанмык
+
+вак<v><iv><ints><ints2><neut><aor><s_sg1>	+?
+
+гыръок<v><iv><desid><inch2><neut><aor><s_sg2>	рагръоӈыӈӈэ
+гыръок<v><iv><desid><inch2><neut><aor><s_sg2>	рагръоӈыӈӈогъэ
+
