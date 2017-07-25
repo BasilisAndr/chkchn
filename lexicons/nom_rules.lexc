@@ -167,6 +167,10 @@ LEXICON N-OBL
 %<n%>: CASES-ANIM ;
 %<n%>: N-DERIV-SUFF ;
 
+LEXICON INTO-N-OBL
+: CASES-OBL ;
+: CASES-ANIM ;
+: N-DERIV-SUFF ;
 
 
 LEXICON N-DERIV-SUFF
@@ -180,10 +184,6 @@ LEXICON N-DERIV-SUFF
 %<nmzr%>:%>%{ы%}йоԓг N-DERIV-III ;
 %<nmzr%>:%>%{ы%}ӈэвыт N-DERIV-I ;
 %<nmzr%>:%>%{ы%}вйи N-DERIV-I ;
-%<top%>:%>%{ы%}ткын%{⁺ⱽᴴ%} N-DERIV-I ;
-%<side%>:%>%{ы%}ӈӄача N-DERIV-Ic ;
-%<edge%>:%>%{ы%}ԓг N-DERIV-III ;
-%<side%>:%>%{ы%}чурм N-DERIV-III ;
 %<dim%>:%>%{ы%}ӄ%{Æ%}й # ;
 %<dim%>:%>%{ы%}ӄ%{Æ%}й N-DERIV-I ;
 %<aug%>:%>%{ы%}ч%{ы%}ӈ N-DERIV-I ;
@@ -191,6 +191,15 @@ LEXICON N-DERIV-SUFF
 %<coop%>:%>%{ы%}мк N-DERIV-I ;
 %<coop%>:%>%{ы%}гинив N-DERIV-I ;
 %<prtt%>:%>%{ы%}тъул N-DERIV-I ;
+: N-DERIV-SPACIAL ;
+
+
+LEXICON N-DERIV-SPACIAL
+%<top%>:%>%{ы%}ткын%{⁺ⱽᴴ%} N-DERIV-I ;
+%<side%>:%>%{ы%}ӈӄача N-DERIV-Ic ;
+%<edge%>:%>%{ы%}ԓг N-DERIV-III ;
+%<side%>:%>%{ы%}чурм N-DERIV-III ;
+
 
 
 
