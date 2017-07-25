@@ -104,6 +104,11 @@ LEXICON V-DERIV-SUFF
 %<purp%>:%>%{ы%}чӄив V-DERIV-TH ;
 %<consume%>:%>у V-DERIV-TH ;
 %<utilit%>:%>%{ы%}тку V-DERIV-TH ;
+
+! these form nouns from verbs
+%<ptcp%>%<act%>:ԓь INTO-N-OBL ;
+%<ptcp%>%<pass%>:йо INTO-N-OBL ;
+%<ger%>:ԓӄыԓ INTO-N-OBL ;
 : V-DERIV-TH ;
 
 LEXICON V-DERIV-TH

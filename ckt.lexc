@@ -906,10 +906,11 @@ LEXICON Interjections
 алва:алва INTJ ; ! "прочь!"
 вынэым:вынэым INTJ ; ! "ну-ка!"
 э:э INTJ ;
-э-эй:э-эй INTJ ;
-э-э-й:э-э-й INTJ ;
-э-э:э-э INTJ ;
-э-э-эй:э-э-эй INTJ ;
+э%-эй:э%-эй INTJ ;
+э%-э%-й:э%-э%-й INTJ ;
+э%-э:э%-э INTJ ;
+э%-э%-эй:э%-э%-эй INTJ ;
+ынӈатаԓ:ынӈатаԓ INTJ ;
 
 
 
@@ -985,13 +986,14 @@ LEXICON Miscellaneous
 ытԓён%-ым:ытԓён%-ым PART ;    ! итак
 ытръэч:ытръэч PART ;    ! тоԓько
 эви:эви PART ;    ! разве
-этԓы:этԓы PART ;    ! нет; этԓы титэ никогда; этԓы ынңин не так
+этԓы:этԓы PART ;    ! нет; этԓы титэ никогда; этԓы ынӈин не так
 этъопэԓ:этъопэԓ PART ;    ! ԓучше
 эты:эты PART ;    ! значит
 ым:ым PART ;      ! emph
 иаʼм:иаʼм PART ;     ! why
 ынан:ынан PART ;     ! эмфаза в будущем
 ! ӈирэӄ:ӈирэӄ NUM ; ! "два"
+опопы:опопы PART ;    ! ~must
 
 
 
@@ -1168,6 +1170,10 @@ LEXICON N-OBL
 %<n%>: CASES-ANIM ;
 %<n%>: N-DERIV-SUFF ;
 
+LEXICON INTO-N-OBL
+: CASES-OBL ;
+: CASES-ANIM ;
+: N-DERIV-SUFF ;
 
 
 LEXICON N-DERIV-SUFF
@@ -1181,10 +1187,6 @@ LEXICON N-DERIV-SUFF
 %<nmzr%>:%>%{ы%}йоԓг N-DERIV-III ;
 %<nmzr%>:%>%{ы%}ӈэвыт N-DERIV-I ;
 %<nmzr%>:%>%{ы%}вйи N-DERIV-I ;
-%<top%>:%>%{ы%}ткын%{⁺ⱽᴴ%} N-DERIV-I ;
-%<side%>:%>%{ы%}ӈӄача N-DERIV-Ic ;
-%<edge%>:%>%{ы%}ԓг N-DERIV-III ;
-%<side%>:%>%{ы%}чурм N-DERIV-III ;
 %<dim%>:%>%{ы%}ӄ%{Æ%}й # ;
 %<dim%>:%>%{ы%}ӄ%{Æ%}й N-DERIV-I ;
 %<aug%>:%>%{ы%}ч%{ы%}ӈ N-DERIV-I ;
@@ -1192,6 +1194,15 @@ LEXICON N-DERIV-SUFF
 %<coop%>:%>%{ы%}мк N-DERIV-I ;
 %<coop%>:%>%{ы%}гинив N-DERIV-I ;
 %<prtt%>:%>%{ы%}тъул N-DERIV-I ;
+: N-DERIV-SPACIAL ;
+
+
+LEXICON N-DERIV-SPACIAL
+%<top%>:%>%{ы%}ткын%{⁺ⱽᴴ%} N-DERIV-I ;
+%<side%>:%>%{ы%}ӈӄача N-DERIV-Ic ;
+%<edge%>:%>%{ы%}ԓг N-DERIV-III ;
+%<side%>:%>%{ы%}чурм N-DERIV-III ;
+
 
 
 
@@ -3710,7 +3721,7 @@ LEXICON PRON-GYM
 ! %<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ыкы # ;
 ! %<prn%>%<pers%>%<p1%>%<sg%>%<all%>:ыкагты # ;
 ! %<prn%>%<pers%>%<p1%>%<sg%>%<equ%>:ыгмил # ;
-!%<prn%>%<pers%>%<p1%>%<sg%>%+инэ%<der%>%<subst%>:%>нин N-DERIV-SPACIAL ;
+%<prn%>%<pers%>%<p1%>%<sg%>%+инэ%<der%>%<subst%>:%>нин N-DERIV-SPACIAL ;
 %<prn%>%<pers%>%<p1%>%<sg%>: PRON-PERS-CASES ;
 
 LEXICON PRON-GYT
@@ -3722,7 +3733,7 @@ LEXICON PRON-GYT
 ! %<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:тыкы # ;
 ! %<prn%>%<pers%>%<p2%>%<sg%>%<all%>:тыкагты # ;
 ! %<prn%>%<pers%>%<p2%>%<sg%>%<equ%>:тыгмил # ;
-!%<prn%>%<pers%>%<p2%>%<sg%>%+инэ%<der%>%<subst%>:%>нин N-DERIV-SPACIAL ;
+%<prn%>%<pers%>%<p2%>%<sg%>%+инэ%<der%>%<subst%>:%>нин N-DERIV-SPACIAL ;
 %<prn%>%<pers%>%<p2%>%<sg%>:н PRON-PERS-CASES ;
 
 LEXICON PRON-YTLJON
@@ -3983,6 +3994,11 @@ LEXICON V-DERIV-SUFF
 %<purp%>:%>%{ы%}чӄив V-DERIV-TH ;
 %<consume%>:%>у V-DERIV-TH ;
 %<utilit%>:%>%{ы%}тку V-DERIV-TH ;
+
+! these form nouns from verbs
+%<ptcp%>%<act%>:ԓь INTO-N-OBL ;
+%<ptcp%>%<pass%>:йо INTO-N-OBL ;
+%<ger%>:ԓӄыԓ INTO-N-OBL ;
 : V-DERIV-TH ;
 
 LEXICON V-DERIV-TH
