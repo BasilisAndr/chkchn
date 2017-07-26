@@ -208,7 +208,7 @@ LEXICON POSS
 ! different possessed, mark on the possessor
 %<poss%>%<1sg%>:%>ин%{Æ%}гым N-DERIV-I ;
 %<poss%>%<2sg%>:%>ин%{Æ%}гыт N-DERIV-I ;
-%<poss%>%<3sg%>:%>ин N-DERIV-I ;
+%<poss%>%<3sg%>:%>ин%{Æ%} N-DERIV-Ic ;
 %<poss%>%<1pl%>:%>ин%{Æ%}мури N-DERIV-I ;
 %<poss%>%<2pl%>:%>ин%{Æ%}тури N-DERIV-I ;
 %<poss%>%<3pl%>:%>ин%{Æ%}т%{и%} N-DERIV-I ;
