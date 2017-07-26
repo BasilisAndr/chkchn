@@ -46,6 +46,10 @@ Multichar_Symbols
 %<gna_ant%>               ! Anterior temporal converb (temporal sequence)
 %<gna_res%>               ! Anterior temporal converb (consequence)
 
+%<act%>
+%<pass%>
+%<ger%>
+
 %<th%>                    ! thematic verb suffix вьи
 %<approx%>                ! Approximative
 %<ints%>                  ! Intensifier
@@ -865,6 +869,7 @@ LEXICON Adverbs
 мрайпы:мрайпы  ADV ; ! "справа"
 ӈачгыӈкы:ӈачгыӈкы  ADV ; ! "слева"
 гагԓеты:гагԓеты  ADV ; ! "торопливо"
+янот:янот ADV ; ! "сначала"
 
 
 
@@ -948,6 +953,8 @@ LEXICON Conjunctions
 ынраӄ:ынраӄ CONJ ;    ! then
 ӄэԓюӄ:ӄэԓюӄ CONJ ;
 ыныкит:ыныкит CONJ ; ! "если"
+ынръаӄ:ынръаӄ CONJ ; ! и
+ӄынут:ӄынут CONJ ; ! как и
 
 
 
@@ -1211,7 +1218,7 @@ LEXICON POSS
 ! different possessed, mark on the possessor
 %<poss%>%<1sg%>:%>ин%{Æ%}гым N-DERIV-I ;
 %<poss%>%<2sg%>:%>ин%{Æ%}гыт N-DERIV-I ;
-%<poss%>%<3sg%>:%>ин N-DERIV-I ;
+%<poss%>%<3sg%>:%>ин%{Æ%} N-DERIV-Ic ;
 %<poss%>%<1pl%>:%>ин%{Æ%}мури N-DERIV-I ;
 %<poss%>%<2pl%>:%>ин%{Æ%}тури N-DERIV-I ;
 %<poss%>%<3pl%>:%>ин%{Æ%}т%{и%} N-DERIV-I ;
@@ -3808,11 +3815,14 @@ LEXICON PRON-YNQEN
 @D.CASE@%<prn%>%<dem%>%<sg%>%<abs%>:@D.CASE@%{·%} # ;
 %<prn%>%<dem%>: CASES-OBL ;
 %<prn%>%<dem%>: CASES-ANIM ;
+%<prn%>%<dem%>: POSS ;
+
 
 LEXICON PRON-YMYLJO
 
 %<prn%>%<quant%>%<sg%>: # ;
 %<prn%>%<quant%>: CASES-ANIM ;
+%<prn%>%<quant%>: POSS ;
 
 
 LEXICON PRON-QOL-SG
@@ -3994,16 +4004,13 @@ LEXICON V-DERIV-SUFF
 %<purp%>:%>%{ы%}чӄив V-DERIV-TH ;
 %<consume%>:%>у V-DERIV-TH ;
 %<utilit%>:%>%{ы%}тку V-DERIV-TH ;
-
-! these form nouns from verbs
-%<ptcp%>%<act%>:ԓь INTO-N-OBL ;
-%<ptcp%>%<pass%>:йо INTO-N-OBL ;
-%<ger%>:ԓӄыԓ INTO-N-OBL ;
 : V-DERIV-TH ;
 
 LEXICON V-DERIV-TH
-%<vrblz%>:%>%{Æ%}т V-DERIV-AP ;
-%<vrblz2%>:%>%{Æ%}в V-DERIV-AP ;
+%<th%>:%>%{Æ%}т V-DERIV-AP ;
+%<th%>:%>%{Æ%}в V-DERIV-AP ;
+%<th%>:%>%{Æ%}%{Æ%} V-DERIV-AP ;
+%<th%>:%>ъ%{Æ%} V-DERIV-AP ;
 : V-DERIV-AP ;
 
 
@@ -4035,6 +4042,10 @@ LEXICON V-DERIV-INCH
 : V-DERIV-FIN ;
 
 LEXICON V-DERIV-FIN
+! these form nouns from verbs
+%<ptcp%>%<act%>:ԓь INTO-N-OBL ;
+%<ptcp%>%<pass%>:йо INTO-N-OBL ;
+%<ger%>:ԓӄыԓ INTO-N-OBL ;
 @U.V.iv@:@U.V.iv@ V-IV-AFFIX ;
 @U.V.tv@:@U.V.tv@ V-TV-AFFIX ;
 
