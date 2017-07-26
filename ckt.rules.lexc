@@ -46,6 +46,10 @@ Multichar_Symbols
 %<gna_ant%>               ! Anterior temporal converb (temporal sequence)
 %<gna_res%>               ! Anterior temporal converb (consequence)
 
+%<act%>
+%<pass%>
+%<ger%>
+
 %<th%>                    ! thematic verb suffix вьи
 %<approx%>                ! Approximative
 %<ints%>                  ! Intensifier

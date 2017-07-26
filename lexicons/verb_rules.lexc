@@ -104,16 +104,13 @@ LEXICON V-DERIV-SUFF
 %<purp%>:%>%{ы%}чӄив V-DERIV-TH ;
 %<consume%>:%>у V-DERIV-TH ;
 %<utilit%>:%>%{ы%}тку V-DERIV-TH ;
-
-! these form nouns from verbs
-%<ptcp%>%<act%>:ԓь INTO-N-OBL ;
-%<ptcp%>%<pass%>:йо INTO-N-OBL ;
-%<ger%>:ԓӄыԓ INTO-N-OBL ;
 : V-DERIV-TH ;
 
 LEXICON V-DERIV-TH
-%<vrblz%>:%>%{Æ%}т V-DERIV-AP ;
-%<vrblz2%>:%>%{Æ%}в V-DERIV-AP ;
+%<th%>:%>%{Æ%}т V-DERIV-AP ;
+%<th%>:%>%{Æ%}в V-DERIV-AP ;
+%<th%>:%>%{Æ%}%{Æ%} V-DERIV-AP ;
+%<th%>:%>ъ%{Æ%} V-DERIV-AP ;
 : V-DERIV-AP ;
 
 
@@ -145,6 +142,10 @@ LEXICON V-DERIV-INCH
 : V-DERIV-FIN ;
 
 LEXICON V-DERIV-FIN
+! these form nouns from verbs
+%<ptcp%>%<act%>:ԓь INTO-N-OBL ;
+%<ptcp%>%<pass%>:йо INTO-N-OBL ;
+%<ger%>:ԓӄыԓ INTO-N-OBL ;
 @U.V.iv@:@U.V.iv@ V-IV-AFFIX ;
 @U.V.tv@:@U.V.tv@ V-TV-AFFIX ;
 

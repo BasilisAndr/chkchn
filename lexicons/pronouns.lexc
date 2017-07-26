@@ -95,11 +95,14 @@ LEXICON PRON-YNQEN
 @D.CASE@%<prn%>%<dem%>%<sg%>%<abs%>:@D.CASE@%{·%} # ;
 %<prn%>%<dem%>: CASES-OBL ;
 %<prn%>%<dem%>: CASES-ANIM ;
+%<prn%>%<dem%>: POSS ;
+
 
 LEXICON PRON-YMYLJO
 
 %<prn%>%<quant%>%<sg%>: # ;
 %<prn%>%<quant%>: CASES-ANIM ;
+%<prn%>%<quant%>: POSS ;
 
 
 LEXICON PRON-QOL-SG
