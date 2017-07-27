@@ -75,6 +75,8 @@ Multichar_Symbols
 %<inch%>                  ! Inchoative
 %<inch2%>                 ! Inchoative 2
 %<compl%>                 ! Completive
+%<imposs%>                ! Impossibilitive
+%<restr%>                 ! Restrictive
 
 
 
@@ -158,6 +160,8 @@ Multichar_Symbols
 %<p1%>                    ! First person
 %<p2%>                    ! Second person
 %<p3%>                    ! Third person
+%<der%>
+%<subst%>
 
 %{Æ%}                     ! э or а
 %{T%}                     ! latin; erg & com т ot 0
@@ -193,18 +197,17 @@ Multichar_Symbols
 @P.VPR.yn@ @R.VPR.yn@
 @P.VPR.perf@ @R.VPR.perf@
 @P.VPR.hab@ @R.VPR.hab@
+@P.VPR.vb_com@ @R.VPR.vb_com@
+@P.VPR.vb_restr@ @R.VPR.vb_restr@
+@P.VPR.vb_intens@ @R.VPR.vb_intens@
+@P.VPR.vb_approx@ @R.VPR.vb_approx@
+@P.VPR.vb_neg@ @R.VPR.vb_neg@
+@P.VPR.vb_neg2@ @R.VPR.vb_neg2@
+@P.VPR.imposs@ @R.VPR.imposs@
 @D.VPR@
 ! @P.TENSE.fut@ @R.TENSE.fut@
 ! @P.TENSE.cond@ @R.TENSE.cond@
 @D.TENSE@
-@P.VDER.approx@ @R.VDER.approx@ @D.VDER.approx@
-@P.VDER.ints@ @R.VDER.ints@ @D.VDER.ints@
-@P.VDER.ints2@ @R.VDER.ints2@ @D.VDER.ints2@
-@P.VDER.ap@ @R.VDER.ap@ @D.VDER.ap@
-@P.VDER.caus@ @R.VDER.caus@ @D.VDER.caus@
-@P.VDER.desid@ @R.VDER.desid@ @D.VDER.desid@
-@P.VDER.x@
-@D.VDER@
 @U.V.iv@
 @U.V.tv@
 

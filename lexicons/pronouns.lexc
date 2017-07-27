@@ -8,8 +8,9 @@ LEXICON PRON-GYM
 ! %<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ыкы # ;
 ! %<prn%>%<pers%>%<p1%>%<sg%>%<all%>:ыкагты # ;
 ! %<prn%>%<pers%>%<p1%>%<sg%>%<equ%>:ыгмил # ;
-%<prn%>%<pers%>%<p1%>%<sg%>%+инэ%<der%>%<subst%>:%>нин N-DERIV-SPACIAL ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<der%>%<subst%>:%>нин N-DERIV-SPACIAL ;
 %<prn%>%<pers%>%<p1%>%<sg%>: PRON-PERS-CASES ;
+%<prn%>%<pers%>%<p1%>%<sg%>:н POSS ;
 
 LEXICON PRON-GYT
 
@@ -20,7 +21,7 @@ LEXICON PRON-GYT
 ! %<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:тыкы # ;
 ! %<prn%>%<pers%>%<p2%>%<sg%>%<all%>:тыкагты # ;
 ! %<prn%>%<pers%>%<p2%>%<sg%>%<equ%>:тыгмил # ;
-%<prn%>%<pers%>%<p2%>%<sg%>%+инэ%<der%>%<subst%>:%>нин N-DERIV-SPACIAL ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<der%>%<subst%>:%>нин N-DERIV-SPACIAL ;
 %<prn%>%<pers%>%<p2%>%<sg%>:н PRON-PERS-CASES ;
 
 LEXICON PRON-YTLJON
