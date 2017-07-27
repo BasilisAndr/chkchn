@@ -167,20 +167,14 @@ LEXICON N-OBL
 %<n%>: CASES-ANIM ;
 %<n%>: N-DERIV-SUFF ;
 
-LEXICON INTO-N-OBL
-: CASES-OBL ;
-: CASES-ANIM ;
-: N-DERIV-SUFF ;
-
 
 LEXICON N-DERIV-SUFF
 ! these form nouns from verbs
 ! %<ptcp%>%<act%>:ԓъ -%> nmzr also
 ! %<ptcp%>%<pass%>:йо
 ! %<nmzr%>:ԓӄыԓ
-%<nmzr%>:%>%{ы%}ԓъ N-DERIV-III ;
+%<nmzr%>:%>%{ы%}ԓь N-DERIV-III ;
 %<nmzr%>:%>%{ы%}чь N-DERIV-III ;
-%<nmzr%>:%>%{ы%}гырг%{⁺ⱽᴴ%} N-DERIV-III ;
 %<nmzr%>:%>%{ы%}йоԓг N-DERIV-III ;
 %<nmzr%>:%>%{ы%}ӈэвыт N-DERIV-I ;
 %<nmzr%>:%>%{ы%}вйи N-DERIV-I ;
@@ -190,7 +184,7 @@ LEXICON N-DERIV-SUFF
 %<aug%>:%>%{ы%}йӈ N-DERIV-I ;
 %<coop%>:%>%{ы%}мк N-DERIV-I ;
 %<coop%>:%>%{ы%}гинив N-DERIV-I ;
-%<prtt%>:%>%{ы%}тъул N-DERIV-I ;
+%<prtt%>:%>%{ы%}тъуԓ N-DERIV-I ;
 : N-DERIV-SPACIAL ;
 
 
@@ -235,13 +229,16 @@ LEXICON N-DERIV-I
 @D.CASE@%<sg%>%<abs%>:@D.CASE@ # ;
 : CASES-OBL ;
 : CASES-ANIM ;
+: N-DERIV-SUFF ;
 
 LEXICON N-DERIV-Ic
 @D.CASE@%<sg%>%<abs%>:@D.CASE@{·%} # ;
 : CASES-OBL ;
 : CASES-ANIM ;
+: N-DERIV-SUFF ;
 
 LEXICON N-DERIV-III
 @D.CASE@%<sg%>%<abs%>:@D.CASE@%>ын # ;
 : CASES-OBL ;
 : CASES-ANIM ;
+: N-DERIV-SUFF ;
