@@ -958,6 +958,7 @@ LEXICON Conjunctions
 ыныкит:ыныкит CONJ ; ! "если"
 ынръаӄ:ынръаӄ CONJ ; ! и
 ӄынут:ӄынут CONJ ; ! как и
+<<<<<<< HEAD
 
 
 
@@ -1233,6 +1234,8 @@ LEXICON POSS
 %<px1pl%>%<abs%>:%>%{ы%}мури # ;
 %<px2pl%>%<abs%>:%>%{ы%}тури # ;
 %<px3pl%>%<abs%>:%>%{ы%}т%{и%} # ;
+=======
+>>>>>>> 780fc70b23b8d8c47e7c3c32a3518f831fb6545d
 
 LEXICON REL
 %<rel%>:%>%{ы%}кин N-DERIV-I ;
@@ -1250,11 +1253,307 @@ LEXICON N-DERIV-Ic
 : CASES-ANIM ;
 : N-DERIV-SUFF ;
 
+<<<<<<< HEAD
+=======
+аԓымы:аԓымы PART ;    ! 1. ведь; 2. же; 3. несмотря на...
+аʼа:аʼа PART ;    ! что? (в вопросах)
+аʼтав:аʼтав PART ;    ! ну
+вай:вай PART ;    ! вот
+вайвай:вайвай PART ;    ! на! (возьми)
+ванэван:ванэван PART ;    ! нет
+вэԓер:вэԓер PART ;    ! 1) хоть бы; 2) хватит, достаточно
+вэԓчиин:вэԓчиин PART ;    ! 1. всё равно уж; 2. пусть; 3. и всё же
+вэԓынкыӄун:вэԓынкыӄун PART ;    ! спасибо
+еп:еп PART ;    ! 1) ещё не 2) пока ещё
+ии:ии PART ;    ! да, конечно
+ӄун:ӄун PART ;    ! ну
+ӄырым:ӄырым PART ;    ! (2) 1. нет; 2. не
+ӄырымэн:ӄырымэн PART ;    ! (2) не; қырымэн микын ничей
+ӄэйвипэ:ӄэйвипэ PART ;    ! действитеԓьно ԓи? см. қэйгипэ
+ӄэйвэ:ӄэйвэ PART ;    ! действитеԓьно
+ӄэйвэԓым:ӄэйвэԓым PART ;    ! и правда
+ӄэйгипэ:ӄэйгипэ PART ;    ! действитеԓьно ԓи? см. қэйвипэ
+ӄэйӈун:ӄэйӈун PART ;    ! а то опять
+ԓеӈтымӈэ:ԓеӈтымӈэ PART ;    ! (2) как-нибудь, просто так
+ԓыгэн:ԓыгэн PART ;    ! тоԓько
+ӈан:ӈан PART ;    ! там (дейктическая частица)
+ӈоот:ӈоот PART ;    ! вот
+рай:рай PART ;    ! вон (указание на предмет)
+рыпэт:рыпэт PART ;    ! даже
+уйӈэ:уйӈэ PART ;    ! нет (отсутствие)
+чит:чит PART ;    ! раньше, сначаԓа, вначаԓе
+ынӈэ:ынӈэ PART ;    ! нет! не надо
+ытԓён:ытԓён PART ;    ! же
+ытԓён%-ым:ытԓён%-ым PART ;    ! итак
+ытръэч:ытръэч PART ;    ! тоԓько
+эви:эви PART ;    ! разве
+этԓы:этԓы PART ;    ! нет; этԓы титэ никогда; этԓы ынӈин не так
+этъопэԓ:этъопэԓ PART ;    ! ԓучше
+эты:эты PART ;    ! значит
+ым:ым PART ;      ! emph
+иаʼм:иаʼм PART ;     ! why
+ынан:ынан PART ;     ! эмфаза в будущем
+! ӈирэӄ:ӈирэӄ NUM ; ! "два"
+опопы:опопы PART ;    ! ~must
+
+
+
+LEXICON Postpositions
+
+рээн:рээн POST ; ! "вместе с"
+ӄача:ӄача POST ; ! "около"
+
+LEXICON Case-prefixes
+
+@P.CASE.com@:@P.CASE.com@г%{Æ%}%> NOMINALS ;
+@P.CASE.assoc@:@P.CASE.assoc@га%> NOMINALS ;
+@P.CASE.prv@:@P.CASE.prv@%{Æ%}%> NOMINALS ;
+
+
+LEXICON NOMINALS
+: Nouns ;
+: Pronouns ;
+
+
+LEXICON CASES-ANIM
+
+@D.CASE@%<aa%>%<pl%>%<abs%>:@D.CASE@%>%{ы%}нти # ;
+@D.CASE@%<aa%>%<sg%>%<erg%>%<def%>:@D.CASE@%>%{ы%}н%{Æ%} # ;
+@D.CASE@%<aa%>%<pl%>%<erg%>%<def%>:@D.CASE@%>%{ы%}рык # ;
+@D.CASE@%<aa%>%<sg%>%<loc%>%<def%>:@D.CASE@%>%{ы%}н%{Æ%} # ;
+@D.CASE@%<aa%>%<pl%>%<loc%>%<def%>:@D.CASE@%>%{ы%}рык # ;
+@D.CASE@%<aa%>%<pl%>%<all%>%<def%>:@D.CASE@%>%{ы%}рыкы%{⁺ⱽᴴ%} # ;
+@D.CASE@%<aa%>%<all%>%<def%>:@D.CASE@%>%{ы%}на # ;
+@D.CASE@%<aa%>%<ess%>:@D.CASE@%>%{ы%}н # ;
+%<aa%>:%>%{ы%}р CASES-OBL ;
+
+
+
+
+LEXICON CASES-OBL                             !!
+
+@D.CASE@%<pl%>%<abs%>:@D.CASE@%>%{ы%}т%{и%} # ;
+@D.CASE@%<erg%>:@D.CASE@%>%{T%}%{Æ%} # ;
+@D.CASE@%<ess%>:@D.CASE@%>у # ;
+@D.CASE@%<loc%>:@D.CASE@%>%{ы%}к # ;
+@D.CASE@%<all%>:@D.CASE@%>%{G%}ты%{⁺ⱽᴴ%} # ;
+@D.CASE@%<abl%>:@D.CASE@%>%{G%}%{ы%}пы%{⁺ⱽᴴ%} # ;
+@D.CASE@%<ori%>:@D.CASE@%>%{ы%}гйит # ;
+@D.CASE@%<ine%>:@D.CASE@%>%{ы%}чыку # ;
+@D.CASE@%<per%>:@D.CASE@%>%{ы%}йэквэ%{⁺ⱽᴴ%} # ;
+@D.CASE@%<sub%>:@D.CASE@%>%{ы%}йиӈкы # ;
+@D.CASE@:@D.CASE@ POSS ;
+
+! circumfixes
+@R.CASE.com@%<com%>:@R.CASE.com@%>%{T%}%{Æ%} # ;
+@R.CASE.assoc@%<assoc%>:@R.CASE.assoc@%>%{ы%}ма%{⁺ⱽᴴ%} # ;
+@R.CASE.prv@%<prv%>:@R.CASE.prv@%>%{ы%}к%{Æ%} # ;
+
+
+
+
+LEXICON N-Ia-AATGYR                                   ! bare stem
+
+@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ # ;
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
+
+
+
+LEXICON N-Ia-JYNYR                                ! bare stem with n/ng alteration
+
+@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ # ;
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
+
+LEXICON N-Ib-ANGKY                                   ! stem-final vowel reduction
+
+@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%{°%} # ;
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
+
+
+
+LEXICON N-Ic-AJKOL                                   ! stem-final vowel deletion
+
+@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%{·%} # ;
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
+
+
+
+LEXICON N-Ic-EJNETKUNEN                          ! vowel deletion with n/ng alteration
+
+@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%{·%} # ;
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
+
+
+LEXICON N-IIa-VIIL-ABS                               ! full reduplication
+
+@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ # ;
+
+
+LEXICON N-IIb-VAJP-ABS                               ! partial reduplication
+
+@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ # ;
+
+
+LEXICON N-III-AVYNRAL                                   ! n absolutive
+
+@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%>%{ы%}н # ;
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
+
+
+
+LEXICON N-IV-ARAPA                                   ! ngy absolutive
+
+@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%>%{ы%}ӈы # ;
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
+
+
+
+LEXICON N-IV-QORA-ABS                                ! qora-qaa
+
+@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%>%{ы%}ӈы # ;
+
+
+LEXICON N-Vv-AVEEN                                   ! irregular; в-oblique
+
+@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ # ;
+%<n%>:в CASES-OBL ;
+%<n%>:в CASES-ANIM ;
+%<n%>:в N-DERIV-SUFF ;
+%<n%>:в POSS ;
+
+
+LEXICON N-Vvy-AGNOTVAN                               ! irregular; в-oblique; ы-abs
+
+@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ы # ;
+%<n%>:в CASES-OBL ;
+%<n%>:в CASES-ANIM ;
+%<n%>:в N-DERIV-SUFF ;
+%<n%>:в POSS ;
+
+
+LEXICON N-SING-AJOPYCH                               ! lg singulative
+
+@D.CASE@%<n%>%<sing%>%<abs%>:@D.CASE@%>%{ы%}ԓгын%{⁺ⱽᴴ%} # ;
+%<n%>: CASES-OBL ;
+%<n%>: N-DERIV-SUFF ;
+
+
+
+LEXICON N-SING-EPEEPEG                               ! lyng singulative
+
+@D.CASE@%<n%>%<sing%>%<abs%>:@D.CASE@%>%{ы%}ԓыӈын%{⁺ⱽᴴ%} # ;
+%<n%>: CASES-OBL ;
+%<n%>: N-DERIV-SUFF ;
+
+
+
+LEXICON N-VANGQASQOR-ABS
+
+@D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@ # ;
+
+
+LEXICON N-OBL
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
+
+LEXICON INTO-N-OBL
+: CASES-OBL ;
+: CASES-ANIM ;
+: N-DERIV-SUFF ;
+
+
+LEXICON N-DERIV-SUFF
+! these form nouns from verbs
+! %<ptcp%>%<act%>:ԓъ -%> nmzr also
+! %<ptcp%>%<pass%>:йо
+! %<nmzr%>:ԓӄыԓ
+%<nmzr%>:%>%{ы%}ԓъ N-DERIV-III ;
+%<nmzr%>:%>%{ы%}чь N-DERIV-III ;
+%<nmzr%>:%>%{ы%}гырг%{⁺ⱽᴴ%} N-DERIV-III ;
+%<nmzr%>:%>%{ы%}йоԓг N-DERIV-III ;
+%<nmzr%>:%>%{ы%}ӈэвыт N-DERIV-I ;
+%<nmzr%>:%>%{ы%}вйи N-DERIV-I ;
+%<dim%>:%>%{ы%}ӄ%{Æ%}й # ;
+%<dim%>:%>%{ы%}ӄ%{Æ%}й N-DERIV-I ;
+%<aug%>:%>%{ы%}ч%{ы%}ӈ N-DERIV-I ;
+%<aug%>:%>%{ы%}йӈ N-DERIV-I ;
+%<coop%>:%>%{ы%}мк N-DERIV-I ;
+%<coop%>:%>%{ы%}гинив N-DERIV-I ;
+%<prtt%>:%>%{ы%}тъул N-DERIV-I ;
+: N-DERIV-SPACIAL ;
+
+
+LEXICON N-DERIV-SPACIAL
+%<top%>:%>%{ы%}ткын%{⁺ⱽᴴ%} N-DERIV-I ;
+%<side%>:%>%{ы%}ӈӄача N-DERIV-Ic ;
+%<edge%>:%>%{ы%}ԓг N-DERIV-III ;
+%<side%>:%>%{ы%}чурм N-DERIV-III ;
+
+
+
+
+
+LEXICON POSS
+! different possessed, mark on the possessor
+%<poss%>%<1sg%>:%>ин%{Æ%}гым N-DERIV-I ;
+%<poss%>%<2sg%>:%>ин%{Æ%}гыт N-DERIV-I ;
+%<poss%>%<3sg%>:%>ин%{Æ%} N-DERIV-Ic ;
+%<poss%>%<1pl%>:%>ин%{Æ%}мури N-DERIV-I ;
+%<poss%>%<2pl%>:%>ин%{Æ%}тури N-DERIV-I ;
+%<poss%>%<3pl%>:%>ин%{Æ%}т%{и%} N-DERIV-I ;
+%<pl%>%<poss%>%<1sg%>:%>%{ы%}ргин%{Æ%}гым N-DERIV-I ;
+%<pl%>%<poss%>%<2sg%>:%>%{ы%}ргин%{Æ%}гыт N-DERIV-I ;
+%<pl%>%<poss%>%<3sg%>:%>%{ы%}ргин N-DERIV-I ;
+%<pl%>%<poss%>%<1pl%>:%>%{ы%}ргин%{Æ%}мури N-DERIV-I ;
+%<pl%>%<poss%>%<2pl%>:%>%{ы%}ргин%{Æ%}тури N-DERIV-I ;
+%<pl%>%<poss%>%<3pl%>:%>%{ы%}ргин%{Æ%}т%{и%} N-DERIV-I ;
+
+! different possessors, mark on the possessed
+%<px1sg%>%<abs%>:%>%{ы%}гым # ;
+%<px2sg%>%<abs%>:%>%{ы%}гыт # ;
+%<px3sg%>%<abs%>:%>%{ы%}н # ;
+%<px1pl%>%<abs%>:%>%{ы%}мури # ;
+%<px2pl%>%<abs%>:%>%{ы%}тури # ;
+%<px3pl%>%<abs%>:%>%{ы%}т%{и%} # ;
+
+LEXICON REL
+%<rel%>:%>%{ы%}кин N-DERIV-I ;
+
+
+LEXICON N-DERIV-I
+@D.CASE@%<sg%>%<abs%>:@D.CASE@ # ;
+: CASES-OBL ;
+: CASES-ANIM ;
+
+LEXICON N-DERIV-Ic
+@D.CASE@%<sg%>%<abs%>:@D.CASE@{·%} # ;
+: CASES-OBL ;
+: CASES-ANIM ;
+
+>>>>>>> 780fc70b23b8d8c47e7c3c32a3518f831fb6545d
 LEXICON N-DERIV-III
 @D.CASE@%<sg%>%<abs%>:@D.CASE@%>ын # ;
 : CASES-OBL ;
 : CASES-ANIM ;
+<<<<<<< HEAD
 : N-DERIV-SUFF ;
+=======
+>>>>>>> 780fc70b23b8d8c47e7c3c32a3518f831fb6545d
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -3718,7 +4017,10 @@ LEXICON Nouns
 паннатъеӄ:паннэек N-Ia-AATGYR ;    ! * топорок (птица)
 паннатъеӄ:паннатъеӄ N-Ia-AATGYR ;    ! * топорок (птица)
 ӈэԓвыԓ:ӈэԓвыԓ N-Ia-AATGYR ; ! "табун"
+<<<<<<< HEAD
 ӈээккэт:ӈ%{Æ%}%{Æ%}кк%{Æ%}т N-Ia-AATGYR ; ! дочь
+=======
+>>>>>>> 780fc70b23b8d8c47e7c3c32a3518f831fb6545d
 
 
 LEXICON PRON-GYM
@@ -3729,7 +4031,11 @@ LEXICON PRON-GYM
 ! %<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ыкы # ;
 ! %<prn%>%<pers%>%<p1%>%<sg%>%<all%>:ыкагты # ;
 ! %<prn%>%<pers%>%<p1%>%<sg%>%<equ%>:ыгмил # ;
+<<<<<<< HEAD
 %<prn%>%<pers%>%<p1%>%<sg%>%<der%>%<subst%>:%>нин N-DERIV-SPACIAL ;
+=======
+%<prn%>%<pers%>%<p1%>%<sg%>%+инэ%<der%>%<subst%>:%>нин N-DERIV-SPACIAL ;
+>>>>>>> 780fc70b23b8d8c47e7c3c32a3518f831fb6545d
 %<prn%>%<pers%>%<p1%>%<sg%>: PRON-PERS-CASES ;
 %<prn%>%<pers%>%<p1%>%<sg%>:н POSS ;
 
@@ -3742,7 +4048,11 @@ LEXICON PRON-GYT
 ! %<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:тыкы # ;
 ! %<prn%>%<pers%>%<p2%>%<sg%>%<all%>:тыкагты # ;
 ! %<prn%>%<pers%>%<p2%>%<sg%>%<equ%>:тыгмил # ;
+<<<<<<< HEAD
 %<prn%>%<pers%>%<p2%>%<sg%>%<der%>%<subst%>:%>нин N-DERIV-SPACIAL ;
+=======
+%<prn%>%<pers%>%<p2%>%<sg%>%+инэ%<der%>%<subst%>:%>нин N-DERIV-SPACIAL ;
+>>>>>>> 780fc70b23b8d8c47e7c3c32a3518f831fb6545d
 %<prn%>%<pers%>%<p2%>%<sg%>:н PRON-PERS-CASES ;
 
 LEXICON PRON-YTLJON
@@ -3936,12 +4246,130 @@ LEXICON V-TENSE-PREFIXES
 :%[%+fut%]р%{Æ%}%> V-INV ;
 :%[%+cond%]ъ%{ы%}%> V-INV ;
 : V-INV ;
+<<<<<<< HEAD
 
 LEXICON V-INV
 :%[%+inv2%]ин%{Æ%}%> Verb-deriv-prefixes ;
 : Verbs ;
 
 
+=======
+
+LEXICON V-INV
+:%[%+inv2%]ин%{Æ%}%> Verb-deriv-prefixes ;
+: Verbs ;
+
+!!!!!! Derivational prefixes
+
+LEXICON Verb-deriv-prefixes
+:%[%+approx%]м%{Æ%}ч%{ы%}%> Verbs ;
+:%[%+ints%]т%{Æ%}ӈ%{ы%}%> V-DERIV-PREF-INTS ;
+: V-DERIV-PREF-INTS ;
+
+LEXICON V-DERIV-PREF-INTS
+:%[%+ints2%]ԓги%> V-DERIV-PREF-DESID ;
+: V-DERIV-PREF-DESID ;
+
+LEXICON V-DERIV-PREF-DESID
+:%[%+desid%]р%{Æ%}%> V-DERIV-PREF-AP ;
+: V-DERIV-PREF-AP ;
+
+LEXICON V-DERIV-PREF-AP
+:%[%+ap%]ин%{Æ%}%> V-DERIV-PREF-CAUS ;
+: V-DERIV-PREF-CAUS ;
+
+LEXICON V-DERIV-PREF-CAUS
+:%[%+caus%]н%{ы%}%> Verbs ;
+:%[%+caus%]р%{ы%}%> Verbs ;
+: Verbs ;
+
+! circum: desid, cs+th
+
+
+! %<root here%>
+
+
+!!!!!! Derivational suffixes
+
+LEXICON V-DERIV
+! prefix tags
+%<approx%>:%[%+approx%] V-IV-AFFIX ;
+! thematic smth
+%<th%>:%>въи # ;
+: V-DERIV-INTS ;
+
+LEXICON V-DERIV-INTS
+%<ints%>:%[%+ints%] V-DERIV-INTS2 ;
+: V-DERIV-INTS2 ;
+
+LEXICON V-DERIV-INTS2
+%<ints2%>:%[%+ints2%] V-DERIV-AP-PREF ;
+: V-DERIV-AP-PREF ;
+
+LEXICON V-DERIV-AP-PREF
+%<ap%>:%[%+ap%] V-DERIV-CAUS ;
+: V-DERIV-CAUS ;
+
+LEXICON V-DERIV-CAUS
+%<caus%>:%[%+caus%] V-DERIV-SUFF ;
+: V-DERIV-SUFF ;
+
+LEXICON V-DERIV-SUFF
+! incompatible w/others (probably)
+%<punct%>:%>%{ы%}чӄыч%{Æ%}т V-DERIV-TH ;
+%<dim%>:%>%{ы%}ӄ%{Æ%}%{Æ%}т V-DERIV-TH ;
+%<aug%>:%>%{ы%}чгат V-DERIV-TH ;
+! attach right to the stem
+%<res%>:%>%{ы%}тва V-DERIV-TH ;
+%<rev%>:%>%{ы%}тв V-DERIV-TH ;
+%<purp%>:%>%{ы%}чӄив V-DERIV-TH ;
+%<consume%>:%>у V-DERIV-TH ;
+%<utilit%>:%>%{ы%}тку V-DERIV-TH ;
+: V-DERIV-TH ;
+
+LEXICON V-DERIV-TH
+%<th%>:%>%{Æ%}т V-DERIV-AP ;
+%<th%>:%>%{Æ%}в V-DERIV-AP ;
+%<th%>:%>%{Æ%}%{Æ%} V-DERIV-AP ;
+%<th%>:%>ъ%{Æ%} V-DERIV-AP ;
+: V-DERIV-AP ;
+
+
+LEXICON V-DERIV-AP             ! Antipassive
+%<ap2%>:%>%{ы%}тку V-DERIV-DESID ;
+: V-DERIV-DESID ;
+
+LEXICON V-DERIV-DESID
+%<desid%>:%[%+desid%]%>ӈ V-DERIV-ITER ;
+: V-DERIV-ITER ;
+
+LEXICON V-DERIV-ITER
+%<iter%>:%>%{ы%}тку V-DERIV-COOP ;
+: V-DERIV-COOP ;
+
+LEXICON V-DERIV-COOP
+%<coop_s%>:%>%{ы%}ръу V-DERIV-DUR ;
+%<coop_o%>:%>%{ы%}йв V-DERIV-DUR ;
+: V-DERIV-DUR ;
+
+LEXICON V-DERIV-DUR
+%<dur%>:%>%{ы%}ԓъ%{Æ%}т V-DERIV-INCH ;
+: V-DERIV-INCH ;
+
+LEXICON V-DERIV-INCH
+%<inch%>:%>%{ы%}мго V-DERIV-FIN ;
+%<inch2%>:%>%{ы%}ӈӈо V-DERIV-FIN ;
+%<compl%>:%>%{ы%}пԓытку V-DERIV-FIN ;
+: V-DERIV-FIN ;
+
+LEXICON V-DERIV-FIN
+! these form nouns from verbs
+%<ptcp%>%<act%>:ԓь INTO-N-OBL ;
+%<ptcp%>%<pass%>:йо INTO-N-OBL ;
+%<ger%>:ԓӄыԓ INTO-N-OBL ;
+@U.V.iv@:@U.V.iv@ V-IV-AFFIX ;
+@U.V.tv@:@U.V.tv@ V-TV-AFFIX ;
+>>>>>>> 780fc70b23b8d8c47e7c3c32a3518f831fb6545d
 
 
 LEXICON V
@@ -6195,6 +6623,7 @@ LEXICON Verbs
 янръатык:янръат V ;    ! отделяться
 ярарыткок:ярарытко V ;    ! барабанить
 
+<<<<<<< HEAD
 
 !!!!!! Derivational prefixes
 
@@ -6330,6 +6759,8 @@ LEXICON V-DERIV-FIN
 @U.V.tv@:@U.V.tv@ V-TV-AFFIX ;
 !
 
+=======
+>>>>>>> 780fc70b23b8d8c47e7c3c32a3518f831fb6545d
 ! Manual
 тыԓяк:тыԓя V ;                ! двигаться
 выёпчак:в%{ы%}ёпча V ;    ! свистеть
@@ -6455,8 +6886,11 @@ LEXICON V-DERIV-FIN
 тъирэк:тъир%{Æ%} V ;    ! дремать
 тэвык:тэв V ;    ! грести короткими вёслами
 икын:ик V ;     ! говорить
+<<<<<<< HEAD
 тэвмэтэвык:т%{Æ%}вм%{Æ%}т%{Æ%}в V ;   ! быть неспособным
 пэӄэтык:пэӄэт V ;    ! падать
+=======
+>>>>>>> 780fc70b23b8d8c47e7c3c32a3518f831fb6545d
 
 вак:тва V ;    ! 1) быть, существовать; 2) находиться; 3) жить, проживать
 вак:ва V ;    ! 1) быть, существовать; 2) находиться; 3) жить, проживать
