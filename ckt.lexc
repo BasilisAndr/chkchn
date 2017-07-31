@@ -873,6 +873,8 @@ LEXICON Adverbs
 ӈачгыӈкы:ӈачгыӈкы  ADV ; ! "слева"
 гагԓеты:гагԓеты  ADV ; ! "торопливо"
 янот:янот ADV ; ! "сначала"
+эчги:эчги ADV ; ! не раньше
+ӄынвэт:ӄынвэт ADV ; ! наконец
 
 
 
@@ -1002,9 +1004,9 @@ LEXICON Miscellaneous
 ым:ым PART ;      ! emph
 иаʼм:иаʼм PART ;     ! why
 ынан:ынан PART ;     ! эмфаза в будущем
-! ӈирэӄ:ӈирэӄ NUM ; ! "два"
 опопы:опопы PART ;    ! ~must
 ынӈин:ынӈин PART ;    ! so, thus, и так и
+ӄытԓыги:ӄытԓыги PART ;    ! тем не менее
 
 
 LEXICON Postpositions
@@ -3719,6 +3721,8 @@ LEXICON Nouns
 паннатъеӄ:паннатъеӄ N-Ia-AATGYR ;    ! * топорок (птица)
 ӈэԓвыԓ:ӈэԓвыԓ N-Ia-AATGYR ; ! "табун"
 ӈээккэт:ӈ%{Æ%}%{Æ%}кк%{Æ%}т N-Ia-AATGYR ; ! дочь
+ытԓыг:ытԓыг N-III-AVYNRAL ;    ! отец
+ытԓя:ытԓя N-Ia-AATGYR ; ! мать
 
 
 LEXICON PRON-GYM
