@@ -29,3 +29,5 @@ final: ckt.lexctwoc.hfst ckt.twol.hfst ;
 	hfst-invert ckt.gen.hfst -o ckt.mor.hfst
 	hfst-fst2fst --format=optimized-lookup-weighted -i ckt.mor.hfst -o ckt.mor.hfstol
 	hfst-fst2fst --format=optimized-lookup-weighted -i ckt.gen.hfst -o ckt.gen.hfstol
+clean:
+	rm *.hfst *.hfstol
