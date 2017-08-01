@@ -229,16 +229,16 @@ LEXICON N-DERIV-I
 @D.CASE@%<sg%>%<abs%>:@D.CASE@ # ;
 : CASES-OBL ;
 : CASES-ANIM ;
-: N-DERIV-SUFF ;
+! : N-DERIV-SUFF ;
 
 LEXICON N-DERIV-Ic
 @D.CASE@%<sg%>%<abs%>:@D.CASE@{·%} # ;
 : CASES-OBL ;
 : CASES-ANIM ;
-: N-DERIV-SUFF ;
+! : N-DERIV-SUFF ;
 
 LEXICON N-DERIV-III
 @D.CASE@%<sg%>%<abs%>:@D.CASE@%>ын # ;
 : CASES-OBL ;
 : CASES-ANIM ;
-: N-DERIV-SUFF ;
+! : N-DERIV-SUFF ;
