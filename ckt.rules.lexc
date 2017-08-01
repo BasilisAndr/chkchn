@@ -208,7 +208,7 @@ Multichar_Symbols
 ! @P.TENSE.fut@ @R.TENSE.fut@
 ! @P.TENSE.cond@ @R.TENSE.cond@
 @D.TENSE@
-@P.VDER.approx@ @R.VDER.approx@ @D.VDER.approx@		
+@P.VDER.approx@ @R.VDER.approx@ @D.VDER.approx@
 @P.VDER.ints@ @R.VDER.ints@ @D.VDER.ints@
 @P.VDER.ints2@ @R.VDER.ints2@ @D.VDER.ints2@
 @P.VDER.ap@ @R.VDER.ap@ @D.VDER.ap@
