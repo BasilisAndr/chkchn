@@ -13,6 +13,11 @@ LEXICON NOMINALS
 
 LEXICON CASES-ANIM
 
+@D.CASE@%<aa%>%<ess%>:@D.CASE@%>%{ы%}н # ;
+: CASES-ANIM-OBL ;
+
+
+LEXICON CASES-ANIM-OBL
 @D.CASE@%<aa%>%<pl%>%<abs%>:@D.CASE@%>%{ы%}нти # ;
 @D.CASE@%<aa%>%<sg%>%<erg%>%<def%>:@D.CASE@%>%{ы%}н%{Æ%} # ;
 @D.CASE@%<aa%>%<pl%>%<erg%>%<def%>:@D.CASE@%>%{ы%}рык # ;
@@ -20,10 +25,7 @@ LEXICON CASES-ANIM
 @D.CASE@%<aa%>%<pl%>%<loc%>%<def%>:@D.CASE@%>%{ы%}рык # ;
 @D.CASE@%<aa%>%<pl%>%<all%>%<def%>:@D.CASE@%>%{ы%}рыкы%{⁺ⱽᴴ%} # ;
 @D.CASE@%<aa%>%<all%>%<def%>:@D.CASE@%>%{ы%}на # ;
-@D.CASE@%<aa%>%<ess%>:@D.CASE@%>%{ы%}н # ;
 %<aa%>:%>%{ы%}р CASES-OBL ;
-
-
 
 
 LEXICON CASES-OBL                             !!
@@ -104,7 +106,7 @@ LEXICON N-III-AVYNRAL                                   ! n absolutive
 
 @D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%>%{ы%}н # ;
 %<n%>: CASES-OBL ;
-%<n%>: CASES-ANIM ;
+%<n%>: CASES-ANIM-OBL ;
 %<n%>: N-DERIV-SUFF ;
 
 
@@ -242,3 +244,8 @@ LEXICON N-DERIV-III
 : CASES-OBL ;
 : CASES-ANIM ;
 ! : N-DERIV-SUFF ;
+
+LEXICON N-DERIV-PART
+@D.CASE@%<sg%>%<abs%>:@D.CASE@%>ин # ;
+:%>ин%{Æ%} CASES-OBL ;
+:%>ин%{Æ%} CASES-ANIM ;

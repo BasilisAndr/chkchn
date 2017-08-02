@@ -192,7 +192,10 @@ V:0 <=> .#. _ %>: :Vow ;       ! same as for rec but can be written shorter
 "t insertion after vowel-final stems"
 ! г {Æ}:0 >:0 а й в а >:0 {T}:т {Æ}:а
 ! г {Æ}:0 >:0 а г т а ч г >:0 {T}:0 {Æ}:а
+! т а й к >:0 {ы}:ы й о {T}:т >:0 {T}:т {Æ}:э
 %{T%}:т <=> Vow :0* %>: _ ;
+             %{T%}: %>: _ ;
+                        _ %>: %{T%}: ;
 
 
 "All/Abl allomorph г-"

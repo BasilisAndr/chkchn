@@ -101,6 +101,11 @@ Multichar_Symbols
 %<o_pl2%>                 ! Object, 2nd person plural
 %<o_pl3%>                 ! Object, 3rd person plural
 
+%<a_1%>                   ! Agent, 1st person
+%<a_3%>                   ! Agent, 3rd person
+%<o_2%>                   ! Object, 2nd person
+%<o_3%>                   ! Object, 2nd person
+
 %<pl%>                    ! Plural
 %<sg%>                    ! Singular
 
@@ -267,6 +272,9 @@ LEXICON PTCP
 
 LEXICON CONJ          ! ?
 %<cnjcoo%>: # ;
+
+LEXICON CONJ-CA
+%<cnjadv%>: # ;
 
 LEXICON PART
 %<part%>: # ;

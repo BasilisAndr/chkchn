@@ -39,8 +39,10 @@ LEXICON PRON-TURI
 %<prn%>%<pers%>%<p2%>%<pl%>%<abs%>:и # ;
 %<prn%>%<pers%>%<p2%>%<pl%>: PRON-PERS-CASES ;
 
-LEXICON PRON-YCCI
+LEXICON PRON-YCCI-ABS
 %<prn%>%<pers%>%<p3%>%<pl%>%<abs%>:и # ;
+
+LEXICON PRON-YCCI-OBL
 %<prn%>%<pers%>%<p3%>%<pl%>: PRON-PERS-CASES ;
 
 
@@ -132,6 +134,9 @@ LEXICON PRON-AMYNAN
 %<prn%>%<restr%>%<p3%>%<pl%>:ыччынан # ;
 
 
+LEXICON PRON-ITG
+%<prn%>%<itg%>: # ;
+
 ! LEXICON PRON                                 !! Generic pronoun [to be categorised]
 
 ! %<prn%>: # ;
@@ -149,8 +154,10 @@ LEXICON Pronouns
 ытԓён:ы PRON-YTLJON ;
 мури:мур PRON-MURI ;  ! 1pl
 тури:тур PRON-TURI ;  ! 2pl
-ыччи:ычч PRON-YCCI ;     ! 3pl females
-ытри:ырг PRON-YCCI ;     ! 3pl males
+ыччи:ычч PRON-YCCI-ABS ;     ! 3pl females
+ыччи:ычч PRON-YCCI-OBL ;     ! 3pl females
+ытри:ытр PRON-YCCI-ABS ;     ! 3pl males
+ытри:ырг PRON-YCCI-OBL ;     ! 3pl males
 
 
 ымыԓьо:ымыԓьо PRON-YMYLJO ;
@@ -179,3 +186,5 @@ LEXICON Pronouns
 имымэӈин:имымик PRON-IMYRXENUT-OBL ;   ! все
 
 ам:ам PRON-AMYNAN ;
+
+эʼми:эʼми PRON-ITG ;    ! где (с существитеԓьными)
