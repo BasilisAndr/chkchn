@@ -108,14 +108,17 @@ LEXICON V-DERIV-DUR
 LEXICON V-DERIV-INCH
 %<inch%>:%>%{ы%}мго V-DERIV-FIN ;
 %<inch2%>:%>%{ы%}ӈӈо V-DERIV-FIN ;
+%<inch2%>:%>%{ы%}мго V-DERIV-FIN ;
 %<compl%>:%>%{ы%}пԓытку V-DERIV-FIN ;
 : V-DERIV-FIN ;
 
 LEXICON V-DERIV-FIN
 ! these form nouns from verbs
-@D.VPR@%<ptcp%>%<act%>:@D.VPR@ԓь N-DERIV-I ;
-@D.VPR@%<ptcp%>%<pass%>:@D.VPR@йо N-DERIV-I ;
-@D.VPR@%<ger%>:@D.VPR@ԓӄыԓ N-DERIV-I ;
+@D.VPR@%<ptcp%>%<act%>:@D.VPR@%>%{ы%}ԓь N-DERIV-I ;
+@R.VPR.vb_neg@%<ptcp%>%<pass%>:@R.VPR.vb_neg@%>%{ы%}ԓь%>%{T%}%{Æ%} N-DERIV-I ;
+@R.VPR.vb_neg2@%<ptcp%>%<pass%>:@R.VPR.vb_neg2@%>%{ы%}ԓь%>%{Æ%} N-DERIV-PART ;
+@D.VPR@%<ptcp%>%<pass%>:@D.VPR@%>%{ы%}йо%{T%} N-DERIV-I ;
+@D.VPR@%<ger%>:@D.VPR@%>%{ы%}ԓӄыԓ N-DERIV-I ;
 @D.VPR@%<ger%>:@D.VPR@%>%{ы%}гырг%{⁺ⱽᴴ%} N-DERIV-III ;
 
 @R.VPR.vb_com@%<com%>%<vb%>:@R.VPR.vb_com@%>%{T%}%{Æ%} # ;
