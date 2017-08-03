@@ -50,7 +50,7 @@ Multichar_Symbols
 %<pass%>
 %<ger%>
 
-%<th%>                    ! thematic verb suffix вьи
+%<th%>                    ! thematic verb suffixes
 %<approx%>                ! Approximative
 %<ints%>                  ! Intensifier
 %<ints2%>                 ! Intensifier 2
@@ -77,6 +77,7 @@ Multichar_Symbols
 %<compl%>                 ! Completive
 %<imposs%>                ! Impossibilitive
 %<restr%>                 ! Restrictive
+%<rel_n%>                 ! Relational noun
 
 
 
@@ -156,6 +157,7 @@ Multichar_Symbols
 %<aug%>
 %<coop%>
 %<prtt%>                  ! Part of
+%<pers_n%>                ! Personal name
 
 %<pers%>                  ! Personal pronoun
 %<itg%>                   ! Interrogative pronoun
@@ -196,9 +198,6 @@ Multichar_Symbols
 @P.VPR.q@ @R.VPR.q@
 @P.VPR.n@ @R.VPR.n@
 @P.VPR.ne@ @R.VPR.ne@
-@P.VPR.ine@ @R.VPR.ine@
-@P.VPR.qine@ @R.VPR.qine@
-@P.VPR.nine@ @R.VPR.nine@
 @P.VPR.yn@ @R.VPR.yn@
 @P.VPR.perf@ @R.VPR.perf@
 @P.VPR.hab@ @R.VPR.hab@
@@ -210,19 +209,9 @@ Multichar_Symbols
 @P.VPR.vb_neg2@ @R.VPR.vb_neg2@
 @P.VPR.imposs@ @R.VPR.imposs@
 @D.VPR@
-! @P.TENSE.fut@ @R.TENSE.fut@
-! @P.TENSE.cond@ @R.TENSE.cond@
 @D.TENSE@
-@P.VDER.approx@ @R.VDER.approx@ @D.VDER.approx@
-@P.VDER.ints@ @R.VDER.ints@ @D.VDER.ints@
-@P.VDER.ints2@ @R.VDER.ints2@ @D.VDER.ints2@
-@P.VDER.ap@ @R.VDER.ap@ @D.VDER.ap@
-@P.VDER.caus@ @R.VDER.caus@ @D.VDER.caus@
-@P.VDER.desid@ @R.VDER.desid@ @D.VDER.desid@
-@P.VDER.x@
-@D.VDER@
-@U.V.iv@
-@U.V.tv@
+@U.V.iv@ @R.V.iv@ @P.V.iv@
+@U.V.tv@ @R.V.tv@ @P.V.tv@
 
 %[%+approx%]
 %[%+ints%]
@@ -234,6 +223,7 @@ Multichar_Symbols
 %[%+cond%]
 %[%+inv%]       ! тку
 %[%+inv2%]       ! инэ
+%[%+f%]        ! female of all types of animals
 
 
 
@@ -245,6 +235,7 @@ LEXICON Root
 
 !Temp ;
 Case-prefixes ;
+! N-deriv-prefixes ;
 Nouns ;
 Adverbs ;
 Interjections ;
@@ -263,6 +254,17 @@ Verbs ;
 
 LEXICON ADV
 %<adv%>: # ;
+%<adv%>%<rel%>:%>%{ы%}ԓь N-DERIV-III ;
+
+! LEXICON ADJ
+! %<adj%>: #
+! %<adj%>%<rel_n%>:%>%{ы%}ԓь INTO-N-III ;
+! %<adj%>%<rel_n%>:%>%{ы%}чь INTO-N-III ;
+! %<adv%>%<ger%>:%>%{ы%}гырг%{⁺ⱽᴴ%} INTO-N-III ;
+! %<adv%>%<ger%>:%>%{ы%}я INTO-N-III ;       ! 'age' nominalisation
+
+
+
 
 LEXICON INTJ
 %<ij%>: # ;
