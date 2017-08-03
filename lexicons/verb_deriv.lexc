@@ -8,7 +8,7 @@ LEXICON Verb-deriv-prefixes
 : V-DERIV-PREF-INTS ;
 
 LEXICON V-DERIV-PREF-INTS
-:%[%+ints2%]ԓги%> V-DERIV-VBASE ;
+:%[%+ints2%]ԓ%{ы%}ги%> V-DERIV-VBASE ;
 : V-DERIV-VBASE ;
 
 LEXICON V-DERIV-VBASE
@@ -56,11 +56,12 @@ LEXICON V-DERIV-INTS2
 : V-DERIV-AP-PREF ;
 
 LEXICON V-DERIV-AP-PREF
-%<ap%>:%[%+ap%] V-DERIV-CAUS ;
+@R.V.tv@@P.V.iv@%<ap%>:@R.V.tv@@P.V.iv@%[%+ap%] V-DERIV-CAUS ;
+@U.V.tv@%<ap%>:@U.V.tv@%[%+ap%] V-DERIV-CAUS ;
 : V-DERIV-CAUS ;
 
 LEXICON V-DERIV-CAUS
-%<caus%>:%[%+caus%] V-DERIV-SUFF ;
+@R.V.iv@@P.V.tv@%<caus%>:@R.V.iv@@P.V.tv@%[%+caus%] V-DERIV-SUFF ;
 : V-DERIV-SUFF ;
 
 LEXICON V-DERIV-SUFF
@@ -85,7 +86,7 @@ LEXICON V-DERIV-TH
 
 
 LEXICON V-DERIV-AP             ! Antipassive
-%<ap2%>:%>%{ы%}тку V-DERIV-DESID ;
+@R.V.tv@@P.V.iv@%<ap2%>:@R.V.tv@@P.V.iv@%>%{ы%}тку V-DERIV-DESID ;
 : V-DERIV-DESID ;
 
 LEXICON V-DERIV-DESID
@@ -114,13 +115,19 @@ LEXICON V-DERIV-INCH
 
 LEXICON V-DERIV-FIN
 ! these form nouns from verbs
-@D.VPR@%<ptcp%>%<act%>:@D.VPR@%>%{ы%}ԓь N-DERIV-I ;
-@R.VPR.vb_neg@%<ptcp%>%<pass%>:@R.VPR.vb_neg@%>%{ы%}ԓь%>%{T%}%{Æ%} N-DERIV-I ;
-@R.VPR.vb_neg2@%<ptcp%>%<pass%>:@R.VPR.vb_neg2@%>%{ы%}ԓь%>%{Æ%} N-DERIV-PART ;
-@D.VPR@%<ptcp%>%<pass%>:@D.VPR@%>%{ы%}йо%{T%} N-DERIV-I ;
-@D.VPR@%<ger%>:@D.VPR@%>%{ы%}ԓӄыԓ N-DERIV-I ;
-@D.VPR@%<ger%>:@D.VPR@%>%{ы%}гырг%{⁺ⱽᴴ%} N-DERIV-III ;
+%<ptcp%>: V-DERIV-PTCP ;
+@D.VPR@%<ger%>:@D.VPR@%>%{ы%}ԓӄыԓ INTO-N-I ;
+@D.VPR@%<ger%>:@D.VPR@%>%{ы%}гырг%{⁺ⱽᴴ%} INTO-N-III ;
+@D.VPR@%<ger%>:@D.VPR@%>%{ы%}н%{⁺ⱽᴴ%} INTO-N-Vv ;       ! locative nom
+@D.VPR@%<ger%>:@D.VPR@%>%{ы%}я INTO-N-III ;       ! 'age' nominalisation
+@U.V.iv@@D.VPR@%<ger%>:@U.V.iv@@D.VPR@%>%{и%}н%{Æ%}ӈ%{Æ%} INTO-N-Ic ;       ! instrumental nominalisation
+@D.VPR@%<ger%>:@D.VPR@%>%{ы%}йоԓг INTO-N-III ;       ! 'container' nominalisation
+@D.VPR@%<ger%>:@D.VPR@ POSS ;       ! possessive nominalisation
+@D.VPR@%<ger%>:@D.VPR@ REL ;       ! relational nominalisation
 
+
+
+! these are verb bases
 @R.VPR.vb_com@%<com%>%<vb%>:@R.VPR.vb_com@%>%{T%}%{Æ%} # ;
 @R.VPR.vb_com@%<com%>%<vb%>:@R.VPR.vb_com@%>%{ы%}ма # ;
 @R.VPR.vb_restr@%<restr%>%<vb%>:@R.VPR.vb_restr@%>%{T%}%{Æ%} # ;
@@ -135,4 +142,18 @@ LEXICON V-DERIV-FIN
 
 @U.V.iv@:@U.V.iv@ V-IV-AFFIX ;
 @U.V.tv@:@U.V.tv@ V-TV-AFFIX ;
-!
+
+
+LEXICON V-DERIV-PTCP
+! active (intr only)
+!! positive polarity
+@U.V.iv@@D.VPR@%<act%>:@U.V.iv@@D.VPR@%>%{ы%}ԓь INTO-N-I ;
+!! negative polarity
+@U.V.iv@@R.VPR.vb_neg@%<act%>%<neg%>:@U.V.iv@@R.VPR.vb_neg@%>%{T%}%{Æ%}%>%{ы%}ԓь INTO-N-I ;
+@U.V.iv@@R.VPR.vb_neg2@%<act%>%<neg%>:@U.V.iv@@R.VPR.vb_neg2@%>%{ы%}к%{Æ%}%>%{ы%}ԓь INTO-N-NEG-PART ;
+! passive (tr only)
+!! negative polarity
+@U.V.tv@@R.VPR.vb_neg@%<pass%>%<neg%>:@U.V.tv@@R.VPR.vb_neg@%>%{ы%}ԓь%>%{T%}%{Æ%} INTO-N-I ;
+@U.V.tv@@R.VPR.vb_neg2@%<pass%>%<neg%>:@U.V.tv@@R.VPR.vb_neg2@%>%{ы%}ԓь%>%{Æ%} INTO-N-NEG-PART ;
+!! positive polarity
+@U.V.tv@@D.VPR@%<pass%>:@U.V.tv@@D.VPR@%>%{ы%}йо%{T%} INTO-N-I ;

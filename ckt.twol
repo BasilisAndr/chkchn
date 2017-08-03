@@ -175,7 +175,7 @@ V:0 <=> .#. _ %>: :Vow ;       ! same as for rec but can be written shorter
 ! м ы т {ы}:0 >:0 г {ы}:ы р >:0 {ы}:0 м ы к
 ! м {ы}:ы >:0 к ы ԓ е >:0 {ы}:0 к
 %{ы%}:ы <=> [ :Cns | .#. ] :0* [ :Cns | :Glottal ] [ :0 - Vow: ]* _ :0* :Cns ;       ! first syll/three :Cns in a row, after the second
-            :Cns [ :0 - Vow: ]* _ :0* :Cns :0* [ :Cns | .#. ] ;       ! last syll/three :Cns in a row, after the first
+            :Cns [ :0 - Vow: ]* _ :0* :Cns :0* [ :Cns | :Glottal | .#. ] ;       ! last syll/three :Cns in a row, after the first
        :Vow :Cns :0* %>: %{G%}: _ ;
 
 
@@ -245,6 +245,7 @@ V:ы <=>  _ %{°%}: .#. ;
 %{N%}:г <=> _ :0* [ :Nasal & :Anterior ] ;
       except
             :г :0* _ ;
+            :Vow :Cns :0* %>: ч %{ы%}: _ ;
 
 "N allomorph н"
 ! %{Æ%}ʼйӈ%{Æ%}выткун%{Æ%}%{N%}%{Æ%}
@@ -253,11 +254,15 @@ V:ы <=>  _ %{°%}: .#. ;
 %{N%}:н <=> :г :0* _ ;
                _ :0* [ :Alveolar - :Nasal | :й ] ;
                _ :0* .#. ;
+               :Vow :Cns :0* %>: ч %{ы%}: _ ;
+
 
 "N allomorph м"
 %{N%}:м <=> _ :0* [ :Bilabial - :Nasal ];
       except
             :г :0* _ ;
+            :Vow :Cns :0* %>: ч %{ы%}: _ ;
+
 
 "п assimilation"
 ! в а т а п:м >:0 {ы}:0 н а
