@@ -30,6 +30,7 @@ Alphabet
 %[%+cond%]:0
 %[%+inv%]:0
 %[%+inv2%]:0
+%[+itsaverb%]:0
 ;
 
 Rules
@@ -78,3 +79,7 @@ Rules
 "Inversive prefix ine"
 %[%+inv2%]:0 <=> _ :* %[%+inv2%]:0 ;
                 %[%+inv2%]:0 :* _ ;
+
+"Verb derived"
+%[%+itsaverb%]:0 <=> _ :* %[%+itsaverb%]:0 ;
+                %[%+itsaverb%]:0 :* _ ;

@@ -298,6 +298,10 @@ LEXICON ADJ-FIN
 @D.ADJ@%<adj%>%<ger%>:@D.ADJ@%>%{ы%}гырг%{⁺ⱽᴴ%} INTO-N-III ;
 @D.ADJ@%<adj%>%<ger%>:@D.ADJ@%>я INTO-N-III ;       ! 'age' nominalisation
 
+@D.ADJ@%<v%>:@D.ADJ@%>%{Æ%}т V ;
+@D.ADJ@%<v%>:@D.ADJ@%>%{Æ%}в V ;
+
+
 
 LEXICON Adj-prefixes
 @P.ADJ.n@:@P.ADJ.n@н%{ы%}%> Adjectives ;
@@ -305,9 +309,16 @@ LEXICON Adj-prefixes
 
 LEXICON Intensifiers
 :%[%+ints%]т%{Æ%}%{N%}%{ы%}%> Adj-prefixes ;
-:%[%+ints2%]ныԓги%> Adj-prefixes ;
+:%[%+ints%]т%{Æ%}%{N%}%{ы%}%> NOMINALS ;
+:т%{Æ%}%{N%}%{ы%}%> NEG ;
+:%[%+ints2%]ԓ%{ы%}ги%> Adj-prefixes ;
 :%[%+approx%]м%{Æ%}ԓ%> Adj-prefixes ;
-:%[%+ints3%]ԓ%{ы%}ги%> Adj-prefixes ;
+:%[%+ints2%]ԓ%{ы%}ги%> NOMINALS ;
+:%[%+approx%]м%{Æ%}ԓ%> NOMINALS ;
+:м%{Æ%}ԓ%> NEG ;
+:%[%+ints3%]ныԓги%> Adj-prefixes ;
+
+
 
 
 LEXICON INTJ
