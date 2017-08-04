@@ -701,6 +701,7 @@ LEXICON Miscellaneous
 ээй:ээй PART ;    ! да, конечно
 ӄун:ӄун PART ;    ! ну
 ӄырым:ӄырым PART ;    ! (2) 1. нет; 2. не
+ӄырым:ӄычым PART ;    ! (2) 1. нет; 2. не
 ӄырымэн:ӄырымэн PART ;    ! (2) не; қырымэн микын ничей
 ӄэйвипэ:ӄэйвипэ PART ;    ! действитеԓьно ԓи? см. қэйгипэ
 ӄэйвэ:ӄэйвэ PART ;    ! действитеԓьно
@@ -737,6 +738,21 @@ LEXICON Postpositions
 рээн:рээн POST ; ! "вместе с"
 ӄача:ӄача POST ; ! "около"
 
+
+LEXICON NEG
+ӄырым:ӄырым%{⁺ⱽᴴ%} NEG-CLITICS ;    ! (2) 1. нет; 2. не
+ӄырым:ӄычым%{⁺ⱽᴴ%} NEG-CLITICS ;    ! (2) 1. нет; 2. не
+уйӈыԓь:уйӈыԓь NEG-CLITICS ;     ! Negative possession
+уйӈэ:уйӈэ PART ;    ! нет (отсутствие)
+
+
+LEXICON NEG-CLITICS
+%<1sg%>:%>ин%{Æ%}гым N-DERIV-I ;
+%<2sg%>:%>ин%{Æ%}гыт N-DERIV-I ;
+%<3sg%>:%>ин%{Æ%} N-DERIV-Ic ;
+%<1pl%>:%>ин%{Æ%}мури N-DERIV-I ;
+%<2pl%>:%>ин%{Æ%}тури N-DERIV-I ;
+%<3pl%>:%>ин%{Æ%}т N-DERIV-I ;
 
 LEXICON Adjectives
 
