@@ -22,6 +22,7 @@ Alphabet
 %[%+approx%]:0
 %[%+ints%]:0
 %[%+ints2%]:0
+%[%+ints3%]:0
 %[%+desid%]:0
 %[%+ap%]:0
 %[%+caus%]:0
@@ -44,6 +45,10 @@ Rules
 "Intensifier2"
 %[%+ints2%]:0 <=> _ :* %[%+ints2%]:0 ;
                 %[%+ints2%]:0 :* _ ;
+
+"Intensifier3"
+%[%+ints3%]:0 <=> _ :* %[%+ints3%]:0 ;
+                %[%+ints3%]:0 :* _ ;
 
 "Desiderative"
 %[%+desid%]:0 <=> _ :* %[%+desid%]:0 ;

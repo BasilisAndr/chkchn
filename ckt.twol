@@ -17,6 +17,7 @@ Alphabet
  %{ы%}:ы %{ы%}:0 %{ы%}:ъ %{ы%}:ь
  %{G%}:й %{G%}:э %{G%}:г
  %{I%}:и %{I%}:й
+ %{ʔ%}:0 %{ʔ%}:ь %{ʔ%}:ъ
 
 ! %{ъ%}:ъ %{ъ%}:0
 
@@ -175,7 +176,7 @@ V:0 <=> .#. _ %>: :Vow ;       ! same as for rec but can be written shorter
 ! м ы т {ы}:0 >:0 г {ы}:ы р >:0 {ы}:0 м ы к
 ! м {ы}:ы >:0 к ы ԓ е >:0 {ы}:0 к
 %{ы%}:ы <=> [ :Cns | .#. ] :0* [ :Cns | :Glottal ] [ :0 - Vow: ]* _ :0* :Cns ;       ! first syll/three :Cns in a row, after the second
-            :Cns [ :0 - Vow: ]* _ :0* :Cns :0* [ :Cns | :Glottal | .#. ] ;       ! last syll/three :Cns in a row, after the first
+            :Cns [ :0 - Vow: ]* _ :0* :Cns [ :Glottal | :0]* [ :Cns | .#. ] ;       ! last syll/three :Cns in a row, after the first
        :Vow :Cns :0* %>: %{G%}: _ ;
 
 
@@ -184,7 +185,7 @@ V:0 <=> .#. _ %>: :Vow ;       ! same as for rec but can be written shorter
 %{ы%}:ъ <=> [ :Cns - :ԓ - %{G%}: ] :0* _ :0* :Yot ;
 
 
-"Epenthesis for yot after л"
+"Epenthesis for yot after ԓ"
 ! м ы ԓ {ы}:ь >:0 я р >:0 {ы}:0 м ы к
 %{ы%}:ь <=> :ԓ :0* _ :0* :Yot ;
 
@@ -313,6 +314,17 @@ V:ы <=>  _ %{°%}: .#. ;
 
 "R that is р"
 %{R%}:р <=> .#. _ ;
+
+
+"Glottal stop after cns before vowels"
+%{ʔ%}:ъ <=> [:Cns - ԓ - ч ] :0* _ :0* :Vow ;
+
+"Glottal stop after ԓ and ч"
+%{ʔ%}:ь <=> [ ԓ | ч ] :0* _ :0* :Vow ;
+
+"Glottal stop symbol deletion"
+ʼ:0 <=> :Cns [ :ъ | :ь ] :0* :Vow _ ;
+
 
 ! this dsnt work :(
 ! "к allophone г"

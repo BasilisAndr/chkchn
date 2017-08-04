@@ -5,6 +5,7 @@ LEXICON Case-prefixes
 @P.CASE.assoc@:@P.CASE.assoc@га%> NOMINALS ;
 @P.CASE.prv@:@P.CASE.prv@%{Æ%}%> NOMINALS ;
 
+
 !LEXICON N-deriv-prefixes
 ! :ӈ%{Æ%}в%{ы%}%[%+f%]%> NOMINALS ;
 ! :ԓ%{ы%}ги%[%+ints%]%> NOMINALS ;
@@ -239,6 +240,16 @@ LEXICON POSS
 
 LEXICON REL
 %<rel%>:%>%{ы%}кин N-DERIV-I ;
+
+LEXICON PERS-NUM-CLITICS
+%<1sg%>:%{I%}гым # ;
+%<2sg%>:%{I%}гыт # ;
+%<3sg%>:%{ы%}ӄин # ;
+%<3sg%>:%{ы%}кин # ;
+%<1pl%>:%{ы%}мури # ;
+%<2pl%>:%{ы%}тури # ;
+%<3pl%>:%{ы%}ӄин%{Æ%}т # ;
+%<3pl%>:%{ы%}кин%{Æ%}т # ;
 
 
 LEXICON N-DERIV-I
