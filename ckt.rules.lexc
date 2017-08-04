@@ -106,6 +106,7 @@ Multichar_Symbols
 %<a_3%>                   ! Agent, 3rd person
 %<o_2%>                   ! Object, 2nd person
 %<o_3%>                   ! Object, 2nd person
+%<3%>                     ! Non-specified third person
 
 %<pl%>                    ! Plural
 %<sg%>                    ! Singular
@@ -212,10 +213,14 @@ Multichar_Symbols
 @D.TENSE@
 @U.V.iv@ @R.V.iv@ @P.V.iv@
 @U.V.tv@ @R.V.tv@ @P.V.tv@
+@P.ADJ.n@ @R.ADJ.n@
+@P.ADJ.e@ @R.ADJ.e@
+@U.itsa.verb@ @U.itsa.adj@
 
 %[%+approx%]
 %[%+ints%]
 %[%+ints2%]
+%[%+ints3%]
 %[%+desid%]
 %[%+ap%]
 %[%+caus%]
@@ -235,9 +240,12 @@ LEXICON Root
 
 !Temp ;
 Case-prefixes ;
+Adj-prefixes ;
+Intensifiers ;
 ! N-deriv-prefixes ;
 Nouns ;
 Adverbs ;
+Adjectives ;
 Interjections ;
 Participles ;
 Conjunctions ;
@@ -256,14 +264,50 @@ LEXICON ADV
 %<adv%>: # ;
 %<adv%>%<rel%>:%>%{ы%}ԓь N-DERIV-III ;
 
-! LEXICON ADJ
-! %<adj%>: #
-! %<adj%>%<rel_n%>:%>%{ы%}ԓь INTO-N-III ;
-! %<adj%>%<rel_n%>:%>%{ы%}чь INTO-N-III ;
-! %<adv%>%<ger%>:%>%{ы%}гырг%{⁺ⱽᴴ%} INTO-N-III ;
-! %<adv%>%<ger%>:%>%{ы%}я INTO-N-III ;       ! 'age' nominalisation
+
+LEXICON ADJ
+@U.itsa.verb@%<v%>%<iv%>:@U.itsa.verb@ V-IV ;
+@U.itsa.adj@:@U.itsa.adj@ ADJ-FIN ;
+%<adj%>%<3sg%>: # ;
 
 
+LEXICON ADJ-FIN
+
+@R.ADJ.n@%<adj%>:@R.ADJ.n@ PERS-NUM-CLITICS ;
+%<adj%>: PERS-NUM-CLITICS ;
+@R.ADJ.n@%<adj%>%<dim%>%<3%>:@R.ADJ.n@%>ӄин%{Æ%}ӄ%{Æ%}й # ;
+@R.ADJ.n@%<adj%>%<aug%>%<3sg%>:@R.ADJ.n@%>ӄэначгын # ;
+@R.ADJ.n@%<adj%>%<aug%>%<3sg%>:@R.ADJ.n@%>ӄэнайӈын # ;
+@R.ADJ.n@%<adj%>%<aug%>%<3pl%>:@R.ADJ.n@%>ӄэначгыт # ;
+@R.ADJ.n@%<adj%>%<aug%>%<3pl%>:@R.ADJ.n@%>ӄэнайӈыт # ;
+@R.ADJ.n@%<adj%>%<ints%>:@R.ADJ.n@%>%[%+ints%] PERS-NUM-CLITICS ;
+@R.ADJ.n@%<adj%>%<ints2%>:@R.ADJ.n@%>%[%+ints2%] PERS-NUM-CLITICS ;
+@R.ADJ.n@%<adj%>%<approx%>:@R.ADJ.n@%>%[%+approx%] PERS-NUM-CLITICS ;
+
+! Crosspos
+!! Adverbs
+@R.ADJ.n@%<adj%>%<adv%>:@R.ADJ.n@%>%{ʔ%}%{Æ%}ʼв # ;
+@R.ADJ.n@%<adj%>%<adv%>:@R.ADJ.n@%>%{ы%}ӈ # ;
+@D.ADJ@%<adj%>%<vb%>:@D.ADJ@%>%{ы%}гты # ;
+@R.ADJ.n@%<adj%>%<ints%>%<adv%>:@R.ADJ.n@%>%[%+ints2%]%>%{ʔ%}%{Æ%}ʼв # ;
+@D.ADJ@%<adj%>%<ints%>%<adv%>:@D.ADJ@%>%[%+ints3%]%>%{ы%}ӈ # ;
+@R.ADJ.e@%<adj%>%<vb%>%<neg%>:@R.ADJ.e@%>%{ы%}к%{Æ%} # ;
+!! Nouns
+@D.ADJ@%<adj%>%<rel_n%>:@D.ADJ@%>%{ы%}ԓь INTO-N-III ;
+@D.ADJ@%<adj%>%<rel_n%>:@D.ADJ@%>%{ы%}чь INTO-N-III ;
+@D.ADJ@%<adj%>%<ger%>:@D.ADJ@%>%{ы%}гырг%{⁺ⱽᴴ%} INTO-N-III ;
+@D.ADJ@%<adj%>%<ger%>:@D.ADJ@%>я INTO-N-III ;       ! 'age' nominalisation
+
+
+LEXICON Adj-prefixes
+@P.ADJ.n@:@P.ADJ.n@н%{ы%}%> Adjectives ;
+@P.ADJ.e@:@P.ADJ.e@%{Æ%}%> Adjectives ;
+
+LEXICON Intensifiers
+:%[%+ints%]т%{Æ%}%{N%}%{ы%}%> Adj-prefixes ;
+:%[%+ints2%]ныԓги%> Adj-prefixes ;
+:%[%+approx%]м%{Æ%}ԓ%> Adj-prefixes ;
+:%[%+ints3%]ԓ%{ы%}ги%> Adj-prefixes ;
 
 
 LEXICON INTJ
