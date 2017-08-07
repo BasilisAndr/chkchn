@@ -176,21 +176,20 @@ LEXICON N-VANGQASQOR-ABS
 LEXICON N-OBL
 %<n%>: CASES-OBL ;
 %<n%>: CASES-ANIM ;
-%<n%>: N-DERIV-SUFF ;
+%<n%>: N-DERIV-PREF ;
 
-!LEXICON N-DERIV-PREF
+LEXICON N-DERIV-PREF
 ! %<f%>:%[%+f%] N-DERIV-SUFF ;
-! %<ints%>:%[%+ints%] N-DERIV-SUFF ;
+%<ints%>:%[%+ints%] N-DERIV-SUFF ;
+%<ints2%>:%[%+ints2%] N-DERIV-SUFF ;
+%<approx%>:%[%+approx%] N-DERIV-SUFF ;
 ! %<restr%>:%[%+restr%]
-! approx
 ! %<auth%>:%[%+auth%]
+: N-DERIV-SUFF ;
 
 LEXICON N-DERIV-SUFF
 
 ! : N-DERIV-PREF ;
-%<ints%>:%[%+ints%] N-DERIV-SUFF ;
-%<ints2%>:%[%+ints2%] N-DERIV-SUFF ;
-%<approx%>:%[%+approx%] N-DERIV-SUFF ;
 %<rel_n%>:%>%{ы%}ԓь N-DERIV-III ;
 %<nmzr%>:%>%{ы%}чь N-DERIV-III ;
 %<nmzr%>:%>%{ы%}йоԓг N-DERIV-III ;
@@ -205,8 +204,8 @@ LEXICON N-DERIV-SUFF
 %<coop%>:%>%{ы%}гинив N-DERIV-I ;
 %<prtt%>:%>%{ы%}тъуԓ N-DERIV-I ;
 %<ger%>:%>%{ы%}гырг%{⁺ⱽᴴ%} N-DERIV-III ;
-@D.CASE@%<v%>:@D.CASE@%>%{Æ%}т%[+itsaverb%] V ;
-@D.CASE@%<v%>:@D.CASE@%>%{Æ%}в%[+itsaverb%] V ;
+! @D.CASE@%<v%>@U.itsa.verb@:@U.itsa.verb@@D.CASE@%>%{Æ%}т%[%+itsaverb%] V ;
+! @D.CASE@%<v%>@U.itsa.verb@:@U.itsa.verb@@D.CASE@%>%{Æ%}в%[%+itsaverb%] V ;
 : N-DERIV-SPACIAL ;
 
 
@@ -264,7 +263,7 @@ LEXICON N-DERIV-I
 ! : N-DERIV-SUFF ;
 
 LEXICON N-DERIV-Ic
-@D.CASE@%<sg%>%<abs%>:@D.CASE@{·%} # ;
+@D.CASE@%<sg%>%<abs%>:@D.CASE@%{·%} # ;
 : CASES-OBL ;
 : CASES-ANIM ;
 ! : N-DERIV-SUFF ;
