@@ -37,7 +37,7 @@ LEXICON V-DERIV-PREF-CAUS
 LEXICON V-DERIV-PREF-FIN
 : Verbs ;
 @U.itsa.verb@:@U.itsa.verb@ Adjectives ;
-:%[+itsaverb%] Nouns ;
+! @U.itsa.verb@:@U.itsa.verb@ Nouns ;
 
 ! %<root here%>
 

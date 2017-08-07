@@ -16,6 +16,7 @@ Alphabet
  %{·%}                     ! Trigger for stem-final vowel deletion
  %{°%}                     ! Trigger for stem-final vowel reduction
  %{☭%}                     ! Trigger for loan word phonology
+ %{ʔ%}                     ! Glottal stop
 
  %>                        ! Morpheme boundary
 
@@ -30,7 +31,7 @@ Alphabet
 %[%+cond%]:0
 %[%+inv%]:0
 %[%+inv2%]:0
-%[+itsaverb%]:0
+%[%+itsaverb%]:0
 ;
 
 Rules

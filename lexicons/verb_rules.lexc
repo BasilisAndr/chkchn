@@ -568,8 +568,8 @@ LEXICON V-TV-PROG-INTN
 @R.VPR.n@%<a_sg3%>%<o_sg1%>:@R.VPR.n@%[%+inv2%] # ;
 @R.VPR.yn@%<a_pl3%>%<o_sg1%>:@R.VPR.yn@гым%[%+inv2%] # ;
 
-@R.VPR.q@%<a_sg2%>%<o_pl1%>:@R.VPR.q@[%+inv%] # ;
-@R.VPR.q@%<a_pl2%>%<o_pl1%>:@R.VPR.q@%>[%+inv%]тык # ;
+@R.VPR.q@%<a_sg2%>%<o_pl1%>:@R.VPR.q@%[%+inv%] # ;
+@R.VPR.q@%<a_pl2%>%<o_pl1%>:@R.VPR.q@%>%[%+inv%]тык # ;
 @R.VPR.yn@%<a_sg3%>%<o_pl1%>:@R.VPR.yn@%>мык # ;
 @R.VPR.yn@%<a_pl3%>%<o_pl1%>:@R.VPR.yn@%>мык # ;
 
@@ -605,8 +605,8 @@ LEXICON V-TV-PROG-COND    !!! FIXME
 @R.VPR.n@%<a_sg3%>%<o_sg1%>:@R.VPR.n@%[%+inv2%] # ;
 @R.VPR.ne@%<a_pl3%>%<o_sg1%>:@R.VPR.ne@%>%{ы%}гым # ;
 
-@R.VPR.n@%<a_sg2%>%<o_pl1%>:@R.VPR.n@[%+inv%] # ;
-@R.VPR.n@%<a_pl2%>%<o_pl1%>:@R.VPR.n@%>[%+inv%]тык # ;
+@R.VPR.n@%<a_sg2%>%<o_pl1%>:@R.VPR.n@%[%+inv%] # ;
+@R.VPR.n@%<a_pl2%>%<o_pl1%>:@R.VPR.n@%>%[%+inv%]тык # ;
 @R.VPR.yn@%<a_sg3%>%<o_pl1%>:@R.VPR.yn@%>%{ы%}мык # ;
 @R.VPR.yn@%<a_pl3%>%<o_pl1%>:@R.VPR.yn@%>%{ы%}мык # ;
 
