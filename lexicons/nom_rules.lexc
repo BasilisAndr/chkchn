@@ -131,9 +131,12 @@ LEXICON N-IV-ARAPA                                   ! ngy absolutive
 
 
 
-LEXICON N-IV-QORA-ABS                                ! qora-qaa
+LEXICON N-IV-QORA                                ! qora-qaa
 
 @D.CASE@%<n%>%<sg%>%<abs%>:@D.CASE@%>%{ы%}ӈы # ;
+%<n%>: CASES-OBL ;
+%<n%>: CASES-ANIM ;
+%<n%>: N-DERIV-SUFF ;
 
 
 LEXICON N-Vv-AVEEN                                   ! irregular; в-oblique
