@@ -30,4 +30,4 @@ test.sh is a hfst-pair-test for twolc. The input file for the positive test is t
 alltest.sh is a hfst-lookup for the whole transducer.<br />
 
 ### Coverage
-71.3%
+76.2%

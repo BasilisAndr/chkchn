@@ -327,35 +327,6 @@ V:ы <=>  _ %{°%}: .#. ;
 "Glottal stop symbol deletion"
 ʼ:0 <=> :Cns [ :ъ | :ь ] :0* :Vow _ ;
 
-"Jotated vowels recessive"
-V1:V2 <=> :Vow :0* й: :0* _ ;
-      except
-      [ Dominant | %{⁺ⱽᴴ%}: ] :* :Vow :0* й: :0* _ ;
-                :Vow :0* й: :0* _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
-            .#. _ %>: :Vow ;         ! contexts for deletion
-           :Cns _ :0* %>: :Vow ;
-                _ %{°%}:0 .#. ;
-                _ %{·%}:0 .#. ;
-      where
-            V1 in ( у %{Æ%} )
-            V2 in ( ю е ) matched ;
-
-
-"Jotated vowels dominant"
-V1:V2 <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :Vow :0* й: :0* _ ;
-          :Vow :0* й: :0* _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
-      except
-            .#. _ %>: :Vow ;         ! contexts for deletion
-           :Cns _ :0* %>: :Vow ;
-                _ %{°%}:0 .#. ;
-                _ %{·%}:0 .#. ;
-      where
-            V1 in ( а у о э и %{Æ%} )
-            V2 in ( я ё ё е е я ) matched ;
-
-
-"Jot between vowels"
-й:0 <=> :Vow :0* _ :0* :Vow ;
 
 ! this dsnt work :(
 ! "к allophone г"

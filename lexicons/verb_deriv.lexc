@@ -125,7 +125,7 @@ LEXICON V-DERIV-FIN
 @D.VPR@%<ger%>:@D.VPR@%>%{ы%}н%{⁺ⱽᴴ%} INTO-N-Vv ;       ! locative nom
 @D.VPR@%<ger%>:@D.VPR@%>%{ы%}я INTO-N-III ;       ! 'age' nominalisation
 @D.VPR@%<ger%>:@D.VPR@%>%{и%}н%{Æ%}ӈ%{Æ%} INTO-N-Ic ;       ! instrumental nominalisation
-@D.VPR@%<ger%>:@D.VPR@%>%{ы%}йоԓг INTO-N-III ;       ! 'container' nominalisation
+@D.VPR@%<ger%>:@D.VPR@%>%{ы%}ёԓг INTO-N-III ;       ! 'container' nominalisation
 ! @D.VPR@%<ger%>:@D.VPR@ POSS ;       ! possessive nominalisation
 ! @D.VPR@%<ger%>:@D.VPR@ REL ;       ! relational nominalisation
 
@@ -151,13 +151,13 @@ LEXICON V-DERIV-FIN
 LEXICON V-DERIV-PTCP
 ! active (intr only)
 !! positive polarity
-@D.VPR@%<act%>:@D.VPR@%>%{ы%}ԓь INTO-N-III ;
+@U.V.iv@@D.VPR@%<act%>:@U.V.iv@@D.VPR@%>%{ы%}ԓь INTO-N-III ;
 !! negative polarity
-@R.VPR.vb_neg@%<act%>%<neg%>:@R.VPR.vb_neg@%>%{T%}%{Æ%}%>%{ы%}ԓь INTO-N-I ;
-@R.VPR.vb_neg2@%<act%>%<neg%>:@R.VPR.vb_neg2@%>%{ы%}к%{Æ%}%>%{ы%}ԓь INTO-N-NEG-PART ;
+@U.V.iv@@R.VPR.vb_neg@%<act%>%<neg%>:@U.V.iv@@R.VPR.vb_neg@%>%{T%}%{Æ%}%>%{ы%}ԓь INTO-N-I ;
+@U.V.iv@@R.VPR.vb_neg2@%<act%>%<neg%>:@U.V.iv@@R.VPR.vb_neg2@%>%{ы%}к%{Æ%}%>%{ы%}ԓь INTO-N-NEG-PART ;
 ! passive (tr only)
 !! negative polarity
-@R.VPR.vb_neg@%<pass%>%<neg%>:@R.VPR.vb_neg@%>%{ы%}ԓь%>%{T%}%{Æ%} INTO-N-I ;
-@R.VPR.vb_neg2@%<pass%>%<neg%>:@R.VPR.vb_neg2@%>%{ы%}ԓь%>%{Æ%} INTO-N-NEG-PART ;
+@U.V.tv@@R.VPR.vb_neg@%<pass%>%<neg%>:@U.V.tv@@R.VPR.vb_neg@%>%{ы%}ԓь%>%{T%}%{Æ%} INTO-N-I ;
+@U.V.tv@@R.VPR.vb_neg2@%<pass%>%<neg%>:@U.V.tv@@R.VPR.vb_neg2@%>%{ы%}ԓь%>%{Æ%} INTO-N-NEG-PART ;
 !! positive polarity
-@D.VPR@%<pass%>:@D.VPR@%>%{ы%}йо%{T%} INTO-N-I ;
+@U.V.tv@@D.VPR@%<pass%>:@U.V.tv@@D.VPR@%>%{ы%}ё%{T%} INTO-N-I ;
