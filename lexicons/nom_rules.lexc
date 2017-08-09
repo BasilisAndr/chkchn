@@ -53,7 +53,7 @@ LEXICON CASES-OBL                             !!
 @D.CASE@%<sub%>:@D.CASE@%>%{ы%}йиӈкы # ;
 @D.CASE@:@D.CASE@ POSS ;
 @D.CASE@:@D.CASE@ REL ;
-%<cmp%>%+:%>%{ы%} Nouns ;
+! %<cmp%>%+:%>%{ы%} Nouns ;
 
 ! circumfixes
 @R.CASE.com@%<com%>:@R.CASE.com@%>%{T%}%{Æ%} # ;
@@ -195,6 +195,7 @@ LEXICON N-DERIV-SUFF
 
 ! : N-DERIV-PREF ;
 %<rel_n%>:%>%{ы%}ԓь N-DERIV-III ;
+%<nmzr%>:%>%{ы%}ԓӄыԓ N-DERIV-I ;
 %<nmzr%>:%>%{ы%}чь N-DERIV-III ;
 %<nmzr%>:%>%{ы%}йоԓг N-DERIV-III ;
 %<pers_n%>:%>%{ы%}ӈ%{Æ%}выт N-DERIV-I ;
