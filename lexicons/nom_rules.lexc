@@ -53,6 +53,7 @@ LEXICON CASES-OBL                             !!
 @D.CASE@%<sub%>:@D.CASE@%>%{ы%}йиӈкы # ;
 @D.CASE@:@D.CASE@ POSS ;
 @D.CASE@:@D.CASE@ REL ;
+%<cmp%>%+:%>%{ы%} Nouns ;
 
 ! circumfixes
 @R.CASE.com@%<com%>:@R.CASE.com@%>%{T%}%{Æ%} # ;
