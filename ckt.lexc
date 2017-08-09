@@ -9,10 +9,11 @@ Multichar_Symbols
 %<cnjcoo%>                ! Co-ordinating conjunction
 %<cnjadv%>                ! Adverbial conjunction
 %<v%>                     ! Verb
-%<adv%>
-%<adj%>
-%<part%>
-%<ptcp%>
+%<adv%>                   ! Adverb
+%<adj%>                   ! Adjective
+%<part%>                  ! Particle
+%<ptcp%>                  ! Participle
+%<cmp%>                   ! Compound
 
 %<lpar%>
 %<rpar%>
@@ -185,6 +186,7 @@ Multichar_Symbols
 %{°%}                     ! Trigger for stem-final vowel reduction
 %{☭%}                     ! Trigger for loan word phonology
 
+%→                        ! Incorporation boundary
 %>                        ! Morpheme boundary
 
 ! flag diacritics
@@ -1787,6 +1789,7 @@ LEXICON CASES-OBL                             !!
 @D.CASE@%<sub%>:@D.CASE@%>%{ы%}йиӈкы # ;
 @D.CASE@:@D.CASE@ POSS ;
 @D.CASE@:@D.CASE@ REL ;
+%<cmp%>%+:%>%{ы%} Nouns ;
 
 ! circumfixes
 @R.CASE.com@%<com%>:@R.CASE.com@%>%{T%}%{Æ%} # ;

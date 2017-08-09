@@ -9,10 +9,11 @@ Multichar_Symbols
 %<cnjcoo%>                ! Co-ordinating conjunction
 %<cnjadv%>                ! Adverbial conjunction
 %<v%>                     ! Verb
-%<adv%>
-%<adj%>
-%<part%>
-%<ptcp%>
+%<adv%>                   ! Adverb
+%<adj%>                   ! Adjective
+%<part%>                  ! Particle
+%<ptcp%>                  ! Participle
+%<cmp%>                   ! Compound
 
 %<lpar%>
 %<rpar%>
@@ -185,7 +186,7 @@ Multichar_Symbols
 %{°%}                     ! Trigger for stem-final vowel reduction
 %{☭%}                     ! Trigger for loan word phonology
 
-%→                        ! Incorporation boundary
+%+                        ! Incorporation boundary
 %>                        ! Morpheme boundary
 
 ! flag diacritics
