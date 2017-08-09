@@ -80,8 +80,9 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
           :Cns _ :0* %>: :Vow ;     ! deletion; :0* = special symbols
                _ :* \ %>: %{☭%}: ;  ! doesn't affect loan phonology
                _ %{°%}:0 .#. ;          ! word-final abs reduction
-               _ %{·%}:0 .#. ; ;        ! word-final abs deletion
+               _ %{·%}:0 .#. ;        ! word-final abs deletion
    [ :ч | :ԓ ] :0* _ ;       ! orthography
+   :Vow :0* й: :0* _ ;       ! orthography
        where
            Vx in ( у ю и %{Æ%} )
            Vy in ( о ё э   а   ) matched ;
@@ -97,7 +98,7 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ԓ :0* _ ;
          :Cns _ :0* %>: :Vow ;
               _ :* \ %>: %{☭%}: ;
               _ %{°%}:0 .#. ;
-              _ %{·%}:0 .#. ; ;
+              _ %{·%}:0 .#. ;
       where
           Vx in ( у ю и %{Æ%} )
           Vy in ( ё ё е   я   ) matched ;
@@ -113,7 +114,7 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ч :0* _ ;
           :Cns _ :0* %>: :Vow ;
                _ :* \ %>: %{☭%}: ;
                _ %{°%}:0 .#. ;
-               _ %{·%}:0 .#. ; ;
+               _ %{·%}:0 .#. ;
        where
            Vx in ( у ю и %{Æ%} )
            Vy in ( о ё е   а   ) matched ;
@@ -128,8 +129,9 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ч :0* _ ;
                                .#. _ %>: :Vow ;
                               :Cns _ :0* %>: :Vow ;
                                    _ %{°%}:0 .#. ;
-                                   _ %{·%}:0 .#. ; ;
-        [ :ч | :ԓ ] :0* _ ;
+                                   _ %{·%}:0 .#. ;
+                   [ :ч | :ԓ ] :0* _ ;
+                   :Vow :0* й: :0* _ ;
 
 !
 "Vowel harmony for Æ (recessive) after palatal"
@@ -142,7 +144,7 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ч :0* _ ;
                               :Cns _ :0* %>: :Vow ;
                                    _ :* \ %>: %{☭%}: ;
                                    _ %{°%}:0 .#. ;
-                                   _ %{·%}:0 .#. ; ;
+                                   _ %{·%}:0 .#. ;
 
 
 "Vowel deletion for recessive"                    ! because syllable structure
@@ -325,6 +327,35 @@ V:ы <=>  _ %{°%}: .#. ;
 "Glottal stop symbol deletion"
 ʼ:0 <=> :Cns [ :ъ | :ь ] :0* :Vow _ ;
 
+"Jotated vowels recessive"
+V1:V2 <=> :Vow :0* й: :0* _ ;
+      except
+      [ Dominant | %{⁺ⱽᴴ%}: ] :* :Vow :0* й: :0* _ ;
+                :Vow :0* й: :0* _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+            .#. _ %>: :Vow ;         ! contexts for deletion
+           :Cns _ :0* %>: :Vow ;
+                _ %{°%}:0 .#. ;
+                _ %{·%}:0 .#. ;
+      where
+            V1 in ( у %{Æ%} )
+            V2 in ( ю е ) matched ;
+
+
+"Jotated vowels dominant"
+V1:V2 <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :Vow :0* й: :0* _ ;
+          :Vow :0* й: :0* _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+      except
+            .#. _ %>: :Vow ;         ! contexts for deletion
+           :Cns _ :0* %>: :Vow ;
+                _ %{°%}:0 .#. ;
+                _ %{·%}:0 .#. ;
+      where
+            V1 in ( а у о э и %{Æ%} )
+            V2 in ( я ё ё е е я ) matched ;
+
+
+"Jot between vowels"
+й:0 <=> :Vow :0* _ :0* :Vow ;
 
 ! this dsnt work :(
 ! "к allophone г"

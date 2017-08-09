@@ -185,6 +185,7 @@ Multichar_Symbols
 %{°%}                     ! Trigger for stem-final vowel reduction
 %{☭%}                     ! Trigger for loan word phonology
 
+%→                        ! Incorporation boundary
 %>                        ! Morpheme boundary
 
 ! flag diacritics
