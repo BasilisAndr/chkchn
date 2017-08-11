@@ -4700,8 +4700,8 @@ LEXICON PRON-YTLJON
 @D.CASE@%<prn%>%<pers%>%<p3%>%<sg%>%<abs%>:@D.CASE@тԓён # ;
 ! %<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:нык # ;
 ! %<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ныкагты # ;
-@D.CASE@%<abl%>:@D.CASE@%>ка%>%{G%}%{ы%}п%{ы%}%{⁺ⱽᴴ%} # ;
-@D.CASE@%<ori%>:@D.CASE@%>к%{Æ%}%>%{ы%}гйит # ;
+@D.CASE@%<abl%>:@D.CASE@%>нка%>%{G%}%{ы%}п%{ы%}%{⁺ⱽᴴ%} # ;
+@D.CASE@%<ori%>:@D.CASE@%>нк%{Æ%}%>%{ы%}гйит # ;
 %<prn%>%<pers%>%<p3%>%<sg%>:н PRON-PERS-CASES ;
 
 LEXICON PRON-MURI
