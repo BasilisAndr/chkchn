@@ -10,7 +10,9 @@ all: ckt.rules.lexc ckt.twol ;
 	hfst-lexc --Werror ckt.lexc -o ckt.lexc.hfst ;
 	hfst-twolc ckt.twoc -o ckt.twoc.hfst ;
 	hfst-twolc ckt.twol -o ckt.twol.hfst ;
-	hfst-compose-intersect -1 ckt.lexc.hfst -2 ckt.twoc.hfst -o ckt.lexctwoc.hfst
+	hfst-invert ckt.lexc.hfst -o ckt.lexc.mor.hfst ;
+	hfst-compose-intersect -1 ckt.lexc.mor.hfst -2 ckt.twoc.hfst -o ckt.lexctwoc.mor.hfst
+	hfst-invert ckt.lexctwoc.mor.hfst -o ckt.lexctwoc.hfst
 	hfst-compose-intersect -1 ckt.lexctwoc.hfst -2 ckt.twol.hfst -o ckt.gen.hfst
 	hfst-invert ckt.gen.hfst -o ckt.mor.hfst
 	hfst-fst2fst --format=optimized-lookup-weighted -i ckt.mor.hfst -o ckt.mor.hfstol
