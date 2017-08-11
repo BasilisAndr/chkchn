@@ -282,17 +282,17 @@ LEXICON ADJ-FIN
 @R.ADJ.n@%<adj%>%<aug%>%<3sg%>:@R.ADJ.n@%>ӄэнайӈын # ;
 @R.ADJ.n@%<adj%>%<aug%>%<3pl%>:@R.ADJ.n@%>ӄэначгыт # ;
 @R.ADJ.n@%<adj%>%<aug%>%<3pl%>:@R.ADJ.n@%>ӄэнайӈыт # ;
-@R.ADJ.n@%<adj%>%<ints%>:@R.ADJ.n@%>%[%+ints%] PERS-NUM-CLITICS ;
-@R.ADJ.n@%<adj%>%<ints2%>:@R.ADJ.n@%>%[%+ints2%] PERS-NUM-CLITICS ;
-@R.ADJ.n@%<adj%>%<approx%>:@R.ADJ.n@%>%[%+approx%] PERS-NUM-CLITICS ;
+@R.ADJ.n@%<adj%>%<ints%>[%+ints%]:@R.ADJ.n@%> PERS-NUM-CLITICS ;
+@R.ADJ.n@%<adj%>%<ints2%>[%+ints2%]:@R.ADJ.n@%> PERS-NUM-CLITICS ;
+@R.ADJ.n@%<adj%>%<approx%>[%+approx%]:@R.ADJ.n@%> PERS-NUM-CLITICS ;
 
 ! Crosspos
 !! Adverbs
 @R.ADJ.n@%<adj%>%<adv%>:@R.ADJ.n@%>%{ʔ%}%{Æ%}ʼв # ;
 @R.ADJ.n@%<adj%>%<adv%>:@R.ADJ.n@%>%{ы%}ӈ # ;
 @D.ADJ@%<adj%>%<vb%>:@D.ADJ@%>%{ы%}гты # ;
-@R.ADJ.n@%<adj%>%<ints%>%<adv%>:@R.ADJ.n@%>%[%+ints2%]%>%{ʔ%}%{Æ%}ʼв # ;
-@D.ADJ@%<adj%>%<ints%>%<adv%>:@D.ADJ@%>%[%+ints3%]%>%{ы%}ӈ # ;
+@R.ADJ.n@%<adj%>%<ints%>%<adv%>[%+ints2%]:@R.ADJ.n@%>%>%{ʔ%}%{Æ%}ʼв # ;
+@D.ADJ@%<adj%>%<ints%>%<adv%>[%+ints3%]:@D.ADJ@%>%>%{ы%}ӈ # ;
 @R.ADJ.e@%<adj%>%<vb%>%<neg%>:@R.ADJ.e@%>%{ы%}к%{Æ%} # ;
 !! Nouns
 @D.ADJ@%<adj%>%<rel_n%>:@D.ADJ@%>%{ы%}ԓь INTO-N-III ;
@@ -310,15 +310,15 @@ LEXICON Adj-prefixes
 @P.ADJ.e@:@P.ADJ.e@%{Æ%}%> Adjectives ;
 
 LEXICON Intensifiers
-:%[%+ints%]т%{Æ%}%{N%}%{ы%}%> Adj-prefixes ;
-:%[%+ints%]т%{Æ%}%{N%}%{ы%}%> NOMINALS ;
+[%+ints%]:т%{Æ%}%{N%}%{ы%}%> Adj-prefixes ;
+[%+ints%]:т%{Æ%}%{N%}%{ы%}%> NOMINALS ;
 :т%{Æ%}%{N%}%{ы%}%> NEG ;
-:%[%+ints2%]ԓ%{ы%}ги%> Adj-prefixes ;
-:%[%+approx%]м%{Æ%}ԓ%> Adj-prefixes ;
-:%[%+ints2%]ԓ%{ы%}ги%> NOMINALS ;
-:%[%+approx%]м%{Æ%}ԓ%> NOMINALS ;
+[%+ints2%]:ԓ%{ы%}ги%> Adj-prefixes ;
+[%+approx%]:м%{Æ%}ԓ%> Adj-prefixes ;
+[%+ints2%]:ԓ%{ы%}ги%> NOMINALS ;
+[%+approx%]:м%{Æ%}ԓ%> NOMINALS ;
 :м%{Æ%}ԓ%> NEG ;
-:%[%+ints3%]ныԓги%> Adj-prefixes ;
+[%+ints3%]:ныԓги%> Adj-prefixes ;
 
 
 
