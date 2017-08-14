@@ -32,12 +32,12 @@ LEXICON Verb-prefixes
 
 LEXICON V-TENSE-PREFIXES
 
-[%+fut%]:р%{Æ%}%> V-INV ;
-[%+cond%]:ъ%{ы%}%> V-INV ;
+%[%+fut%]:р%{Æ%}%> V-INV ;
+%[%+cond%]:ъ%{ы%}%> V-INV ;
 : V-INV ;
 
 LEXICON V-INV
-[%+inv2%]:ин%{Æ%}%> Verb-deriv-prefixes ;
+%[%+inv2%]:ин%{Æ%}%> Verb-deriv-prefixes ;
 : Verbs ;
 
 
@@ -103,7 +103,7 @@ LEXICON V-TV-ACTIVE
 
 %<neut%>: V-TV-NEUT ;
 %<prog%>:%>%{ы%}ркыни%{·%} V-TV-PROG ;
-%<prog%>[%+inv%]:%>ткуркыни%{·%} V-TV-PROG ;
+%<prog%>%[%+inv%]:%>ткуркыни%{·%} V-TV-PROG ;
 
 LEXICON V-TV-STATIVE
 
@@ -139,9 +139,9 @@ LEXICON V-IV-HABITUAL
 
 LEXICON V-TV-PERFECT
 
-%<a_sg2%>%<o_sg1%>[%+inv2%]:%>%{I%}гыт # ;
-%<a_pl2%>%<o_sg1%>[%+inv2%]:%>%{ы%}тури # ;
-%<a_sg3%>%<o_sg1%>[%+inv2%]:%>%{ы%}ԓин # ;
+%<a_sg2%>%<o_sg1%>%[%+inv2%]:%>%{I%}гыт # ;
+%<a_pl2%>%<o_sg1%>%[%+inv2%]:%>%{ы%}тури # ;
+%<a_sg3%>%<o_sg1%>%[%+inv2%]:%>%{ы%}ԓин # ;
 %<a_pl3%>%<o_sg1%>:%>%{I%}гым # ;
 
 %<a_sg2%>%<o_pl1%>:%>%{ы%}тку%>%{I%}гыт # ;
@@ -161,9 +161,9 @@ LEXICON V-TV-PERFECT
 
 LEXICON V-TV-HABITUAL
 
-%<a_sg2%>%<o_sg1%>[%+inv2%]:%>%{I%}гыт # ;
-%<a_pl2%>%<o_sg1%>[%+inv2%]:%>%{ы%}тури # ;
-%<a_sg3%>%<o_sg1%>[%+inv2%]:%>%{ы%}ӄин # ;
+%<a_sg2%>%<o_sg1%>%[%+inv2%]:%>%{I%}гыт # ;
+%<a_pl2%>%<o_sg1%>%[%+inv2%]:%>%{ы%}тури # ;
+%<a_sg3%>%<o_sg1%>%[%+inv2%]:%>%{ы%}ӄин # ;
 %<a_pl3%>%<o_sg1%>:%>%{I%}гым # ;
 
 %<a_sg2%>%<o_pl1%>:%>%{ы%}ткуйгыт # ;
@@ -171,20 +171,20 @@ LEXICON V-TV-HABITUAL
 %<a_sg3%>%<o_pl1%>:%>%{ы%}мури # ;
 %<a_pl3%>%<o_pl1%>:%>%{ы%}мури # ;
 
-%<a_sg1%>%<o_2%>[%+inv2%]:%>%{I%}гым # ;
-%<a_pl1%>%<o_2%>[%+inv2%]:%>%{ы%}мури # ;
+%<a_sg1%>%<o_2%>%[%+inv2%]:%>%{I%}гым # ;
+%<a_pl1%>%<o_2%>%[%+inv2%]:%>%{ы%}мури # ;
 %<a_3%>%<o_sg2%>:%>%{I%}гыт # ;
 %<a_3%>%<o_pl2%>:%>%{ы%}тури # ;
 
-%<a_sg1%>%<o_3%>[%+inv2%]:%>%{I%}гым # ;
-%<a_pl1%>%<o_3%>[%+inv2%]:%>%{ы%}мури # ;
-%<a_sg2%>%<o_3%>[%+inv2%]:%>%{I%}гыт # ;
-%<a_pl2%>%<o_3%>[%+inv2%]:%>%{ы%}тури # ;
+%<a_sg1%>%<o_3%>%[%+inv2%]:%>%{I%}гым # ;
+%<a_pl1%>%<o_3%>%[%+inv2%]:%>%{ы%}мури # ;
+%<a_sg2%>%<o_3%>%[%+inv2%]:%>%{I%}гыт # ;
+%<a_pl2%>%<o_3%>%[%+inv2%]:%>%{ы%}тури # ;
 
-%<a_sg3%>%<o_sg3%>[%+inv2%]:%>%{ы%}ӄин # ;
+%<a_sg3%>%<o_sg3%>%[%+inv2%]:%>%{ы%}ӄин # ;
 %<a_pl3%>%<o_sg3%>:%>%{ы%}ӄин # ;
 
-%<a_sg3%>%<o_pl3%>[%+inv2%]:%>%{ы%}ӄин%{Æ%}т # ;
+%<a_sg3%>%<o_pl3%>%[%+inv2%]:%>%{ы%}ӄин%{Æ%}т # ;
 %<a_pl3%>%<o_pl3%>:%>%{ы%}ӄин%{Æ%}т # ;
 
 
@@ -195,33 +195,33 @@ LEXICON V-TV-HABITUAL
 LEXICON V-IV-NEUT
 
 %<aor%>: V-IV-NEUT-AOR ;
-%<fut%>[%+fut%]:%> V-IV-NEUT-FUT ;
+%<fut%>%[%+fut%]:%> V-IV-NEUT-FUT ;
 %<intn%>: V-IV-NEUT-INTN ;
-%<cond%>[%+cond%]:%> V-IV-NEUT-COND ;
+%<cond%>%[%+cond%]:%> V-IV-NEUT-COND ;
 
 
 LEXICON V-IV-PROG
 
 %<aor%>: V-IV-PROG-AOR ;
-%<fut%>[%+fut%]:%> V-IV-PROG-FUT ;
+%<fut%>%[%+fut%]:%> V-IV-PROG-FUT ;
 %<intn%>: V-IV-PROG-INTN ;
-%<cond%>[%+cond%]:%> V-IV-PROG-COND ;
+%<cond%>%[%+cond%]:%> V-IV-PROG-COND ;
 
 
 LEXICON V-TV-NEUT
 
 %<aor%>: V-TV-NEUT-AOR ;
-%<fut%>[%+fut%]:%> V-TV-NEUT-FUT ;
+%<fut%>%[%+fut%]:%> V-TV-NEUT-FUT ;
 %<intn%>: V-TV-NEUT-INTN ;
-%<cond%>[%+cond%]:%> V-TV-NEUT-COND ;
+%<cond%>%[%+cond%]:%> V-TV-NEUT-COND ;
 
 
 LEXICON V-TV-PROG
 
 %<aor%>: V-TV-PROG-AOR ;
-%<fut%>[%+fut%]:%> V-TV-PROG-FUT ;
+%<fut%>%[%+fut%]:%> V-TV-PROG-FUT ;
 %<intn%>: V-TV-PROG-INTN ;
-%<cond%>[%+cond%]:%> V-TV-PROG-COND ;
+%<cond%>%[%+cond%]:%> V-TV-PROG-COND ;
 
 !!!!!! Subject suffixes
 
@@ -329,11 +329,11 @@ LEXICON V-IV-PROG-COND
 
 LEXICON V-TV-NEUT-AOR
 
-@D.VPR@%<a_sg2%>%<o_sg1%>[%+inv2%]:@D.VPR@%>и # ;
-@D.VPR@%<a_sg2%>%<o_sg1%>[%+inv2%]:@D.VPR@%>%{ы%}гъи # ;
-@D.VPR@%<a_pl2%>%<o_sg1%>[%+inv2%]:@D.VPR@%>%{ы%}тык # ;
-@D.VPR@%<a_sg3%>%<o_sg1%>[%+inv2%]:@D.VPR@%>и # ;
-@D.VPR@%<a_sg3%>%<o_sg1%>[%+inv2%]:@D.VPR@%>%{ы%}гъи # ;
+@D.VPR@%<a_sg2%>%<o_sg1%>%[%+inv2%]:@D.VPR@%>и # ;
+@D.VPR@%<a_sg2%>%<o_sg1%>%[%+inv2%]:@D.VPR@%>%{ы%}гъи # ;
+@D.VPR@%<a_pl2%>%<o_sg1%>%[%+inv2%]:@D.VPR@%>%{ы%}тык # ;
+@D.VPR@%<a_sg3%>%<o_sg1%>%[%+inv2%]:@D.VPR@%>и # ;
+@D.VPR@%<a_sg3%>%<o_sg1%>%[%+inv2%]:@D.VPR@%>%{ы%}гъи # ;
 @R.VPR.ne@%<a_pl3%>%<o_sg1%>:@R.VPR.ne@%>%{ы%}гым # ;
 
 @D.VPR@%<a_sg2%>%<o_pl1%>:@D.VPR@%>%{ы%}ткугъи # ;
@@ -371,9 +371,9 @@ LEXICON V-TV-NEUT-AOR
 
 LEXICON V-TV-NEUT-FUT
 
-@D.VPR@%<a_sg2%>%<o_sg1%>[%+inv2%]:@D.VPR@%>%{ы%}гъ%{Æ%} # ;
-@D.VPR@%<a_pl2%>%<o_sg1%>[%+inv2%]:@D.VPR@%>%{ы%}нтык # ;
-@D.VPR@%<a_sg3%>%<o_sg1%>[%+inv2%]:@D.VPR@%>%{ы%}гъ%{Æ%} # ;
+@D.VPR@%<a_sg2%>%<o_sg1%>%[%+inv2%]:@D.VPR@%>%{ы%}гъ%{Æ%} # ;
+@D.VPR@%<a_pl2%>%<o_sg1%>%[%+inv2%]:@D.VPR@%>%{ы%}нтык # ;
+@D.VPR@%<a_sg3%>%<o_sg1%>%[%+inv2%]:@D.VPR@%>%{ы%}гъ%{Æ%} # ;
 @R.VPR.ne@%<a_pl3%>%<o_sg1%>:@R.VPR.ne@%>%{ы%}гым # ;
 
 @D.VPR@%<a_sg2%>%<o_pl1%>:@D.VPR@%>%{ы%}ткугъ%{Æ%} # ;
@@ -408,10 +408,10 @@ LEXICON V-TV-NEUT-FUT
 
 LEXICON V-TV-NEUT-INTN
 
-@R.VPR.q@%<a_sg2%>%<o_sg1%>[%+inv2%]:@R.VPR.q@%>%{ы%}ги # ;
-@R.VPR.q@%<a_pl2%>%<o_sg1%>[%+inv2%]:@R.VPR.q@%>%{ы%}тык # ;
-@R.VPR.n@%<a_sg3%>%<o_sg1%>[%+inv2%]:@R.VPR.n@%>%{ы%}н # ;
-@R.VPR.n@%<a_sg3%>%<o_sg1%>[%+inv2%]:@R.VPR.n@%>%{ы%}гъ%{Æ%}н # ;
+@R.VPR.q@%<a_sg2%>%<o_sg1%>%[%+inv2%]:@R.VPR.q@%>%{ы%}ги # ;
+@R.VPR.q@%<a_pl2%>%<o_sg1%>%[%+inv2%]:@R.VPR.q@%>%{ы%}тык # ;
+@R.VPR.n@%<a_sg3%>%<o_sg1%>%[%+inv2%]:@R.VPR.n@%>%{ы%}н # ;
+@R.VPR.n@%<a_sg3%>%<o_sg1%>%[%+inv2%]:@R.VPR.n@%>%{ы%}гъ%{Æ%}н # ;
 @R.VPR.yn@%<a_pl3%>%<o_sg1%>:@R.VPR.yn@%>%{ы%}гым # ;
 
 @R.VPR.q@%<a_sg2%>%<o_pl1%>:@R.VPR.q@%>%{ы%}ткуги # ;
@@ -449,10 +449,10 @@ LEXICON V-TV-NEUT-INTN
 
 LEXICON V-TV-NEUT-COND
 
-@R.VPR.q@%<a_sg2%>%<o_sg1%>[%+inv2%]:@R.VPR.q@%>%{ы%}ги # ;
-@R.VPR.q@%<a_pl2%>%<o_sg1%>[%+inv2%]:@R.VPR.q@%>%{ы%}тык # ;
-@R.VPR.n@%<a_sg3%>%<o_sg1%>[%+inv2%]:@R.VPR.n@%>%{ы%}н # ;
-@R.VPR.n@%<a_sg3%>%<o_sg1%>[%+inv2%]:@R.VPR.n@%>%{ы%}гъ%{Æ%}н # ;
+@R.VPR.q@%<a_sg2%>%<o_sg1%>%[%+inv2%]:@R.VPR.q@%>%{ы%}ги # ;
+@R.VPR.q@%<a_pl2%>%<o_sg1%>%[%+inv2%]:@R.VPR.q@%>%{ы%}тык # ;
+@R.VPR.n@%<a_sg3%>%<o_sg1%>%[%+inv2%]:@R.VPR.n@%>%{ы%}н # ;
+@R.VPR.n@%<a_sg3%>%<o_sg1%>%[%+inv2%]:@R.VPR.n@%>%{ы%}гъ%{Æ%}н # ;
 @R.VPR.yn@%<a_pl3%>%<o_sg1%>:@R.VPR.yn@%>%{ы%}гым # ;
 
 @R.VPR.q@%<a_sg2%>%<o_pl1%>:@R.VPR.q@%>%{ы%}ткун # ;
@@ -490,13 +490,13 @@ LEXICON V-TV-NEUT-COND
 
 LEXICON V-TV-PROG-AOR
 
-@D.VPR@%<a_sg2%>%<o_sg1%>[%+inv2%]:@D.VPR@ # ;
-@D.VPR@%<a_pl2%>%<o_sg1%>[%+inv2%]:@D.VPR@%>тык # ;
-@D.VPR@%<a_sg3%>%<o_sg1%>[%+inv2%]:@D.VPR@ # ;
+@D.VPR@%<a_sg2%>%<o_sg1%>%[%+inv2%]:@D.VPR@ # ;
+@D.VPR@%<a_pl2%>%<o_sg1%>%[%+inv2%]:@D.VPR@%>тык # ;
+@D.VPR@%<a_sg3%>%<o_sg1%>%[%+inv2%]:@D.VPR@ # ;
 @R.VPR.ne@%<a_pl3%>%<o_sg1%>:@R.VPR.ne@%>гым # ;
 
-@D.VPR@%<a_pl2%>%<o_pl1%>[%+inv%]:@D.VPR@ # ;
-@D.VPR@%<a_sg3%>%<o_pl1%>[%+inv%]:@D.VPR@%>тык # ;
+@D.VPR@%<a_pl2%>%<o_pl1%>%[%+inv%]:@D.VPR@ # ;
+@D.VPR@%<a_sg3%>%<o_pl1%>%[%+inv%]:@D.VPR@%>тык # ;
 @R.VPR.ne@%<a_pl3%>%<o_pl1%>:@R.VPR.ne@%>мык # ;
 
 @R.VPR.t@%<a_sg1%>%<o_sg2%>:@R.VPR.t@%>гыт # ;
@@ -526,13 +526,13 @@ LEXICON V-TV-PROG-AOR
 
 LEXICON V-TV-PROG-FUT
 
-@D.VPR@%<a_sg2%>%<o_sg1%>[%+inv2%]:@D.VPR@ # ;
-@D.VPR@%<a_pl2%>%<o_sg1%>[%+inv2%]:@D.VPR@%>тык # ;
-@D.VPR@%<a_sg3%>%<o_sg1%>[%+inv2%]:@D.VPR@ # ;
+@D.VPR@%<a_sg2%>%<o_sg1%>%[%+inv2%]:@D.VPR@ # ;
+@D.VPR@%<a_pl2%>%<o_sg1%>%[%+inv2%]:@D.VPR@%>тык # ;
+@D.VPR@%<a_sg3%>%<o_sg1%>%[%+inv2%]:@D.VPR@ # ;
 @R.VPR.ne@%<a_pl3%>%<o_sg1%>:@R.VPR.ne@%>гым # ;
 
-@D.VPR@%<a_sg2%>%<o_pl1%>[%+inv%]:@D.VPR@ # ;
-@D.VPR@%<a_pl2%>%<o_pl1%>[%+inv%]:@D.VPR@%>тык # ;
+@D.VPR@%<a_sg2%>%<o_pl1%>%[%+inv%]:@D.VPR@ # ;
+@D.VPR@%<a_pl2%>%<o_pl1%>%[%+inv%]:@D.VPR@%>тык # ;
 @R.VPR.ne@%<a_sg3%>%<o_pl1%>:@R.VPR.ne@%>мык # ;
 @R.VPR.ne@%<a_pl3%>%<o_pl1%>:@R.VPR.ne@%>мык # ;
 
@@ -563,13 +563,13 @@ LEXICON V-TV-PROG-FUT
 
 LEXICON V-TV-PROG-INTN
 
-@R.VPR.q@%<a_sg2%>%<o_sg1%>[%+inv2%]:@R.VPR.q@ # ;
-@R.VPR.q@%<a_pl2%>%<o_sg1%>[%+inv2%]:@R.VPR.q@тык # ;
-@R.VPR.n@%<a_sg3%>%<o_sg1%>[%+inv2%]:@R.VPR.n@ # ;
-@R.VPR.yn@%<a_pl3%>%<o_sg1%>[%+inv2%]:@R.VPR.yn@гым # ;
+@R.VPR.q@%<a_sg2%>%<o_sg1%>%[%+inv2%]:@R.VPR.q@ # ;
+@R.VPR.q@%<a_pl2%>%<o_sg1%>%[%+inv2%]:@R.VPR.q@тык # ;
+@R.VPR.n@%<a_sg3%>%<o_sg1%>%[%+inv2%]:@R.VPR.n@ # ;
+@R.VPR.yn@%<a_pl3%>%<o_sg1%>%[%+inv2%]:@R.VPR.yn@гым # ;
 
-@R.VPR.q@%<a_sg2%>%<o_pl1%>[%+inv%]:@R.VPR.q@ # ;
-@R.VPR.q@%<a_pl2%>%<o_pl1%>[%+inv%]:@R.VPR.q@%>тык # ;
+@R.VPR.q@%<a_sg2%>%<o_pl1%>%[%+inv%]:@R.VPR.q@ # ;
+@R.VPR.q@%<a_pl2%>%<o_pl1%>%[%+inv%]:@R.VPR.q@%>тык # ;
 @R.VPR.yn@%<a_sg3%>%<o_pl1%>:@R.VPR.yn@%>мык # ;
 @R.VPR.yn@%<a_pl3%>%<o_pl1%>:@R.VPR.yn@%>мык # ;
 
@@ -600,13 +600,13 @@ LEXICON V-TV-PROG-INTN
 
 LEXICON V-TV-PROG-COND    !!! FIXME
 
-@R.VPR.n@%<a_sg2%>%<o_sg1%>[%+inv2%]:@R.VPR.n@ # ;
-@R.VPR.n@%<a_pl2%>%<o_sg1%>[%+inv2%]:@R.VPR.n@%>%{ы%}тык # ;
-@R.VPR.n@%<a_sg3%>%<o_sg1%>[%+inv2%]:@R.VPR.n@ # ;
+@R.VPR.n@%<a_sg2%>%<o_sg1%>%[%+inv2%]:@R.VPR.n@ # ;
+@R.VPR.n@%<a_pl2%>%<o_sg1%>%[%+inv2%]:@R.VPR.n@%>%{ы%}тык # ;
+@R.VPR.n@%<a_sg3%>%<o_sg1%>%[%+inv2%]:@R.VPR.n@ # ;
 @R.VPR.ne@%<a_pl3%>%<o_sg1%>:@R.VPR.ne@%>%{ы%}гым # ;
 
-@R.VPR.n@%<a_sg2%>%<o_pl1%>[%+inv%]:@R.VPR.n@ # ;
-@R.VPR.n@%<a_pl2%>%<o_pl1%>[%+inv%]:@R.VPR.n@%>тык # ;
+@R.VPR.n@%<a_sg2%>%<o_pl1%>%[%+inv%]:@R.VPR.n@ # ;
+@R.VPR.n@%<a_pl2%>%<o_pl1%>%[%+inv%]:@R.VPR.n@%>тык # ;
 @R.VPR.yn@%<a_sg3%>%<o_pl1%>:@R.VPR.yn@%>%{ы%}мык # ;
 @R.VPR.yn@%<a_pl3%>%<o_pl1%>:@R.VPR.yn@%>%{ы%}мык # ;
 

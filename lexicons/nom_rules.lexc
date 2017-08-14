@@ -7,13 +7,13 @@ LEXICON Case-prefixes
 
 
 !LEXICON N-deriv-prefixes
-! [%+f%]:ӈ%{Æ%}в%{ы%}%> NOMINALS ;
-! [%+ints%]:ԓ%{ы%}ги%> NOMINALS ;
-! [%+ints%]:т%{Æ%}%> NOMINALS ;
-! [%+restr%]:%{Æ%}м%> NOMINALS ;
-! [%+approx%]:м%{Æ%}ԓ%> NOMINALS ;
-! [%+approx%]:м%{Æ%}ч%> NOMINALS ;
-! [%+auth%]:ԓ%{ы%}ги%> NOMINALS ;
+! %[%+f%]:ӈ%{Æ%}в%{ы%}%> NOMINALS ;
+! %[%+ints%]:ԓ%{ы%}ги%> NOMINALS ;
+! %[%+ints%]:т%{Æ%}%> NOMINALS ;
+! %[%+restr%]:%{Æ%}м%> NOMINALS ;
+! %[%+approx%]:м%{Æ%}ԓ%> NOMINALS ;
+! %[%+approx%]:м%{Æ%}ч%> NOMINALS ;
+! %[%+auth%]:ԓ%{ы%}ги%> NOMINALS ;
 ! : NOMINALS ;
 
 
@@ -183,12 +183,12 @@ LEXICON N-OBL
 %<n%>: N-DERIV-PREF ;
 
 LEXICON N-DERIV-PREF
-! %<f%>[%+f%]: N-DERIV-SUFF ;
-%<ints%>[%+ints%]: N-DERIV-SUFF ;
-%<ints2%>[%+ints2%]: N-DERIV-SUFF ;
-%<approx%>[%+approx%]: N-DERIV-SUFF ;
-! %<restr%>[%+restr%]:
-! %<auth%>[%+auth%]:
+! %<f%>%[%+f%]: N-DERIV-SUFF ;
+%<ints%>%[%+ints%]: N-DERIV-SUFF ;
+%<ints2%>%[%+ints2%]: N-DERIV-SUFF ;
+%<approx%>%[%+approx%]: N-DERIV-SUFF ;
+! %<restr%>%[%+restr%]:
+! %<auth%>%[%+auth%]:
 : N-DERIV-SUFF ;
 
 LEXICON N-DERIV-SUFF
@@ -209,8 +209,8 @@ LEXICON N-DERIV-SUFF
 %<coop%>:%>%{ы%}гинив N-DERIV-I ;
 %<prtt%>:%>%{ы%}тъуԓ N-DERIV-I ;
 %<ger%>:%>%{ы%}гырг%{⁺ⱽᴴ%} N-DERIV-III ;
-! @D.CASE@%<v%>@U.itsa.verb@[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{Æ%}т V ;
-! @D.CASE@%<v%>@U.itsa.verb@[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{Æ%}в V ;
+! @D.CASE@%<v%>@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{Æ%}т V ;
+! @D.CASE@%<v%>@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{Æ%}в V ;
 : N-DERIV-SPACIAL ;
 
 
