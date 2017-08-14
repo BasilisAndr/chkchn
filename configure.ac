@@ -13,4 +13,4 @@ AS_IF([test x$HFSTTWOLC = xfalse], [AC_MSG_ERROR([You don't have hfst-twolc inst
 
 AP_MKINCLUDE
 
-
+AC_OUTPUT([Makefile])
