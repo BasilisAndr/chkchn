@@ -29,18 +29,28 @@ $(LANG1).lexc.hfst: $(LANG1).lexc
 
 ###############################################################################
 
-$(LANG1).gen.hfst: $(LANG1).mor.hfst
-	hfst-invert $(LANG1).mor.hfst -o $(LANG1).gen.hfst
 
+## Compose the lexical transducer with the morphophonological rules
 
 $(LANG1).lexctwol.hfst: $(LANG1).lexc.hfst $(LANG1).twol.hfst
 	hfst-compose-intersect -1 $(LANG1).lexc.hfst -2 $(LANG1).twol.hfst -o $(LANG1).lexctwol.hfst
 
-$(LANG1).mor.hfst: $(LANG1).lexctwol.mor.hfst $(LANG1).twoc.hfst
-	hfst-compose-intersect -1 $(LANG1).lexctwol.mor.hfst -2 $(LANG1).twoc.hfst -o $(LANG1).mor.hfst
+# Invert the transducer ready for applying the morphotactic rules
 
 $(LANG1).lexctwol.mor.hfst: $(LANG1).lexctwol.hfst
 	hfst-invert $(LANG1).lexctwol.hfst -o $(LANG1).lexctwol.mor.hfst
+
+# Apply the morphotactic rules to generate the final analyser
+
+$(LANG1).mor.hfst: $(LANG1).lexctwol.mor.hfst $(LANG1).twoc.hfst
+	hfst-compose-intersect -1 $(LANG1).lexctwol.mor.hfst -2 $(LANG1).twoc.hfst -o $(LANG1).mor.hfst
+
+# Invert the transducer to generate the final generator
+
+$(LANG1).gen.hfst: $(LANG1).mor.hfst
+	hfst-invert $(LANG1).mor.hfst -o $(LANG1).gen.hfst
+
+# Convert to optimised lookup format for faster lookup
 
 $(LANG1).mor.hfstol: $(LANG1).mor.hfst
 	hfst-fst2fst --format=optimized-lookup-weighted -i $(LANG1).mor.hfst -o $(LANG1).mor.hfstol
