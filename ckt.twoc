@@ -1,25 +1,5 @@
 Alphabet
 
- А Б В Г Д Е Ё Ж З И Й К Ӄ Л Ԓ М Н Ӈ О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
- а б в г д е ё ж з и й к ӄ л ԓ м н ӈ о п р с т у ф х ц ч ш щ ъ ы ь э ю я ʼ
-
- %{Æ%}                     ! э or а
- %{T%}                     ! latin; erg & com т ot 0
- %{G%}                     ! all & abl; г/й/э
- %{ы%}                     ! Epenthetic schwa: ы or 0
- %{и%}                     ! For plural: и or 0
- %{N%}                     ! allophones of ng
- %{R%}                     ! р or н
- %{I%}                     ! и or й in suffixes
-
- %{⁺ⱽᴴ%}                   ! Trigger for dominant harmony
- %{·%}                     ! Trigger for stem-final vowel deletion
- %{°%}                     ! Trigger for stem-final vowel reduction
- %{☭%}                     ! Trigger for loan word phonology
- %{ʔ%}                     ! Glottal stop
-
- %>                        ! Morpheme boundary
-
 %[%+approx%]:0
 %[%+ints%]:0
 %[%+ints2%]:0
@@ -32,6 +12,7 @@ Alphabet
 %[%+inv%]:0
 %[%+inv2%]:0
 %[%+itsaverb%]:0
+
 ;
 
 Rules
