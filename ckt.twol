@@ -71,18 +71,24 @@ Back = К Ӄ Ӈ Г
 
 Rules
 
+
+! Chukchi has six phonetic vowel segments, the segments [i], [e], [a], [o], [u] and the
+! epenthetic vowel \shwa. The full vowels are related in harmonic pairs to three
+! underlying vowels /i/, /e/ and /u/.
+
+
 "Vowel harmony"
 ! а й в а н >:0 у:о
 Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
                                     _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
        except
            .#. _ %>: :Vow ;         ! contexts for deletion
-          :Cns _ :0* %>: :Vow ;     ! deletion; :0* = special symbols
+          :Cns _ (:0) (:0) %>: :Vow ;     ! deletion; (:0) (:0) = special symbols
                _ :* \ %>: %{☭%}: ;  ! doesn't affect loan phonology
                _ %{°%}:0 .#. ;          ! word-final abs reduction
                _ %{·%}:0 .#. ;        ! word-final abs deletion
-   [ :ч | :ԓ ] :0* _ ;       ! orthography
-   :Vow :0* й: :0* _ ;       ! orthography
+   [ :ч | :ԓ ] (:0) (:0) _ ;       ! orthography
+   :Vow (:0) (:0) й: (:0) (:0) _ ;       ! orthography
        where
            Vx in ( у ю и %{Æ%} )
            Vy in ( о ё э   а   ) matched ;
@@ -91,11 +97,11 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
 "Vowel harmony after ԓ"
 ! а й в а ԓ >:0 у:ё
 ! а й в а ԓ >:0 у:о   ! Neg
-Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ԓ :0* _ ;
-                                    :ԓ :0* _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ԓ (:0) (:0) _ ;
+                                    :ԓ (:0) (:0) _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
       except
           .#. _ %>: :Vow ;
-         :Cns _ :0* %>: :Vow ;
+         :Cns _ (:0) (:0) %>: :Vow ;
               _ :* \ %>: %{☭%}: ;
               _ %{°%}:0 .#. ;
               _ %{·%}:0 .#. ;
@@ -107,11 +113,11 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ԓ :0* _ ;
 "Vowel harmony after ч"
 ! о ч >:0 {Æ}:а
 ! о ч >:0 и:е
-Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ч :0* _ ;
-                                     :ч :0* _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
+Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ч (:0) (:0) _ ;
+                                     :ч (:0) (:0) _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
        except
            .#. _ %>: :Vow ;
-          :Cns _ :0* %>: :Vow ;
+          :Cns _ (:0) (:0) %>: :Vow ;
                _ :* \ %>: %{☭%}: ;
                _ %{°%}:0 .#. ;
                _ %{·%}:0 .#. ;
@@ -127,24 +133,29 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ч :0* _ ;
         [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
                                    _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
                                .#. _ %>: :Vow ;
-                              :Cns _ :0* %>: :Vow ;
+                              :Cns _ (:0) (:0) %>: :Vow ;
                                    _ %{°%}:0 .#. ;
                                    _ %{·%}:0 .#. ;
-                   [ :ч | :ԓ ] :0* _ ;
-                   :Vow :0* й: :0* _ ;
+                   [ :ч | :ԓ ] (:0) (:0) _ ;
+                   :Vow (:0) (:0) й: (:0) (:0) _ ;
 
 !
 "Vowel harmony for Æ (recessive) after palatal"
 ! п р и ч {☭}:0 >:0 {Æ}:е
-%{Æ%}:е <=> [ :ч | :ԓ ] :0* _ ;
+%{Æ%}:е <=> [ :ч | :ԓ ] (:0) (:0) _ ;
       except
         [ Dominant | %{⁺ⱽᴴ%}: ] :* _ ;
                                    _ :* [ Dominant | %{⁺ⱽᴴ%}: ] ;
                                .#. _ %>: :Vow ;         ! contexts for deletion
-                              :Cns _ :0* %>: :Vow ;
+                              :Cns _ (:0) (:0) %>: :Vow ;
                                    _ :* \ %>: %{☭%}: ;
                                    _ %{°%}:0 .#. ;
                                    _ %{·%}:0 .#. ;
+
+
+
+! The first vowel of a pair of concurrent underlying vowels is regularly deleted
+! (p.41)
 
 
 "Vowel deletion for recessive"                    ! because syllable structure
@@ -152,10 +163,10 @@ Vx:Vy <=> [ Dominant | %{⁺ⱽᴴ%}: ] :* :ч :0* _ ;
 ! а г н о т в а н о {☭}:0 >:0 у:о >:0 к ы н
 ! г а н >:0 у:о >:0 о
 V:0 <=> .#. _ %>: :Vow ;
-       :Cns _ :0* %>: :Vow ;
+       :Cns _ (:0) (:0) %>: :Vow ;
        except
-           :Cns _ :0* %>: [ V: | :Vd ] %>: ;     ! for one-vowel suffixes
-            %>: _ :0* %>: [ V: | :Vd ] ;
+           :Cns _ (:0) (:0) %>: [ V: | :Vd ] %>: ;     ! for one-vowel suffixes
+            %>: _ (:0) (:0) %>: [ V: | :Vd ] ;
        where
            V in ( е и у ю %{Æ%} )
            Vd in ( я э о ё а ) matched ;
@@ -164,12 +175,20 @@ V:0 <=> .#. _ %>: :Vow ;
 "Vowel deletion for dominant"                    ! because syllable structure
 ! а г н о т в а:0 >:0 у:о
 V:0 <=> .#. _ %>: :Vow ;       ! same as for rec but can be written shorter
-       :Cns _ :0* %>: :Vow ;
+       :Cns _ (:0) (:0) %>: :Vow ;
        except
-            :Cns _ :0* %>: :V %>: ;     ! for one-vowel suffixes
-             %>: _ :0* %>: :V ;
+            :Cns _ (:0) (:0) %>: :V %>: ;     ! for one-vowel suffixes
+             %>: _ (:0) (:0) %>: :V ;
        where
             V in ( я э о ё а ) ;
+
+
+
+! ASSOCIATION PRINCIPLE
+! Syllable templates are associated with the underlying CV skeleton from
+! right to left. Each syllable (maximally CVC) associates with as many
+! skeletal elements as possible. Onsets of syllables (C1 of C1VC2) are
+! always filled unless the word has an initial vowel. (p.41)
 
 
 "Epenthesis"
@@ -177,57 +196,57 @@ V:0 <=> .#. _ %>: :Vow ;       ! same as for rec but can be written shorter
 ! г {ы}:ы р >:0 {ы}:ы к
 ! м ы т {ы}:0 >:0 г {ы}:ы р >:0 {ы}:0 м ы к
 ! м {ы}:ы >:0 к ы ԓ е >:0 {ы}:0 к
-%{ы%}:ы <=> [ :Cns | .#. ] :0* [ :Cns | :Glottal ] [ :0 - Vow: ]* _ :0* :Cns ;       ! first syll/three :Cns in a row, after the second
-            :Cns [ :0 - Vow: ]* _ :0* :Cns [ :Glottal | :0]* [ :Cns | .#. ] ;       ! last syll/three :Cns in a row, after the first
-       :Vow :Cns :0* %>: %{G%}: _ ;
+%{ы%}:ы <=> [ :Cns | .#. ] (:0) (:0) [ :Cns | :Glottal ] ([ :0 - Vow: ]) _ (:0) (:0) :Cns ;       ! first syll/three :Cns in a row, after the second
+            :Cns ([ :0 - Vow: ]) _ (:0) (:0) :Cns ([ :Glottal | :0 ]) [ :Cns | .#. ] ;       ! last syll/three :Cns in a row, after the first
+       :Vow :Cns (:0) (:0) %>: %{G%}: _ ;
 
 
 "Epenthesis for yot"
 ! м ы т {ы}:ъ >:0 я р >:0 {ы}:0 м ы к
-%{ы%}:ъ <=> [ :Cns - :ԓ - %{G%}: ] :0* _ :0* :Yot ;
+%{ы%}:ъ <=> [ :Cns - :ԓ - %{G%}: ] (:0) (:0) _ (:0) (:0) :Yot ;
 
 
 "Epenthesis for yot after ԓ"
 ! м ы ԓ {ы}:ь >:0 я р >:0 {ы}:0 м ы к
-%{ы%}:ь <=> :ԓ :0* _ :0* :Yot ;
+%{ы%}:ь <=> :ԓ (:0) (:0) _ (:0) (:0) :Yot ;
 
 
 "t insertion after vowel-final stems"
 ! г {Æ}:0 >:0 а й в а >:0 {T}:т {Æ}:а
 ! г {Æ}:0 >:0 а г т а ч г >:0 {T}:0 {Æ}:а
 ! т а й к >:0 {ы}:ы й о {T}:т >:0 {T}:т {Æ}:э
-%{T%}:т <=> Vow :0* %>: _ ;
+%{T%}:т <=> Vow (:0) (:0) %>: _ ;
              %{T%}: %>: _ ;
                         _ %>: %{T%}: ;
 
 
 "All/Abl allomorph г-"
 ! а й в а >:0 {G}:г т ы {⁺ⱽᴴ}:0
-%{G%}:г <=> Vow :Cns :0* %>: _ ;
-                     :0* %>: _ т ;
+%{G%}:г <=> Vow :Cns (:0) (:0) %>: _ ;
+                     (:0) (:0) %>: _ т ;
         except
-      [ :Cns | :Glottal ] :0* %>: _ т ;
+      [ :Cns | :Glottal ] (:0) (:0) %>: _ т ;
 
 
 "All/Abl allomorph э-"
 ! а г ъ ё л я т к э г ы р г >:0 {G}:э {ы}:0 п ы {⁺ⱽᴴ}:0
-%{G%}:э <=> :Cns [ :Cns | :Glottal ] :0* %>: _ ;
-                 [ :Cns | :Glottal ] :0* %>: _ т ;
+%{G%}:э <=> :Cns [ :Cns | :Glottal ] (:0) (:0) %>: _ ;
+                 [ :Cns | :Glottal ] (:0) (:0) %>: _ т ;
 
 
 "Abl allomorph й-"
 ! а й в а >:0 {G}:й {ы}:0 п ы {⁺ⱽᴴ}:0
-%{G%}:й <=> Vow :0* %>: _ ;
+%{G%}:й <=> Vow (:0) (:0) %>: _ ;
         except
-                :0* %>: _ т ;               ! this line turns off Allative
+                (:0) (:0) %>: _ т ;               ! this line turns off Allative
 
 
 "{и} in suffixes incl. after non-coronals"
 ! а г н о т в а н в >:0 {ы}:ы т {и}:0
 ! а й в э р э т >:0 {ы}:0 т {и}:э
-%{и%}:0 <=> [ :Cns - :Coronal | :Glottal ] :0* %{ы%}: т _ ;
-                                               :Vow :0* _ ;
-                  :Cns [ :Cns | :Glottal ] :0* %{ы%}: т _ ;
+%{и%}:0 <=> [ :Cns - :Coronal | :Glottal ] (:0) (:0) %{ы%}: т _ ;
+                                               :Vow (:0) (:0) _ ;
+                  :Cns [ :Cns | :Glottal ] (:0) (:0) %{ы%}: т _ ;
 
 
 "Stem-final vowel deletion"
@@ -243,95 +262,118 @@ V:ы <=>  _ %{°%}: .#. ;
            V in ( а е ё и о у э ю я %{Æ%} ) ;
 
 
+! The anterior nasals / m n / do not undergo any phonological processes. In contrast,
+! the velar nasal freely assimilates in place, and is subject to a lenition process
+! in certain contexts. (p.46)
+
 "N allomorph г"
 !
-%{N%}:г <=> _ :0* [ :Nasal & :Anterior ] ;
+%{N%}:г <=> _ (:0) (:0) [ :Nasal & :Anterior ] ;
       except
-            :г :0* _ ;
-            :Vow :Cns :0* %>: ч %{ы%}: _ ;
+            :г (:0) (:0) _ ;
+            :Vow :Cns (:0) (:0) %>: ч %{ы%}: _ ;
 
 "N allomorph н"
 ! %{Æ%}ʼйӈ%{Æ%}выткун%{Æ%}%{N%}%{Æ%}
 ! й ы %{N%}:ӈ %{ы%}:ы р
 ! й ы %{N%}:н %{ы%}:0 р >:0 у
-%{N%}:н <=> :г :0* _ ;
-               _ :0* [ :Alveolar - :Nasal | :й ] ;
-               _ :0* .#. ;
-               :Vow :Cns :0* %>: ч %{ы%}: _ ;
+%{N%}:н <=> :г (:0) (:0) _ ;
+               _ (:0) (:0) [ :Alveolar - :Nasal | :й ] ;
+               _ (:0) (:0) .#. ;
+               :Vow :Cns (:0) (:0) %>: ч %{ы%}: _ ;
 
 
 "N allomorph м"
-%{N%}:м <=> _ :0* [ :Bilabial - :Nasal ];
+%{N%}:м <=> _ (:0) (:0) [ :Bilabial - :Nasal ];
       except
-            :г :0* _ ;
-            :Vow :Cns :0* %>: ч %{ы%}: _ ;
+            :г (:0) (:0) _ ;
+            :Vow :Cns (:0) (:0) %>: ч %{ы%}: _ ;
 
+
+
+! The stop phonemes are unvoiced and unaspirated. Anterior stops assimilate
+! nasality with a following nasal (p.44)
 
 "п assimilation"
 ! в а т а п:м >:0 {ы}:0 н а
-п:м <=> _ :0* :Nasal ;
+п:м <=> _ (:0) (:0) :Nasal ;
       except
-            _ [ : - %>: ]* %{☭%}: ;
+            _ ([ : - %>: ]) %{☭%}: ;
 
 "т assimilation"
 ! в а р а т:н >:0 {ы}:0 н а
-т:н <=> _ :0* :Nasal ;
+т:н <=> _ (:0) (:0) :Nasal ;
       except
-            _ [ : - %>: ]* %{☭%}: ;
+            _ ([ : - %>: ]) %{☭%}: ;
+
+
+! (p.46)
 
 "р allophone t"
 ! и:э ԓ и:е р:т >:0 {ы}:0 н а
-р:т <=> _ :0* :Coronal ;
+р:т <=> _ (:0) (:0) :Coronal ;
       except
-            _ [ : - %>: ]* %{☭%}: ;
+            _ ([ : - %>: ]) %{☭%}: ;
+
+
+! The velar stop /k/ has an approximant allophone before other consonants (lenition),
+! and assimilates in place with a following uvular (p.44)
 
 "k allophone q"
-к:ӄ <=> _ :0* ӄ ;
+к:ӄ <=> _ (:0) (:0) ӄ ;
       except
-            _ [ : - %>: ]* %{☭%}: ;
+            _ ([ : - %>: ]) %{☭%}: ;
 
+
+! Where an underlying uvular stop q precedes any consonants except another q
+! it is deleted, and the syllable acquires the glottalisation prosody (p.44)
 
 "q deletion"
-ӄ:0 <=> _ :0* [ :Cns - :ӄ ] ;
+ӄ:0 <=> _ (:0) (:0) [ :Cns - :ӄ ] ;
       except
             .#. _ ;
 
 
+! (p.46)
+
 "й allophone г"
 ! к и ԓ в %{Æ%}:э й
 ! к и:э ԓ в %{Æ%}:а й:г >:0 {ы}:0 н а
-й:г <=> _ :0* :Coronal ;
+й:г <=> _ (:0) (:0) :Coronal ;
       except
-            _ [ : - >: ]* %{☭%}: ;
+            _ ([ : - %>: ]) %{☭%}: ;
 
 
 "гм -> ӈӈ first"
-г:ӈ <=> _ :0* м: ;
+г:ӈ <=> _ (:0) (:0) м: ;
 
 "гм -> ӈӈ second"
-м:ӈ <=> г: :0* _ ;
+м:ӈ <=> г: (:0) (:0) _ ;
 
 "I to й in stative"
-%{I%}:й <=> :Vow :0* _ ;
+%{I%}:й <=> :Vow (:0) (:0) _ ;
+
+
+! (p.51)
 
 "R that is р"
 %{R%}:р <=> .#. _ ;
 
 
 "Glottal stop after cns before vowels"
-%{ʔ%}:ъ <=> [:Cns - ԓ - ч ] :0* _ :0* :Vow ;
+%{ʔ%}:ъ <=> [:Cns - ԓ - ч ] (:0) (:0) _ (:0) (:0) :Vow ;
 
 "Glottal stop after ԓ and ч"
-%{ʔ%}:ь <=> [ ԓ | ч ] :0* _ :0* :Vow ;
+%{ʔ%}:ь <=> [ ԓ | ч ] (:0) (:0) _ (:0) (:0) :Vow ;
 
 "Glottal stop symbol deletion"
-ʼ:0 <=> :Cns [ :ъ | :ь ] :0* :Vow _ ;
+ʼ:0 <=> :Cns [ :ъ | :ь ] (:0) (:0) :Vow _ ;
 
 
 ! this dsnt work :(
 ! "к allophone г"
 ! к:г <=> _ [ :Cns - :Back ] ;
 !       except
-!             _ [ : - >: ]* %{☭%}: ;
+!             _ ([ : - %>: ]) %{☭%}: ;
 
 ! "Non-coronal cluster transformation"
