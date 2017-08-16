@@ -21,11 +21,20 @@ $(LANG1).twol.hfst: $(LANG1).twol
 # The lexc.hfst file will look like:
 # ӈэвысӄэт<n><erg>:ӈ{Æ}высӄ{Æ}т>{T}{Æ}
 #
+
 $(LANG1).lexc: $(LANG1).rules.lexc
 	cat $(LANG1).rules.lexc > $(LANG1).lexc
-	for i in `ls lexicons/` ; do \
-	cat $(join "lexicons/", $$i) >> $(LANG1).lexc ; \
-	done
+	cat lexicons/misc.lexc >> $(LANG1).lexc
+	cat lexicons/nominals.lexc >> $(LANG1).lexc
+	cat lexicons/nominalt.lexc >> $(LANG1).lexc
+	cat lexicons/nominalu.lexc >> $(LANG1).lexc
+	cat lexicons/nom_rules.lexc >> $(LANG1).lexc
+	cat lexicons/pronouns.lexc >> $(LANG1).lexc
+	cat lexicons/verb_deriv.lexc >> $(LANG1).lexc
+	cat lexicons/verb_rules.lexc >> $(LANG1).lexc
+	cat lexicons/verbs.lexc >> $(LANG1).lexc
+	cat lexicons/verbt.lexc >> $(LANG1).lexc
+	cat lexicons/verbu.lexc >> $(LANG1).lexc
 
 $(LANG1).lexc.hfst: $(LANG1).lexc
 	hfst-lexc --Werror $(LANG1).lexc -o $(LANG1).lexc.hfst
