@@ -2,7 +2,14 @@
 
 ### Description
 
-This is a Google Summer of Code project for a morphological analyzer (autoglosser) for Chukchi based on HFST.<br />
+This is a Google Summer of Code project for a morphological analyzer (autoglosser) for Chukchi based on Helsinki Finite State Transducers (HFST).<br />
+
+##### Chukchi
+Chukchi is a language with rich morphology, both inflexional and derivational, and a language with vowel harmony. Vowel harmony is a linguistic phenomenon when vowels are grouped and only vowels from the same group can occur in one word (e.g. Turkic languages). That means, (almost) all vowels in a word can change if a certain affix is attached. </br>
+Chukchi also has quite a lot of morphophonology, which is expressed via mutations of letters in some contexts. This is further complicated by Chukchi orthography, which in some cases doesn't reflect the order of the sounds adequately. </br>
+Morphological parsers that have been used for Chukchi by now (e.g. regexp-based) cannot natively and easily account for all these complications. That is why HFST technology was chosen in this project.
+
+##### This transducer
 The full transducer is composed of three transducers:<br />
 - lexc deals with morphology and lexicon;
 - twoc helps to implement morphology that is not possible (or too difficult) to implement in lexc;
@@ -16,17 +23,19 @@ The files in .hfstol format are faster versions of .hfst.
 
 ### Compilation
 
-| make       | for |
-|------------|-----------------------------------------------------|
-| make       | to compile twol & lexc files in a single transducer |
-| make twolc | to compile twolc only                               |
-| make lexc  | to compile lexc only                                |
-| make final | to compose existing transducers into a single one   |
+| command       | result |
+|------------|------------------------------------------------------|
+| make       | to compile twolc & lexc files in a single transducer |
+| make twolc | to compile twolc only                                |
+| make lexc  | to compile lexc only                                 |
+| make final | to compose existing transducers into a single one    |
+
+Compilation + coverage count is done by ./make_and_count.sh script.
 
 ### Testing
 
 test.sh is a hfst-pair-test for twolc. The input file for the positive test is test.test.<br />
-alltest.sh is a hfst-lookup for the whole transducer.<br />
+alltest.sh is a hfst-lookup test for the whole transducer.<br />
 
 ### Usage
 
@@ -45,5 +54,23 @@ The output of the script (e.g. analyzed tokens) will be in the file corpora/corp
 F=../corpora/corpus-stat-res.txt
 
 
-### Coverage
-76.2%
+### Results
+##### Coverage
+
+Coverage (percentage of tokens analyzed) is calculated over the corpora/ckt.crp.txt file, which is a compilation of Chukchi fairytales.
+Current state: 76.2%
+
+##### Paradigms
+Current state of this parser accounts for:
+- all of morphophonology and orthography issues;
+- nominal, pronominal, adjectival inflection and derivation;
+- uniflexionable parts of speech;
+- verbal inflection except certain future paradigm cells;
+- verbal derivation.
+It also contains structures to parse compounds and incorporation, but they burst the complexity of the transducer and it was impossible to test them on the capacities availiable.
+
+##### Further work
+- Refactoring for better and quicker performance;
+- Fix future;
+- Incorporation on refactored transducer;
+- Dictionary enlargement.
