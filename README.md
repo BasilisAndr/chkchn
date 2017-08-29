@@ -21,6 +21,8 @@ Compilation produces the before mentioned transducers plus two composed ones:
 
 The files in .hfstol format are faster versions of .hfst.
 
+The last GSoC commit is 2aef3a1bdb8f8b0c3ab40629dd4851a9d763aae6.
+
 ### Compilation
 
 | command       | result |
