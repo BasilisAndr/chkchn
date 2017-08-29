@@ -60,6 +60,7 @@ F=../corpora/corpus-stat-res.txt
 #### Coverage
 
 Coverage (percentage of tokens analyzed) is calculated over the corpora/ckt.crp.txt file, which is a compilation of Chukchi fairytales.
+
 Current state: 76.2%
 
 #### Paradigms
