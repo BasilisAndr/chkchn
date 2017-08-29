@@ -68,7 +68,7 @@ Current state of this parser accounts for:
 - nominal, pronominal, adjectival inflection and derivation;
 - uniflexionable parts of speech;
 - verbal inflection except certain future paradigm cells;
-- verbal derivation.
+- verbal derivation.</br>
 It also contains structures to parse compounds and incorporation, but they burst the complexity of the transducer and it was impossible to test them on the capacities availiable.
 
 ### Further work
