@@ -53,7 +53,6 @@ LEXICON CASES-OBL                             !!
 @D.CASE@%<sub%>:@D.CASE@%>%{ы%}йиӈкы # ;
 @D.CASE@:@D.CASE@ POSS ;
 @D.CASE@:@D.CASE@ REL ;
-%<cmp%>%+:%>%{ы%} Nouns ;
 
 ! circumfixes
 @R.CASE.com@%<com%>:@R.CASE.com@%>%{T%}%{Æ%} # ;
@@ -209,8 +208,21 @@ LEXICON N-DERIV-SUFF
 %<coop%>:%>%{ы%}гинив N-DERIV-I ;
 %<prtt%>:%>%{ы%}тъуԓ N-DERIV-I ;
 %<ger%>:%>%{ы%}гырг%{⁺ⱽᴴ%} N-DERIV-III ;
+
+!!! FIXME
+! cross to verbs
 ! @D.CASE@%<v%>@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{Æ%}т V ;
 ! @D.CASE@%<v%>@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{Æ%}в V ;
+
+! compounds
+! %<cmp%>%+:%>%{ы%} Nouns ;
+
+! Incorporation
+! %<incorp%>%+:%>%{ы%} Verbs ;
+! @D.CASE@%<incorp%>%+@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{ы%} V ;
+! @D.CASE@%<incorp%>%+@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{ы%} V ;
+
+
 @D.CASE@:@D.CASE@ ADJ ;
 : N-DERIV-SPACIAL ;
 

@@ -41,7 +41,7 @@ alltest.sh is a hfst-lookup test for the whole transducer.<br />
 
 #### by token
 If you need to analyze a token, use this command:
-$ echo "token_here" | hfst-lookup ckt.mor.hfst
+$ echo "token" | hfst-lookup ckt.mor.hfst
 To generate a form from a succession of tags, use this command:
 echo "root\<tag1\>\<tag2\>" | hfst-lookup ckt.gen.hfst
 
