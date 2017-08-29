@@ -43,17 +43,21 @@ alltest.sh is a hfst-lookup test for the whole transducer.<br />
 
 #### by token
 If you need to analyze a token, use this command:
-$ echo "token" | hfst-lookup ckt.mor.hfst
+    $ echo "token" | hfst-lookup ckt.mor.hfst
 To generate a form from a succession of tags, use this command:
-echo "root\<tag1\>\<tag2\>" | hfst-lookup ckt.gen.hfst
+    $ echo "root\<tag1\>\<tag2\>" | hfst-lookup ckt.gen.hfst
 
 #### whole text
 This requires a bit more preparation. Go to scripts/corpus-stat.sh and change this line:
-CMD="cat ../corpora/ckt.crp.txt"
+
+    CMD="cat ../corpora/ckt.crp.txt"
+
 according to the location of your text. The file with the text should be in .txt format.
 Then run corpus-stat.sh.
+
 The output of the script (e.g. analyzed tokens) will be in the file corpora/corpus-stat-res.txt. If you want to change location of the output, change this line in scripts/corpus-stat.sh:
-F=../corpora/corpus-stat-res.txt
+
+    F=../corpora/corpus-stat-res.txt
 
 
 ### Results
