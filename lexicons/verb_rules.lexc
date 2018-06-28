@@ -23,8 +23,8 @@ LEXICON Verb-prefixes
 @P.VPR.ne@:@P.VPR.ne@н%{Æ%}%> V-TENSE-PREFIXES ;
 @P.VPR.yn@:@P.VPR.yn@ыʼн%> V-TENSE-PREFIXES ;
 ! Stative prefixes
-@P.VPR.perf@:@P.VPR.perf@г%{Æ%}%> Verbs ;
-@P.VPR.hab@:@P.VPR.hab@н%{ы%}%> Verbs ;
+@P.VPR.perf@:@P.VPR.perf@г%{Æ%}%> V-INV ;
+@P.VPR.hab@:@P.VPR.hab@н%{ы%}%> V-INV ;
 
 
 
