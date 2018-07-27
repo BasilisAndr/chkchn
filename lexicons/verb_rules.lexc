@@ -57,6 +57,7 @@ LEXICON V-IV
 
 ! @D.VDER@:@D.VDER@ V-IV-AFFIX ;
 @U.V.iv@:@U.V.iv@ V-DERIV ;
+%<v%>%<iv%>@U.V.iv@:@U.V.iv@ V-DERIV ;
 
 
 LEXICON V-IV-AFFIX
@@ -90,6 +91,7 @@ LEXICON V-TV
 
 ! @D.VDER@:@D.VDER@ V-TV-AFFIX ;
 @U.V.tv@:@U.V.tv@ V-DERIV ;
+%<v%>%<tv%>@U.V.tv@:@U.V.tv@ V-DERIV ;
 
 
 LEXICON V-TV-AFFIX
