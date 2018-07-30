@@ -13,7 +13,177 @@ Alphabet
 %[%+inv2%]:0
 %[%+itsaverb%]:0
 
+%<n%>:%<n%>                     ! Noun
+%<prn%>:%<prn%>                   ! Pronoun
+%<ij%>:%<ij%>                    ! Interjection
+%<cnjcoo%>:%<cnjcoo%>                ! Co-ordinating conjunction
+%<cnjadv%>:%<cnjadv%>                ! Adverbial conjunction
+%<v%>:%<v%>                     ! Verb
+%<adv%>:%<adv%>                   ! Adverb
+%<adj%>:%<adj%>                   ! Adjective
+%<part%>:%<part%>                  ! Particle
+%<ptcp%>:%<ptcp%>                  ! Participle
+%<cmp%>:%<cmp%>                   ! Compound
+
+%<lpar%>:%<lpar%>
+%<rpar%>:%<rpar%>
+%<sent%>:%<sent%>
+%<rquot%>:%<rquot%>
+%<lquot%>:%<lquot%>
+%<guio%>:%<guio%>
+%<cm%>:%<cm%>
+%<apos%>:%<apos%>
+%<quot%>:%<quot%>
+
+
+%<iv%>:%<iv%>                    ! Intransitive
+%<tv%>:%<tv%>                    ! Transitive
+
+%<stat%>:%<stat%>                  ! Stative forms
+
+%<neut%>:%<neut%>                  ! Neutral aspect
+%<prog%>:%<prog%>                  ! Progressive aspect
+
+%<aor%>:%<aor%>                   ! Non-future
+%<fut%>:%<fut%>                   ! Future
+%<intn%>:%<intn%>                  ! Intentional
+%<cond%>:%<cond%>                  ! Conditional
+
+%<inf%>:%<inf%>                   ! Infinitive
+%<perf%>:%<perf%>                  ! Perfect
+%<hab%>:%<hab%>                   ! Habitual
+
+%<gna%_sim%>:%<gna%_sim%>               ! Simultaneous converb
+%<gna%_ant%>:%<gna%_ant%>               ! Anterior temporal converb (temporal sequence)
+%<gna%_res%>:%<gna%_res%>               ! Anterior temporal converb (consequence)
+
+%<act%>:%<act%>
+%<pass%>:%<pass%>
+%<ger%>:%<ger%>
+
+%<th%>:%<th%>                    ! thematic verb suffixes
+%<approx%>:%<approx%>                ! Approximative
+%<ints%>:%<ints%>                  ! Intensifier
+%<ints2%>:%<ints2%>                 ! Intensifier 2
+%<ap%>:%<ap%>                    ! Antipassive
+%<ap2%>:%<ap2%>                   ! Antipassive
+%<caus%>:%<caus%>                  ! Causative
+%<punct%>:%<punct%>                 ! Punctual
+%<dim%>:%<dim%>                   ! Diminutive (verbal)
+%<aug%>:%<aug%>                   ! Augmentative (verbal)
+%<res%>:%<res%>                   ! Resultative
+%<rev%>:%<rev%>
+%<purp%>:%<purp%>                  ! Purposive
+%<consume%>:%<consume%>
+%<utilit%>:%<utilit%>
+%<vrblz%>:%<vrblz%>                 ! Verb deriving suffix
+%<vrblz2%>:%<vrblz2%>                ! Verb deriving suffix 2
+%<desid%>:%<desid%>                 ! Desiderative
+%<iter%>:%<iter%>                  ! Iterative
+%<coop%_s%>:%<coop%_s%>                ! Collective S
+%<coop%_o%>:%<coop%_o%>                ! Collective O
+%<dur%>:%<dur%>                   ! Durative
+%<inch%>:%<inch%>                  ! Inchoative
+%<inch2%>:%<inch2%>                 ! Inchoative 2
+%<compl%>:%<compl%>                 ! Completive
+%<imposs%>:%<imposs%>                ! Impossibilitive
+%<restr%>:%<restr%>                 ! Restrictive
+%<rel%_n%>:%<rel%_n%>                 ! Relational noun
+
+
+
+%<s%_sg1%>:%<s%_sg1%>                 ! Subject, 1st person singular
+%<s%_sg2%>:%<s%_sg2%>                 ! Subject, 2nd person singular
+%<s%_sg3%>:%<s%_sg3%>                 ! Subject, 3rd person singular
+%<s%_pl1%>:%<s%_pl1%>                 ! Subject, 1st person plural
+%<s%_pl2%>:%<s%_pl2%>                 ! Subject, 2nd person plural
+%<s%_pl3%>:%<s%_pl3%>                 ! Subject, 3rd person plural
+
+%<a%_sg1%>:%<a%_sg1%>                 ! Agent, 1st person singular
+%<a%_sg2%>:%<a%_sg2%>                 ! Agent, 2nd person singular
+%<a%_sg3%>:%<a%_sg3%>                 ! Agent, 3rd person singular
+%<a%_pl1%>:%<a%_pl1%>                 ! Agent, 1st person plural
+%<a%_pl2%>:%<a%_pl2%>                 ! Agent, 2nd person plural
+%<a%_pl3%>:%<a%_pl3%>                 ! Agent, 3rd person plural
+
+%<o%_sg1%>:%<o%_sg1%>                 ! Object, 1st person singular
+%<o%_sg2%>:%<o%_sg2%>                 ! Object, 2nd person singular
+%<o%_sg3%>:%<o%_sg3%>                 ! Object, 3rd person singular
+%<o%_pl1%>:%<o%_pl1%>                 ! Object, 1st person plural
+%<o%_pl2%>:%<o%_pl2%>                 ! Object, 2nd person plural
+%<o%_pl3%>:%<o%_pl3%>                 ! Object, 3rd person plural
+
+%<a%_1%>:%<a%_1%>                   ! Agent, 1st person
+%<a%_3%>:%<a%_3%>                   ! Agent, 3rd person
+%<o%_2%>:%<o%_2%>                   ! Object, 2nd person
+%<o%_3%>:%<o%_3%>                   ! Object, 2nd person
+%<3%>:%<3%>                     ! Non-specified third person
+
+%<pl%>:%<pl%>                    ! Plural
+%<sg%>:%<sg%>                    ! Singular
+
+%<sing%>:%<sing%>                  ! Singulative
+
+%<aa%>:%<aa%>                    ! Animates
+
+%<def%>:%<def%>                   ! Definite
+
+%<abl%>:%<abl%>                   ! Ablative
+%<abs%>:%<abs%>                   ! Absolutive
+%<ori%>:%<ori%>                   ! Orientative
+%<erg%>:%<erg%>                   ! Ergative
+%<all%>:%<all%>                   ! Allative
+%<ess%>:%<ess%>                   ! Essive [Equative]
+%<loc%>:%<loc%>                   ! Locative
+
+%<ine%>:%<ine%>                   ! Inessive
+%<subst%>:%<subst%>                 ! Substantive
+%<per%>:%<per%>                   ! Perlative
+%<com%>:%<com%>                   ! Comitative
+%<assoc%>:%<assoc%>                 ! Associative
+%<prv%>:%<prv%>                   ! Privative
+
+%<nmzr%>:%<nmzr%>                  ! Nominalizer
+
+%<px1sg%>:%<px1sg%>                 ! 1sg possessor
+%<px2sg%>:%<px2sg%>                 ! 2sg possessor
+%<px3sg%>:%<px3sg%>                 ! 3sg possessor
+%<px1pl%>:%<px1pl%>                 ! 1pl possessor
+%<px2pl%>:%<px2pl%>                 ! 2pl possessor
+%<px3pl%>:%<px3pl%>                 ! 3pl possessor
+
+%<poss%>:%<poss%>                  ! Possessor
+
+%<1sg%>:%<1sg%>                   ! 1sg possessed
+%<2sg%>:%<2sg%>                   ! 2sg possessed
+%<3sg%>:%<3sg%>                   ! 3sg possessed
+%<1pl%>:%<1pl%>                   ! 1pl possessed
+%<2pl%>:%<2pl%>                   ! 2pl possessed
+%<3pl%>:%<3pl%>                   ! 3pl possessed
+
+%<top%>:%<top%>                   ! Spatial derivations
+%<side%>:%<side%>
+%<edge%>:%<edge%>
+
+%<dim%>:%<dim%>
+%<aug%>:%<aug%>
+%<coop%>:%<coop%>
+%<prtt%>:%<prtt%>                  ! Part of
+%<pers%_n%>:%<pers%_n%>                ! Personal name
+
+%<pers%>:%<pers%>                  ! Personal pronoun
+%<itg%>:%<itg%>                   ! Interrogative pronoun
+%<ind%>:%<ind%>                   ! Indicative?
+%<dem%>:%<dem%>                   ! Demonstrative pronoun
+%<quant%>:%<quant%>                 ! Quantifier pronoun
+%<p1%>:%<p1%>                    ! First person
+%<p2%>:%<p2%>                    ! Second person
+%<p3%>:%<p3%>                    ! Third person
+%<der%>:%<der%>
+%<subst%>:%<subst%>
+
 ;
+
 
 Rules
 
