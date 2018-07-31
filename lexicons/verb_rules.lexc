@@ -38,7 +38,7 @@ LEXICON V-TENSE-PREFIXES
 : V-INV ;
 
 LEXICON V-INV
-! %[%+inv2%]:ин%{Æ%}%> Verb-deriv-prefixes ;
+%[%+inv2%]:ин%{Æ%}%> Verbs ;
 : Verbs ;
 
 
@@ -227,6 +227,9 @@ LEXICON V-TV-PROG
 %<fut%>%[%+fut%]:%> V-TV-PROG-FUT ;
 %<intn%>: V-TV-PROG-INTN ;
 %<cond%>%[%+cond%]:%> V-TV-PROG-COND ;
+
+
+
 
 !!!!!! Subject suffixes
 
