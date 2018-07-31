@@ -25,10 +25,11 @@ LEXICON Verb-prefixes
 ! Stative prefixes
 @P.VPR.perf@:@P.VPR.perf@г%{Æ%}%> V-INV ;
 @P.VPR.hab@:@P.VPR.hab@н%{ы%}%> V-INV ;
+: V-TENSE-PREFIXES ;
 
 
 
-!!!!!! Tense prefixes (fut)
+!!!!!! Tense prefixes (fut, cond)
 
 LEXICON V-TENSE-PREFIXES
 
