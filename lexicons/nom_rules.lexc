@@ -211,16 +211,16 @@ LEXICON N-DERIV-SUFF
 
 !!! FIXME
 ! cross to verbs
-! @D.CASE@%<v%>@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{Æ%}т V ;
-! @D.CASE@%<v%>@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{Æ%}в V ;
+! @D.CASE@%<v%>@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{Æ%}т V-IV ;
+! @D.CASE@%<v%>@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{Æ%}в V-IV ;
 
 ! compounds
 ! %<cmp%>%+:%>%{ы%} Nouns ;
 
 ! Incorporation
 ! %<incorp%>%+:%>%{ы%} Verbs ;
-! @D.CASE@%<incorp%>%+@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{ы%} V ;
-! @D.CASE@%<incorp%>%+@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{ы%} V ;
+! @D.CASE@%<incorp%>%+@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{ы%} V-IV ;
+! @D.CASE@%<incorp%>%+@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{ы%} V-IV ;
 
 
 @D.CASE@:@D.CASE@ ADJ ;
@@ -292,11 +292,11 @@ LEXICON N-DERIV-III
 : CASES-ANIM ;
 ! : N-DERIV-SUFF ;
 
-LEXICON INTO-N-I
-@D.CASE@%<sg%>%<abs%>:@D.CASE@ # ;
-: CASES-OBL ;
-: CASES-ANIM ;
-: N-DERIV-SUFF ;
+! LEXICON INTO-N-I
+! @D.CASE@%<sg%>%<abs%>:@D.CASE@ # ;
+! : CASES-OBL ;
+! : CASES-ANIM ;
+! : N-DERIV-SUFF ;
 
 LEXICON INTO-N-III
 @D.CASE@%<sg%>%<abs%>:@D.CASE@%>%{ы%}н # ;
@@ -304,22 +304,22 @@ LEXICON INTO-N-III
 : CASES-ANIM ;
 : N-DERIV-SUFF ;
 
-LEXICON INTO-N-NEG-PART
-@D.CASE@%<sg%>%<abs%>:@D.CASE@%>ин # ;
-:%>ин%{Æ%} CASES-OBL ;
-:%>ин%{Æ%} CASES-ANIM ;
-:%>ин%{Æ%} N-DERIV-SUFF ;
+! LEXICON INTO-N-NEG-PART
+! @D.CASE@%<sg%>%<abs%>:@D.CASE@%>ин # ;
+! :%>ин%{Æ%} CASES-OBL ;
+! :%>ин%{Æ%} CASES-ANIM ;
+! :%>ин%{Æ%} N-DERIV-SUFF ;
+!
+! LEXICON INTO-N-Vv                                   ! irregular; в-oblique
+!
+! @D.CASE@%<sg%>%<abs%>:@D.CASE@ # ;
+! :в CASES-OBL ;
+! :в CASES-ANIM ;
+! :в N-DERIV-SUFF ;
 
-LEXICON INTO-N-Vv                                   ! irregular; в-oblique
-
-@D.CASE@%<sg%>%<abs%>:@D.CASE@ # ;
-:в CASES-OBL ;
-:в CASES-ANIM ;
-:в N-DERIV-SUFF ;
-
-LEXICON INTO-N-Ic
-
-@D.CASE@%<sg%>%<abs%>:@D.CASE@%{·%} # ;
-: CASES-OBL ;
-: CASES-ANIM ;
-: N-DERIV-SUFF ;
+! LEXICON INTO-N-Ic
+!
+! @D.CASE@%<sg%>%<abs%>:@D.CASE@%{·%} # ;
+! : CASES-OBL ;
+! : CASES-ANIM ;
+! : N-DERIV-SUFF ;

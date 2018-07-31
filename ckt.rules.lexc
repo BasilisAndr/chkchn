@@ -256,9 +256,9 @@ Miscellaneous ;
 Postpositions ;
 Punctuation ;
 Pronouns ;
-Verb-prefixes ;
-Verb-deriv-prefixes ;
-Verbs ;
+! Verb-prefixes ;
+! Verb-deriv-prefixes ;
+! Verbs ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -269,7 +269,7 @@ LEXICON ADV
 
 
 LEXICON ADJ
-@U.itsa.verb@%<v%>%<iv%>:@U.itsa.verb@ V-IV ;
+! @U.itsa.verb@%<v%>%<iv%>:@U.itsa.verb@ V-IV ;
 @U.itsa.adj@:@U.itsa.adj@ ADJ-FIN ;
 %<adj%>%<3sg%>: # ;
 
@@ -301,8 +301,8 @@ LEXICON ADJ-FIN
 @D.ADJ@%<adj%>%<ger%>:@D.ADJ@%>%{ы%}гырг%{⁺ⱽᴴ%} INTO-N-III ;
 @D.ADJ@%<adj%>%<ger%>:@D.ADJ@%>я INTO-N-III ;       ! 'age' nominalisation
 
-@D.ADJ@%<v%>:@D.ADJ@%>%{Æ%}т V ;
-@D.ADJ@%<v%>:@D.ADJ@%>%{Æ%}в V ;
+! @D.ADJ@%<v%>:@D.ADJ@%>%{Æ%}т V ;
+! @D.ADJ@%<v%>:@D.ADJ@%>%{Æ%}в V ;
 
 
 

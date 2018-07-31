@@ -315,23 +315,23 @@ V:ы <=>  _ %{°%}: .#. ;
       except
             _ ([ : - %>: ]) %{☭%}: ;
 
-
-! The velar stop /k/ has an approximant allophone before other consonants (lenition),
-! and assimilates in place with a following uvular (p.44)
-
-"k allophone q"
-к:ӄ <=> _ (:0) (:0) ӄ ;
-      except
-            _ ([ : - %>: ]) %{☭%}: ;
-
-
-! Where an underlying uvular stop q precedes any consonants except another q
-! it is deleted, and the syllable acquires the glottalisation prosody (p.44)
-
-"q deletion"
-ӄ:0 <=> _ (:0) (:0) [ :Cns - :ӄ ] ;
-      except
-            .#. _ ;
+!
+! ! The velar stop /k/ has an approximant allophone before other consonants (lenition),
+! ! and assimilates in place with a following uvular (p.44)
+!
+! "k allophone q"
+! к:ӄ <=> _ (:0) (:0) ӄ ;
+!       except
+!             _ ([ : - %>: ]) %{☭%}: ;
+!
+!
+! ! Where an underlying uvular stop q precedes any consonants except another q
+! ! it is deleted, and the syllable acquires the glottalisation prosody (p.44)
+! 
+! "q deletion"
+! ӄ:0 <=> _ (:0) (:0) [ :Cns - :ӄ ] ;
+!       except
+!             .#. _ ;
 
 
 ! (p.46)
