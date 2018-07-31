@@ -37,7 +37,7 @@ LEXICON V-TENSE-PREFIXES
 : V-INV ;
 
 LEXICON V-INV
-%[%+inv2%]:ин%{Æ%}%> Verb-deriv-prefixes ;
+! %[%+inv2%]:ин%{Æ%}%> Verb-deriv-prefixes ;
 : Verbs ;
 
 
@@ -56,6 +56,7 @@ LEXICON V
 LEXICON V-IV
 
 : V-IV-AFFIX ;
+%<v%>%<iv%>: V-IV-AFFIX ;
 ! @U.V.iv@:@U.V.iv@ V-DERIV ;
 ! %<v%>%<iv%>@U.V.iv@:@U.V.iv@ V-DERIV ;
 
@@ -90,6 +91,7 @@ LEXICON V-IV-NONFIN
 LEXICON V-TV
 
 : V-TV-AFFIX ;
+%<v%>%<tv%>: V-TV-AFFIX ;
 ! @U.V.tv@:@U.V.tv@ V-DERIV ;
 ! %<v%>%<tv%>@U.V.tv@:@U.V.tv@ V-DERIV ;
 
@@ -98,7 +100,7 @@ LEXICON V-TV-AFFIX
 
 : V-TV-ACTIVE ;
 %<stat%>: V-TV-STATIVE ;
-@D.VPR@:@D.VPR@ V-TV-NONFIN ;
+! @D.VPR@:@D.VPR@ V-TV-NONFIN ;
 
 
 LEXICON V-TV-ACTIVE

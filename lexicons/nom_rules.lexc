@@ -278,19 +278,19 @@ LEXICON N-DERIV-I
 @D.CASE@%<sg%>%<abs%>:@D.CASE@ # ;
 : CASES-OBL ;
 : CASES-ANIM ;
-! : N-DERIV-SUFF ;
+: N-DERIV-SUFF ;
 
 LEXICON N-DERIV-Ic
 @D.CASE@%<sg%>%<abs%>:@D.CASE@%{·%} # ;
 : CASES-OBL ;
 : CASES-ANIM ;
-! : N-DERIV-SUFF ;
+: N-DERIV-SUFF ;
 
 LEXICON N-DERIV-III
 @D.CASE@%<sg%>%<abs%>:@D.CASE@%>%{ы%}н # ;
 : CASES-OBL ;
 : CASES-ANIM ;
-! : N-DERIV-SUFF ;
+: N-DERIV-SUFF ;
 
 ! LEXICON INTO-N-I
 ! @D.CASE@%<sg%>%<abs%>:@D.CASE@ # ;
@@ -316,7 +316,7 @@ LEXICON INTO-N-III
 ! :в CASES-OBL ;
 ! :в CASES-ANIM ;
 ! :в N-DERIV-SUFF ;
-
+!
 ! LEXICON INTO-N-Ic
 !
 ! @D.CASE@%<sg%>%<abs%>:@D.CASE@%{·%} # ;
