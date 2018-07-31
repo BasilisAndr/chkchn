@@ -211,16 +211,16 @@ LEXICON N-DERIV-SUFF
 
 !!! FIXME
 ! cross to verbs
-! @D.CASE@%<v%>@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{Æ%}т V-IV ;
-! @D.CASE@%<v%>@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{Æ%}в V-IV ;
+@D.CASE@%<v%>@U.itsa.verb@:@D.CASE@%>%{Æ%}т@U.itsa.verb@ V-IV ;
+@D.CASE@%<v%>@U.itsa.verb@:@D.CASE@%>%{Æ%}в@U.itsa.verb@ V-IV ;
 
 ! compounds
-! %<cmp%>%+:%>%{ы%} Nouns ;
+%<cmp%>%+:%>%{ы%} Nouns ;
 
 ! Incorporation
 ! %<incorp%>%+:%>%{ы%} Verbs ;
-! @D.CASE@%<incorp%>%+@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{ы%} V-IV ;
-! @D.CASE@%<incorp%>%+@U.itsa.verb@%[%+itsaverb%]:@U.itsa.verb@@D.CASE@%>%{ы%} V-IV ;
+@D.CASE@%<incorp%>%+@U.itsa.verb@:@D.CASE@%>%{ы%}@U.itsa.verb@ Verbs ;
+@D.CASE@%<incorp%>%+@U.itsa.verb@:@D.CASE@%>%{ы%}@U.itsa.verb@ Verbs ;
 
 
 @D.CASE@:@D.CASE@ ADJ ;

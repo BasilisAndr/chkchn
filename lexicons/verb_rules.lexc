@@ -13,25 +13,24 @@
 LEXICON Verb-prefixes
 
 ! Subject/agent verbal prefixes
-@P.VPR.t@:@P.VPR.t@т%{ы%}%> V-TENSE-PREFIXES ;
-@P.VPR.myt@:@P.VPR.myt@мыт%{ы%}%> V-TENSE-PREFIXES ;
-@P.VPR.m@:@P.VPR.m@м%{ы%}%> V-TENSE-PREFIXES ;
-@P.VPR.myn@:@P.VPR.myn@мын%{ы%}%> V-TENSE-PREFIXES ;
-@P.VPR.q@:@P.VPR.q@ӄ%{ы%}%> V-TENSE-PREFIXES ;
-@P.VPR.n@:@P.VPR.n@н%{ы%}%> V-TENSE-PREFIXES ;
+@P.VPR.t@:@P.VPR.t@т%{ы%}%> V-Tense-Prefixes ;
+@P.VPR.myt@:@P.VPR.myt@мыт%{ы%}%> V-Tense-Prefixes ;
+@P.VPR.m@:@P.VPR.m@м%{ы%}%> V-Tense-Prefixes ;
+@P.VPR.myn@:@P.VPR.myn@мын%{ы%}%> V-Tense-Prefixes ;
+@P.VPR.q@:@P.VPR.q@ӄ%{ы%}%> V-Tense-Prefixes ;
+@P.VPR.n@:@P.VPR.n@н%{ы%}%> V-Tense-Prefixes ;
 !! Transitive
-@P.VPR.ne@:@P.VPR.ne@н%{Æ%}%> V-TENSE-PREFIXES ;
-@P.VPR.yn@:@P.VPR.yn@ыʼн%> V-TENSE-PREFIXES ;
+@P.VPR.ne@:@P.VPR.ne@н%{Æ%}%> V-Tense-Prefixes ;
+@P.VPR.yn@:@P.VPR.yn@ыʼн%> V-Tense-Prefixes ;
 ! Stative prefixes
 @P.VPR.perf@:@P.VPR.perf@г%{Æ%}%> V-INV ;
 @P.VPR.hab@:@P.VPR.hab@н%{ы%}%> V-INV ;
-: V-TENSE-PREFIXES ;
 
 
 
 !!!!!! Tense prefixes (fut, cond)
 
-LEXICON V-TENSE-PREFIXES
+LEXICON V-Tense-Prefixes
 
 %[%+fut%]:р%{Æ%}%> V-INV ;
 %[%+cond%]:ъ%{ы%}%> V-INV ;
@@ -39,9 +38,12 @@ LEXICON V-TENSE-PREFIXES
 
 LEXICON V-INV
 %[%+inv2%]:ин%{Æ%}%> Verbs ;
+@U.itsa.verb@:@U.itsa.verb@ V-INTO-TMP ;
 : Verbs ;
 
-
+LEXICON V-INTO-TMP
+: Adjectives ;
+: Nouns ;
 
 
 LEXICON V

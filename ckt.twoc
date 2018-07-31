@@ -24,6 +24,7 @@ Alphabet
 %<part%>:%<part%>                  ! Particle
 %<ptcp%>:%<ptcp%>                  ! Participle
 %<cmp%>:%<cmp%>                   ! Compound
+%<incorp%>:%<incorp%> 
 
 %<lpar%>:%<lpar%>
 %<rpar%>:%<rpar%>
