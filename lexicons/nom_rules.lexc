@@ -64,96 +64,96 @@ LEXICON CASES-OBL                             !!
 
 LEXICON N-Ia-AATGYR                                   ! bare stem
 
-@D.CASE@@D.VPR@%<n%>%<sg%>%<abs%>:@D.CASE@@D.VPR@ # ;
-@D.VPR@%<n%>:@D.VPR@ N-OBL ;
+@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ # ;
+%<n%>: N-OBL ;
 
 
 LEXICON N-Ia-JYNYR                                ! bare stem with n/ng alteration
 
-@D.CASE@@D.VPR@%<n%>%<sg%>%<abs%>:@D.CASE@@D.VPR@ # ;
-@D.VPR@%<n%>:@D.VPR@ N-OBL ;
+@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ # ;
+%<n%>: N-OBL ;
 
 
 LEXICON N-Ib-ANGKY                                   ! stem-final vowel reduction
 
-@D.CASE@@D.VPR@%<n%>%<sg%>%<abs%>:@D.CASE@@D.VPR@%{°%} # ;
-@D.VPR@%<n%>:@D.VPR@ N-OBL ;
+@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%{°%} # ;
+%<n%>: N-OBL ;
 
 
 LEXICON N-Ic-AJKOL                                   ! stem-final vowel deletion
 
-@D.CASE@@D.VPR@%<n%>%<sg%>%<abs%>:@D.CASE@@D.VPR@%{·%} # ;
-@D.VPR@%<n%>:@D.VPR@ N-OBL ;
+@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%{·%} # ;
+%<n%>: N-OBL ;
 
 
 LEXICON N-Ic-EJNETKUNEN                          ! vowel deletion with n/ng alteration
 
-@D.CASE@@D.VPR@%<n%>%<sg%>%<abs%>:@D.CASE@@D.VPR@%{·%} # ;
-@D.VPR@%<n%>:@D.VPR@ N-OBL ;
+@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%{·%} # ;
+%<n%>: N-OBL ;
 
 
 LEXICON N-IIa-VIIL-ABS                               ! full reduplication
 
-@D.CASE@@D.VPR@%<n%>%<sg%>%<abs%>:@D.CASE@@D.VPR@ # ;
+@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ # ;
 
 
 LEXICON N-IIb-VAJP-ABS                               ! partial reduplication
 
-@D.CASE@@D.VPR@%<n%>%<sg%>%<abs%>:@D.CASE@@D.VPR@ # ;
+@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ # ;
 
 
 LEXICON N-III-AVYNRAL                                   ! n absolutive
 
-@D.CASE@@D.VPR@%<n%>%<sg%>%<abs%>:@D.CASE@@D.VPR@%>%{ы%}н # ;
-@D.VPR@%<n%>:@D.VPR@ N-OBL ;
+@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%>%{ы%}н # ;
+%<n%>: N-OBL ;
 
 
 LEXICON N-IV-ARAPA                                   ! ngy absolutive
 
-@D.CASE@@D.VPR@%<n%>%<sg%>%<abs%>:@D.CASE@@D.VPR@%>%{ы%}ӈы # ;
-@D.VPR@%<n%>:@D.VPR@ N-OBL ;
+@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%>%{ы%}ӈы # ;
+%<n%>: N-OBL ;
 
 
 LEXICON N-IV-QORA                                ! qora-qaa
 
-@D.CASE@@D.VPR@%<n%>%<sg%>%<abs%>:@D.CASE@@D.VPR@%>%{ы%}ӈы # ;
-@D.VPR@%<n%>:@D.VPR@ N-OBL ;
+@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%>%{ы%}ӈы # ;
+%<n%>: N-OBL ;
 
 
 LEXICON N-Vv-AVEEN                                   ! irregular; в-oblique
 
-@D.CASE@@D.VPR@%<n%>%<sg%>%<abs%>:@D.CASE@@D.VPR@ # ;
-@D.VPR@%<n%>:@D.VPR@в N-OBL ;
+@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ # ;
+%<n%>:в N-OBL ;
 
 
 LEXICON N-Vvy-AGNOTVAN                               ! irregular; в-oblique; ы-abs
 
-@D.CASE@@D.VPR@%<n%>%<sg%>%<abs%>:@D.CASE@@D.VPR@ы # ;
-@D.VPR@%<n%>:@D.VPR@в N-OBL ;
+@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ы # ;
+%<n%>:в N-OBL ;
 
 
 LEXICON N-SING-AJOPYCH                               ! lg singulative
 
-@D.CASE@@D.VPR@%<n%>%<sing%>%<abs%>:@D.CASE@@D.VPR@%>%{ы%}ԓгын%{⁺ⱽᴴ%} # ;
-@D.VPR@%<n%>:@D.VPR@ CASES-OBL ;
-@D.VPR@%<n%>:@D.VPR@ N-DERIV-PREF ;
+@D.CASE@@U.itsa.noun@%<n%>%<sing%>%<abs%>:@D.CASE@@U.itsa.noun@%>%{ы%}ԓгын%{⁺ⱽᴴ%} # ;
+@U.itsa.noun@%<n%>:@U.itsa.noun@ CASES-OBL ;
+%<n%>: N-DERIV-PREF ;
 
 
 LEXICON N-SING-EPEEPEG                               ! lyng singulative
 
-@D.CASE@@D.VPR@%<n%>%<sing%>%<abs%>:@D.CASE@@D.VPR@%>%{ы%}ԓыӈын%{⁺ⱽᴴ%} # ;
-@D.VPR@%<n%>:@D.VPR@ CASES-OBL ;
-@D.VPR@%<n%>:@D.VPR@ N-DERIV-PREF ;
+@D.CASE@@U.itsa.noun@%<n%>%<sing%>%<abs%>:@D.CASE@@U.itsa.noun@%>%{ы%}ԓыӈын%{⁺ⱽᴴ%} # ;
+@U.itsa.noun@%<n%>:@U.itsa.noun@ CASES-OBL ;
+%<n%>: N-DERIV-PREF ;
 
 
 LEXICON N-VANGQASQOR-ABS
 
-@D.CASE@@D.VPR@%<n%>%<sg%>%<abs%>:@D.CASE@@D.VPR@ # ;
+@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ # ;
 
 
 LEXICON N-OBL
-: CASES-OBL ;
-: CASES-ANIM ;
+@U.itsa.noun@:@U.itsa.noun@ CASES-OBL ;
+@U.itsa.noun@:@U.itsa.noun@ CASES-ANIM ;
 : N-DERIV-PREF ;
 
 
@@ -248,35 +248,35 @@ LEXICON PERS-NUM-CLITICS
 
 
 LEXICON N-DERIV-I
-@D.CASE@@D.VPR@%<sg%>%<abs%>:@D.CASE@@D.VPR@ # ;
-@D.VPR@:@D.VPR@ N-OBL ;
+@D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ # ;
+: N-OBL ;
 
 LEXICON N-DERIV-Ic
-@D.CASE@@D.VPR@%<sg%>%<abs%>:@D.CASE@@D.VPR@%{·%} # ;
-@D.VPR@:@D.VPR@ N-OBL ;
+@D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%{·%} # ;
+: N-OBL ;
 
 LEXICON N-DERIV-III
-@D.CASE@@D.VPR@%<sg%>%<abs%>:@D.CASE@@D.VPR@%>%{ы%}н # ;
-@D.VPR@:@D.VPR@ N-OBL ;
+@D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%>%{ы%}н # ;
+: N-OBL ;
 
 ! LEXICON INTO-N-I
-! @D.CASE@@D.VPR@%<sg%>%<abs%>:@D.CASE@@D.VPR@ # ;
-! @D.VPR@:@D.VPR@ N-OBL ;
+! @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ # ;
+! : N-OBL ;
 
 LEXICON INTO-N-III
-@D.CASE@@D.VPR@%<sg%>%<abs%>:@D.CASE@@D.VPR@%>%{ы%}н # ;
-@D.VPR@:@D.VPR@ N-OBL ;
+@D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%>%{ы%}н # ;
+: N-OBL ;
 
 ! LEXICON INTO-N-NEG-PART
-! @D.CASE@@D.VPR@%<sg%>%<abs%>:@D.CASE@@D.VPR@%>ин # ;
-! @D.VPR@:@D.VPR@%>ин%{Æ%} N-OBL ;
+! @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%>ин # ;
+! @U.itsa.noun@:@U.itsa.noun@%>ин%{Æ%} N-OBL ;
 !
 ! LEXICON INTO-N-Vv                                   ! irregular; в-oblique
 !
-! @D.CASE@@D.VPR@%<sg%>%<abs%>:@D.CASE@@D.VPR@ # ;
-! @D.VPR@:@D.VPR@в N-OBL ;
+! @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ # ;
+! @U.itsa.noun@:@U.itsa.noun@в N-OBL ;
 !
 ! LEXICON INTO-N-Ic
 !
-! @D.CASE@@D.VPR@%<sg%>%<abs%>:@D.CASE@@D.VPR@%{·%} # ;
-! @D.VPR@:@D.VPR@ N-OBL ;
+! @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%{·%} # ;
+! : N-OBL ;

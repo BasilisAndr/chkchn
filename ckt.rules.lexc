@@ -218,7 +218,7 @@ Multichar_Symbols
 @U.V.tv@ @R.V.tv@ @P.V.tv@
 @P.ADJ.n@ @R.ADJ.n@
 @P.ADJ.e@ @R.ADJ.e@
-@U.itsa.verb@ @U.itsa.adj@
+@U.itsa.verb@ @U.itsa.adj@ @U.itsa.noun@
 
 %[%+approx%]
 %[%+ints%]
