@@ -187,8 +187,8 @@ LEXICON N-DERIV-SUFF
 %<prtt%>:%>%{ы%}тъуԓ N-DERIV-I ;
 %<ger%>:%>%{ы%}гырг%{⁺ⱽᴴ%} N-DERIV-III ;
 ! cross to verbs
-@D.CASE@@U.itsa.verb@%<v%>:@D.CASE@@U.itsa.verb@%>%{Æ%}т V-IV ;
-@D.CASE@@U.itsa.verb@%<v%>:@D.CASE@@U.itsa.verb@%>%{Æ%}в V-IV ;
+@D.CASE@@U.itsa.verb@%<v%>%<iv%>:@D.CASE@@U.itsa.verb@%>%{Æ%}т V-IV ;
+@D.CASE@@U.itsa.verb@%<v%>%<iv%>:@D.CASE@@U.itsa.verb@%>%{Æ%}в V-IV ;
 ! compounds
 %<cmp%>%+:%>%{ы%} Nouns ;
 ! Incorporation
