@@ -196,7 +196,7 @@ LEXICON N-DERIV-SUFF
 @D.CASE@@U.itsa.verb@%<incorp%>%+:@D.CASE@@U.itsa.verb@%>%{ы%} Verbs ;
 @D.CASE@@U.itsa.verb@%<incorp%>%+:@D.CASE@@U.itsa.verb@%>%{ы%} Verbs ;
 ! cross to adj
-@D.CASE@:@D.CASE@ ADJ ;
+@D.CASE@@U.itsa.adj@:@D.CASE@@U.itsa.adj@ ADJ ;
 : N-DERIV-SPACIAL ;
 
 
