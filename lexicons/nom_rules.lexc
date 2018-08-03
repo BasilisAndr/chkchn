@@ -6,15 +6,15 @@ LEXICON Case-prefixes
 @P.CASE.prv@:@P.CASE.prv@%{Æ%}%> NOMINALS ;
 
 
-!LEXICON N-deriv-prefixes
-! %[%+f%]:ӈ%{Æ%}в%{ы%}%> NOMINALS ;
-! %[%+ints%]:ԓ%{ы%}ги%> NOMINALS ;
-! %[%+ints%]:т%{Æ%}%> NOMINALS ;
-! %[%+restr%]:%{Æ%}м%> NOMINALS ;
-! %[%+approx%]:м%{Æ%}ԓ%> NOMINALS ;
-! %[%+approx%]:м%{Æ%}ч%> NOMINALS ;
-! %[%+auth%]:ԓ%{ы%}ги%> NOMINALS ;
-! : NOMINALS ;
+LEXICON N-deriv-prefixes
+%[%+f%]:ӈ%{Æ%}в%{ы%}%> NOMINALS ;
+%[%+ints%]:ԓ%{ы%}ги%> NOMINALS ;
+%[%+ints2%]:т%{Æ%}%> NOMINALS ;
+%[%+restr%]:%{Æ%}м%> NOMINALS ;
+%[%+approx%]:м%{Æ%}ԓ%> NOMINALS ;
+%[%+approx%]:м%{Æ%}ч%> NOMINALS ;
+%[%+auth%]:ԓ%{ы%}ги%> NOMINALS ;
+: NOMINALS ;
 
 
 LEXICON NOMINALS
@@ -159,12 +159,12 @@ LEXICON N-OBL
 
 
 LEXICON N-DERIV-PREF
-! %<f%>%[%+f%]: N-DERIV-SUFF ;
+%<f%>%[%+f%]: N-DERIV-SUFF ;
 %<ints%>%[%+ints%]: N-DERIV-SUFF ;
 %<ints2%>%[%+ints2%]: N-DERIV-SUFF ;
 %<approx%>%[%+approx%]: N-DERIV-SUFF ;
-! %<restr%>%[%+restr%]:
-! %<auth%>%[%+auth%]:
+%<restr%>%[%+restr%]: N-DERIV-SUFF ;
+%<auth%>%[%+auth%]: N-DERIV-SUFF ;
 : N-DERIV-SUFF ;
 
 
@@ -190,7 +190,7 @@ LEXICON N-DERIV-SUFF
 @D.CASE@@U.itsa.verb@%<v%>%<iv%>:@D.CASE@@U.itsa.verb@%>%{Æ%}т V-IV ;
 @D.CASE@@U.itsa.verb@%<v%>%<iv%>:@D.CASE@@U.itsa.verb@%>%{Æ%}в V-IV ;
 ! compounds
-%<cmp%>%+:%>%{ы%} Nouns ;
+! @D.complex@@P.complex.cmp@%<cmp%>%+:@D.complex@@P.complex.cmp@%>%{ы%} Nouns ;
 ! Incorporation
 ! %<incorp%>%+:%>%{ы%} Verbs ;
 @D.CASE@@U.itsa.verb@%<incorp%>%+:@D.CASE@@U.itsa.verb@%>%{ы%} Verbs ;
@@ -259,24 +259,24 @@ LEXICON N-DERIV-III
 @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%>%{ы%}н # ;
 : N-OBL ;
 
-! LEXICON INTO-N-I
-! @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ # ;
-! : N-OBL ;
+LEXICON INTO-N-I
+@D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ # ;
+: N-OBL ;
 
 LEXICON INTO-N-III
 @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%>%{ы%}н # ;
 : N-OBL ;
 
-! LEXICON INTO-N-NEG-PART
-! @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%>ин # ;
-! @U.itsa.noun@:@U.itsa.noun@%>ин%{Æ%} N-OBL ;
-!
-! LEXICON INTO-N-Vv                                   ! irregular; в-oblique
-!
-! @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ # ;
-! @U.itsa.noun@:@U.itsa.noun@в N-OBL ;
-!
-! LEXICON INTO-N-Ic
-!
-! @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%{·%} # ;
-! : N-OBL ;
+LEXICON INTO-N-NEG-PART
+@D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%>ин # ;
+@U.itsa.noun@:@U.itsa.noun@%>ин%{Æ%} N-OBL ;
+
+LEXICON INTO-N-Vv                                   ! irregular; в-oblique
+
+@D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ # ;
+@U.itsa.noun@:@U.itsa.noun@в N-OBL ;
+
+LEXICON INTO-N-Ic
+
+@D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%{·%} # ;
+: N-OBL ;

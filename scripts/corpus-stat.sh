@@ -7,13 +7,13 @@
 
 
 #CMD="cat corpa/en.crp.txt"
-# CMD="cat ../corpora/ckt.crp.txt"
-#
-# F=../corpora/corpus-stat-res.txt
-for fil in `ls ../corpora/corporatxt`; do
-  echo "$fil";
-  $CMD="cat ../corpora/corporatxt/$fil";
-  $F="/tmp/$fil"
+CMD="cat ../corpora/ckt.crp.txt"
+
+F=../corpora/corpus-stat-res.txt
+# for fil in `ls ../corpora/corporatxt`; do
+#   echo "$fil";
+#   $CMD="cat ../corpora/corporatxt/$fil";
+#   $F="/tmp/$fil"
 # Calculate the number of tokenised words in the corpus:
 # for some reason putting the newline in directly doesn't work, so two seds
 $CMD | apertium-destxt | hfst-proc ../ckt.mor.hfstol | apertium-retxt | sed 's/\$[^^]*\^/$^/g' | sed 's/\$\^/$\

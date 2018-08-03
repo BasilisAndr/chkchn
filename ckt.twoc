@@ -12,6 +12,10 @@ Alphabet
 %[%+inv%]:0
 %[%+inv2%]:0
 %[%+itsaverb%]:0
+%[%+complex%]:0
+%[%+f%]:0
+%[%+restr%]:0
+%[%+auth%]:0
 
 %<n%>:%<n%>                     ! Noun
 %<prn%>:%<prn%>                   ! Pronoun
@@ -24,7 +28,7 @@ Alphabet
 %<part%>:%<part%>                  ! Particle
 %<ptcp%>:%<ptcp%>                  ! Participle
 %<cmp%>:%<cmp%>                   ! Compound
-%<incorp%>:%<incorp%> 
+%<incorp%>:%<incorp%>
 
 %<lpar%>:%<lpar%>
 %<rpar%>:%<rpar%>
@@ -236,3 +240,18 @@ Rules
 "Verb derived"
 %[%+itsaverb%]:0 <=> _ :* %[%+itsaverb%]:0 ;
                 %[%+itsaverb%]:0 :* _ ;
+
+"Complex"
+%[%+complex%]:0 <=> [ : - %[%+complex%]:0 ]* _ [ : - %[%+complex%]:0 ]* ;
+
+"Feminine"
+%[%+f%]:0 <=> _ :* %[%+f%]:0 ;
+                %[%+f%]:0 :* _ ;
+
+"Restrictive"
+%[%+restr%]:0 <=> _ :* %[%+restr%]:0 ;
+                %[%+restr%]:0 :* _ ;
+
+"Auth"
+%[%+auth%]:0 <=> _ :* %[%+auth%]:0 ;
+                %[%+auth%]:0 :* _ ;
