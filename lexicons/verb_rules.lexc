@@ -38,8 +38,8 @@ LEXICON V-Tense-Prefixes
 
 LEXICON V-INV
 %[%+inv2%]:ин%{Æ%}%> Verbs ;
-@U.itsa.verb@:@U.itsa.verb@ Verb-deriv-prefixes ;
-: Verbs ;
+@P.itsa.verb@:@P.itsa.verb@ V-DERIV-PREFIXES ;
+! : Verbs ;
 
 ! LEXICON V-INTO-TMP
 ! : Adjectives ;
@@ -58,8 +58,8 @@ LEXICON V
 
 LEXICON V-IV
 
-: V-IV-AFFIX ;
-%<v%>%<iv%>: V-IV-AFFIX ;
+! : V-IV-AFFIX ;
+! %<v%>%<iv%>: V-IV-AFFIX ;
 @U.V.iv@:@U.V.iv@ V-DERIV ;
 @U.V.iv@%<v%>%<iv%>:@U.V.iv@ V-DERIV ;
 
@@ -93,8 +93,8 @@ LEXICON V-IV-NONFIN
 
 LEXICON V-TV
 
-: V-TV-AFFIX ;
-%<v%>%<tv%>: V-TV-AFFIX ;
+! : V-TV-AFFIX ;
+! %<v%>%<tv%>: V-TV-AFFIX ;
 @U.V.tv@:@U.V.tv@ V-DERIV ;
 @U.V.tv@%<v%>%<tv%>:@U.V.tv@ V-DERIV ;
 

@@ -187,16 +187,15 @@ LEXICON N-DERIV-SUFF
 %<prtt%>:%>%{ы%}тъуԓ N-DERIV-I ;
 %<ger%>:%>%{ы%}гырг%{⁺ⱽᴴ%} N-DERIV-III ;
 ! cross to verbs
-@D.CASE@@U.itsa.verb@%<v%>%<iv%>:@D.CASE@@U.itsa.verb@%>%{Æ%}т V-IV ;
-@D.CASE@@U.itsa.verb@%<v%>%<iv%>:@D.CASE@@U.itsa.verb@%>%{Æ%}в V-IV ;
+@D.CASE@@R.itsa.verb@%<v%>%<iv%>:@D.CASE@@R.itsa.verb@%>%{Æ%}т V-IV ;
+@D.CASE@@R.itsa.verb@%<v%>%<iv%>:@D.CASE@@R.itsa.verb@%>%{Æ%}в V-IV ;
 ! compounds
 ! @D.complex@@P.complex.cmp@%<cmp%>%+:@D.complex@@P.complex.cmp@%>%{ы%} Nouns ;
 ! Incorporation
 ! %<incorp%>%+:%>%{ы%} Verbs ;
-@D.CASE@@U.itsa.verb@%<incorp%>%+:@D.CASE@@U.itsa.verb@%>%{ы%} Verbs ;
-@D.CASE@@U.itsa.verb@%<incorp%>%+:@D.CASE@@U.itsa.verb@%>%{ы%} Verbs ;
+@D.CASE@@R.itsa.verb@%<incorp%>%+:@D.CASE@@R.itsa.verb@%>%{ы%} Verbs ;
 ! cross to adj
-@D.CASE@@U.itsa.adj@:@D.CASE@@U.itsa.adj@ ADJ ;
+@D.CASE@@R.itsa.adj@:@D.CASE@@R.itsa.adj@ ADJ ;
 : N-DERIV-SPACIAL ;
 
 

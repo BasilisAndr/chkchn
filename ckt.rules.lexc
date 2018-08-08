@@ -218,7 +218,7 @@ Multichar_Symbols
 @U.V.tv@ @R.V.tv@ @P.V.tv@
 @P.ADJ.n@ @R.ADJ.n@
 @P.ADJ.e@ @R.ADJ.e@
-@U.itsa.verb@ @U.itsa.adj@ @U.itsa.noun@
+@P.itsa.verb@ @R.itsa.verb@ @U.itsa.adj@ @U.itsa.noun@
 @P.complex.incorp@ @P.complex.cmp@ @D.complex@
 
 %[%+approx%]
@@ -259,8 +259,8 @@ Punctuation ;
 Pronouns ;
 Verb-prefixes ;
 V-Tense-Prefixes ;
-Verb-deriv-prefixes ;
-Verbs ;
+! Verb-deriv-prefixes ;
+! Verbs ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -311,8 +311,8 @@ LEXICON ADJ-FIN
 LEXICON Adj-prefixes
 @P.ADJ.n@:@P.ADJ.n@н%{ы%}%> Adjectives ;
 @P.ADJ.e@:@P.ADJ.e@%{Æ%}%> Adjectives ;
-@P.ADJ.n@:@P.ADJ.n@н%{ы%}%> NOMINALS ;
-@P.ADJ.e@:@P.ADJ.e@%{Æ%}%> NOMINALS ;
+@P.ADJ.n@@U.itsa.adj@:@P.ADJ.n@@U.itsa.adj@н%{ы%}%> NOMINALS ;
+@P.ADJ.e@@U.itsa.adj@:@P.ADJ.e@@U.itsa.adj@%{Æ%}%> NOMINALS ;
 
 LEXICON Intensifiers
 [%+ints%]:т%{Æ%}%{N%}%{ы%}%> Adj-prefixes ;
