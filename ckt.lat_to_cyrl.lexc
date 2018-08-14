@@ -1,4 +1,4 @@
-Multichar_Symbols 
+Multichar_Symbols
 
 %{й%}
 %{ʔ%}
@@ -6,10 +6,10 @@ Multichar_Symbols
 
 LEXICON Root
 
-Alpha ; 
+Alpha ;
 ! Exceptions
 
-LEXICON AlphaLoop 
+LEXICON AlphaLoop
 
 Alpha ;
  # ;
@@ -37,7 +37,10 @@ r:r AlphaLoop ; ! ""
 s:s AlphaLoop ; ! ""
 t:t AlphaLoop ; ! ""
 u:u%{ʔ%} AlphaLoop ; ! ""
+v:v AlphaLoop ; ! ""
 w:w AlphaLoop ; ! ""
+x:x AlphaLoop ; ! ""
+z:z AlphaLoop ; ! ""
 ə:ə%{ʔ%} AlphaLoop ; ! ""
 č:č AlphaLoop ; ! ""
 ʔ:ʔ AlphaLoop ; ! ""
@@ -45,4 +48,3 @@ w:w AlphaLoop ; ! ""
 ɣ:ɣ AlphaLoop ; ! ""
 ŋ:ŋ AlphaLoop ; ! ""
 ʲ:ʲ AlphaLoop ; ! ""
-
