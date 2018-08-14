@@ -127,22 +127,22 @@ LEXICON V-DERIV-SUFF
 ! %<th%>:%>ъ%{Æ%} V-DERIV-AP ;
 ! : V-DERIV-AP ;
 
-LEXICON V-DERIV-TH
-%<th%>:%>%{Æ%}т V-DERIV-TH-T ;
-%<th%>:%>%{Æ%}в V-DERIV-TH-T ;
-%<th%>:%>%{Æ%}%{Æ%} V-DERIV-TH-T ;
-%<th%>:%>ъ%{Æ%} V-DERIV-TH-T ;
-%<ap2%>:%>%{ы%}тку V-DERIV-TH-T ;
-%<desid%>%[%+desid%]:%>ӈ V-DERIV-TH-T ;
-%<iter%>:%>%{ы%}тку V-DERIV-TH-T ;
-%<coop_s%>:%>%{ы%}ръу V-DERIV-TH-T ;
-%<coop_o%>:%>%{ы%}йв V-DERIV-TH-T ;
-%<dur%>:%>%{ы%}ԓъ%{Æ%}т V-DERIV-TH-T ;
-%<inch%>:%>%{ы%}мго V-DERIV-TH-T ;
-%<inch2%>:%>%{ы%}ӈӈо V-DERIV-TH-T ;
-%<inch2%>:%>%{ы%}мго V-DERIV-TH-T ;
-%<compl%>:%>%{ы%}пԓытку V-DERIV-TH-T ;
-: V-DERIV-FIN ;
+! LEXICON V-DERIV-TH
+! %<th%>:%>%{Æ%}т V-DERIV-TH-T ;
+! %<th%>:%>%{Æ%}в V-DERIV-TH-T ;
+! %<th%>:%>%{Æ%}%{Æ%} V-DERIV-TH-T ;
+! %<th%>:%>ъ%{Æ%} V-DERIV-TH-T ;
+! %<ap2%>:%>%{ы%}тку V-DERIV-TH-T ;
+! %<desid%>%[%+desid%]:%>ӈ V-DERIV-TH-T ;
+! %<iter%>:%>%{ы%}тку V-DERIV-TH-T ;
+! %<coop_s%>:%>%{ы%}ръу V-DERIV-TH-T ;
+! %<coop_o%>:%>%{ы%}йв V-DERIV-TH-T ;
+! %<dur%>:%>%{ы%}ԓъ%{Æ%}т V-DERIV-TH-T ;
+! %<inch%>:%>%{ы%}мго V-DERIV-TH-T ;
+! %<inch2%>:%>%{ы%}ӈӈо V-DERIV-TH-T ;
+! %<inch2%>:%>%{ы%}мго V-DERIV-TH-T ;
+! %<compl%>:%>%{ы%}пԓытку V-DERIV-TH-T ;
+! : V-DERIV-FIN ;
 
 
 ! LEXICON V-DERIV-TH-T
@@ -163,7 +163,7 @@ LEXICON V-DERIV-TH
 ! : V-DERIV-FIN ;
 
 
-LEXICON V-DERIV-TH-T
+LEXICON V-DERIV-TH
 
 %<th%>:%>%{Æ%}т V-DERIV-FIN ;
 %<th%>:%>%{Æ%}в V-DERIV-FIN ;

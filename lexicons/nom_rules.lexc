@@ -201,9 +201,19 @@ LEXICON N-DERIV-SUFF
 
 LEXICON N-DERIV-SPACIAL
 %<top%>:%>%{ы%}ткын%{⁺ⱽᴴ%} N-DERIV-I ;
-%<side%>:%>%{ы%}ӈӄача N-DERIV-Ic ;
+%<near%>:%>%{ы%}ӈӄача N-DERIV-Ic ;
+%<near%>:%>%{ы%}ӈӄаса N-DERIV-Ic ;
 %<edge%>:%>%{ы%}ԓг N-DERIV-III ;
+%<edge%>:%>%{ы%}ԓэӈ N-DERIV-III ;
 %<side%>:%>%{ы%}чурм N-DERIV-III ;
+%<side%>:%>%{ы%}cурм N-DERIV-III ;
+%<bottom%>:%>%{ы%}йиӈ N-DERIV-III ;
+%<bottom%>:%>%{ы%}гиӈ N-DERIV-III ;
+%<ext%>:%>%{ы%}йикви N-DERIV-III ;
+%<among%>:%>%{ы%}ԓыку N-DERIV-III ;
+%<in%>:%>%{ы%}сыку N-DERIV-III ;
+%<surf%>:%>%{ы%}сӄ N-DERIV-III ;
+%<front%>:%>%{ы%}тэгн N-DERIV-III ;
 
 
 
