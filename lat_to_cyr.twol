@@ -8,7 +8,7 @@ Alphabet
 
 ə:ы
 č:ч
-ʔ:ъ ! ʔ:ь ʔ:а ʔ:э ʔ:и ʔ:у ʔ:о
+ʔ:ъ ʔ:ь ʔ:а ʔ:э ʔ:и ʔ:у ʔ:о
 ɬ:ԓ
 ɣ:г
 ŋ:ӈ
@@ -35,20 +35,23 @@ r:р
 s:с
 t:т
 u:у
+v:в
 w:в
+z:з
+x:х
 ;
 
 Sets
 
 Vowelsru = А Э У И О
-           а э у и о ;
+           а э у и о ы ;
 Vowelsen = A E U I O
-           a e u i o ;
+           a e u i o ə ;
 
 Rules
 
-! "Glottal stop after l"
-! ʔ:ь <=> :ԓ _ ;
+"Glottal stop after l"
+ʔ:ь <=> :ԓ _ ;
 
 
 "Vowels after ʲ"
@@ -57,12 +60,23 @@ Vx:Vy <=> ʲ:0 _ ;
             Vy in ( я ю ё е ) matched ;
 
 
-! "Glottal stop and vowels, pt.1"
-! V:ʼ <=> .#. [ ʔ: - ʔ:ъ - ʔ:ь ] _ ;
-!       where V in Vowelsen ;
+"Glottal stop and vowels, pt.1"
+V:ʼ <=> .#. ʔ: _ ;
+      where V in Vowelsen ;
 !
-! "Glottal stop and vowels, pt.2"
-! ʔ:Vx <=> .#. _ Vx:ʼ ;
-!          ! Vy: _ :ʼ ;
-!       where Vy in Vowelsen
-!             Vx in Vowelsru matched ;
+"Glottal stop and vowels, pt.1.1"
+V:ʼ <=> :Vy ʔ: _ ;
+      where V in Vowelsen
+           Vy in Vowelsru ;
+
+
+"Glottal stop and vowels, pt.2"
+ʔ:V <=> .#. _ Vy:ʼ ;
+      where V in Vowelsru
+            Vy in Vowelsen matched ;
+
+"Glottal stop and vowels, pt.2.2"
+ʔ:V <=> Vx: _ Vy:ʼ ;
+      where Vx in Vowelsen
+            V in Vowelsru
+            Vy in Vowelsen matched ;
