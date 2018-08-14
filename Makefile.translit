@@ -1,0 +1,5 @@
+all:
+	hfst-lexc ckt.lat_to_cyrl.lexc -o ckt.lat_to_cyrl.lexc.hfst
+	hfst-twolc ckt.lat_to_cyrl.twol -o ckt.lat_to_cyrl.twol.hfst
+	hfst-compose-intersect -1 ckt.lat_to_cyrl.lexc.hfst -2 ckt.lat_to_cyrl.twol.hfst -o ckt.lat_to_cyrl.hfst
+	

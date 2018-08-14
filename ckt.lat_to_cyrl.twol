@@ -1,0 +1,25 @@
+Alphabet
+
+
+a:а b:б c:ч d:д e:э f:ф g:г h:х 
+
+i:и j:й k:к l:л m:м n:н o:о p:п 
+
+q:ӄ r:р s:с t:т u:у w:в ə:ы 
+
+č:ч ʔ:ъ ɬ:ԓ ɣ:г ŋ:ӈ ʲ:0 
+
+%{ʔ%}:0
+
+;
+
+Rules
+
+"Realisation of glottal"
+%{ʔ%}:0 <=> _ ; 
+      except 
+            .#. ʔ: _ ;
+
+"Realisation of glottal"
+%{ʔ%}:ʼ <=> .#. ʔ: _ ; 
+
