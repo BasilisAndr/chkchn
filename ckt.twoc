@@ -29,6 +29,8 @@ Alphabet
 %<ptcp%>:%<ptcp%>                  ! Participle
 %<cmp%>:%<cmp%>                   ! Compound
 %<incorp%>:%<incorp%>
+%<clitic%>:%<clitic%>
+%<emph%>:%<emph%>
 
 %<lpar%>:%<lpar%>
 %<rpar%>:%<rpar%>
@@ -169,6 +171,13 @@ Alphabet
 %<top%>:%<top%>                   ! Spatial derivations
 %<side%>:%<side%>
 %<edge%>:%<edge%>
+%<near%>:%<near%>
+%<bottom%>:%<bottom%>
+%<ext%>:%<ext%>
+%<among%>:%<among%>
+%<in%>:%<in%>
+%<surf%>:%<surf%>
+%<front%>:%<front%>
 
 %<dim%>:%<dim%>
 %<aug%>:%<aug%>

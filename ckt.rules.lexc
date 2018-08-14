@@ -15,6 +15,8 @@ Multichar_Symbols
 %<ptcp%>                  ! Participle
 %<cmp%>                   ! Compound
 %<incorp%>                ! Incorporated stem
+%<clitic%>                ! Clitic
+%<emph%>                  ! Emphatic clitic
 
 %<lpar%>
 %<rpar%>
