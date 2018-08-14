@@ -23,9 +23,11 @@ Rules
 %{ʔ%}:0 <=> _ ;
       except
             .#. ʔ: Vow: _ ;
+            Vow: ʔ: Vow: _ ;
 
 "Realisation of word initial glottal"
 %{ʔ%}:ʼ <=> .#. ʔ: Vow: _ ;
+           Vow: ʔ: Vow: _ ;
 
 
 "Orthographic glottal not word initial"
