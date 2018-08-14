@@ -75,7 +75,7 @@ V:ʼ <=> :Vy ʔ: _ ;
       where V in Vowelsru
             Vy in Vowelsen matched ;
 
-"Glottal stop and vowels, pt.2.2"
+"Glottal stop and vowels, pt.2.1"
 ʔ:V <=> Vx: _ Vy:ʼ ;
       where Vx in Vowelsen
             V in Vowelsru
