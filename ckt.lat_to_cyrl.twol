@@ -27,4 +27,11 @@ Rules
 "Realisation of word initial glottal"
 %{ʔ%}:ʼ <=> .#. ʔ: Vow: _ ; 
 
-!@ ʔ:0 e:э {ʔ}:ʼ ɬ:ԓ ʔ:ъ e:э {ʔ}:0 ɬ:ԓ
+
+"Orthographic glottal not word initial"
+ʔ:ъ /<= .#. _ ;
+
+"Orthographically yotised glottal after /ɬ/"
+ʔ:ь <=> ɬ:ԓ _ ;
+
+!@ ʔ:0 e:э {ʔ}:ʼ ɬ:ԓ ʔ:ь e:э {ʔ}:0 ɬ:ԓ
