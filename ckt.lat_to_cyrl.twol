@@ -17,6 +17,8 @@ Sets
 
 Vow = a e i o u ;
 
+Soft = ԓ ч ;
+
 Rules
 
 "Realisation of glottal"
@@ -33,11 +35,11 @@ Rules
 "Orthographic glottal not word initial"
 ʔ:ъ /<= .#. _ ;
 
-"Orthographically yotised glottal after /ɬ/"
-ʔ:ь <=> ɬ:ԓ _ ;
+"Orthographically yotised glottal after /ɬ/ and /c/"
+ʔ:ь <=> [ ɬ:ԓ | c:ч | č:ч ] _ ;
 
-"Vowels after ʲ"
-Vx:Vy <=> ʲ:0 _ ;
+"Vowels after soft consonants"
+Vx:Vy <=> [ :Soft | ʲ:0 ] _ ;
       where Vx in ( a u o e )
             Vy in ( я ю ё е ) matched ;
 
