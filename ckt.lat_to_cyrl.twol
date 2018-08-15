@@ -55,8 +55,8 @@ j:ъ <=> [ Cns: - :Soft ] _ [ Vow: - i: ] ;
 "j before vowels after soft consonants"
 j:ь <=> :Soft _ [ Vow: - i: ] ;
 
-"ʲ after consonants"
-ʲ:ь <=> Cns: _ ;
+"ʲ between consonants"
+ʲ:ь <=> Cns: _ Cns: ;
 
 "Vowels after soft consonants"
 Vx:Vy <=> [ :ԓ | ʲ:0 | j: ] _ ;
