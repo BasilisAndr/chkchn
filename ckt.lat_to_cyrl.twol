@@ -19,35 +19,54 @@ Vow = a e i o u ;
 
 Soft = ԓ ч ;
 
+Cns = b c d f g h j k l m n p q r s t w č ʔ ɬ ɣ ŋ ʲ ;
+
 Rules
 
 "Realisation of glottal"
 %{ʔ%}:0 <=> _ ;
       except
-            .#. ʔ: Vow: _ ;
-  Vow: %{ʔ%}: ʔ: Vow: _ ;
+                   .#. ʔ: [ Vow: | :ы ] _ ;
+  [ Vow: | :ы ] %{ʔ%}: ʔ: [ Vow: | :ы ] _ ;
 
 "Realisation of word initial glottal"
-%{ʔ%}:ʼ <=> .#. ʔ: Vow: _ ;
-  Vow: %{ʔ%}: ʔ: Vow: _ ;
+%{ʔ%}:ʼ <=>        .#. ʔ: [ Vow: | :ы ] _ ;
+  [ Vow: | :ы ] %{ʔ%}: ʔ: [ Vow: | :ы ] _ ;
 
 
-"Orthographic glottal not word initial"
-ʔ:ъ /<= .#. _ ;
-
-"Orthographic glottal not doubling"
-ʔ:ъ /<= %{ʔ%}: _ ;
+! "Orthographic glottal not word initial"
+! ʔ:ъ /<= .#. _ ;
+!
+! "Orthographic glottal not after vowels"
+! ʔ:ъ /<= %{ʔ%}: _ ;
+"Orthographic glottal to 0"
+ʔ:0 <=> .#. _ ;
+     %{ʔ%}: _ ;
 
 "Orthographically yotised glottal after /ɬ/ and /c/"
 ʔ:ь <=> :Soft _ ;
 
-"j before vowels"
-j:0 <=> _ Vow: ;
+"j before vowels after non-consonants"
+j:0 <=> [ : - Cns: ] _ [ Vow: - i: ] ;
+
+"j before vowels after consonants"
+j:ъ <=> [ Cns: - :Soft ] _ [ Vow: - i: ] ;
+
+"j before vowels after soft consonants"
+j:ь <=> :Soft _ [ Vow: - i: ] ;
 
 "Vowels after soft consonants"
-Vx:Vy <=> [ :Soft | ʲ:0 | j:0 ] _ ;
+Vx:Vy <=> [ :ԓ | ʲ:0 | j: ] _ ;
       where Vx in ( a u o e )
             Vy in ( я ю ё е ) matched ;
+
+"e after ч"
+e:е <=> :ч _ ;
+
+
+"чӄ -> сӄ"
+c:с <=> _ :ӄ ;
+
 
 !@ ʔ:0 e:э {ʔ}:ʼ ɬ:ԓ ʔ:ь e:э {ʔ}:0 ɬ:ԓ
 !@ ʔ:0 i:и {ʔ}:ʼ ʔ:0 i:и {ʔ}:ʼ n:н
