@@ -7,7 +7,7 @@ i:и j:й k:к l:л m:м n:н o:о p:п
 
 q:ӄ r:р s:с t:т u:у v:в w:в x:х z:з ə:ы
 
-č:ч ʔ:ъ ʔ:ь ʔ:0 ɬ:ԓ ɣ:г ŋ:ӈ ʲ:0
+č:ч ʔ:ъ ʔ:ь ʔ:0 ɬ:ԓ ɣ:г ŋ:ӈ ʲ:0 š:ш ž:ж
 
 %{ʔ%}:0
 
@@ -19,7 +19,7 @@ Vow = a e i o u ;
 
 Soft = ԓ ч ;
 
-Cns = b c d f g h j k l m n p q r s t w č ʔ ɬ ɣ ŋ ʲ ;
+Cns = b c d f g h j k l m n p q r s t w č ʔ ɬ ɣ ŋ ʲ š ;
 
 Rules
 
@@ -54,6 +54,9 @@ j:ъ <=> [ Cns: - :Soft ] _ [ Vow: - i: ] ;
 
 "j before vowels after soft consonants"
 j:ь <=> :Soft _ [ Vow: - i: ] ;
+
+"ʲ after consonants"
+ʲ:ь <=> Cns: _ ;
 
 "Vowels after soft consonants"
 Vx:Vy <=> [ :ԓ | ʲ:0 | j: ] _ ;
