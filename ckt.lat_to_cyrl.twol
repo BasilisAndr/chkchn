@@ -25,22 +25,29 @@ Rules
 %{ʔ%}:0 <=> _ ;
       except
             .#. ʔ: Vow: _ ;
-  Vow: (%{ʔ%}:) ʔ: Vow: _ ;
+  Vow: %{ʔ%}: ʔ: Vow: _ ;
 
 "Realisation of word initial glottal"
 %{ʔ%}:ʼ <=> .#. ʔ: Vow: _ ;
-  Vow: (%{ʔ%}:) ʔ: Vow: _ ;
+  Vow: %{ʔ%}: ʔ: Vow: _ ;
 
 
 "Orthographic glottal not word initial"
 ʔ:ъ /<= .#. _ ;
 
+"Orthographic glottal not doubling"
+ʔ:ъ /<= %{ʔ%}: _ ;
+
 "Orthographically yotised glottal after /ɬ/ and /c/"
-ʔ:ь <=> [ ɬ:ԓ | c:ч | č:ч ] _ ;
+ʔ:ь <=> :Soft _ ;
+
+"j before vowels"
+j:0 <=> _ Vow: ;
 
 "Vowels after soft consonants"
-Vx:Vy <=> [ :Soft | ʲ:0 ] _ ;
+Vx:Vy <=> [ :Soft | ʲ:0 | j:0 ] _ ;
       where Vx in ( a u o e )
             Vy in ( я ю ё е ) matched ;
 
 !@ ʔ:0 e:э {ʔ}:ʼ ɬ:ԓ ʔ:ь e:э {ʔ}:0 ɬ:ԓ
+!@ ʔ:0 i:и {ʔ}:ʼ ʔ:0 i:и {ʔ}:ʼ n:н
