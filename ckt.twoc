@@ -179,6 +179,8 @@ Alphabet
 %<surf%>:%<surf%>
 %<front%>:%<front%>
 
+%<adv%_prol%>                     ! Prolative adverb
+
 %<dim%>:%<dim%>
 %<aug%>:%<aug%>
 %<coop%>:%<coop%>

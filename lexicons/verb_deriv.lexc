@@ -2,16 +2,16 @@
 
 !!!!!! Derivational prefixes
 
-LEXICON V-DERIV-PREFIXES
-
-%[%+approx%]:м%{Æ%}ч%{ы%}%> Verbs ;
-%[%+ints%]:т%{Æ%}%{N%}%{ы%}%> V-DERIV-PREF-FIN ;
-%[%+ints2%]:ԓ%{ы%}ги%> V-DERIV-PREF-FIN ;
-
-%[%+desid%]:р%{Æ%}%> V-DERIV-PREF-FIN ;
-%[%+ap%]:ин%{Æ%}%> V-DERIV-PREF-FIN ;
-%[%+caus%]:%{R%}%{ы%}%> V-DERIV-PREF-FIN ;
-: V-DERIV-PREF-FIN ;
+! LEXICON V-DERIV-PREFIXES
+!
+! %[%+approx%]:м%{Æ%}ч%{ы%}%> Verbs ;
+! %[%+ints%]:т%{Æ%}%{N%}%{ы%}%> V-DERIV-PREF-FIN ;
+! %[%+ints2%]:ԓ%{ы%}ги%> V-DERIV-PREF-FIN ;
+!
+! %[%+desid%]:р%{Æ%}%> V-DERIV-PREF-FIN ;
+! %[%+ap%]:ин%{Æ%}%> V-DERIV-PREF-FIN ;
+! %[%+caus%]:%{R%}%{ы%}%> V-DERIV-PREF-FIN ;
+! : V-DERIV-PREF-FIN ;
 
 ! LEXICON V-DERIV-PREFIXES-T
 !
@@ -73,41 +73,41 @@ LEXICON V-DERIV-PREFIXES
 ! %[%+caus%]:%{R%}%{ы%}%> V-DERIV-PREFIXES ;
 ! : V-DERIV-PREF-FIN ;
 
-LEXICON V-DERIV-PREF-FIN
-: Verbs ;
-: Adjectives ;
-: Nouns ;
+! LEXICON V-DERIV-PREF-FIN
+! : Verbs ;
+! : Adjectives ;
+! : Nouns ;
 
 ! %<root here%>
 
 
 !!!!!! Derivational suffixes
+!
+! LEXICON V-DERIV
+! ! prefix tags
+! %<approx%>%[%+approx%]: V-IV-AFFIX ;
+! ! thematic smth
+! %<th%>:%>въи # ;
+! ! : V-DERIV-INTS ;
+! !
+! ! LEXICON V-DERIV-INTS
+! %<ints%>%[%+ints%]: V-DERIV-SUFF ;
+! ! : V-DERIV-INTS2 ;
+! !
+! ! LEXICON V-DERIV-INTS2
+! %<ints2%>%[%+ints2%]: V-DERIV-SUFF ;
+! ! : V-DERIV-AP-PREF ;
+! !
+! ! LEXICON V-DERIV-AP-PREF
+! %<ap%>%[%+ap%]: V-DERIV-SUFF ;
+! %<ap%>%[%+ap%]: V-DERIV-SUFF ;
+! ! : V-DERIV-CAUS ;
+! !
+! ! LEXICON V-DERIV-CAUS
+! %<caus%>%[%+caus%]: V-DERIV-SUFF ;
+! : V-DERIV-SUFF ;
 
-LEXICON V-DERIV
-! prefix tags
-%<approx%>%[%+approx%]: V-IV-AFFIX ;
-! thematic smth
-%<th%>:%>въи # ;
-! : V-DERIV-INTS ;
-!
-! LEXICON V-DERIV-INTS
-%<ints%>%[%+ints%]: V-DERIV-SUFF ;
-! : V-DERIV-INTS2 ;
-!
-! LEXICON V-DERIV-INTS2
-%<ints2%>%[%+ints2%]: V-DERIV-SUFF ;
-! : V-DERIV-AP-PREF ;
-!
-! LEXICON V-DERIV-AP-PREF
-%<ap%>%[%+ap%]: V-DERIV-SUFF ;
-%<ap%>%[%+ap%]: V-DERIV-SUFF ;
-! : V-DERIV-CAUS ;
-!
-! LEXICON V-DERIV-CAUS
-%<caus%>%[%+caus%]: V-DERIV-SUFF ;
-: V-DERIV-SUFF ;
-
-LEXICON V-DERIV-SUFF
+LEXICON V-DERIV !-SUFF
 ! incompatible w/others (probably)
 %<punct%>:%>%{ы%}чӄыч%{Æ%}т V-DERIV-FIN ;
 %<dim%>:%>%{ы%}ӄ%{Æ%}%{Æ%}т V-DERIV-FIN ;
@@ -214,9 +214,9 @@ LEXICON V-DERIV-FIN
 %<ptcp%>: V-DERIV-PTCP ;
 ! @D.VPR@%<ger%>:@D.VPR@%>%{ы%}ԓӄыԓ INTO-N-I ;
 ! @D.VPR@%<ger%>:@D.VPR@%>%{ы%}гырг%{⁺ⱽᴴ%} INTO-N-III ;
-@D.VPR@%<ger%>:@D.VPR@%>%{ы%}н%{⁺ⱽᴴ%} INTO-N-Vv ;       ! locative nom
+! @D.VPR@%<ger%>:@D.VPR@%>%{ы%}н%{⁺ⱽᴴ%} INTO-N-Vv ;       ! locative nom
 ! @D.VPR@%<ger%>:@D.VPR@%>%{ы%}я INTO-N-III ;       ! 'age' nominalisation
-@D.VPR@%<ger%>:@D.VPR@%>%{и%}н%{Æ%}ӈ%{Æ%} INTO-N-Ic ;       ! instrumental nominalisation
+! @D.VPR@%<ger%>:@D.VPR@%>%{и%}н%{Æ%}ӈ%{Æ%} INTO-N-Ic ;       ! instrumental nominalisation
 ! @D.VPR@%<ger%>:@D.VPR@%>%{ы%}ёԓг INTO-N-III ;       ! 'container' nominalisation
 ! @D.VPR@%<ger%>:@D.VPR@ POSS ;       ! possessive nominalisation
 ! @D.VPR@%<ger%>:@D.VPR@ REL ;       ! relational nominalisation
@@ -236,17 +236,17 @@ LEXICON V-DERIV-FIN
 @U.V.iv@:@U.V.iv@ V-IV-AFFIX ;
 @U.V.tv@:@U.V.tv@ V-TV-AFFIX ;
 
-
+!
 LEXICON V-DERIV-PTCP
 ! active (intr only)
 !! positive polarity
-@U.V.iv@@D.VPR@%<act%>:@U.V.iv@@D.VPR@%>%{ы%}ԓь INTO-N-III ;
+@U.V.iv@@D.VPR@%<act%>:@U.V.iv@@D.VPR@%>%{ы%}ԓь N-III-AVYNRAL ; ! INTO-N-III ;
 !! negative polarity
-@U.V.iv@@R.VPR.vb_neg@%<act%>%<neg%>:@U.V.iv@@R.VPR.vb_neg@%>%{T%}%{Æ%}%>%{ы%}ԓь INTO-N-I ;
+@U.V.iv@@R.VPR.vb_neg@%<act%>%<neg%>:@U.V.iv@@R.VPR.vb_neg@%>%{T%}%{Æ%}%>%{ы%}ԓь N-Ia-AATGYR ; ! INTO-N-I ;
 @U.V.iv@@R.VPR.vb_neg2@%<act%>%<neg%>:@U.V.iv@@R.VPR.vb_neg2@%>%{ы%}к%{Æ%}%>%{ы%}ԓь INTO-N-NEG-PART ;
 ! passive (tr only)
 !! negative polarity
-@U.V.tv@@R.VPR.vb_neg@%<pass%>%<neg%>:@U.V.tv@@R.VPR.vb_neg@%>%{ы%}ԓь%>%{T%}%{Æ%} INTO-N-I ;
+@U.V.tv@@R.VPR.vb_neg@%<pass%>%<neg%>:@U.V.tv@@R.VPR.vb_neg@%>%{ы%}ԓь%>%{T%}%{Æ%} N-Ia-AATGYR ; ! INTO-N-I ;
 @U.V.tv@@R.VPR.vb_neg2@%<pass%>%<neg%>:@U.V.tv@@R.VPR.vb_neg2@%>%{ы%}ԓь%>%{Æ%} INTO-N-NEG-PART ;
 !! positive polarity
-@U.V.tv@@D.VPR@%<pass%>:@U.V.tv@@D.VPR@%>%{ы%}ё%{T%} INTO-N-I ;
+@U.V.tv@@D.VPR@%<pass%>:@U.V.tv@@D.VPR@%>%{ы%}ё%{T%} N-Ia-AATGYR ; ! INTO-N-I ;

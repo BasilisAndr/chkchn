@@ -310,10 +310,10 @@ LEXICON ADJ-FIN
 @D.ADJ@%<adj%>%<ints%>%<adv%>[%+ints3%]:@D.ADJ@%>%>%{ы%}ӈ # ;
 @R.ADJ.e@%<adj%>%<vb%>%<neg%>:@R.ADJ.e@%>%{ы%}к%{Æ%} # ;
 !! Nouns
-@D.ADJ@%<adj%>%<rel_n%>:@D.ADJ@%>%{ы%}ԓь INTO-N-III ;
-@D.ADJ@%<adj%>%<rel_n%>:@D.ADJ@%>%{ы%}чь INTO-N-III ;
-@D.ADJ@%<adj%>%<ger%>:@D.ADJ@%>%{ы%}гырг%{⁺ⱽᴴ%} INTO-N-III ;
-@D.ADJ@%<adj%>%<ger%>:@D.ADJ@%>я INTO-N-III ;       ! 'age' nominalisation
+@D.ADJ@%<adj%>%<rel_n%>:@D.ADJ@%>%{ы%}ԓь N-III-AVYNRAL ; ! INTO-N-III ;
+@D.ADJ@%<adj%>%<rel_n%>:@D.ADJ@%>%{ы%}чь N-III-AVYNRAL ; ! INTO-N-III ;
+@D.ADJ@%<adj%>%<ger%>:@D.ADJ@%>%{ы%}гырг%{⁺ⱽᴴ%} N-III-AVYNRAL ; ! INTO-N-III ;
+@D.ADJ@%<adj%>%<ger%>:@D.ADJ@%>я N-III-AVYNRAL ; ! INTO-N-III ;       ! 'age' nominalisation
 
 @D.ADJ@@U.itsa.verb@%<v%>:@D.ADJ@@U.itsa.verb@%>%{Æ%}т V ;
 @D.ADJ@@U.itsa.verb@%<v%>:@D.ADJ@@U.itsa.verb@%>%{Æ%}в V ;

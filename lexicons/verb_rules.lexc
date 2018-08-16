@@ -38,12 +38,12 @@ LEXICON V-Tense-Prefixes
 
 LEXICON V-INV
 %[%+inv2%]:ин%{Æ%}%> Verbs ;
-@P.itsa.verb@:@P.itsa.verb@ V-DERIV-PREFIXES ;
-! : Verbs ;
+@P.itsa.verb@:@P.itsa.verb@ V-INTO-TMP ; ! DERIV-PREFIXES ;
+: Verbs ;
 
-! LEXICON V-INTO-TMP
-! : Adjectives ;
-! : Nouns ;
+LEXICON V-INTO-TMP
+: Adjectives ;
+: Nouns ;
 
 
 LEXICON V

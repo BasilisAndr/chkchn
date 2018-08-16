@@ -258,6 +258,8 @@ LEXICON PERS-NUM-CLITICS
 %<3pl%>:%>%{ы%}кин%{Æ%}т K ;
 
 
+!!! FIXME
+
 LEXICON N-DERIV-I
 @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ K ;
 : N-OBL ;
@@ -270,31 +272,31 @@ LEXICON N-DERIV-III
 @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%>%{ы%}н K ;
 : N-OBL ;
 
-LEXICON INTO-N-I
-@D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ K ;
-: N-OBL ;
-
-LEXICON INTO-N-III
-@D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%>%{ы%}н K ;
-: N-OBL ;
+! LEXICON INTO-N-I
+! @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ K ;
+! : N-OBL ;
+!
+! LEXICON INTO-N-III
+! @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%>%{ы%}н K ;
+! : N-OBL ;
 
 LEXICON INTO-N-NEG-PART
 @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%>ин K ;
 @U.itsa.noun@:@U.itsa.noun@%>ин%{Æ%} N-OBL ;
-
-LEXICON INTO-N-Vv                                   ! irregular; в-oblique
-
-@D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ K ;
-@U.itsa.noun@:@U.itsa.noun@в N-OBL ;
-
-LEXICON INTO-N-Ic
-
-@D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%{·%} K ;
-: N-OBL ;
+!
+! LEXICON INTO-N-Vv                                   ! irregular; в-oblique
+!
+! @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ K ;
+! @U.itsa.noun@:@U.itsa.noun@в N-OBL ;
+!
+! LEXICON INTO-N-Ic
+!
+! @D.CASE@@U.itsa.noun@%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%{·%} K ;
+! : N-OBL ;
 
 LEXICON K
 : # ;
 %<part%>:%>э # ;
 %<part%>:%>%{ы%}ӈэ # ;
-%<emph%>:%>ъым # ;
+%<emph%>:%>ъым # ;    !!! FIXME
 %<clitic%>:%>%{ы%}рээн # ;
