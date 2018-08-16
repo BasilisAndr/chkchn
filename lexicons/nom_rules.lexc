@@ -49,7 +49,7 @@ LEXICON CASES-OBL                             !!
 @D.CASE@%<abl%>:@D.CASE@%>%{G%}%{ы%}пы%{⁺ⱽᴴ%} K ;
 @D.CASE@%<ori%>:@D.CASE@%>%{ы%}гйит K ;
 @D.CASE@%<ine%>:@D.CASE@%>%{ы%}чыку K ;
-@D.CASE@%<per%>:@D.CASE@%>%{ы%}йэквэ%{⁺ⱽᴴ%} K ;
+@D.CASE@%<per%>:@D.CASE@%>%{ы%}еквэ%{⁺ⱽᴴ%} K ;
 @D.CASE@%<sub%>:@D.CASE@%>%{ы%}йиӈкы K ;
 @D.CASE@:@D.CASE@ POSS ;
 @D.CASE@:@D.CASE@ REL ;
@@ -174,7 +174,7 @@ LEXICON N-DERIV-SUFF
 %<rel_n%>:%>%{ы%}ԓь N-DERIV-III ;
 %<nmzr%>:%>%{ы%}ԓӄыԓ N-DERIV-I ;
 %<nmzr%>:%>%{ы%}чь N-DERIV-III ;
-%<nmzr%>:%>%{ы%}йоԓг N-DERIV-III ;
+%<nmzr%>:%>%{ы%}ёԓг N-DERIV-III ;
 %<pers_n%>:%>%{ы%}ӈ%{Æ%}выт N-DERIV-I ;
 %<pers_n%>:%>%{ы%}ӈ%{Æ%}в N-DERIV-I ;
 %<pers_n%>:%>%{ы%}вйи N-DERIV-I ;
