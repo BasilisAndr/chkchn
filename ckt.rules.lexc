@@ -300,6 +300,8 @@ LEXICON ADJ-FIN
 @R.ADJ.n@%<adj%>%<ints%>[%+ints%]:@R.ADJ.n@%> PERS-NUM-CLITICS ;
 @R.ADJ.n@%<adj%>%<ints2%>[%+ints2%]:@R.ADJ.n@%> PERS-NUM-CLITICS ;
 @R.ADJ.n@%<adj%>%<approx%>[%+approx%]:@R.ADJ.n@%> PERS-NUM-CLITICS ;
+@P.ADJ.ynan@%<adj%>%<super%>:@P.ADJ.ynan@ PERS-NUM-CLITICS ;
+@P.ADJ.ynan@%<adj%>%<super%>:@P.ADJ.ynan@ӈ%{⁺ⱽᴴ%} PERS-NUM-CLITICS ;
 
 ! Crosspos
 !! Adverbs
@@ -325,6 +327,7 @@ LEXICON Adj-prefixes
 @P.ADJ.e@:@P.ADJ.e@%{Æ%}%> Adjectives ;
 @P.ADJ.n@@U.itsa.adj@:@P.ADJ.n@@U.itsa.adj@н%{ы%}%> NOMINALS ;
 @P.ADJ.e@@U.itsa.adj@:@P.ADJ.e@@U.itsa.adj@%{Æ%}%> NOMINALS ;
+@P.ADJ.ynan@:@P.ADJ.ynan@ынан%{ы%}%> Adjectives ;
 
 LEXICON Intensifiers
 [%+ints%]:т%{Æ%}%{N%}%{ы%}%> Adj-prefixes ;

@@ -68,10 +68,10 @@ LEXICON N-Ia-AATGYR                                   ! bare stem
 %<n%>: N-OBL ;
 
 
-LEXICON N-Ia-JYNYR                                ! bare stem with n/ng alteration
-
-@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ K ;
-%<n%>: N-OBL ;
+! LEXICON N-Ia-JYNYR                                ! bare stem with n/ng alteration
+!
+! @D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ K ;
+! %<n%>: N-OBL ;
 
 
 LEXICON N-Ib-ANGKY                                   ! stem-final vowel reduction
@@ -86,20 +86,20 @@ LEXICON N-Ic-AJKOL                                   ! stem-final vowel deletion
 %<n%>: N-OBL ;
 
 
-LEXICON N-Ic-EJNETKUNEN                          ! vowel deletion with n/ng alteration
-
-@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%{·%} K ;
-%<n%>: N-OBL ;
-
-
-LEXICON N-IIa-VIIL-ABS                               ! full reduplication
-
-@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ K ;
+! LEXICON N-Ic-EJNETKUNEN                          ! vowel deletion with n/ng alteration
+!
+! @D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%{·%} K ;
+! %<n%>: N-OBL ;
 
 
-LEXICON N-IIb-VAJP-ABS                               ! partial reduplication
+LEXICON N-II-VIIL-ABS ! a-VIIL-ABS                               ! full reduplication
 
 @D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ K ;
+
+
+! LEXICON N-IIb-VAJP-ABS                               ! partial reduplication
+!
+! @D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@ K ;
 
 
 LEXICON N-III-AVYNRAL                                   ! n absolutive
@@ -114,10 +114,10 @@ LEXICON N-IV-ARAPA                                   ! ngy absolutive
 %<n%>: N-OBL ;
 
 
-LEXICON N-IV-QORA                                ! qora-qaa
-
-@D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%>%{ы%}ӈы K ;
-%<n%>: N-OBL ;
+! LEXICON N-IV-QORA                                ! qora-qaa
+!
+! @D.CASE@@U.itsa.noun@%<n%>%<sg%>%<abs%>:@D.CASE@@U.itsa.noun@%>%{ы%}ӈы K ;
+! %<n%>: N-OBL ;
 
 
 LEXICON N-Vv-AVEEN                                   ! irregular; в-oblique

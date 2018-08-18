@@ -2,16 +2,16 @@
 
 !!!!!! Derivational prefixes
 
-! LEXICON V-DERIV-PREFIXES
-!
-! %[%+approx%]:м%{Æ%}ч%{ы%}%> Verbs ;
-! %[%+ints%]:т%{Æ%}%{N%}%{ы%}%> V-DERIV-PREF-FIN ;
-! %[%+ints2%]:ԓ%{ы%}ги%> V-DERIV-PREF-FIN ;
-!
-! %[%+desid%]:р%{Æ%}%> V-DERIV-PREF-FIN ;
-! %[%+ap%]:ин%{Æ%}%> V-DERIV-PREF-FIN ;
-! %[%+caus%]:%{R%}%{ы%}%> V-DERIV-PREF-FIN ;
-! : V-DERIV-PREF-FIN ;
+LEXICON V-DERIV-PREFIXES
+
+%[%+approx%]:м%{Æ%}ч%{ы%}%> Verbs ;
+%[%+ints%]:т%{Æ%}%{N%}%{ы%}%> V-DERIV-PREF-FIN ;
+%[%+ints2%]:ԓ%{ы%}ги%> V-DERIV-PREF-FIN ;
+
+%[%+desid%]:р%{Æ%}%> V-DERIV-PREF-FIN ;
+%[%+ap%]:ин%{Æ%}%> V-DERIV-PREF-FIN ;
+%[%+caus%]:%{R%}%{ы%}%> V-DERIV-PREF-FIN ;
+: V-DERIV-PREF-FIN ;
 
 ! LEXICON V-DERIV-PREFIXES-T
 !
@@ -73,41 +73,40 @@
 ! %[%+caus%]:%{R%}%{ы%}%> V-DERIV-PREFIXES ;
 ! : V-DERIV-PREF-FIN ;
 
-! LEXICON V-DERIV-PREF-FIN
-! : Verbs ;
-! : Adjectives ;
-! : Nouns ;
+LEXICON V-DERIV-PREF-FIN
+: Verbs ;
+: Adjectives ;
+: Nouns ;
 
 ! %<root here%>
 
 
 !!!!!! Derivational suffixes
 !
-! LEXICON V-DERIV
-! ! prefix tags
-! %<approx%>%[%+approx%]: V-IV-AFFIX ;
-! ! thematic smth
-! %<th%>:%>въи # ;
-! ! : V-DERIV-INTS ;
-! !
-! ! LEXICON V-DERIV-INTS
-! %<ints%>%[%+ints%]: V-DERIV-SUFF ;
-! ! : V-DERIV-INTS2 ;
-! !
-! ! LEXICON V-DERIV-INTS2
-! %<ints2%>%[%+ints2%]: V-DERIV-SUFF ;
-! ! : V-DERIV-AP-PREF ;
-! !
-! ! LEXICON V-DERIV-AP-PREF
-! %<ap%>%[%+ap%]: V-DERIV-SUFF ;
-! %<ap%>%[%+ap%]: V-DERIV-SUFF ;
-! ! : V-DERIV-CAUS ;
-! !
-! ! LEXICON V-DERIV-CAUS
-! %<caus%>%[%+caus%]: V-DERIV-SUFF ;
-! : V-DERIV-SUFF ;
+LEXICON V-DERIV
+! prefix tags
+%<approx%>%[%+approx%]: V-IV-AFFIX ;
+! thematic smth
+%<th%>:%>въи # ;
+! : V-DERIV-INTS ;
+!
+! LEXICON V-DERIV-INTS
+%<ints%>%[%+ints%]: V-DERIV-SUFF ;
+! : V-DERIV-INTS2 ;
+!
+! LEXICON V-DERIV-INTS2
+%<ints2%>%[%+ints2%]: V-DERIV-SUFF ;
+! : V-DERIV-AP-PREF ;
+!
+! LEXICON V-DERIV-AP-PREF
+%<ap%>%[%+ap%]: V-DERIV-SUFF ;
+! : V-DERIV-CAUS ;
+!
+! LEXICON V-DERIV-CAUS
+%<caus%>%[%+caus%]: V-DERIV-SUFF ;
+: V-DERIV-SUFF ;
 
-LEXICON V-DERIV !-SUFF
+LEXICON V-DERIV-SUFF
 ! incompatible w/others (probably)
 %<punct%>:%>%{ы%}чӄыч%{Æ%}т V-DERIV-FIN ;
 %<dim%>:%>%{ы%}ӄ%{Æ%}%{Æ%}т V-DERIV-FIN ;
