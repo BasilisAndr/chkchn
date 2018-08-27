@@ -85,10 +85,10 @@ LEXICON V-IV-AFFIX
 
 ! LEXICON V-IV-NONFIN
 
-@D.VPR@%<inf%>:@D.VPR@%>%{ы%}к # ;
-@D.VPR@%<gna_sim%>:@D.VPR@%>%{ы%}ма # ;
-@D.VPR@%<gna_ant%>:@D.VPR@%>%{ы%}к # ;
-@D.VPR@%<gna_res%>:@D.VPR@%>%{и%}н%{Æ%}ӈу # ;
+@D.VPR@%<inf%>:@D.VPR@%>%{ы%}к END ;
+@D.VPR@%<gna_sim%>:@D.VPR@%>%{ы%}ма END ;
+@D.VPR@%<gna_ant%>:@D.VPR@%>%{ы%}к END ;
+@D.VPR@%<gna_res%>:@D.VPR@%>%{и%}н%{Æ%}ӈу END ;
 
 
 !!! Stative
@@ -96,22 +96,22 @@ LEXICON V-IV-AFFIX
 
 ! LEXICON V-IV-PERFECT
 
-@R.VPR.perf@%<stat%>%<perf%>%<s_sg1%>:@R.VPR.perf@%>%{I%}гым # ;
-@R.VPR.perf@%<stat%>%<perf%>%<s_pl1%>:@R.VPR.perf@%>%{ы%}мури # ;
-@R.VPR.perf@%<stat%>%<perf%>%<s_sg2%>:@R.VPR.perf@%>%{I%}гыт # ;
-@R.VPR.perf@%<stat%>%<perf%>%<s_pl2%>:@R.VPR.perf@%>%{ы%}тури # ;
-@R.VPR.perf@%<stat%>%<perf%>%<s_sg3%>:@R.VPR.perf@%>%{ы%}ԓин # ;
-@R.VPR.perf@%<stat%>%<perf%>%<s_pl3%>:@R.VPR.perf@%>%{ы%}ԓин%{Æ%}т # ;
+@R.VPR.perf@%<stat%>%<perf%>%<s_sg1%>:@R.VPR.perf@%>%{I%}гым END ;
+@R.VPR.perf@%<stat%>%<perf%>%<s_pl1%>:@R.VPR.perf@%>%{ы%}мури END ;
+@R.VPR.perf@%<stat%>%<perf%>%<s_sg2%>:@R.VPR.perf@%>%{I%}гыт END ;
+@R.VPR.perf@%<stat%>%<perf%>%<s_pl2%>:@R.VPR.perf@%>%{ы%}тури END ;
+@R.VPR.perf@%<stat%>%<perf%>%<s_sg3%>:@R.VPR.perf@%>%{ы%}ԓин END ;
+@R.VPR.perf@%<stat%>%<perf%>%<s_pl3%>:@R.VPR.perf@%>%{ы%}ԓин%{Æ%}т END ;
 
 
 ! LEXICON V-IV-HABITUAL
 
-@R.VPR.hab@%<stat%>%<hab%>%<s_sg1%>:@R.VPR.hab@%>%{I%}гым # ;
-@R.VPR.hab@%<stat%>%<hab%>%<s_pl1%>:@R.VPR.hab@%>%{ы%}мури # ;
-@R.VPR.hab@%<stat%>%<hab%>%<s_sg2%>:@R.VPR.hab@%>%{I%}гыт # ;
-@R.VPR.hab@%<stat%>%<hab%>%<s_pl2%>:@R.VPR.hab@%>%{ы%}тури # ;
-@R.VPR.hab@%<stat%>%<hab%>%<s_sg3%>:@R.VPR.hab@%>%{ы%}ӄин # ;
-@R.VPR.hab@%<stat%>%<hab%>%<s_pl3%>:@R.VPR.hab@%>%{ы%}ӄин%{Æ%}т # ;
+@R.VPR.hab@%<stat%>%<hab%>%<s_sg1%>:@R.VPR.hab@%>%{I%}гым END ;
+@R.VPR.hab@%<stat%>%<hab%>%<s_pl1%>:@R.VPR.hab@%>%{ы%}мури END ;
+@R.VPR.hab@%<stat%>%<hab%>%<s_sg2%>:@R.VPR.hab@%>%{I%}гыт END ;
+@R.VPR.hab@%<stat%>%<hab%>%<s_pl2%>:@R.VPR.hab@%>%{ы%}тури END ;
+@R.VPR.hab@%<stat%>%<hab%>%<s_sg3%>:@R.VPR.hab@%>%{ы%}ӄин END ;
+@R.VPR.hab@%<stat%>%<hab%>%<s_pl3%>:@R.VPR.hab@%>%{ы%}ӄин%{Æ%}т END ;
 
 
 
@@ -150,53 +150,53 @@ LEXICON V-TV-AFFIX
 
 ! LEXICON V-TV-PERFECT
 
-@R.VPR.perf@%<stat%>%<perf%>%<a_sg2%>%<o_sg1%>%[%+inv2%]:@R.VPR.perf@%>%{I%}гыт # ;
-@R.VPR.perf@%<stat%>%<perf%>%<a_pl2%>%<o_sg1%>%[%+inv2%]:@R.VPR.perf@%>%{ы%}тури # ;
-@R.VPR.perf@%<stat%>%<perf%>%<a_sg3%>%<o_sg1%>%[%+inv2%]:@R.VPR.perf@%>%{ы%}ԓин # ;
-@R.VPR.perf@%<stat%>%<perf%>%<a_pl3%>%<o_sg1%>:@R.VPR.perf@%>%{I%}гым # ;
+@R.VPR.perf@%<stat%>%<perf%>%<a_sg2%>%<o_sg1%>%[%+inv2%]:@R.VPR.perf@%>%{I%}гыт END ;
+@R.VPR.perf@%<stat%>%<perf%>%<a_pl2%>%<o_sg1%>%[%+inv2%]:@R.VPR.perf@%>%{ы%}тури END ;
+@R.VPR.perf@%<stat%>%<perf%>%<a_sg3%>%<o_sg1%>%[%+inv2%]:@R.VPR.perf@%>%{ы%}ԓин END ;
+@R.VPR.perf@%<stat%>%<perf%>%<a_pl3%>%<o_sg1%>:@R.VPR.perf@%>%{I%}гым END ;
 
-@R.VPR.perf@%<stat%>%<perf%>%<a_sg2%>%<o_pl1%>:@R.VPR.perf@%>%{ы%}тку%>%{I%}гыт # ;
-@R.VPR.perf@%<stat%>%<perf%>%<a_pl2%>%<o_pl1%>:@R.VPR.perf@%>%{ы%}тку%>%{ы%}тури # ;
-@R.VPR.perf@%<stat%>%<perf%>%<a_sg3%>%<o_pl1%>:@R.VPR.perf@%>%{ы%}мури # ;
-@R.VPR.perf@%<stat%>%<perf%>%<a_pl3%>%<o_pl1%>:@R.VPR.perf@%>%{ы%}мури # ;
+@R.VPR.perf@%<stat%>%<perf%>%<a_sg2%>%<o_pl1%>:@R.VPR.perf@%>%{ы%}тку%>%{I%}гыт END ;
+@R.VPR.perf@%<stat%>%<perf%>%<a_pl2%>%<o_pl1%>:@R.VPR.perf@%>%{ы%}тку%>%{ы%}тури END ;
+@R.VPR.perf@%<stat%>%<perf%>%<a_sg3%>%<o_pl1%>:@R.VPR.perf@%>%{ы%}мури END ;
+@R.VPR.perf@%<stat%>%<perf%>%<a_pl3%>%<o_pl1%>:@R.VPR.perf@%>%{ы%}мури END ;
 
-@R.VPR.perf@%<stat%>%<perf%>%<o_sg2%>:@R.VPR.perf@%>%{I%}гыт # ;
+@R.VPR.perf@%<stat%>%<perf%>%<o_sg2%>:@R.VPR.perf@%>%{I%}гыт END ;
 
-@R.VPR.perf@%<stat%>%<perf%>%<a_1%>%<o_pl2%>:@R.VPR.perf@%>%{I%}гыт # ;
-@R.VPR.perf@%<stat%>%<perf%>%<a_3%>%<o_pl2%>:@R.VPR.perf@%>%{ы%}тури # ;
+@R.VPR.perf@%<stat%>%<perf%>%<a_1%>%<o_pl2%>:@R.VPR.perf@%>%{I%}гыт END ;
+@R.VPR.perf@%<stat%>%<perf%>%<a_3%>%<o_pl2%>:@R.VPR.perf@%>%{ы%}тури END ;
 
-@R.VPR.perf@%<stat%>%<perf%>%<o_sg3%>:@R.VPR.perf@%>%{ы%}ԓин # ;
+@R.VPR.perf@%<stat%>%<perf%>%<o_sg3%>:@R.VPR.perf@%>%{ы%}ԓин END ;
 
-@R.VPR.perf@%<stat%>%<perf%>%<o_pl3%>:@R.VPR.perf@%>%{ы%}ԓинэт # ;
+@R.VPR.perf@%<stat%>%<perf%>%<o_pl3%>:@R.VPR.perf@%>%{ы%}ԓинэт END ;
 
 
 ! LEXICON V-TV-HABITUAL
 
-@R.VPR.hab@%<stat%>%<hab%>%<a_sg2%>%<o_sg1%>%[%+inv2%]:@R.VPR.hab@%>%{I%}гыт # ;
-@R.VPR.hab@%<stat%>%<hab%>%<a_pl2%>%<o_sg1%>%[%+inv2%]:@R.VPR.hab@%>%{ы%}тури # ;
-@R.VPR.hab@%<stat%>%<hab%>%<a_sg3%>%<o_sg1%>%[%+inv2%]:@R.VPR.hab@%>%{ы%}ӄин # ;
-@R.VPR.hab@%<stat%>%<hab%>%<a_pl3%>%<o_sg1%>:@R.VPR.hab@%>%{I%}гым # ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_sg2%>%<o_sg1%>%[%+inv2%]:@R.VPR.hab@%>%{I%}гыт END ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_pl2%>%<o_sg1%>%[%+inv2%]:@R.VPR.hab@%>%{ы%}тури END ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_sg3%>%<o_sg1%>%[%+inv2%]:@R.VPR.hab@%>%{ы%}ӄин END ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_pl3%>%<o_sg1%>:@R.VPR.hab@%>%{I%}гым END ;
 
-@R.VPR.hab@%<stat%>%<hab%>%<a_sg2%>%<o_pl1%>:@R.VPR.hab@%>%{ы%}ткуйгыт # ;
-@R.VPR.hab@%<stat%>%<hab%>%<a_pl2%>%<o_pl1%>:@R.VPR.hab@%>%{ы%}ткутури # ;
-@R.VPR.hab@%<stat%>%<hab%>%<a_sg3%>%<o_pl1%>:@R.VPR.hab@%>%{ы%}мури # ;
-@R.VPR.hab@%<stat%>%<hab%>%<a_pl3%>%<o_pl1%>:@R.VPR.hab@%>%{ы%}мури # ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_sg2%>%<o_pl1%>:@R.VPR.hab@%>%{ы%}ткуйгыт END ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_pl2%>%<o_pl1%>:@R.VPR.hab@%>%{ы%}ткутури END ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_sg3%>%<o_pl1%>:@R.VPR.hab@%>%{ы%}мури END ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_pl3%>%<o_pl1%>:@R.VPR.hab@%>%{ы%}мури END ;
 
-@R.VPR.hab@%<stat%>%<hab%>%<a_sg1%>%<o_2%>%[%+inv2%]:@R.VPR.hab@%>%{I%}гым # ;
-@R.VPR.hab@%<stat%>%<hab%>%<a_pl1%>%<o_2%>%[%+inv2%]:@R.VPR.hab@%>%{ы%}мури # ;
-@R.VPR.hab@%<stat%>%<hab%>%<a_3%>%<o_sg2%>:@R.VPR.hab@%>%{I%}гыт # ;
-@R.VPR.hab@%<stat%>%<hab%>%<a_3%>%<o_pl2%>:@R.VPR.hab@%>%{ы%}тури # ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_sg1%>%<o_2%>%[%+inv2%]:@R.VPR.hab@%>%{I%}гым END ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_pl1%>%<o_2%>%[%+inv2%]:@R.VPR.hab@%>%{ы%}мури END ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_3%>%<o_sg2%>:@R.VPR.hab@%>%{I%}гыт END ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_3%>%<o_pl2%>:@R.VPR.hab@%>%{ы%}тури END ;
 
-@R.VPR.hab@%<stat%>%<hab%>%<a_sg1%>%<o_3%>%[%+inv2%]:@R.VPR.hab@%>%{I%}гым # ;
-@R.VPR.hab@%<stat%>%<hab%>%<a_pl1%>%<o_3%>%[%+inv2%]:@R.VPR.hab@%>%{ы%}мури # ;
-@R.VPR.hab@%<stat%>%<hab%>%<a_sg2%>%<o_3%>%[%+inv2%]:@R.VPR.hab@%>%{I%}гыт # ;
-@R.VPR.hab@%<stat%>%<hab%>%<a_pl2%>%<o_3%>%[%+inv2%]:@R.VPR.hab@%>%{ы%}тури # ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_sg1%>%<o_3%>%[%+inv2%]:@R.VPR.hab@%>%{I%}гым END ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_pl1%>%<o_3%>%[%+inv2%]:@R.VPR.hab@%>%{ы%}мури END ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_sg2%>%<o_3%>%[%+inv2%]:@R.VPR.hab@%>%{I%}гыт END ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_pl2%>%<o_3%>%[%+inv2%]:@R.VPR.hab@%>%{ы%}тури END ;
 
-@R.VPR.hab@%<stat%>%<hab%>%<a_sg3%>%<o_sg3%>%[%+inv2%]:@R.VPR.hab@%>%{ы%}ӄин # ;
-@R.VPR.hab@%<stat%>%<hab%>%<a_pl3%>%<o_sg3%>:@R.VPR.hab@%>%{ы%}ӄин # ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_sg3%>%<o_sg3%>%[%+inv2%]:@R.VPR.hab@%>%{ы%}ӄин END ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_pl3%>%<o_sg3%>:@R.VPR.hab@%>%{ы%}ӄин END ;
 
-@R.VPR.hab@%<stat%>%<hab%>%<a_sg3%>%<o_pl3%>%[%+inv2%]:@R.VPR.hab@%>%{ы%}ӄин%{Æ%}т # ;
-@R.VPR.hab@%<stat%>%<hab%>%<a_pl3%>%<o_pl3%>:@R.VPR.hab@%>%{ы%}ӄин%{Æ%}т # ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_sg3%>%<o_pl3%>%[%+inv2%]:@R.VPR.hab@%>%{ы%}ӄин%{Æ%}т END ;
+@R.VPR.hab@%<stat%>%<hab%>%<a_pl3%>%<o_pl3%>:@R.VPR.hab@%>%{ы%}ӄин%{Æ%}т END ;
 
 
 !!! Active
@@ -659,4 +659,4 @@ LEXICON V-TV-PROG
 
 LEXICON END
 
-: # ;
+: END ;
