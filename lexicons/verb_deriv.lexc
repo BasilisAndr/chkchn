@@ -234,8 +234,7 @@ LEXICON V-DERIV-FIN
 ! normal verbs
 @U.V.iv@:@U.V.iv@ V-IV-AFFIX ;
 @U.V.tv@:@U.V.tv@ V-TV-AFFIX ;
-! non-finite forms (converbs)
-@D.VPR@%<sim%>:@D.VPR@%>ма # ;      ! simultaneity converb
+
 
 
 !
