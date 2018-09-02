@@ -61,7 +61,6 @@ LEXICON V-IV
 ! : V-IV-AFFIX ;
 ! %<v%>%<iv%>: V-IV-AFFIX ;
 @U.V.iv@:@U.V.iv@ V-DERIV ;
-@U.V.iv@%<v%>%<iv%>:@U.V.iv@ V-DERIV ;
 
 
 LEXICON V-IV-AFFIX
@@ -89,6 +88,7 @@ LEXICON V-IV-AFFIX
 @D.VPR@%<gna_sim%>:@D.VPR@%>%{ы%}ма # ;
 @D.VPR@%<gna_ant%>:@D.VPR@%>%{ы%}к # ;
 @D.VPR@%<gna_res%>:@D.VPR@%>%{и%}н%{Æ%}ӈу # ;
+@D.VPR@%<gna_conc%>:@D.VPR@%>%{ы%}масы # ;
 
 
 !!! Stative
@@ -120,7 +120,6 @@ LEXICON V-TV
 ! : V-TV-AFFIX ;
 ! %<v%>%<tv%>: V-TV-AFFIX ;
 @U.V.tv@:@U.V.tv@ V-DERIV ;
-@U.V.tv@%<v%>%<tv%>:@U.V.tv@ V-DERIV ;
 
 
 LEXICON V-TV-AFFIX
