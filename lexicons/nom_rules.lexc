@@ -7,13 +7,13 @@ LEXICON Case-prefixes
 
 
 LEXICON N-deriv-prefixes
-%[%+f%]:ӈ%{Æ%}в%{ы%}%> NOMINALS ;
-%[%+ints%]:ԓ%{ы%}ги%> NOMINALS ;
-%[%+ints2%]:т%{Æ%}%> NOMINALS ;
-%[%+restr%]:%{Æ%}м%> NOMINALS ;
-%[%+approx%]:м%{Æ%}ԓ%> NOMINALS ;
-%[%+approx%]:м%{Æ%}ч%> NOMINALS ;
-%[%+auth%]:ԓ%{ы%}ги%> NOMINALS ;
+%<f%>:ӈ%{Æ%}в%{ы%}%> NOMINALS ;
+%<ints%>:ԓ%{ы%}ги%> NOMINALS ;
+%<ints2%>:т%{Æ%}%> NOMINALS ;
+%<restr%>:%{Æ%}м%> NOMINALS ;
+%<approx%>:м%{Æ%}ԓ%> NOMINALS ;
+%<approx%>:м%{Æ%}ч%> NOMINALS ;
+%<auth%>:ԓ%{ы%}ги%> NOMINALS ;
 : NOMINALS ;
 
 
@@ -136,14 +136,14 @@ LEXICON N-SING-AJOPYCH                               ! lg singulative
 
 @D.CASE@@U.itsa.noun@%<n%>%<sing%>%<abs%>:@D.CASE@@U.itsa.noun@%>%{ы%}ԓгын%{⁺ⱽᴴ%} K ;
 @U.itsa.noun@%<n%>:@U.itsa.noun@ CASES-OBL ;
-%<n%>: N-DERIV-PREF ;
+%<n%>: N-DERIV-SUFF ;
 
 
 LEXICON N-SING-EPEEPEG                               ! lyng singulative
 
 @D.CASE@@U.itsa.noun@%<n%>%<sing%>%<abs%>:@D.CASE@@U.itsa.noun@%>%{ы%}ԓыӈын%{⁺ⱽᴴ%} K ;
 @U.itsa.noun@%<n%>:@U.itsa.noun@ CASES-OBL ;
-%<n%>: N-DERIV-PREF ;
+%<n%>: N-DERIV-SUFF ;
 
 
 LEXICON N-VANGQASQOR-ABS
@@ -154,21 +154,42 @@ LEXICON N-VANGQASQOR-ABS
 LEXICON N-OBL
 @U.itsa.noun@:@U.itsa.noun@ CASES-OBL ;
 @U.itsa.noun@:@U.itsa.noun@ CASES-ANIM ;
-: N-DERIV-PREF ;
-
-
-
-LEXICON N-DERIV-PREF
-%<f%>%[%+f%]: N-DERIV-SUFF ;
-%<ints%>%[%+ints%]: N-DERIV-SUFF ;
-%<ints2%>%[%+ints2%]: N-DERIV-SUFF ;
-%<approx%>%[%+approx%]: N-DERIV-SUFF ;
-%<restr%>%[%+restr%]: N-DERIV-SUFF ;
-%<auth%>%[%+auth%]: N-DERIV-SUFF ;
+! : N-DERIV-PREF ;
+!
+!
+!
+! LEXICON N-DERIV-PREF
+! %<f%>%[%+f%]: N-DERIV-SUFF ;
+! %<ints%>%[%+ints%]: N-DERIV-SUFF ;
+! %<ints2%>%[%+ints2%]: N-DERIV-SUFF ;
+! %<approx%>%[%+approx%]: N-DERIV-SUFF ;
+! %<restr%>%[%+restr%]: N-DERIV-SUFF ;
+! %<auth%>%[%+auth%]: N-DERIV-SUFF ;
 : N-DERIV-SUFF ;
 
 
 LEXICON N-DERIV-SUFF
+
+%<rel_n%>:%>%{ы%}ԓь N-DERIV-SUFF-T ;
+%<nmzr%>:%>%{ы%}ԓӄыԓ N-DERIV-SUFF-T ;
+%<nmzr%>:%>%{ы%}чь N-DERIV-SUFF-T ;
+%<nmzr%>:%>%{ы%}ёԓг N-DERIV-SUFF-T ;
+%<pers_n%>:%>%{ы%}ӈ%{Æ%}выт N-DERIV-SUFF-T ;
+%<pers_n%>:%>%{ы%}ӈ%{Æ%}в N-DERIV-SUFF-T ;
+%<pers_n%>:%>%{ы%}вйи N-DERIV-SUFF-T ;
+%<dim%>:%>%{ы%}ӄ%{Æ%}й N-DERIV-SUFF-T ;
+%<aug%>:%>%{ы%}ч%{ы%}%{N%} N-DERIV-SUFF-T ;
+%<aug%>:%>%{ы%}йӈ N-DERIV-SUFF-T ;
+%<coop%>:%>%{ы%}мк N-DERIV-SUFF-T ;
+%<coop%>:%>%{ы%}тку N-DERIV-SUFF-T ;
+%<coop%>:%>%{ы%}гинив N-DERIV-SUFF-T ;
+%<prtt%>:%>%{ы%}тъуԓ N-DERIV-SUFF-T ;
+%<ger%>:%>%{ы%}гырг%{⁺ⱽᴴ%} N-DERIV-SUFF-T ;
+: N-DERIV-SUFF-T ;
+
+
+
+LEXICON N-DERIV-SUFF-T
 
 ! : N-DERIV-PREF ;
 %<rel_n%>:%>%{ы%}ԓь N-DERIV-III ;
