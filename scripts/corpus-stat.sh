@@ -48,12 +48,12 @@ echo "Coverage: $COVERAGE %"
 
 echo "Top unknown words in the corpus:"
 cat $F | grep '\*' | sort -f | uniq -c | sort -gr | head -10
-done
+# done
 # Update hitparade
-# cat $F | cut -f2 -d'^' | cut -f1 -d'/' | sort -f | uniq -c | sort -gr  > ../corpora/ckt.hitparade.txt
+cat $F | cut -f2 -d'^' | cut -f1 -d'/' | sort -f | uniq -c | sort -gr  > ../corpora/ckt.hitparade.txt
 #
-# # Update glossed hitparade
-# bash hitparade.sh > ../corpora/hitparade.txt
-#
-# # Update unknown list
-# cat ../corpora/hitparade.txt | grep '/\*[^0-9]' > ../corpora/unknown.txt
+# Update glossed hitparade
+bash hitparade.sh > ../corpora/hitparade.txt
+
+# Update unknown list
+cat ../corpora/hitparade.txt | grep '/\*[^0-9]' > ../corpora/unknown.txt
