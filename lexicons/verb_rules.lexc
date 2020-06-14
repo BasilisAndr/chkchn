@@ -517,8 +517,9 @@ LEXICON V-TV-PROG
 @D.VPR@%<aor%>%<a_sg3%>%<o_sg1%>%[%+inv2%]:@D.VPR@ # ;
 @R.VPR.ne@%<aor%>%<a_pl3%>%<o_sg1%>:@R.VPR.ne@%>гым # ;
 
-@D.VPR@%<aor%>%<a_pl2%>%<o_pl1%>%[%+inv%]:@D.VPR@ # ;
-@D.VPR@%<aor%>%<a_sg3%>%<o_pl1%>%[%+inv%]:@D.VPR@%>тык # ;
+@D.VPR@%<aor%>%<a_sg2%>%<o_pl1%>%[%+inv%]:@D.VPR@ # ;
+@D.VPR@%<aor%>%<a_pl2%>%<o_pl1%>%[%+inv%]:@D.VPR@%>тык # ;
+@R.VPR.ne@%<aor%>%<a_sg3%>%<o_pl1%>:@R.VPR.ne@%>мык # ;
 @R.VPR.ne@%<aor%>%<a_pl3%>%<o_pl1%>:@R.VPR.ne@%>мык # ;
 
 @R.VPR.t@%<aor%>%<a_sg1%>%<o_sg2%>:@R.VPR.t@%>гыт # ;
